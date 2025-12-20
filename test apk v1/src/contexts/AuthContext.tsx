@@ -73,6 +73,9 @@ const ADMIN_PASSWORD = 'admin123';
 const initialAccounts: UserAccount[] = [
   { email: ADMIN_EMAIL, password: ADMIN_PASSWORD, role: 'admin', approved: true },
   { email: 'test@gmail.com', password: 'test123', role: 'student', approved: true },
+  { email: 'akshaymoghe5@gmail.com', password: 'Sweetakshay', role: 'student', approved: true },
+  { email: 'akshaymoghe8@gmail.com', password: 'Sweetavinash', role: 'student', approved: true },
+  
 ];
 
 interface LoginResult {
@@ -210,3 +213,4 @@ export function useAuth() {
   }
   return context;
 }
+
