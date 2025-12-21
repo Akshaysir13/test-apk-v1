@@ -137,6 +137,7 @@ const initialAccounts: UserAccount[] = [
 { email: 'sovitchhatri34@gmail.com', password: 'sovit@27', role: 'student', approved: true },
 { email: 'rubalkaur495@gmail.com', password: 'Rubal02', role: 'student', approved: true },
 { email: 'amit4081007@gmail.com', password: '12345678', role: 'student', approved: true },
+{ email: 'guptakansha14@gmail.com', password: 'S.gupta123', role: 'student', approved: true },
 
 ];
 
@@ -275,6 +276,7 @@ export function useAuth() {
   }
   return context;
 }
+
 
 
 
