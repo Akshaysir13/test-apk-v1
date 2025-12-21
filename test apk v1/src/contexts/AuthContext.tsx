@@ -129,6 +129,15 @@ const initialAccounts: UserAccount[] = [
 { email: 'kumaridivya8092@gmail.com', password: 'Divya123', role: 'student', approved: true },
 { email: 'rishuthakur20043@gmail.com', password: 'Test123', role: 'student', approved: true },
 { email: 'aditimutha24@gmail.com', password: 'aditi123', role: 'student', approved: true },
+{ email: '2003alkasharma@gmail.com', password: 'Mock7392 ', role: 'student', approved: true },
+{ email: 'motionog20@gmail.com', password: 'Aansh20', role: 'student', approved: true },
+{ email: 'ramnareshsinghyadav71694@gmail.com', password: 'akshay@2007', role: 'student', approved: true },
+{ email: 'pinkyojha7079700805@gmail.com', password: 'Saloni@123', role: 'student', approved: true },
+{ email: 'saanvigoel08@gmail.com', password: 'saanvi08', role: 'student', approved: true },
+{ email: 'sovitchhatri34@gmail.com', password: 'sovit@27', role: 'student', approved: true },
+{ email: 'rubalkaur495@gmail.com', password: 'Rubal02', role: 'student', approved: true },
+{ email: 'amit4081007@gmail.com', password: '12345678', role: 'student', approved: true },
+
 ];
 
 interface LoginResult {
@@ -266,5 +275,6 @@ export function useAuth() {
   }
   return context;
 }
+
 
 
