@@ -4334,9 +4334,9 @@ const sampleQuestions: Question[] = [
     question: "Read the Instructions Carefully",
     image: "https://drive.google.com/thumbnail?id=1ZQ6OxIekz6XW1sh4uG7vmRga-5RBwbHP&sz=w1000",
     optionA: "17",
-    optionB: "20",
+    optionB: "19",
     optionC: "18",
-    optionD: "19",
+    optionD: "20",
     correctOption: "d"
   },
   {
