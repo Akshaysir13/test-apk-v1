@@ -4289,7 +4289,551 @@ const sampleQuestions: Question[] = [
 { id: 48, question: "Read the Instructions Carefully", image: "https://drive.google.com/thumbnail?id=1qtUAFt7ZRQTKlwJsFCW0esRorYblZ5Yy&sz=w2000", optionA: "c", optionB: "a", optionC: "b", optionD: "d", correctOption: "d" },
 { id: 49, question: "Read the Instructions Carefully", image: "https://drive.google.com/thumbnail?id=1qtbOC6kN5ZVbnwI3Wo_BMthYgzats4j2&sz=w2000", optionA: "c", optionB: "b", optionC: "d", optionD: "a", correctOption: "d" },
 { id: 50, question: "Read the Instructions Carefully", image: "https://drive.google.com/thumbnail?id=1qxuTec8eNTT0xZ3nC5jpbv86TYP3Br6a&sz=w2000", optionA: "a", optionB: "b", optionC: "d", optionD: "c", correctOption: "d" },
- ];
+ //2026 latest test
+ //Test 1 2026
+   {
+    id: 1,
+    question: "Read the Instructions Carefully",
+    image: "https://drive.google.com/thumbnail?id=1ZNUWrwfv0MXynNFVBqpjP3bRuaP3-9-d&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "d",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 2,
+    question: "Compared to Granite, Marble is generally?",
+    optionA: "Harder",
+    optionB: "More resistant to acids",
+    optionC: "Less porous",
+    optionD: "Softer and more susceptible to staining",
+    correctOption: "d"
+  },
+  {
+    id: 3,
+    question: "Read the Instructions Carefully",
+    image: "https://drive.google.com/thumbnail?id=1ZMoEt1mhhTbGml7_zI-7eUYXBEVeiaTI&sz=w1000",
+    optionA: "c",
+    optionB: "b",
+    optionC: "d",
+    optionD: "e",
+    correctOption: "d"
+  },
+  {
+    id: 4,
+    question: "The Sydney Opera House's iconic shells are made primarily of?",
+    optionA: "Glass panels",
+    optionB: "Precast Concrete sections",
+    optionC: "Stainless Steel",
+    optionD: "Titanium Alloy",
+    correctOption: "d"
+  },
+  {
+    id: 5,
+    question: "Read the Instructions Carefully",
+    image: "https://drive.google.com/thumbnail?id=1ZQ6OxIekz6XW1sh4uG7vmRga-5RBwbHP&sz=w1000",
+    optionA: "17",
+    optionB: "20",
+    optionC: "18",
+    optionD: "19",
+    correctOption: "d"
+  },
+  {
+    id: 6,
+    type: 'match-pair',
+    question: "Forts (A) and Location (B) Match the Pair",
+    columnAItems: [
+      "1. Raigarh Fort",
+      "2. Ranthambhore Fort",
+      "3. Madan Mahal",
+      "4. Chitradurga Fort"
+],
+    columnBItems: [
+      "A.Rajasthan",
+      "B.Jabalpur",
+      "C.Raigarh",
+      "D.Karnataka"
+],
+    optionA: "1-D 2-A 3-C 4-B",
+    optionB: "1-B 2-C 3-D 4-A",
+    optionC: "1-D 2-C 3-B 4-A",
+    optionD: "1-C 2-A 3-B 4-D",
+    correctOption: "d"
+  },
+  {
+    id: 7,
+    question: "A residential plot has an area of 900 sq.mt. What will its area be on a scale of 1:60?",
+    optionA: "250 sq.mt.",
+    optionB: "2.5 sq.mt.",
+    optionC: "25 sq.mt.",
+    optionD: "0.25 sq.mt.",
+    correctOption: "d"
+  },
+  {
+    id: 8,
+    question: "Read the Instructions Carefully",
+    image: "https://drive.google.com/thumbnail?id=1ZJO0x0Gs3snR1_I_LJplalWqbR__gzay&sz=w1000",
+    optionA: "d",
+    optionB: "c",
+    optionC: "b",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 9,
+    question: "56. Materials like fiberglass, rock wool, and polystyrene foam are primarily used as?",
+    optionA: "Structural supports",
+    optionB: "Sound reflectors",
+    optionC: "Waterproofing agents",
+    optionD: "Thermal Insulation Materials",
+    correctOption: "d"
+  },
+  {
+    id: 10,
+    question: "Identify the famous Monument",
+    image: "https://drive.google.com/thumbnail?id=1jtVBUNor4aWF3DqVuiJRJOI73_4LC-BZ&sz=w1000",
+    optionA: "Gateway Arch",
+    optionB: "Parliament Hall",
+    optionC: "Guggennium Mesum",
+    optionD: "Fallingwater House",
+    correctOption: "d"
+  },
+  {
+    id: 11,
+    question: "The scale of a map is 1:2000. If a road is 8 cm long on the map, what is the actual length?",
+    optionA: "160 mm",
+    optionB: "1.6 km",
+    optionC: "16 km",
+    optionD: "160 meters",
+    correctOption: "d"
+  },
+  {
+    id: 12,
+    type: 'statement',
+    question: "Statement 1: The CMYK color model is used in digital displays.\nStatement 2: The RGB color model is used in printing.",
+    optionA: "Both Statement 1 and Statement 2 are True.",
+    optionB: "Statement 1 is True,  Statement 2 is False",
+    optionC: "Statement 1 is False,  Statement 2 is True",
+    optionD: "Both Statement 1 and Statement 2 is False",
+    correctOption: "d"
+  },
+  {
+    id: 13,
+    question: "Which material is NOT a good sound-absorbing material?",
+    optionA: "Cork",
+    optionB: "Foam",
+    optionC: "Fabric",
+    optionD: "Glass",
+    correctOption: "d"
+  },
+  {
+    id: 14,
+    question: "Read the Instructions Carefully",
+    image: "https://drive.google.com/thumbnail?id=1ZT49_YbLv8s8FnGxAWt9dgnCcxxo9S1t&sz=w1000",
+    optionA: "10",
+    optionB: "10",
+    optionC: "13",
+    optionD: "12",
+    correctOption: "d"
+  },
+  {
+    id: 15,
+    question: "Read the Instructions Carefully",
+    image: "https://drive.google.com/thumbnail?id=1ZdbS7Q9sFiGbLlwJCWxtiXXvylqpDdCp&sz=w1000",
+    optionA: "a",
+    optionB: "b",
+    optionC: "c",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 16,
+    question: "Read the Instructions Carefully",
+    image: "https://drive.google.com/thumbnail?id=1ZM-d145GZ9uLlQZo0TF3Y8dIAtPFb8XQ&sz=w1000",
+    optionA: "d",
+    optionB: "c",
+    optionC: "b",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 17,
+    type: 'statement',
+    question: "Statement 1: Aldo Rossi was an Italian architect known for his theoretical works.\nStatement 2: He designed the Casa Milano in italy.",
+    optionA: "Both Statement 1 and Statement 2 is False",
+    optionB: "Both Statement 1 and Statement 2 are True.",
+    optionC: "Statement 1 is False,  Statement 2 is True",
+    optionD: "Statement 1 is True,  Statement 2 is False",
+    correctOption: "d"
+  },
+  {
+    id: 18,
+    question: "Read the Instructions Carefully",
+    image: "https://drive.google.com/thumbnail?id=1ZfjinjgFYFvCwJ6Y3Qh_Sj7chAAD-ibd&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "d",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 19,
+    type: 'statement',
+    question: "Statement 1: A lighthouse is a tower with a light to guide ships at sea.\nStatement 2: A windmill is a structure that uses wind power to grind grain or pump water.",
+    optionA: "Statement 1 is True,  Statement 2 is False",
+    optionB: "Statement 1 is False,  Statement 2 is True",
+    optionC: "Both Statement 1 and Statement 2 is False",
+    optionD: "Both Statement 1 and Statement 2 are True.",
+    correctOption: "d"
+  },
+  {
+    id: 20,
+    question: "Identify the famous Monument",
+    image: "https://drive.google.com/thumbnail?id=1zzeLGRdrV4CuM6eygjJxv0eSERlGdaQ1&sz=w1000",
+    optionA: "Stonehenge",
+    optionB: "Pramid of giza",
+    optionC: "Machu Pichu",
+    optionD: "Chichen Itza",
+    correctOption: "d"
+  },
+  {
+    id: 21,
+    type: 'match-pair',
+    question: "PM YOJANA Abbrevations ( A) and Full Forms in ( B) Match the Pair",
+    columnAItems: [
+      "1. PMFME",
+      "2. PMSSY",
+      "3. PMSBY",
+      "4. PMMSY"
+],
+    columnBItems: [
+      "A.Pradhan Mantri Formalisation of Micro Food Processing Enterprise",
+      "B.Pradhan Mantri Swachhta Suraksha Yojana",
+      "C.Pradhan Mantri Suraksha Bima Yojana",
+      "D.Pradhan Mantri Matsya Sampada Yojana"
+],
+    optionA: "1-A 2-C 3-D 4-B",
+    optionB: "1-A 2-D 3-C 4-B",
+    optionC: "1-D 2-B 3-C 4-A",
+    optionD: "1-A 2-B 3-C 4-D",
+    correctOption: "d"
+  },
+  {
+    id: 22,
+    question: "Stainless steel is commonly used for:",
+    optionA: "Enggenering work",
+    optionB: "iron frame",
+    optionC: "utensiles",
+    optionD: "corrosion-resistant structures",
+    correctOption: "d"
+  },
+  {
+    id: 23,
+    question: "Read the Instructions Carefully",
+    image: "https://drive.google.com/thumbnail?id=1ZdGKpUzMSqiq8XqMvG5kEaeTDtapMjvF&sz=w1000",
+    optionA: "a",
+    optionB: "b",
+    optionC: "c",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 24,
+    question: "Identify the famous Monument",
+    image: "https://drive.google.com/thumbnail?id=1j3Nmg6z03GIaPjwa7HRUBrqC7qpr2t_4&sz=w1000",
+    optionA: "Tower Bridge",
+    optionB: "Dome of rock",
+    optionC: "Blue Mosque",
+    optionD: "Hagia Sophia",
+    correctOption: "d"
+  },
+  {
+    id: 25,
+    type: 'match-pair',
+    question: "Planed City ( A) and City Planner ( B) Match the Pair",
+    columnAItems: [
+      "1. Vidyanagar",
+      "2. Durgapur",
+      "3. Kolkata",
+      "4. Gandhinagar"
+],
+    columnBItems: [
+      "A.Joseph Allen Stein",
+      "B.B.V. Doshi",
+      "C.Job Charnock",
+      "D.H.K. Mewada and P.M. Apte"
+],
+    optionA: "1-C 2-D 3-B 4-A",
+    optionB: "1-A 2-D 3-C 4-B",
+    optionC: "1-D 2-A 3-B 4-C",
+    optionD: "1-B 2-A 3-C 4-D",
+    correctOption: "d"
+  },
+  {
+    id: 26,
+    question: "Which of the following is Primary Function of Scaffolding?",
+    optionA: "To provide structural support for roofs by spanning large spaces.",
+    optionB: "To control sound transmission and improve indoor comfort.",
+    optionC: "To transport people between floors in public buildings efficiently.",
+    optionD: "Provides access to high areas, ensures worker safety, and supports materials/tools.",
+    correctOption: "d"
+  },
+  {
+    id: 27,
+    question: "Read the Instructions Carefully",
+    image: "https://drive.google.com/thumbnail?id=1ZdELhlKFnPWbGrptG9Ut0fHBTMqjaTZ0&sz=w1000",
+    optionA: "a",
+    optionB: "b",
+    optionC: "d",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 28,
+    question: "Which of the following is Primary Function of Load?",
+    optionA: "To support and transfer structural loads to the foundation.",
+    optionB: "To transport people between floors in public buildings efficiently.",
+    optionC: "To control sound transmission and improve indoor comfort.",
+    optionD: "To exert force on a structure, affecting its stability and strength.",
+    correctOption: "d"
+  },
+  {
+    id: 29,
+    question: "Read the Instructions Carefully",
+    image: "https://drive.google.com/thumbnail?id=1ZJVHj62yinwZvdSx5XHRFj6zf3QP6QH4&sz=w1000",
+    optionA: "d",
+    optionB: "c",
+    optionC: "b",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 30,
+    question: "Read the Instructions Carefully",
+    image: "https://drive.google.com/thumbnail?id=1ZUUFWckCaY1iSIdHHCwtCKCZ3gEX7bYz&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "d",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 31,
+    question: "55. To prevent strong echoes in a large hall, surfaces should ideally be designed for?",
+    optionA: "Sound Reflection",
+    optionB: "Sound Amplification",
+    optionC: "Sound Focusing",
+    optionD: "Sound Absorption",
+    correctOption: "d"
+  },
+  {
+    id: 32,
+    question: "RERA Stand For ?",
+    optionA: "Real Estate Regulatory Authentication",
+    optionB: "Real Entry Regulatory Authority",
+    optionC: "Real Estate Regulation Authority",
+    optionD: "Real Estate Regulatory Authority",
+    correctOption: "d"
+  },
+  {
+    id: 33,
+    question: "Which type of glass is used in automobile windshields?",
+    optionA: "Tempered Glass",
+    optionB: "Frosted Glass",
+    optionC: "Tinted Glass",
+    optionD: "Laminated Glass",
+    correctOption: "d"
+  },
+  {
+    id: 34,
+    question: "A Place in a Shed is written By ?",
+    optionA: "B V Doshi",
+    optionB: "Philip Johnson",
+    optionC: "Alain de Botton",
+    optionD: "Charles Correa",
+    correctOption: "d"
+  },
+  {
+    id: 35,
+    question: "In which century was the Brihadeeswarar Temple built?",
+    optionA: "10th century",
+    optionB: "12th century",
+    optionC: "13th century",
+    optionD: "11th century",
+    correctOption: "d"
+  },
+  {
+    id: 36,
+    question: "Read the Instructions Carefully",
+    image: "https://drive.google.com/thumbnail?id=1Zm2IT2ESh2QTUPEwvH4SgQ3xO9QWLSHT&sz=w1000",
+    optionA: "d",
+    optionB: "c",
+    optionC: "b",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 37,
+    question: "What is Meaning of a Trusses?",
+    optionA: "Structural elements like walls, beams, and columns that support loads.",
+    optionB: "A set of steps for vertical movement.",
+    optionC: "A lift for transporting people or goods between floors.",
+    optionD: "A framework supporting roofs or bridges.",
+    correctOption: "d"
+  },
+  {
+    id: 38,
+    question: "What is Meaning of a Plinth?",
+    optionA: "A movable barrier for entry and exit.",
+    optionB: "A temporary structure used to support workers and materials during construction, maintenance, or repairs.",
+    optionC: "A horizontal structural member supporting loads.",
+    optionD: "The part between ground level and floor level, protecting from moisture.",
+    correctOption: "d"
+  },
+  {
+    id: 39,
+    question: "Read the Instructions Carefully",
+    image: "https://drive.google.com/thumbnail?id=1Zcxk7zZbmL7ldcfDg1pZhoUDWSFiBmaC&sz=w1000",
+    optionA: "d",
+    optionB: "c",
+    optionC: "b",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 40,
+    question: "Read the Instructions Carefully",
+    image: "https://drive.google.com/thumbnail?id=1ZQbjP9pi-xazZ2Rq83_j4KAyweWfQPaX&sz=w1000",
+    optionA: "17",
+    optionB: "18",
+    optionC: "20",
+    optionD: "Thu Jan 18 1900 00:00:00 GMT+0521 (India Standard Time)",
+    correctOption: "d"
+  },
+  {
+    id: 41,
+    question: "Read the Instructions Carefully",
+    image: "https://drive.google.com/thumbnail?id=1ZjzNjEuv2kJ4tBBSDbo_Nhayj-CbHVdP&sz=w1000",
+    optionA: "d",
+    optionB: "c",
+    optionC: "b",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 42,
+    type: 'match-pair',
+    question: "Freedom Fighers and Nickname Slogan Match the pair",
+    columnAItems: [
+      "1. lala lajpat rai",
+      "2. "Vande Mataram",
+      "3.Jai Jawan Jai Kisan",
+      "4.Chandrashekhar Azad"
+],
+    columnBItems: [
+      "A.Punjab Kesari",
+      "B.Lal Bahadur Shastri",
+      "C.Azad",
+      "D.Bankim Chandra Chattopadhyay"
+],
+    optionA: "1-D 2-B 3-A 4-C",
+    optionB: "1-D 2-B 3-C 4-A",
+    optionC: "1-D 2-A 3-C 4-B",
+    optionD: "1-A 2-D 3-B 4-C",
+    correctOption: "d"
+  },
+  {
+    id: 43,
+    type: 'statement',
+    question: "Statement 1: Stainless steel contains chromium to prevent rusting.\nStatement 2: Cast iron is more ductile than wrought iron.",
+    optionA: "Statement 1 is False,  Statement 2 is True",
+    optionB: "Both Statement 1 and Statement 2 are True.",
+    optionC: "Both Statement 1 and Statement 2 is False",
+    optionD: "Statement 1 is True,  Statement 2 is False",
+    correctOption: "d"
+  },
+  {
+    id: 44,
+    type: 'statement',
+    question: "Statement 1: A pavilion is a freestanding structure, often open-sided, used for entertainment or shelter.\nStatement 2: A gazebo is a small, open structure with a roof, often in gardens.",
+    optionA: "Statement 1 is True,  Statement 2 is False",
+    optionB: "Both Statement 1 and Statement 2 is False",
+    optionC: "Statement 1 is False,  Statement 2 is True",
+    optionD: "Both Statement 1 and Statement 2 are True.",
+    correctOption: "d"
+  },
+  {
+    id: 45,
+    question: "Which of the Following Architect Design the Given Building",
+    image: "https://drive.google.com/thumbnail?id=1ytgLA1HtLowqIXSACknFmCMMUTGkNkuU&sz=w1000",
+    optionA: "a",
+    optionB: "d",
+    optionC: "c",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 46,
+    question: "Read the Instructions Carefully",
+    image: "https://drive.google.com/thumbnail?id=1ZXxZhELsHg6jjou1W4s9VWGrhbhMA0GS&sz=w1000",
+    optionA: "d",
+    optionB: "c",
+    optionC: "b",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 47,
+    question: "How Much Does Your Building Weigh, Mr. Foster Famous Documentry is Based on ?",
+    optionA: "Frank Gehry",
+    optionB: "Andrea Palladio",
+    optionC: "Frank Lloyd Wright",
+    optionD: "Norman Foster",
+    correctOption: "d"
+  },
+  {
+    id: 48,
+    question: "Read the Instructions Carefully",
+    image: "https://drive.google.com/thumbnail?id=1WN0PvJFqov2E3sAqhljTT6vU2xmu-Mny&sz=w1000",
+    optionA: "b",
+    optionB: "c",
+    optionC: "a",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 49,
+    question: "What type of scale is used to magnify tiny objects?",
+    optionA: "Miniature scale",
+    optionB: "Vernier scale",
+    optionC: "Full scale",
+    optionD: "Enlarging scale",
+    correctOption: "d"
+  },
+  {
+    id: 50,
+    type: 'match-pair',
+    question: "Paintings (A) and Location (B) Match the Pair",
+    columnAItems: [
+      "1. Pithora Paintings",
+      "2. Saura Art",
+      "3. Chittara Paintings, Mysore Paintings",
+      "4. Mandala"
+],
+    columnBItems: [
+      "A.Gujarat",
+      "B.Manipur",
+      "C.Karnataka",
+      "D.Odisha"
+],
+    optionA: "1-A 2-C 3-B 4-D",
+    optionB: "1-D 2-C 3-B 4-A",
+    optionC: "1-A 2-C 3-B 4-D",
+    optionD: "1-A 2-D 3-C 4-B",
+    correctOption: "d"
+  },
+];
 
 const DEFAULT_TEST_DURATION = 3600;
 
@@ -4415,8 +4959,8 @@ const initialTests: Test[] = [
 { id: 'JEE B.Arch PYQ 2024 January Attempt', name: 'JEE B.Arch PYQ 2024 January Attempt', description: 'Solve Actual PYQ from that Year', duration: DEFAULT_TEST_DURATION, questions: sampleQuestions.slice(4000, 4050), category: 'pyq' },
 { id: 'JEE B.Arch PYQ 2024 April Attempt', name: 'JEE B.Arch PYQ 2024 April Attempt', description: 'Solve Actual PYQ from that Year', duration: DEFAULT_TEST_DURATION, questions: sampleQuestions.slice(4050, 4100), category: 'pyq' },
 { id: 'JEE B.Arch PYQ 2025 January Attempt', name: 'JEE B.Arch PYQ 2025 January Attempt', description: 'Solve Actual PYQ from that Year', duration: DEFAULT_TEST_DURATION, questions: sampleQuestions.slice(4100, 4150), category: 'pyq' },
-{ id: 'JEE B.Arch PYQ 2025 April Attempt', name: 'JEE B.Arch PYQ 2025 April Attempt', description: 'Solve Actual PYQ from that Year', duration: DEFAULT_TEST_DURATION, questions: sampleQuestions.slice(4150, 4200), category: 'pyq' }
-
+{ id: 'JEE B.Arch PYQ 2025 April Attempt', name: 'JEE B.Arch PYQ 2025 April Attempt', description: 'Solve Actual PYQ from that Year', duration: DEFAULT_TEST_DURATION, questions: sampleQuestions.slice(4150, 4200), category: 'pyq' },
+{ id: 'Latest TEST 1 2026 ', name: 'Latest TEST 1 2026', description: 'Based on Latest PAttern', duration: DEFAULT_TEST_DURATION, questions: sampleQuestions.slice(4200, 4250), category: 'latest' },
 
  ];
 
