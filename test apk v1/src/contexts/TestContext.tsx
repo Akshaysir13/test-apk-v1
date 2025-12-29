@@ -4727,7 +4727,7 @@ const sampleQuestions: Question[] = [
     question: "Freedom Fighers and Nickname Slogan Match the pair",
     columnAItems: [
       "1. lala lajpat rai",
-      "2. "Vande Mataram",
+      "2. Vande Mataram",
       "3.Jai Jawan Jai Kisan",
       "4.Chandrashekhar Azad"
 ],
