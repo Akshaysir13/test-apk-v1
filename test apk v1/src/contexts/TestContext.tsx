@@ -4834,7 +4834,7 @@ const sampleQuestions: Question[] = [
     correctOption: "d"
   },
 
- {
+  {
     id: 1,
     question: "Which of the Following Architect Design the Given Building",
     image: "https://drive.google.com/thumbnail?id=1eWvmf56Gs_9Q6kfZlPA8SAaPc6GrbPya&sz=w1000",
@@ -4842,7 +4842,7 @@ const sampleQuestions: Question[] = [
     optionB: "d",
     optionC: "c",
     optionD: "b",
-    correctOption: "a"
+    correctOption: "d"
   },
   {
     id: 2,
@@ -4852,7 +4852,7 @@ const sampleQuestions: Question[] = [
     optionB: "HANGING GARDENS OF BABYLON.",
     optionC: "GREAT PYRAMID OF GIZA",
     optionD: "Stonehenge in england",
-    correctOption: "a"
+    correctOption: "d"
   },
   {
     id: 3,
@@ -4862,7 +4862,7 @@ const sampleQuestions: Question[] = [
     optionB: "c",
     optionC: "b",
     optionD: "d",
-    correctOption: "a"
+    correctOption: "d"
   },
   {
     id: 4,
@@ -4872,7 +4872,7 @@ const sampleQuestions: Question[] = [
     optionB: "Statement 1 is True,  Statement 2 is False",
     optionC: "Both Statement 1 and Statement 2 is False",
     optionD: "Both Statement 1 and Statement 2 are True.",
-    correctOption: "a"
+    correctOption: "d"
   },
   {
     id: 5,
@@ -4882,7 +4882,7 @@ const sampleQuestions: Question[] = [
     optionB: "d",
     optionC: "a",
     optionD: "b",
-    correctOption: "a"
+    correctOption: "d"
   },
   {
     id: 6,
@@ -4892,7 +4892,7 @@ const sampleQuestions: Question[] = [
     optionB: "Both S1 and S2 are false",
     optionC: "Both statements are true, and S2 is the correct explanation of S1",
     optionD: "S1 is true, but S2 is false",
-    correctOption: "a"
+    correctOption: "d"
   },
   {
     id: 7,
@@ -4902,7 +4902,7 @@ const sampleQuestions: Question[] = [
     optionB: "B V Doshi",
     optionC: "Shivnath Prasad",
     optionD: "Charles Correa",
-    correctOption: "a"
+    correctOption: "d"
   },
   {
     id: 8,
@@ -4911,7 +4911,7 @@ const sampleQuestions: Question[] = [
     optionB: "To improve thermal insulation significantly",
     optionC: "To act as a sound reflector",
     optionD: "To provide a smooth, durable finish and protect the masonry",
-    correctOption: "a"
+    correctOption: "d"
   },
   {
     id: 9,
@@ -4921,7 +4921,7 @@ const sampleQuestions: Question[] = [
     optionB: "b",
     optionC: "d",
     optionD: "c",
-    correctOption: "a"
+    correctOption: "d"
   },
   {
     id: 10,
@@ -4931,7 +4931,7 @@ const sampleQuestions: Question[] = [
     optionB: "c",
     optionC: "b",
     optionD: "d",
-    correctOption: "a"
+    correctOption: "d"
   },
   {
     id: 11,
@@ -4940,7 +4940,7 @@ const sampleQuestions: Question[] = [
     optionB: "Akbar",
     optionC: "sher shah suri",
     optionD: "Muhammad Adil Shah",
-    correctOption: "a"
+    correctOption: "d"
   },
   {
     id: 12,
@@ -4950,7 +4950,7 @@ const sampleQuestions: Question[] = [
     optionB: "d",
     optionC: "b",
     optionD: "a",
-    correctOption: "a"
+    correctOption: "d"
   },
   {
     id: 13,
@@ -4960,7 +4960,7 @@ const sampleQuestions: Question[] = [
     optionB: "d",
     optionC: "b",
     optionD: "c",
-    correctOption: "a"
+    correctOption: "d"
   },
   {
     id: 14,
@@ -4969,7 +4969,7 @@ const sampleQuestions: Question[] = [
     optionB: "Rashtrakuta Dynasty",
     optionC: "Chola Dynasty",
     optionD: "Pallava Dynasty",
-    correctOption: "a"
+    correctOption: "d"
   },
   {
     id: 15,
@@ -4979,7 +4979,7 @@ const sampleQuestions: Question[] = [
     optionB: "a",
     optionC: "b",
     optionD: "c",
-    correctOption: "a"
+    correctOption: "d"
   },
   {
     id: 16,
@@ -5001,7 +5001,7 @@ const sampleQuestions: Question[] = [
     optionB: "1-A 2-C 3-D 4-B",
     optionC: "1-D 2-B 3-A 4-C",
     optionD: "1-C 2-D 3-A 4-B",
-    correctOption: "a"
+    correctOption: "d"
   },
   {
     id: 17,
@@ -5011,7 +5011,7 @@ const sampleQuestions: Question[] = [
     optionB: "c",
     optionC: "b",
     optionD: "a",
-    correctOption: "a"
+    correctOption: "d"
   },
   {
     id: 18,
@@ -5020,7 +5020,7 @@ const sampleQuestions: Question[] = [
     optionB: "Herber Baker",
     optionC: "F L Wright",
     optionD: "Zaha Hadid",
-    correctOption: "a"
+    correctOption: "d"
   },
   {
     id: 19,
@@ -5042,7 +5042,7 @@ const sampleQuestions: Question[] = [
     optionB: "1-C 2-A 3-D 4-B",
     optionC: "1-B 2-C 3-D 4-A",
     optionD: "1-A 2-B 3-C 4-D",
-    correctOption: "a"
+    correctOption: "d"
   },
   {
     id: 20,
@@ -5052,7 +5052,7 @@ const sampleQuestions: Question[] = [
     optionB: "c",
     optionC: "d",
     optionD: "b",
-    correctOption: "a"
+    correctOption: "d"
   },
   {
     id: 21,
@@ -5061,7 +5061,7 @@ const sampleQuestions: Question[] = [
     optionB: "The part between ground level and floor level, protecting from moisture.",
     optionC: "A suspended ceiling for aesthetics and insulation.",
     optionD: "Structural elements like walls, beams, and columns that support loads.",
-    correctOption: "a"
+    correctOption: "d"
   },
   {
     id: 22,
@@ -5071,7 +5071,7 @@ const sampleQuestions: Question[] = [
     optionB: "a",
     optionC: "d",
     optionD: "c",
-    correctOption: "a"
+    correctOption: "d"
   },
   {
     id: 23,
@@ -5081,7 +5081,7 @@ const sampleQuestions: Question[] = [
     optionB: "b",
     optionC: "d",
     optionD: "c",
-    correctOption: "a"
+    correctOption: "d"
   },
   {
     id: 24,
@@ -5091,7 +5091,7 @@ const sampleQuestions: Question[] = [
     optionB: "Statement 1 is False,  Statement 2 is True",
     optionC: "Both Statement 1 and Statement 2 is False",
     optionD: "Both Statement 1 and Statement 2 are True.",
-    correctOption: "a"
+    correctOption: "d"
   },
   {
     id: 25,
@@ -5101,7 +5101,7 @@ const sampleQuestions: Question[] = [
     optionB: "11",
     optionC: "10",
     optionD: "9",
-    correctOption: "a"
+    correctOption: "d"
   },
   {
     id: 26,
@@ -5111,7 +5111,7 @@ const sampleQuestions: Question[] = [
     optionB: "b",
     optionC: "a",
     optionD: "d",
-    correctOption: "a"
+    correctOption: "d"
   },
   {
     id: 27,
@@ -5121,7 +5121,7 @@ const sampleQuestions: Question[] = [
     optionB: "Statement 1 is False,  Statement 2 is True",
     optionC: "Both Statement 1 and Statement 2 is False",
     optionD: "Statement 1 is True,  Statement 2 is False",
-    correctOption: "a"
+    correctOption: "d"
   },
   {
     id: 28,
@@ -5143,7 +5143,7 @@ const sampleQuestions: Question[] = [
     optionB: "1-C 2-B 3-A 4-D",
     optionC: "1-A 2-C 3-B 4-D",
     optionD: "1-A 2-D 3-B 4-C",
-    correctOption: "a"
+    correctOption: "d"
   },
   {
     id: 29,
@@ -5152,7 +5152,7 @@ const sampleQuestions: Question[] = [
     optionB: "To provide ventilation, natural light, and external views.",
     optionC: "To exert force on a structure, affecting its stability and strength.",
     optionD: "To protect the structure from weather conditions and external elements.",
-    correctOption: "a"
+    correctOption: "d"
   },
   {
     id: 30,
@@ -5162,7 +5162,7 @@ const sampleQuestions: Question[] = [
     optionB: "a",
     optionC: "c",
     optionD: "b",
-    correctOption: "a"
+    correctOption: "d"
   },
   {
     id: 31,
@@ -5171,7 +5171,7 @@ const sampleQuestions: Question[] = [
     optionB: "National Association of Students of Architecture",
     optionC: "New Architectural Student Association",
     optionD: "National Association of Students of Architecture",
-    correctOption: "a"
+    correctOption: "d"
   },
   {
     id: 32,
@@ -5181,7 +5181,7 @@ const sampleQuestions: Question[] = [
     optionB: "b",
     optionC: "d",
     optionD: "a",
-    correctOption: "a"
+    correctOption: "d"
   },
   {
     id: 33,
@@ -5191,7 +5191,7 @@ const sampleQuestions: Question[] = [
     optionB: "d",
     optionC: "b",
     optionD: "a",
-    correctOption: "a"
+    correctOption: "d"
   },
   {
     id: 34,
@@ -5200,7 +5200,7 @@ const sampleQuestions: Question[] = [
     optionB: "Largest courtyard",
     optionC: "palace",
     optionD: "First garden tomb",
-    correctOption: "a"
+    correctOption: "d"
   },
   {
     id: 35,
@@ -5209,7 +5209,7 @@ const sampleQuestions: Question[] = [
     optionB: "Acrylic Paint",
     optionC: "Distemper",
     optionD: "Emulsion Paint",
-    correctOption: "a"
+    correctOption: "d"
   },
   {
     id: 36,
@@ -5219,7 +5219,7 @@ const sampleQuestions: Question[] = [
     optionB: "c",
     optionC: "d",
     optionD: "a",
-    correctOption: "a"
+    correctOption: "d"
   },
   {
     id: 37,
@@ -5228,7 +5228,7 @@ const sampleQuestions: Question[] = [
     optionB: "Green Building Code of India",
     optionC: "Government Building Control India",
     optionD: "Green Building Certification Institute",
-    correctOption: "a"
+    correctOption: "d"
   },
   {
     id: 38,
@@ -5238,7 +5238,7 @@ const sampleQuestions: Question[] = [
     optionB: "18",
     optionC: "16",
     optionD: "17",
-    correctOption: "a"
+    correctOption: "d"
   },
   {
     id: 39,
@@ -5247,7 +5247,7 @@ const sampleQuestions: Question[] = [
     optionB: "Norman Foster",
     optionC: "Bjarke Ingels",
     optionD: "Richard Rogers",
-    correctOption: "a"
+    correctOption: "d"
   },
   {
     id: 40,
@@ -5269,7 +5269,7 @@ const sampleQuestions: Question[] = [
     optionB: "1-A 2-C 3-D 4-B",
     optionC: "1-D 2-C 3-A 4-B",
     optionD: "1-A 2-C 3-B 4-D",
-    correctOption: "a"
+    correctOption: "d"
   },
   {
     id: 41,
@@ -5279,7 +5279,7 @@ const sampleQuestions: Question[] = [
     optionB: "a",
     optionC: "b",
     optionD: "c",
-    correctOption: "a"
+    correctOption: "d"
   },
   {
     id: 42,
@@ -5289,7 +5289,7 @@ const sampleQuestions: Question[] = [
     optionB: "a",
     optionC: "d",
     optionD: "b",
-    correctOption: "a"
+    correctOption: "d"
   },
   {
     id: 43,
@@ -5299,7 +5299,7 @@ const sampleQuestions: Question[] = [
     optionB: "b",
     optionC: "d",
     optionD: "c",
-    correctOption: "a"
+    correctOption: "d"
   },
   {
     id: 44,
@@ -5309,7 +5309,7 @@ const sampleQuestions: Question[] = [
     optionB: "c",
     optionC: "b",
     optionD: "a",
-    correctOption: "a"
+    correctOption: "d"
   },
   {
     id: 45,
@@ -5318,7 +5318,7 @@ const sampleQuestions: Question[] = [
     optionB: "Bjarke Ingels",
     optionC: "Stella Paul",
     optionD: "Gaston Bachelard",
-    correctOption: "a"
+    correctOption: "d"
   },
   {
     id: 46,
@@ -5328,7 +5328,7 @@ const sampleQuestions: Question[] = [
     optionB: "d",
     optionC: "a",
     optionD: "b",
-    correctOption: "a"
+    correctOption: "d"
   },
   {
     id: 47,
@@ -5338,7 +5338,7 @@ const sampleQuestions: Question[] = [
     optionB: "c",
     optionC: "b",
     optionD: "d",
-    correctOption: "a"
+    correctOption: "d"
   },
   {
     id: 48,
@@ -5348,7 +5348,7 @@ const sampleQuestions: Question[] = [
     optionB: "b",
     optionC: "d",
     optionD: "c",
-    correctOption: "a"
+    correctOption: "d"
   },
   {
     id: 49,
@@ -5370,7 +5370,7 @@ const sampleQuestions: Question[] = [
     optionB: "1-C 2-D 3-A 4-B",
     optionC: "1-A 2-B 3-C 4-D",
     optionD: "1-A 2-C 3-B 4-D",
-    correctOption: "a"
+    correctOption: "d"
   },
   {
     id: 50,
@@ -5380,7 +5380,7 @@ const sampleQuestions: Question[] = [
     optionB: "d",
     optionC: "c",
     optionD: "a",
-    correctOption: "a"
+    correctOption: "d"
   },
 ];
 
