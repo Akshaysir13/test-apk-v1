@@ -5167,7 +5167,7 @@ const sampleQuestions: Question[] = [
   {
     id: 31,
     question: "NASA (Architecture) stands for?",
-    optionA: "National Architecture and Space Association",
+    optionA: "National Architecture and Survy Association",
     optionB: "National Association of Students of Architecture",
     optionC: "New Architectural Student Association",
     optionD: "National Association of Students of Architecture",
@@ -5224,7 +5224,7 @@ const sampleQuestions: Question[] = [
   {
     id: 37,
     question: "GBCI stands for?",
-    optionA: "Green Building Certification Institute",
+    optionA: "Green Building Certificate Institute",
     optionB: "Green Building Code of India",
     optionC: "Government Building Control India",
     optionD: "Green Building Certification Institute",
