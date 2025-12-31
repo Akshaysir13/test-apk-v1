@@ -190,65 +190,142 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }, [navigate]);
 
   // ==========================================
-  // 🔍 FIXED DEVICE VALIDATION - USES UPSERT
+  // 🔍 SUPER DETAILED DEVICE VALIDATION
   // ==========================================
   const validateDevice = async (email: string) => {
+    console.log('\n╔═══════════════════════════════════════════════════════════╗');
+    console.log('║          DEVICE VALIDATION STARTING                        ║');
+    console.log('╚═══════════════════════════════════════════════════════════╝');
+    console.log('📧 Email:', email);
+    
     try {
+      // STEP 1: Get/Generate Device ID
       let deviceId = getStoredDeviceId();
+      console.log('\n[STEP 1] Device ID Check');
+      console.log('  └─ Stored Device ID:', deviceId || 'NULL');
+      
       if (!deviceId) {
         deviceId = generateDeviceId();
+        console.log('  └─ Generated New Device ID:', deviceId);
         setStoredDeviceId(deviceId);
+        console.log('  └─ Saved to localStorage ✓');
+      } else {
+        console.log('  └─ Using Existing Device ID ✓');
       }
 
-      console.log('🔍 Validating device for:', email);
-      console.log('   Device ID:', deviceId);
-
-      // Check if user already has a registered device
+      // STEP 2: Query existing device
+      console.log('\n[STEP 2] Querying user_devices table');
+      console.log('  └─ SELECT * FROM user_devices WHERE user_email =', email);
+      
       const { data: existingDevice, error: selectError } = await supabase
         .from('user_devices')
-        .select('device_id')
+        .select('*')
         .eq('user_email', email)
         .maybeSingle();
 
+      console.log('  └─ Query completed');
+      console.log('  └─ Error:', selectError ? 'YES' : 'NO');
+      console.log('  └─ Data:', existingDevice ? 'FOUND' : 'NULL');
+
       if (selectError) {
-        console.error('❌ Query error:', selectError);
+        console.error('\n❌ SELECT ERROR DETAILS:');
+        console.error('  Code:', selectError.code);
+        console.error('  Message:', selectError.message);
+        console.error('  Details:', selectError.details);
+        console.error('  Hint:', selectError.hint);
         throw selectError;
       }
 
-      // If device exists and doesn't match, block login
-      if (existingDevice && existingDevice.device_id !== deviceId) {
-        console.log('❌ Different device detected');
-        console.log('   Registered:', existingDevice.device_id);
-        console.log('   Current:', deviceId);
-        return {
-          success: false,
-          message: 'This account is already registered on another device. Please contact support to switch devices.'
-        };
-      }
+      if (existingDevice) {
+        console.log('\n[STEP 3] Existing Device Found');
+        console.log('  └─ Registered Device ID:', existingDevice.device_id);
+        console.log('  └─ Current Device ID:', deviceId);
+        console.log('  └─ Device Type:', existingDevice.device_type);
+        console.log('  └─ Last Active:', existingDevice.last_active);
+        console.log('  └─ Created At:', existingDevice.created_at);
+        console.log('  └─ Match:', existingDevice.device_id === deviceId ? 'YES ✓' : 'NO ✗');
 
-      // Use UPSERT to insert or update
-      console.log('💾 Upserting device record...');
-      const { error: upsertError } = await supabase
-        .from('user_devices')
-        .upsert({
+        if (existingDevice.device_id !== deviceId) {
+          console.log('\n❌ DEVICE MISMATCH - BLOCKING LOGIN');
+          console.log('╚═══════════════════════════════════════════════════════════╝\n');
+          return {
+            success: false,
+            message: 'This account is already registered on another device. Please contact support to switch devices.'
+          };
+        }
+
+        // STEP 4: Update last_active
+        console.log('\n[STEP 4] Updating last_active timestamp');
+        const updateData = { last_active: new Date().toISOString() };
+        console.log('  └─ UPDATE user_devices SET last_active =', updateData.last_active);
+        console.log('  └─ WHERE user_email =', email);
+
+        const { data: updateResult, error: updateError } = await supabase
+          .from('user_devices')
+          .update(updateData)
+          .eq('user_email', email)
+          .select();
+
+        console.log('  └─ Update completed');
+        console.log('  └─ Error:', updateError ? 'YES' : 'NO');
+        console.log('  └─ Result:', updateResult);
+
+        if (updateError) {
+          console.error('\n⚠️ UPDATE ERROR (non-fatal):');
+          console.error('  Code:', updateError.code);
+          console.error('  Message:', updateError.message);
+          // Don't throw - update failure is non-critical
+        } else {
+          console.log('  └─ Last active updated ✓');
+        }
+
+      } else {
+        // STEP 3: Insert new device
+        console.log('\n[STEP 3] No Existing Device - Inserting New Record');
+        const insertData = {
           user_email: email,
           device_id: deviceId,
           device_type: deviceId.startsWith('web_') ? 'web' : 'android',
           last_active: new Date().toISOString()
-        }, {
-          onConflict: 'user_email'
-        });
+        };
+        
+        console.log('  └─ INSERT INTO user_devices:');
+        console.log('     ├─ user_email:', insertData.user_email);
+        console.log('     ├─ device_id:', insertData.device_id);
+        console.log('     ├─ device_type:', insertData.device_type);
+        console.log('     └─ last_active:', insertData.last_active);
 
-      if (upsertError) {
-        console.error('❌ Upsert error:', upsertError);
-        throw upsertError;
+        const { data: insertResult, error: insertError } = await supabase
+          .from('user_devices')
+          .insert(insertData)
+          .select();
+
+        console.log('  └─ Insert completed');
+        console.log('  └─ Error:', insertError ? 'YES' : 'NO');
+        console.log('  └─ Result:', insertResult);
+
+        if (insertError) {
+          console.error('\n❌ INSERT ERROR DETAILS:');
+          console.error('  Code:', insertError.code);
+          console.error('  Message:', insertError.message);
+          console.error('  Details:', insertError.details);
+          console.error('  Hint:', insertError.hint);
+          throw insertError;
+        }
+
+        console.log('  └─ Device registered successfully ✓');
       }
 
-      console.log('✅ Device validated successfully');
+      console.log('\n✅ DEVICE VALIDATION SUCCESSFUL');
+      console.log('╚═══════════════════════════════════════════════════════════╝\n');
       return { success: true };
 
     } catch (err) {
-      console.error('❌ Device validation error:', err);
+      console.error('\n❌ UNEXPECTED ERROR IN VALIDATION');
+      console.error('Error Type:', err?.constructor?.name);
+      console.error('Error Message:', err instanceof Error ? err.message : 'Unknown');
+      console.error('Full Error:', err);
+      console.log('╚═══════════════════════════════════════════════════════════╝\n');
       return {
         success: false,
         message: `Device validation failed: ${err instanceof Error ? err.message : 'Unknown error'}`
@@ -260,6 +337,9 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   // 🔐 LOGIN
   // ==========================================
   const login = async (email: string, password: string): Promise<LoginResult> => {
+    console.log('\n🔐 LOGIN ATTEMPT');
+    console.log('Email:', email);
+    
     const normalizedEmail = email.trim().toLowerCase();
 
     const user = accounts.find(
@@ -267,10 +347,18 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     );
 
     if (!user) {
+      console.log('❌ Invalid credentials');
       return { success: false, message: 'Invalid email or password' };
     }
 
+    console.log('✅ User found');
+    console.log('  └─ Email:', user.email);
+    console.log('  └─ Role:', user.role);
+    console.log('  └─ Courses:', user.courses);
+    console.log('  └─ Approved:', user.approved);
+
     if (user.role === 'student' && !user.approved) {
+      console.log('❌ Account not approved');
       return { success: false, message: 'Account pending approval' };
     }
 
@@ -281,19 +369,22 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       const paidCourses = ['foundation', 'rank_booster', 'advance_2026'];
       const hasPaidCourse = user.courses.some(course => paidCourses.includes(course));
       
-      console.log('👤 User:', user.email);
-      console.log('📚 Courses:', user.courses);
-      console.log('💳 Has paid course:', hasPaidCourse);
+      console.log('\n💳 Course Check:');
+      console.log('  └─ Paid courses:', paidCourses);
+      console.log('  └─ User courses:', user.courses);
+      console.log('  └─ Has paid course:', hasPaidCourse);
       
       if (hasPaidCourse) {
-        console.log('💳 Validating device...');
+        console.log('  └─ Device validation REQUIRED');
         const deviceCheck = await validateDevice(user.email);
+        
         if (!deviceCheck.success) {
+          console.log('❌ Device validation FAILED');
           return { success: false, message: deviceCheck.message! };
         }
-        console.log('✅ Device validation passed');
+        console.log('✅ Device validation PASSED');
       } else {
-        console.log('🆓 Free course - skipping device validation');
+        console.log('  └─ Free course - device validation SKIPPED');
       }
     }
 
@@ -308,7 +399,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         setStoredDeviceId(deviceId);
       }
 
-      console.log('💾 Saving session...');
+      console.log('\n💾 Saving session to user_sessions...');
 
       const { error } = await supabase.from('user_sessions').upsert({
         user_email: user.email,
@@ -334,6 +425,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     }
 
     // 🚦 ROUTING
+    console.log('\n🚦 Routing to dashboard...');
     if (user.role === 'admin') {
       navigate('/admin', { replace: true });
     } else if (user.courses?.includes('advance_2026')) {
@@ -346,6 +438,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       navigate('/dashboard/dheya', { replace: true });
     }
 
+    console.log('✅ LOGIN SUCCESSFUL\n');
     return { success: true, message: 'Login successful', isAdmin: user.role === 'admin' };
   };
 
