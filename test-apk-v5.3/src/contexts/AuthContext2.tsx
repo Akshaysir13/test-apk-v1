@@ -106,116 +106,94 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   // ==========================================
   // 🔄 RESTORE SESSION ON MOUNT
   // ==========================================
-  // Replace the restoreSession function (Lines 110-186)
-useEffect(() => {
-  async function restoreSession() {
-    try {
-      console.log('🔍 Starting session restore...');
-      const deviceId = getStoredDeviceId();
-      
-      if (!deviceId) {
-        console.log('❌ No device ID found in localStorage');
-        setIsCheckingSession(false);
-        return;
-      }
-
-      console.log('✅ Device ID found:', deviceId);
-      console.log('🔍 Checking Supabase for session...');
-
-      // Check if this device has a valid session
-      const { data, error } = await supabase
-        .from('user_sessions')
-        .select('*')
-        .eq('device_id', deviceId)
-        .maybeSingle();
-
-      if (error) {
-        console.error('❌ Session check error:', error);
-        setIsCheckingSession(false);
-        return;
-      }
-
-      if (!data) {
-        console.log('❌ No session found in Supabase');
-        setIsCheckingSession(false);
-        return;
-      }
-
-      console.log('✅ Session found in Supabase:', data);
-
-      // Check if session expired
-      const expiresAt = new Date(data.expires_at);
-      const now = new Date();
-      console.log('🕐 Session expires at:', expiresAt);
-      console.log('🕐 Current time:', now);
-      
-      if (expiresAt < now) {
-        console.log('❌ Session expired');
-        // Expired - clean it up
-        await supabase
-          .from('user_sessions')
-          .delete()
-          .eq('device_id', deviceId);
-        setIsCheckingSession(false);
-        return;
-      }
-
-      console.log('✅ Session is valid');
-
-      // Valid session found - restore user
-      const sessionData = JSON.parse(data.session_data);
-      const user: UserAccount = {
-        email: sessionData.email,
-        password: '',
-        role: sessionData.role,
-        courses: sessionData.courses,
-        approved: sessionData.approved
-      };
-
-      console.log('✅ Restoring user:', user.email);
-      console.log('👤 User role:', user.role);
-      console.log('📚 User courses:', user.courses);
-
-      setIsAuthenticated(true);
-      setCurrentUser(user);
-
-      // Navigate to appropriate dashboard
-      const currentPath = window.location.pathname;
-      console.log('🛣️ Current path:', currentPath);
-      
-      if (currentPath === '/login' || currentPath === '/' || currentPath === '/free-tests') {
-        console.log('🚀 Navigating to dashboard...');
+  useEffect(() => {
+    async function restoreSession() {
+      try {
+        const deviceId = getStoredDeviceId();
         
-        if (user.role === 'admin') {
-          console.log('➡️ Navigating to /admin');
-          navigate('/admin', { replace: true });
-        } else if (user.courses?.includes('advance_2026')) {
-          console.log('➡️ Navigating to /dashboard/advance-2026');
-          navigate('/dashboard/advance-2026', { replace: true });
-        } else if (user.courses?.includes('foundation')) {
-          console.log('➡️ Navigating to /dashboard/foundation');
-          navigate('/dashboard/foundation', { replace: true });
-        } else if (user.courses?.includes('rank_booster')) {
-          console.log('➡️ Navigating to /dashboard/rank-booster');
-          navigate('/dashboard/rank-booster', { replace: true });
-        } else {
-          console.log('➡️ Navigating to /dashboard/dheya');
-          navigate('/dashboard/dheya', { replace: true });
+        if (!deviceId) {
+          console.log('No device ID found');
+          setIsCheckingSession(false);
+          return;
         }
-      } else {
-        console.log('✅ Already on correct page, staying put');
+
+        console.log('Checking for session with device:', deviceId);
+
+        // Check if this device has a valid session
+        const { data, error } = await supabase
+          .from('user_sessions')
+          .select('*')
+          .eq('device_id', deviceId)
+          .maybeSingle();
+
+        if (error) {
+          console.error('Session check error:', error);
+          setIsCheckingSession(false);
+          return;
+        }
+
+        if (!data) {
+          console.log('No session found');
+          setIsCheckingSession(false);
+          return;
+        }
+
+        console.log('Session found:', data);
+
+        // Check if session expired
+        const expiresAt = new Date(data.expires_at);
+        if (expiresAt < new Date()) {
+          console.log('Session expired');
+          // Expired - clean it up
+          await supabase
+            .from('user_sessions')
+            .delete()
+            .eq('device_id', deviceId);
+          setIsCheckingSession(false);
+          return;
+        }
+
+        // Valid session found - restore user
+        const sessionData = JSON.parse(data.session_data);
+        const user: UserAccount = {
+          email: sessionData.email,
+          password: '', // Don't store password
+          role: sessionData.role,
+          courses: sessionData.courses,
+          approved: sessionData.approved
+        };
+
+        console.log('Restoring user:', user.email);
+
+        setIsAuthenticated(true);
+        setCurrentUser(user);
+
+        // Navigate to appropriate dashboard
+        const currentPath = window.location.pathname;
+        if (currentPath === '/login' || currentPath === '/') {
+          if (user.role === 'admin') {
+            navigate('/admin', { replace: true });
+          } else if (user.courses?.includes('advance_2026')) {
+            navigate('/dashboard/advance-2026', { replace: true });
+          } else if (user.courses?.includes('foundation')) {
+            navigate('/dashboard/foundation', { replace: true });
+          } else if (user.courses?.includes('rank_booster')) {
+            navigate('/dashboard/rank-booster', { replace: true });
+          } else {
+            navigate('/dashboard/dheya', { replace: true });
+          }
+        }
+
+      } catch (err) {
+        console.error('Failed to restore session:', err);
+      } finally {
+        setIsCheckingSession(false);
       }
-
-    } catch (err) {
-      console.error('❌ Failed to restore session:', err);
-    } finally {
-      console.log('✅ Session check complete');
-      setIsCheckingSession(false);
     }
-  }
 
-  restoreSession();
-}, [navigate]);
+    restoreSession();
+  }, [navigate]);
+
   // ==========================================
   // 🔐 DEVICE VALIDATION
   // ==========================================
@@ -257,84 +235,99 @@ useEffect(() => {
       return { success: false, message: 'Device validation failed' };
     }
   };
+// ==========================================
+// 🔑 LOGIN
+// ==========================================
+const login = async (email: string, password: string): Promise<LoginResult> => {
+  const normalizedEmail = email.trim().toLowerCase();
+
+  const user = accounts.find(
+    acc => acc.email.toLowerCase() === normalizedEmail && acc.password === password
+  );
+
+  if (!user) {
+    return { success: false, message: 'Invalid email or password' };
+  }
+
+  if (user.role === 'student' && !user.approved) {
+    return { success: false, message: 'Account pending approval' };
+  }
 
   // ==========================================
-  // 🔑 LOGIN
+  // 🔐 DEVICE VALIDATION FOR PAID COURSES
   // ==========================================
-  const login = async (email: string, password: string): Promise<LoginResult> => {
-    const normalizedEmail = email.trim().toLowerCase();
-
-    const user = accounts.find(
-      acc => acc.email.toLowerCase() === normalizedEmail && acc.password === password
-    );
-
-    if (!user) {
-      return { success: false, message: 'Invalid email or password' };
-    }
-
-    if (user.role === 'student' && !user.approved) {
-      return { success: false, message: 'Account pending approval' };
-    }
-
-    if (user.role === 'student') {
+  if (user.role === 'student') {
+    // Define which courses require device validation
+    const paidCourses = ['foundation', 'rank_booster', 'advance_2026'];
+    
+    // Check if user has any paid course
+    const hasPaidCourse = user.courses?.some(course => paidCourses.includes(course));
+    
+    if (hasPaidCourse) {
+      console.log('💳 Paid course detected - validating device for:', user.email);
       const deviceCheck = await validateDevice(user.email);
       if (!deviceCheck.success) {
         return { success: false, message: deviceCheck.message! };
       }
-    }
-
-    setIsAuthenticated(true);
-    setCurrentUser(user);
-
-    // 💾 SAVE SESSION TO SUPABASE
-    try {
-      let deviceId = getStoredDeviceId();
-      if (!deviceId) {
-        deviceId = generateDeviceId();
-        setStoredDeviceId(deviceId);
-      }
-
-      console.log('Saving session for:', user.email, 'device:', deviceId);
-
-      const { error } = await supabase.from('user_sessions').upsert({
-        user_email: user.email,
-        device_id: deviceId,
-        session_data: JSON.stringify({
-          email: user.email,
-          role: user.role,
-          courses: user.courses,
-          approved: user.approved
-        }),
-        expires_at: new Date(Date.now() + 7 * 24 * 60 * 60 * 1000).toISOString() // 7 days
-      }, {
-        onConflict: 'user_email,device_id'
-      });
-
-      if (error) {
-        console.error('Failed to save session:', error);
-      } else {
-        console.log('Session saved successfully');
-      }
-    } catch (err) {
-      console.error('Failed to save session:', err);
-      // Continue anyway - user can still use the app
-    }
-
-    // 🚦 ROUTING
-    if (user.role === 'admin') {
-      navigate('/admin', { replace: true });
-    } else if (user.courses?.includes('advance_2026')) {
-      navigate('/dashboard/advance-2026', { replace: true });
-    } else if (user.courses?.includes('foundation')) {
-      navigate('/dashboard/foundation', { replace: true });
-    } else if (user.courses?.includes('rank_booster')) {
-      navigate('/dashboard/rank-booster', { replace: true });
+      console.log('✅ Device validation passed');
     } else {
-      navigate('/dashboard/dheya', { replace: true });
+      console.log('🆓 Free course (Dheya) - skipping device validation');
+    }
+  }
+
+  setIsAuthenticated(true);
+  setCurrentUser(user);
+
+  // 💾 SAVE SESSION TO SUPABASE
+  try {
+    let deviceId = getStoredDeviceId();
+    if (!deviceId) {
+      deviceId = generateDeviceId();
+      setStoredDeviceId(deviceId);
     }
 
-    return { success: true, message: 'Login successful', isAdmin: user.role === 'admin' };
-  };
+    console.log('Saving session for:', user.email, 'device:', deviceId);
+
+    const { error } = await supabase.from('user_sessions').upsert({
+      user_email: user.email,
+      device_id: deviceId,
+      session_data: JSON.stringify({
+        email: user.email,
+        role: user.role,
+        courses: user.courses,
+        approved: user.approved
+      }),
+      expires_at: new Date(Date.now() + 7 * 24 * 60 * 60 * 1000).toISOString() // 7 days
+    }, {
+      onConflict: 'user_email,device_id'
+    });
+
+    if (error) {
+      console.error('Failed to save session:', error);
+    } else {
+      console.log('Session saved successfully');
+    }
+  } catch (err) {
+    console.error('Failed to save session:', err);
+    // Continue anyway - user can still use the app
+  }
+
+  // 🚦 ROUTING
+  if (user.role === 'admin') {
+    navigate('/admin', { replace: true });
+  } else if (user.courses?.includes('advance_2026')) {
+    navigate('/dashboard/advance-2026', { replace: true });
+  } else if (user.courses?.includes('foundation')) {
+    navigate('/dashboard/foundation', { replace: true });
+  } else if (user.courses?.includes('rank_booster')) {
+    navigate('/dashboard/rank-booster', { replace: true });
+  } else {
+    navigate('/dashboard/dheya', { replace: true });
+  }
+
+  return { success: true, message: 'Login successful', isAdmin: user.role === 'admin' };
+};
+
 
   // ==========================================
   // 🚪 LOGOUT
