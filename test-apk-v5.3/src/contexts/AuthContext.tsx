@@ -195,7 +195,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }, [navigate]);
 
   // ==========================================
-  // 🔐 DEVICE VALIDATION
+  // 🔍 ENHANCED DEVICE VALIDATION
   // ==========================================
   const validateDevice = async (email: string) => {
     try {
@@ -205,129 +205,169 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         setStoredDeviceId(deviceId);
       }
 
+      console.log('🔍 Validating device for:', email, 'Device ID:', deviceId);
+
+      // Check if user already has a device registered
       const { data, error } = await supabase
         .from('user_devices')
         .select('*')
         .eq('user_email', email)
-        .single();
+        .maybeSingle(); // Use maybeSingle instead of single to avoid errors when no row exists
 
-      if (error && error.code !== 'PGRST116') throw error;
+      if (error && error.code !== 'PGRST116') {
+        console.error('❌ Database error:', error);
+        throw error;
+      }
 
+      // No device registered yet - register this one
       if (!data) {
-        await supabase.from('user_devices').insert({
+        console.log('📱 No device found - registering new device');
+        const { error: insertError } = await supabase.from('user_devices').insert({
           user_email: email,
           device_id: deviceId,
           device_type: deviceId.startsWith('web_') ? 'web' : 'android',
+          last_active: new Date().toISOString()
         });
+
+        if (insertError) {
+          console.error('❌ Failed to insert device:', insertError);
+          throw insertError;
+        }
+
+        console.log('✅ Device registered successfully');
         return { success: true };
       }
 
+      // Device matches - update last active
       if (data.device_id === deviceId) {
-        await supabase
+        console.log('✅ Device matches - updating last active');
+        const { error: updateError } = await supabase
           .from('user_devices')
           .update({ last_active: new Date().toISOString() })
           .eq('user_email', email);
+
+        if (updateError) {
+          console.error('⚠️ Failed to update last_active:', updateError);
+        } else {
+          console.log('✅ Last active updated successfully');
+        }
+
         return { success: true };
       }
 
-      return { success: false, message: 'Account already used on another device' };
-    } catch {
-      return { success: false, message: 'Device validation failed' };
+      // Different device - reject login
+      console.log('❌ Different device detected');
+      console.log('   Registered device:', data.device_id);
+      console.log('   Current device:', deviceId);
+      return { 
+        success: false, 
+        message: 'This account is already registered on another device. Please contact support to switch devices.' 
+      };
+
+    } catch (err) {
+      console.error('❌ Device validation error:', err);
+      return { 
+        success: false, 
+        message: 'Device validation failed. Please try again.' 
+      };
     }
   };
-// ==========================================
-// 🔑 LOGIN
-// ==========================================
-const login = async (email: string, password: string): Promise<LoginResult> => {
-  const normalizedEmail = email.trim().toLowerCase();
-
-  const user = accounts.find(
-    acc => acc.email.toLowerCase() === normalizedEmail && acc.password === password
-  );
-
-  if (!user) {
-    return { success: false, message: 'Invalid email or password' };
-  }
-
-  if (user.role === 'student' && !user.approved) {
-    return { success: false, message: 'Account pending approval' };
-  }
 
   // ==========================================
-  // 🔐 DEVICE VALIDATION FOR PAID COURSES
+  // 🔐 LOGIN - FIXED DEVICE VALIDATION
   // ==========================================
-  if (user.role === 'student') {
-    // Define which courses require device validation
-    const paidCourses = ['foundation', 'rank_booster', 'advance_2026'];
-    
-    // Check if user has any paid course
-    const hasPaidCourse = user.courses?.some(course => paidCourses.includes(course));
-    
-    if (hasPaidCourse) {
-      console.log('💳 Paid course detected - validating device for:', user.email);
-      const deviceCheck = await validateDevice(user.email);
-      if (!deviceCheck.success) {
-        return { success: false, message: deviceCheck.message! };
+  const login = async (email: string, password: string): Promise<LoginResult> => {
+    const normalizedEmail = email.trim().toLowerCase();
+
+    const user = accounts.find(
+      acc => acc.email.toLowerCase() === normalizedEmail && acc.password === password
+    );
+
+    if (!user) {
+      return { success: false, message: 'Invalid email or password' };
+    }
+
+    if (user.role === 'student' && !user.approved) {
+      return { success: false, message: 'Account pending approval' };
+    }
+
+    // ==========================================
+    // 🔒 DEVICE VALIDATION FOR PAID COURSES
+    // ==========================================
+    if (user.role === 'student' && user.courses && user.courses.length > 0) {
+      // Define which courses require device validation
+      const paidCourses = ['foundation', 'rank_booster', 'advance_2026'];
+      
+      // Check if user has any paid course
+      const hasPaidCourse = user.courses.some(course => paidCourses.includes(course));
+      
+      console.log('👤 User courses:', user.courses);
+      console.log('💳 Has paid course:', hasPaidCourse);
+      
+      if (hasPaidCourse) {
+        console.log('💳 Paid course detected - validating device for:', user.email);
+        const deviceCheck = await validateDevice(user.email);
+        if (!deviceCheck.success) {
+          return { success: false, message: deviceCheck.message! };
+        }
+        console.log('✅ Device validation passed');
+      } else {
+        console.log('🆓 Free course (Dheya) - skipping device validation');
       }
-      console.log('✅ Device validation passed');
+    }
+
+    setIsAuthenticated(true);
+    setCurrentUser(user);
+
+    // 💾 SAVE SESSION TO SUPABASE
+    try {
+      let deviceId = getStoredDeviceId();
+      if (!deviceId) {
+        deviceId = generateDeviceId();
+        setStoredDeviceId(deviceId);
+      }
+
+      console.log('💾 Saving session for:', user.email, 'device:', deviceId);
+
+      const { error } = await supabase.from('user_sessions').upsert({
+        user_email: user.email,
+        device_id: deviceId,
+        session_data: JSON.stringify({
+          email: user.email,
+          role: user.role,
+          courses: user.courses,
+          approved: user.approved
+        }),
+        expires_at: new Date(Date.now() + 7 * 24 * 60 * 60 * 1000).toISOString() // 7 days
+      }, {
+        onConflict: 'user_email,device_id'
+      });
+
+      if (error) {
+        console.error('❌ Failed to save session:', error);
+      } else {
+        console.log('✅ Session saved successfully');
+      }
+    } catch (err) {
+      console.error('❌ Failed to save session:', err);
+      // Continue anyway - user can still use the app
+    }
+
+    // 🚦 ROUTING
+    if (user.role === 'admin') {
+      navigate('/admin', { replace: true });
+    } else if (user.courses?.includes('advance_2026')) {
+      navigate('/dashboard/advance-2026', { replace: true });
+    } else if (user.courses?.includes('foundation')) {
+      navigate('/dashboard/foundation', { replace: true });
+    } else if (user.courses?.includes('rank_booster')) {
+      navigate('/dashboard/rank-booster', { replace: true });
     } else {
-      console.log('🆓 Free course (Dheya) - skipping device validation');
-    }
-  }
-
-  setIsAuthenticated(true);
-  setCurrentUser(user);
-
-  // 💾 SAVE SESSION TO SUPABASE
-  try {
-    let deviceId = getStoredDeviceId();
-    if (!deviceId) {
-      deviceId = generateDeviceId();
-      setStoredDeviceId(deviceId);
+      navigate('/dashboard/dheya', { replace: true });
     }
 
-    console.log('Saving session for:', user.email, 'device:', deviceId);
-
-    const { error } = await supabase.from('user_sessions').upsert({
-      user_email: user.email,
-      device_id: deviceId,
-      session_data: JSON.stringify({
-        email: user.email,
-        role: user.role,
-        courses: user.courses,
-        approved: user.approved
-      }),
-      expires_at: new Date(Date.now() + 7 * 24 * 60 * 60 * 1000).toISOString() // 7 days
-    }, {
-      onConflict: 'user_email,device_id'
-    });
-
-    if (error) {
-      console.error('Failed to save session:', error);
-    } else {
-      console.log('Session saved successfully');
-    }
-  } catch (err) {
-    console.error('Failed to save session:', err);
-    // Continue anyway - user can still use the app
-  }
-
-  // 🚦 ROUTING
-  if (user.role === 'admin') {
-    navigate('/admin', { replace: true });
-  } else if (user.courses?.includes('advance_2026')) {
-    navigate('/dashboard/advance-2026', { replace: true });
-  } else if (user.courses?.includes('foundation')) {
-    navigate('/dashboard/foundation', { replace: true });
-  } else if (user.courses?.includes('rank_booster')) {
-    navigate('/dashboard/rank-booster', { replace: true });
-  } else {
-    navigate('/dashboard/dheya', { replace: true });
-  }
-
-  return { success: true, message: 'Login successful', isAdmin: user.role === 'admin' };
-};
-
+    return { success: true, message: 'Login successful', isAdmin: user.role === 'admin' };
+  };
 
   // ==========================================
   // 🚪 LOGOUT
@@ -341,8 +381,8 @@ const login = async (email: string, password: string): Promise<LoginResult> => {
         .delete()
         .eq('user_email', currentUser.email)
         .eq('device_id', deviceId)
-        .then(() => console.log('Session cleared'))
-        .catch(err => console.error('Failed to clear session:', err));
+        .then(() => console.log('✅ Session cleared'))
+        .catch(err => console.error('❌ Failed to clear session:', err));
     }
 
     setIsAuthenticated(false);
