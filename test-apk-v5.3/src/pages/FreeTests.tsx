@@ -125,7 +125,7 @@ export default function FreeTests() {
       }
       
       // Redirect to login
-      navigate('/login');
+      navigate('/test');
     }
   };
 
@@ -1156,3 +1156,4 @@ export default function FreeTests() {
   );
 
 }
+
