@@ -95,7 +95,7 @@ export default function FreeTests() {
       if (data) {
         // Contact info exists - save test and go to login
         localStorage.setItem('pendingTest', JSON.stringify(test));
-        navigate('/test');
+        navigate('/login');
       } else {
         // No contact info - show modal
         setTempEmail(savedEmail);
@@ -125,7 +125,7 @@ export default function FreeTests() {
       }
       
       // Redirect to login
-      navigate('/test');
+      navigate('/login');
     }
   };
 
