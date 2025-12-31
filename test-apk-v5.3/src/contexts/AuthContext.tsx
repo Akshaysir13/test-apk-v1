@@ -106,94 +106,116 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   // ==========================================
   // 🔄 RESTORE SESSION ON MOUNT
   // ==========================================
-  useEffect(() => {
-    async function restoreSession() {
-      try {
-        const deviceId = getStoredDeviceId();
-        
-        if (!deviceId) {
-          console.log('No device ID found');
-          setIsCheckingSession(false);
-          return;
-        }
-
-        console.log('Checking for session with device:', deviceId);
-
-        // Check if this device has a valid session
-        const { data, error } = await supabase
-          .from('user_sessions')
-          .select('*')
-          .eq('device_id', deviceId)
-          .maybeSingle();
-
-        if (error) {
-          console.error('Session check error:', error);
-          setIsCheckingSession(false);
-          return;
-        }
-
-        if (!data) {
-          console.log('No session found');
-          setIsCheckingSession(false);
-          return;
-        }
-
-        console.log('Session found:', data);
-
-        // Check if session expired
-        const expiresAt = new Date(data.expires_at);
-        if (expiresAt < new Date()) {
-          console.log('Session expired');
-          // Expired - clean it up
-          await supabase
-            .from('user_sessions')
-            .delete()
-            .eq('device_id', deviceId);
-          setIsCheckingSession(false);
-          return;
-        }
-
-        // Valid session found - restore user
-        const sessionData = JSON.parse(data.session_data);
-        const user: UserAccount = {
-          email: sessionData.email,
-          password: '', // Don't store password
-          role: sessionData.role,
-          courses: sessionData.courses,
-          approved: sessionData.approved
-        };
-
-        console.log('Restoring user:', user.email);
-
-        setIsAuthenticated(true);
-        setCurrentUser(user);
-
-        // Navigate to appropriate dashboard
-        const currentPath = window.location.pathname;
-        if (currentPath === '/login' || currentPath === '/') {
-          if (user.role === 'admin') {
-            navigate('/admin', { replace: true });
-          } else if (user.courses?.includes('advance_2026')) {
-            navigate('/dashboard/advance-2026', { replace: true });
-          } else if (user.courses?.includes('foundation')) {
-            navigate('/dashboard/foundation', { replace: true });
-          } else if (user.courses?.includes('rank_booster')) {
-            navigate('/dashboard/rank-booster', { replace: true });
-          } else {
-            navigate('/dashboard/dheya', { replace: true });
-          }
-        }
-
-      } catch (err) {
-        console.error('Failed to restore session:', err);
-      } finally {
+  // Replace the restoreSession function (Lines 110-186)
+useEffect(() => {
+  async function restoreSession() {
+    try {
+      console.log('🔍 Starting session restore...');
+      const deviceId = getStoredDeviceId();
+      
+      if (!deviceId) {
+        console.log('❌ No device ID found in localStorage');
         setIsCheckingSession(false);
+        return;
       }
+
+      console.log('✅ Device ID found:', deviceId);
+      console.log('🔍 Checking Supabase for session...');
+
+      // Check if this device has a valid session
+      const { data, error } = await supabase
+        .from('user_sessions')
+        .select('*')
+        .eq('device_id', deviceId)
+        .maybeSingle();
+
+      if (error) {
+        console.error('❌ Session check error:', error);
+        setIsCheckingSession(false);
+        return;
+      }
+
+      if (!data) {
+        console.log('❌ No session found in Supabase');
+        setIsCheckingSession(false);
+        return;
+      }
+
+      console.log('✅ Session found in Supabase:', data);
+
+      // Check if session expired
+      const expiresAt = new Date(data.expires_at);
+      const now = new Date();
+      console.log('🕐 Session expires at:', expiresAt);
+      console.log('🕐 Current time:', now);
+      
+      if (expiresAt < now) {
+        console.log('❌ Session expired');
+        // Expired - clean it up
+        await supabase
+          .from('user_sessions')
+          .delete()
+          .eq('device_id', deviceId);
+        setIsCheckingSession(false);
+        return;
+      }
+
+      console.log('✅ Session is valid');
+
+      // Valid session found - restore user
+      const sessionData = JSON.parse(data.session_data);
+      const user: UserAccount = {
+        email: sessionData.email,
+        password: '',
+        role: sessionData.role,
+        courses: sessionData.courses,
+        approved: sessionData.approved
+      };
+
+      console.log('✅ Restoring user:', user.email);
+      console.log('👤 User role:', user.role);
+      console.log('📚 User courses:', user.courses);
+
+      setIsAuthenticated(true);
+      setCurrentUser(user);
+
+      // Navigate to appropriate dashboard
+      const currentPath = window.location.pathname;
+      console.log('🛣️ Current path:', currentPath);
+      
+      if (currentPath === '/login' || currentPath === '/' || currentPath === '/free-tests') {
+        console.log('🚀 Navigating to dashboard...');
+        
+        if (user.role === 'admin') {
+          console.log('➡️ Navigating to /admin');
+          navigate('/admin', { replace: true });
+        } else if (user.courses?.includes('advance_2026')) {
+          console.log('➡️ Navigating to /dashboard/advance-2026');
+          navigate('/dashboard/advance-2026', { replace: true });
+        } else if (user.courses?.includes('foundation')) {
+          console.log('➡️ Navigating to /dashboard/foundation');
+          navigate('/dashboard/foundation', { replace: true });
+        } else if (user.courses?.includes('rank_booster')) {
+          console.log('➡️ Navigating to /dashboard/rank-booster');
+          navigate('/dashboard/rank-booster', { replace: true });
+        } else {
+          console.log('➡️ Navigating to /dashboard/dheya');
+          navigate('/dashboard/dheya', { replace: true });
+        }
+      } else {
+        console.log('✅ Already on correct page, staying put');
+      }
+
+    } catch (err) {
+      console.error('❌ Failed to restore session:', err);
+    } finally {
+      console.log('✅ Session check complete');
+      setIsCheckingSession(false);
     }
+  }
 
-    restoreSession();
-  }, [navigate]);
-
+  restoreSession();
+}, [navigate]);
   // ==========================================
   // 🔐 DEVICE VALIDATION
   // ==========================================
