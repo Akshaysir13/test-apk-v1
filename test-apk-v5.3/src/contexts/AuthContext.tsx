@@ -213,8 +213,8 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         console.log('  └─ Using Existing Device ID ✓');
       }
 
-      // STEP 2: Query existing device
-      console.log('\n[STEP 2] Querying user_devices table');
+      // STEP 2: Query existing device for THIS USER
+      console.log('\n[STEP 2] Querying user_devices table for this user');
       console.log('  └─ SELECT * FROM user_devices WHERE user_email =', email);
       
       const { data: existingDevice, error: selectError } = await supabase
@@ -236,52 +236,85 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         throw selectError;
       }
 
-      if (existingDevice) {
-        console.log('\n[STEP 3] Existing Device Found');
-        console.log('  └─ Registered Device ID:', existingDevice.device_id);
-        console.log('  └─ Current Device ID:', deviceId);
-        console.log('  └─ Device Type:', existingDevice.device_type);
-        console.log('  └─ Last Active:', existingDevice.last_active);
-        console.log('  └─ Created At:', existingDevice.created_at);
-        console.log('  └─ Match:', existingDevice.device_id === deviceId ? 'YES ✓' : 'NO ✗');
+      // STEP 3: Check if THIS DEVICE is registered to ANY USER
+      console.log('\n[STEP 3] Checking if this device is registered to any user');
+      console.log('  └─ SELECT * FROM user_devices WHERE device_id =', deviceId);
+      
+      const { data: deviceOwner, error: deviceError } = await supabase
+        .from('user_devices')
+        .select('*')
+        .eq('device_id', deviceId)
+        .maybeSingle();
 
-        if (existingDevice.device_id !== deviceId) {
-          console.log('\n❌ DEVICE MISMATCH - BLOCKING LOGIN');
+      console.log('  └─ Query completed');
+      console.log('  └─ Error:', deviceError ? 'YES' : 'NO');
+      console.log('  └─ Device owner found:', deviceOwner ? 'YES' : 'NO');
+      
+      if (deviceOwner) {
+        console.log('  └─ Device is registered to:', deviceOwner.user_email);
+      }
+
+      if (deviceError) {
+        console.error('\n❌ DEVICE CHECK ERROR:');
+        console.error('  Code:', deviceError.code);
+        console.error('  Message:', deviceError.message);
+        throw deviceError;
+      }
+
+      // STEP 4: Handle different scenarios
+      if (existingDevice && deviceOwner) {
+        // User has a device AND this device has an owner
+        if (existingDevice.user_email === email && deviceOwner.user_email === email) {
+          // Same user, same device - UPDATE
+          console.log('\n[STEP 4A] Same user, same device - Updating last_active');
+          const updateData = { last_active: new Date().toISOString() };
+          
+          const { data: updateResult, error: updateError } = await supabase
+            .from('user_devices')
+            .update(updateData)
+            .eq('user_email', email)
+            .select();
+
+          if (updateError) {
+            console.error('\n⚠️ UPDATE ERROR (non-fatal):', updateError);
+          } else {
+            console.log('  └─ Last active updated ✓');
+          }
+        } else {
+          // Different device or device belongs to someone else
+          console.log('\n[STEP 4B] CONFLICT DETECTED');
+          console.log('  └─ User registered device:', existingDevice.device_id);
+          console.log('  └─ Current device:', deviceId);
+          console.log('  └─ This device belongs to:', deviceOwner.user_email);
           console.log('╚═══════════════════════════════════════════════════════════╝\n');
           return {
             success: false,
             message: 'This account is already registered on another device. Please contact support to switch devices.'
           };
         }
-
-        // STEP 4: Update last_active
-        console.log('\n[STEP 4] Updating last_active timestamp');
-        const updateData = { last_active: new Date().toISOString() };
-        console.log('  └─ UPDATE user_devices SET last_active =', updateData.last_active);
-        console.log('  └─ WHERE user_email =', email);
-
-        const { data: updateResult, error: updateError } = await supabase
-          .from('user_devices')
-          .update(updateData)
-          .eq('user_email', email)
-          .select();
-
-        console.log('  └─ Update completed');
-        console.log('  └─ Error:', updateError ? 'YES' : 'NO');
-        console.log('  └─ Result:', updateResult);
-
-        if (updateError) {
-          console.error('\n⚠️ UPDATE ERROR (non-fatal):');
-          console.error('  Code:', updateError.code);
-          console.error('  Message:', updateError.message);
-          // Don't throw - update failure is non-critical
-        } else {
-          console.log('  └─ Last active updated ✓');
-        }
-
+      } else if (deviceOwner && deviceOwner.user_email !== email) {
+        // This device belongs to ANOTHER user
+        console.log('\n[STEP 4C] Device already registered to another user');
+        console.log('  └─ Device owner:', deviceOwner.user_email);
+        console.log('  └─ Current user:', email);
+        console.log('╚═══════════════════════════════════════════════════════════╝\n');
+        return {
+          success: false,
+          message: 'This device is already registered to another account. Each device can only be used with one account.'
+        };
+      } else if (existingDevice && !deviceOwner) {
+        // User has a different device registered, this device is free
+        console.log('\n[STEP 4D] User has different device registered');
+        console.log('  └─ Registered device:', existingDevice.device_id);
+        console.log('  └─ Current device:', deviceId);
+        console.log('╚═══════════════════════════════════════════════════════════╝\n');
+        return {
+          success: false,
+          message: 'This account is already registered on another device. Please contact support to switch devices.'
+        };
       } else {
-        // STEP 3: Insert new device
-        console.log('\n[STEP 3] No Existing Device - Inserting New Record');
+        // No conflicts - Register new device
+        console.log('\n[STEP 4E] No conflicts - Registering new device');
         const insertData = {
           user_email: email,
           device_id: deviceId,
