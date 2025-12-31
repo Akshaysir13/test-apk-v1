@@ -119,7 +119,6 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
         console.log('Checking for session with device:', deviceId);
 
-        // Check if this device has a valid session
         const { data, error } = await supabase
           .from('user_sessions')
           .select('*')
@@ -140,11 +139,9 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
         console.log('Session found:', data);
 
-        // Check if session expired
         const expiresAt = new Date(data.expires_at);
         if (expiresAt < new Date()) {
           console.log('Session expired');
-          // Expired - clean it up
           await supabase
             .from('user_sessions')
             .delete()
@@ -153,11 +150,10 @@ export function AuthProvider({ children }: { children: ReactNode }) {
           return;
         }
 
-        // Valid session found - restore user
         const sessionData = JSON.parse(data.session_data);
         const user: UserAccount = {
           email: sessionData.email,
-          password: '', // Don't store password
+          password: '',
           role: sessionData.role,
           courses: sessionData.courses,
           approved: sessionData.approved
@@ -168,7 +164,6 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         setIsAuthenticated(true);
         setCurrentUser(user);
 
-        // Navigate to appropriate dashboard
         const currentPath = window.location.pathname;
         if (currentPath === '/login' || currentPath === '/') {
           if (user.role === 'admin') {
@@ -195,7 +190,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }, [navigate]);
 
   // ==========================================
-  // 🔍 ENHANCED DEVICE VALIDATION
+  // 🔍 FIXED DEVICE VALIDATION - USES UPSERT
   // ==========================================
   const validateDevice = async (email: string) => {
     try {
@@ -205,76 +200,64 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         setStoredDeviceId(deviceId);
       }
 
-      console.log('🔍 Validating device for:', email, 'Device ID:', deviceId);
+      console.log('🔍 Validating device for:', email);
+      console.log('   Device ID:', deviceId);
 
-      // Check if user already has a device registered
-      const { data, error } = await supabase
+      // Check if user already has a registered device
+      const { data: existingDevice, error: selectError } = await supabase
         .from('user_devices')
-        .select('*')
+        .select('device_id')
         .eq('user_email', email)
-        .maybeSingle(); // Use maybeSingle instead of single to avoid errors when no row exists
+        .maybeSingle();
 
-      if (error && error.code !== 'PGRST116') {
-        console.error('❌ Database error:', error);
-        throw error;
+      if (selectError) {
+        console.error('❌ Query error:', selectError);
+        throw selectError;
       }
 
-      // No device registered yet - register this one
-      if (!data) {
-        console.log('📱 No device found - registering new device');
-        const { error: insertError } = await supabase.from('user_devices').insert({
+      // If device exists and doesn't match, block login
+      if (existingDevice && existingDevice.device_id !== deviceId) {
+        console.log('❌ Different device detected');
+        console.log('   Registered:', existingDevice.device_id);
+        console.log('   Current:', deviceId);
+        return {
+          success: false,
+          message: 'This account is already registered on another device. Please contact support to switch devices.'
+        };
+      }
+
+      // Use UPSERT to insert or update
+      console.log('💾 Upserting device record...');
+      const { error: upsertError } = await supabase
+        .from('user_devices')
+        .upsert({
           user_email: email,
           device_id: deviceId,
           device_type: deviceId.startsWith('web_') ? 'web' : 'android',
           last_active: new Date().toISOString()
+        }, {
+          onConflict: 'user_email'
         });
 
-        if (insertError) {
-          console.error('❌ Failed to insert device:', insertError);
-          throw insertError;
-        }
-
-        console.log('✅ Device registered successfully');
-        return { success: true };
+      if (upsertError) {
+        console.error('❌ Upsert error:', upsertError);
+        throw upsertError;
       }
 
-      // Device matches - update last active
-      if (data.device_id === deviceId) {
-        console.log('✅ Device matches - updating last active');
-        const { error: updateError } = await supabase
-          .from('user_devices')
-          .update({ last_active: new Date().toISOString() })
-          .eq('user_email', email);
-
-        if (updateError) {
-          console.error('⚠️ Failed to update last_active:', updateError);
-        } else {
-          console.log('✅ Last active updated successfully');
-        }
-
-        return { success: true };
-      }
-
-      // Different device - reject login
-      console.log('❌ Different device detected');
-      console.log('   Registered device:', data.device_id);
-      console.log('   Current device:', deviceId);
-      return { 
-        success: false, 
-        message: 'This account is already registered on another device. Please contact support to switch devices.' 
-      };
+      console.log('✅ Device validated successfully');
+      return { success: true };
 
     } catch (err) {
       console.error('❌ Device validation error:', err);
-      return { 
-        success: false, 
-        message: 'Device validation failed. Please try again.' 
+      return {
+        success: false,
+        message: `Device validation failed: ${err instanceof Error ? err.message : 'Unknown error'}`
       };
     }
   };
 
   // ==========================================
-  // 🔐 LOGIN - FIXED DEVICE VALIDATION
+  // 🔐 LOGIN
   // ==========================================
   const login = async (email: string, password: string): Promise<LoginResult> => {
     const normalizedEmail = email.trim().toLowerCase();
@@ -295,31 +278,29 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     // 🔒 DEVICE VALIDATION FOR PAID COURSES
     // ==========================================
     if (user.role === 'student' && user.courses && user.courses.length > 0) {
-      // Define which courses require device validation
       const paidCourses = ['foundation', 'rank_booster', 'advance_2026'];
-      
-      // Check if user has any paid course
       const hasPaidCourse = user.courses.some(course => paidCourses.includes(course));
       
-      console.log('👤 User courses:', user.courses);
+      console.log('👤 User:', user.email);
+      console.log('📚 Courses:', user.courses);
       console.log('💳 Has paid course:', hasPaidCourse);
       
       if (hasPaidCourse) {
-        console.log('💳 Paid course detected - validating device for:', user.email);
+        console.log('💳 Validating device...');
         const deviceCheck = await validateDevice(user.email);
         if (!deviceCheck.success) {
           return { success: false, message: deviceCheck.message! };
         }
         console.log('✅ Device validation passed');
       } else {
-        console.log('🆓 Free course (Dheya) - skipping device validation');
+        console.log('🆓 Free course - skipping device validation');
       }
     }
 
     setIsAuthenticated(true);
     setCurrentUser(user);
 
-    // 💾 SAVE SESSION TO SUPABASE
+    // 💾 SAVE SESSION
     try {
       let deviceId = getStoredDeviceId();
       if (!deviceId) {
@@ -327,7 +308,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         setStoredDeviceId(deviceId);
       }
 
-      console.log('💾 Saving session for:', user.email, 'device:', deviceId);
+      console.log('💾 Saving session...');
 
       const { error } = await supabase.from('user_sessions').upsert({
         user_email: user.email,
@@ -338,19 +319,18 @@ export function AuthProvider({ children }: { children: ReactNode }) {
           courses: user.courses,
           approved: user.approved
         }),
-        expires_at: new Date(Date.now() + 7 * 24 * 60 * 60 * 1000).toISOString() // 7 days
+        expires_at: new Date(Date.now() + 7 * 24 * 60 * 60 * 1000).toISOString()
       }, {
         onConflict: 'user_email,device_id'
       });
 
       if (error) {
-        console.error('❌ Failed to save session:', error);
+        console.error('❌ Session save error:', error);
       } else {
-        console.log('✅ Session saved successfully');
+        console.log('✅ Session saved');
       }
     } catch (err) {
-      console.error('❌ Failed to save session:', err);
-      // Continue anyway - user can still use the app
+      console.error('❌ Session error:', err);
     }
 
     // 🚦 ROUTING
@@ -373,7 +353,6 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   // 🚪 LOGOUT
   // ==========================================
   const logout = () => {
-    // 🗑️ DELETE SESSION FROM SUPABASE
     const deviceId = getStoredDeviceId();
     if (deviceId && currentUser) {
       supabase
@@ -390,7 +369,6 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     navigate('/login', { replace: true });
   };
 
-  // Show loading while checking session
   if (isCheckingSession) {
     return (
       <div style={{ 
