@@ -17,6 +17,7 @@ export const rankBoosterTests: Test[] = [
 { id: 'rank_booster-jee-barch-pyq-2024-april-attempt', name: 'rank_booster-jee-barch-pyq-2024-april-attempt', description: 'Solve Actual PYQ from that Year', duration: DEFAULT_TEST_DURATION, questions: rankBoosterPYQQuestions.slice(150, 200), category: 'pyq', course: 'rank_booster' },
 { id: 'rank_booster-jee-barch-pyq-2025-january-attempt', name: 'rank_booster-jee-barch-pyq-2025-january-attempt', description: 'Solve Actual PYQ from that Year', duration: DEFAULT_TEST_DURATION, questions: rankBoosterPYQQuestions.slice(200, 250), category: 'pyq', course: 'rank_booster' },
 { id: 'rank_booster-jee-barch-pyq-2025-april-attempt', name: 'rank_booster-jee-barch-pyq-2025-april-attempt', description: 'Solve Actual PYQ from that Year', duration: DEFAULT_TEST_DURATION, questions: rankBoosterPYQQuestions.slice(250, 300), category: 'pyq', course: 'rank_booster' },
-{ id: 'latest pattern test', name: 'Mock 1 (2026)', description: 'Solve the expected paper of this year', duration: DEFAULT_TEST_DURATION, questions: rankBoosterlatestQuestions.slice(0, 50), category: 'latest', course: 'rank_booster' },
+{ id: 'latest pattern test rank booster', name: 'Rank booster Mock 1 (2026)', description: 'Solve the expected paper of this year', duration: DEFAULT_TEST_DURATION, questions: rankBoosterlatestQuestions.slice(0, 50), category: 'latest', course: 'rank_booster' },
   
 ];
+
