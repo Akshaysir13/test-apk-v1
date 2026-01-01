@@ -100,5 +100,7 @@ export const foundationTests: Test[] = [
 { id: 'foundation-jee-barch-pyq-2025-april-attempt', name: 'foundation-jee-barch-pyq-2025-april-attempt', description: 'Solve Actual PYQ from that Year', duration: DEFAULT_TEST_DURATION, questions: foundationPYQQuestions.slice(1550, 1600), category: 'pyq', course: 'foundation' },//PYQ Tests End
 //Latest Pattern Mock Test
 { id: 'foundation-latest-pattern-test', name: 'Mock 1 (2026)', description: 'Solve the expected paper of this year', duration: DEFAULT_TEST_DURATION, questions: foundationlatestQuestions.slice(0, 50), category: 'latest', course: 'foundation' },
+  { id: 'foundation-latest-pattern-test', name: 'Mock 2 (2026)', description: 'Solve the expected paper of this year', duration: DEFAULT_TEST_DURATION, questions: foundationlatestQuestions.slice(50, 100), category: 'latest', course: 'foundation' },
 
 ];
+
