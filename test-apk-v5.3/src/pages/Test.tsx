@@ -888,8 +888,8 @@ export default function Test() {
     setResultSaved(false);
     // Call restartTest to reset everything properly
     restartTest();
-    // Force a re-render by using window.location instead of navigate
-    window.location.href = '/test';
+    // Navigate to Dheya dashboard (free tests)
+    window.location.href = '/dashboard/dheya';
   }}
   className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg inline-flex items-center gap-2 transition"
 >
