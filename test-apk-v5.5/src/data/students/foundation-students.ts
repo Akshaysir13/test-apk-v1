@@ -89,6 +89,13 @@ export const foundationStudents: UserAccount[] = [
 { email: 'navnathsarode28@gmail.com', password: 'navnath@28', role: 'student', approved: true , courses: ['foundation'] },
 { email: 'student14@gmail.com', password: 'pass123', role: 'student', approved: true , courses: ['foundation'] },//mine
 { email: 'student15@gmail.com', password: 'pass123', role: 'student', approved: true , courses: ['foundation'] },//mine
+  { email: 'sasmitkumarchaurasia2006@gmail.com', password: 'Maniar@123', role: 'student', approved: true, courses: ['foundation'] },
+{ email: 'student7@gmail.com', password: 'pass123', role: 'student', approved: true, courses: ['foundation'] },
+{ email: 'student8@gmail.com', password: 'pass123', role: 'student', approved: true, courses: ['foundation'] },
+{ email: 'student9@gmail.com', password: 'pass123', role: 'student', approved: true, courses: ['foundation'] },
+{ email: 'student10@gmail.com', password: 'pass123', role: 'student', approved: true, courses: ['foundation'] },
+{ email: 'baranwaladitya438@gmail.com', password: 'Aditya@317', role: 'student', approved: true, courses: ['foundation'] },
+
 {
   email: 'sasmitkumarchaurasia2006@gmail.com',
   password: 'Maniar@123',
@@ -133,3 +140,4 @@ export const foundationStudents: UserAccount[] = [
 },
 
 ];
+
