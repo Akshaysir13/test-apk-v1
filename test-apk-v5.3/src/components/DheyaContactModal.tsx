@@ -78,29 +78,47 @@ export function DheyaContactModal({
     setLoading(true);
 
     try {
-      // Save to Supabase
+      const normalizedEmail = emailToUse.trim().toLowerCase();
+      
+      // ✅ FIRST: Check if contact info already exists
+      const { data: existingContact } = await supabase
+        .from('student_contact_info')
+        .select('*')
+        .eq('student_email', normalizedEmail)
+        .maybeSingle();
+
+      if (existingContact) {
+        // Contact info already exists - just proceed to test
+        console.log('✅ Contact info already exists, proceeding to test...');
+        onSuccess();
+        return;
+      }
+
+      // ✅ SECOND: If doesn't exist, insert new record
       const { error: dbError } = await supabase
         .from('student_contact_info')
         .insert({
-          student_email: emailToUse.trim().toLowerCase(),
+          student_email: normalizedEmail,
           student_name: name.trim(),
           phone_number: phone.trim(),
           first_test_id: testId,
           first_test_name: testName,
           source: 'dheya_test',
-          ip_address: '', // Optional: can get from an API
+          ip_address: '',
           user_agent: navigator.userAgent
         });
 
       if (dbError) {
         console.error('Database error:', dbError);
         
-        // Check if it's a duplicate email error
+        // Even if insert fails, if it's duplicate error, let them proceed
         if (dbError.code === '23505') {
-          setError('This email is already registered. Please login to continue.');
-        } else {
-          setError('Failed to save information. Please try again.');
+          console.log('✅ Duplicate entry - contact already exists, proceeding...');
+          onSuccess();
+          return;
         }
+        
+        setError('Failed to save information. Please try again.');
         setLoading(false);
         return;
       }
@@ -108,6 +126,7 @@ export function DheyaContactModal({
       // Success - close modal and continue
       console.log('✅ Contact info saved successfully');
       onSuccess();
+      
     } catch (err) {
       console.error('Error:', err);
       setError('Something went wrong. Please try again.');
