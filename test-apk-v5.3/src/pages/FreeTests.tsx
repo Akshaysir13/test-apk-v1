@@ -109,25 +109,25 @@ export default function FreeTests() {
     }
   };
 
-  // ==========================================
-  // ✅ CONTACT MODAL SUCCESS
-  // ==========================================
-  const handleContactSuccess = () => {
-    setShowContactModal(false);
+// ==========================================
+// ✅ CONTACT MODAL SUCCESS - START TEST DIRECTLY FOR FREE TESTS
+// ==========================================
+const handleContactSuccess = () => {
+  setShowContactModal(false);
+  
+  if (selectedTestForModal) {
+    console.log('✅ Contact info saved, starting FREE test directly...');
     
-    if (selectedTestForModal) {
-      // Save test for after login
-      localStorage.setItem('pendingTest', JSON.stringify(selectedTestForModal));
-      
-      // Save email for quick login
-      if (tempEmail) {
-        localStorage.setItem('temp_user_email', tempEmail);
-      }
-      
-      // Redirect to login
-      navigate('/login');
+    // Optional: Save email for future reference
+    if (tempEmail) {
+      localStorage.setItem('temp_user_email', tempEmail);
     }
-  };
+    
+    // Start test immediately - NO LOGIN REQUIRED FOR FREE TESTS
+    selectTest(selectedTestForModal);
+    navigate('/test');
+  }
+};
 
   const handleContactCancel = () => {
     setShowContactModal(false);
