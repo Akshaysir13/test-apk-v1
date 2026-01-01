@@ -879,10 +879,9 @@ export default function Test() {
             })}
           </div>
 
-          <div className="text-center flex gap-4 justify-center">
+<div className="text-center flex gap-4 justify-center">
 <button
   onClick={() => {
-    restartTest();
     // Navigate to user's specific course dashboard
     if (currentUser?.courses?.includes('advance_2026')) {
       navigate('/dashboard/advance-2026');
@@ -895,6 +894,8 @@ export default function Test() {
     } else {
       navigate('/dashboard'); // Fallback
     }
+    // Call restartTest AFTER navigation to prevent auth issues
+    setTimeout(() => restartTest(), 100);
   }}
   className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg inline-flex items-center gap-2 transition"
 >
