@@ -879,17 +879,22 @@ export default function Test() {
             })}
           </div>
 
-<div className="text-center flex gap-4 justify-center">
+          <div className="text-center flex gap-4 justify-center">
 <button
   onClick={() => {
-    // Reset all test states
-    setTestCompleted(false);
-    setShowResults(false);
-    setResultSaved(false);
-    // Call restartTest to reset everything properly
     restartTest();
-    // Navigate to Dheya dashboard (free tests)
-    window.location.href = '/dashboard/dheya';
+    // Navigate to user's specific course dashboard
+    if (currentUser?.courses?.includes('advance_2026')) {
+      navigate('/dashboard/advance-2026');
+    } else if (currentUser?.courses?.includes('foundation')) {
+      navigate('/dashboard/foundation');
+    } else if (currentUser?.courses?.includes('rank_booster')) {
+      navigate('/dashboard/rank-booster');
+    } else if (currentUser?.courses?.includes('dheya')) {
+      navigate('/dashboard/dheya');
+    } else {
+      navigate('/dashboard'); // Fallback
+    }
   }}
   className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg inline-flex items-center gap-2 transition"
 >
