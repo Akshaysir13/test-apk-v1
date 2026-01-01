@@ -93,7 +93,7 @@ export const foundationStudents: UserAccount[] = [
 { email: 'student7@gmail.com', password: 'pass123', role: 'student', approved: true, courses: ['foundation'] },
 { email: 'student8@gmail.com', password: 'pass123', role: 'student', approved: true, courses: ['foundation'] },
 { email: 'student9@gmail.com', password: 'pass123', role: 'student', approved: true, courses: ['foundation'] },
-{ email: 'student10@gmail.com', password: 'pass123', role: 'student', approved: true, courses: ['foundation'] },
+{ email: 'student20@gmail.com', password: 'pass123', role: 'student', approved: true, courses: ['foundation'] },//dolly
 { email: 'baranwaladitya438@gmail.com', password: 'Aditya@317', role: 'student', approved: true, courses: ['foundation'] },
 
 {
@@ -140,4 +140,5 @@ export const foundationStudents: UserAccount[] = [
 },
 
 ];
+
 
