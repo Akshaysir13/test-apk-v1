@@ -1086,274 +1086,15 @@ export const foundationlatestQuestions: Question[] = [
 //Full test 1
  {
     id: 101,
-    question: "Read the Instruction Carefully",
-    image: "https://drive.google.com/thumbnail?id=1bVKzlijrBWFM_VhMgirNJ9mrOlpOQtqy&sz=w1000",
-    optionA: "c",
-    optionB: "a",
-    optionC: "b",
-    optionD: "d",
+    question: "The Architecture of Happiness is written By ?",
+    optionA: "Norman Foster",
+    optionB: "Steen Eiler Rasmussen",
+    optionC: "Bjarke Ingels",
+    optionD: "Alain de Botton",
     correctOption: "d"
   },
   {
     id: 102,
-    question: "Read the Instruction Carefully",
-    image: "https://drive.google.com/thumbnail?id=1bXPov2VXfHiZf5rWgaOyeJYctQMcW06n&sz=w1000",
-    optionA: "a",
-    optionB: "d",
-    optionC: "c",
-    optionD: "b",
-    correctOption: "d"
-  },
-  {
-    id: 103,
-    question: "Read the Instruction Carefully",
-    image: "https://drive.google.com/thumbnail?id=1bZDcvZkF3y7aZs2I_K-IP5XQMPV92lEZ&sz=w1000",
-    optionA: "d",
-    optionB: "c",
-    optionC: "a",
-    optionD: "b",
-    correctOption: "d"
-  },
-  {
-    id: 104,
-    question: "Read the Instruction Carefully",
-    image: "https://drive.google.com/thumbnail?id=1ba0R4TlLvSn8U2XfrnnjEwPcQnCgcJ7Y&sz=w1000",
-    optionA: "d",
-    optionB: "b",
-    optionC: "a",
-    optionD: "c",
-    correctOption: "d"
-  },
-  {
-    id: 105,
-    question: "Read the Instruction Carefully",
-    image: "https://drive.google.com/thumbnail?id=1bc7oTVBMOHZcFyEjKgT2WoCQOcw87OR-&sz=w1000",
-    optionA: "b",
-    optionB: "c",
-    optionC: "d",
-    optionD: "a",
-    correctOption: "d"
-  },
-  {
-    id: 106,
-    question: "Read the Instruction Carefully",
-    image: "https://drive.google.com/thumbnail?id=1bcVnoxIoSkllm51DMhx0DUtnYRbgdwBS&sz=w1000",
-    optionA: "a",
-    optionB: "b",
-    optionC: "c",
-    optionD: "d",
-    correctOption: "d"
-  },
-  {
-    id: 107,
-    question: "Read the Instruction Carefully",
-    image: "https://drive.google.com/thumbnail?id=1bg6sgcpUqnFyt2mVIEpCg0AGGLYJYK2C&sz=w1000",
-    optionA: "c",
-    optionB: "a",
-    optionC: "d",
-    optionD: "b",
-    correctOption: "d"
-  },
-  {
-    id: 108,
-    question: "Read the Instruction Carefully",
-    image: "https://drive.google.com/thumbnail?id=1bgFiWtnPvtXR4N7gXQXEueTOLVa2Pzzn&sz=w1000",
-    optionA: "b",
-    optionB: "a",
-    optionC: "d",
-    optionD: "c",
-    correctOption: "d"
-  },
-  {
-    id: 109,
-    question: "Read the Instruction Carefully",
-    image: "https://drive.google.com/thumbnail?id=1bkOl1-V95SaCiQcUn6VTySCf4S3TESL1&sz=w1000",
-    optionA: "b",
-    optionB: "a",
-    optionC: "c",
-    optionD: "d",
-    correctOption: "d"
-  },
-  {
-    id: 110,
-    question: "Read the Instruction Carefully",
-    image: "https://drive.google.com/thumbnail?id=1brOm6-r8OOkbkBrlTTXAc0cYY2lJaVHV&sz=w1000",
-    optionA: "c",
-    optionB: "d",
-    optionC: "a",
-    optionD: "b",
-    correctOption: "d"
-  },
-  {
-    id: 111,
-    question: "Read the Instruction Carefully",
-    image: "https://drive.google.com/thumbnail?id=1bue4JnedRFWmePl12I9XdbqMvnKjGg53&sz=w1000",
-    optionA: "d",
-    optionB: "b",
-    optionC: "a",
-    optionD: "c",
-    correctOption: "d"
-  },
-  {
-    id: 112,
-    question: "Read the Instruction Carefully",
-    image: "https://drive.google.com/thumbnail?id=1bz8QBflmcZRRHksXqafGDA-Q5GZLKQIP&sz=w1000",
-    optionA: "a",
-    optionB: "b",
-    optionC: "d",
-    optionD: "c",
-    correctOption: "d"
-  },
-  {
-    id: 113,
-    question: "Read the Instruction Carefully",
-    image: "https://drive.google.com/thumbnail?id=1bzhc5a_p4MiQtyCvzk-rmMqcYsN1qkbO&sz=w1000",
-    optionA: "d",
-    optionB: "a",
-    optionC: "c",
-    optionD: "b",
-    correctOption: "d"
-  },
-  {
-    id: 114,
-    question: "Read the Instruction Carefully",
-    image: "https://drive.google.com/thumbnail?id=1c3JdCjH22fFx2EU55gEbS7h-ASp9lWBy&sz=w1000",
-    optionA: "c",
-    optionB: "a",
-    optionC: "b",
-    optionD: "d",
-    correctOption: "d"
-  },
-  {
-    id: 115,
-    question: "Read the Instruction Carefully",
-    image: "https://drive.google.com/thumbnail?id=1c68px9n_coOZ4ro0xctowplwdHoaoylJ&sz=w1000",
-    optionA: "b",
-    optionB: "c",
-    optionC: "d",
-    optionD: "a",
-    correctOption: "d"
-  },
-  {
-    id: 116,
-    question: "Read the Instruction Carefully",
-    image: "https://drive.google.com/thumbnail?id=1c7Y5BqGHf2rRQ2s0CFYg3ASpq7nZhRM0&sz=w1000",
-    optionA: "a",
-    optionB: "b",
-    optionC: "c",
-    optionD: "d",
-    correctOption: "d"
-  },
-  {
-    id: 117,
-    question: "Read the Instruction Carefully",
-    image: "https://drive.google.com/thumbnail?id=1c81XWbUUXBmqYWz7HlcFDlHCkGPQkKxU&sz=w1000",
-    optionA: "b",
-    optionB: "d",
-    optionC: "c",
-    optionD: "a",
-    correctOption: "d"
-  },
-  {
-    id: 118,
-    question: "Read the Instruction Carefully",
-    image: "https://drive.google.com/thumbnail?id=1c8hQP5yEqop6NtGZT8yNLnLgEN0TlUqB&sz=w1000",
-    optionA: "b",
-    optionB: "a",
-    optionC: "d",
-    optionD: "c",
-    correctOption: "d"
-  },
-  {
-    id: 119,
-    question: "Read the Instruction Carefully",
-    image: "https://drive.google.com/thumbnail?id=1cAwDkg11ZV3MsG_-GjT--BfKRbthUiR-&sz=w1000",
-    optionA: "b",
-    optionB: "d",
-    optionC: "c",
-    optionD: "a",
-    correctOption: "d"
-  },
-  {
-    id: 120,
-    question: "Read the Instruction Carefully",
-    image: "https://drive.google.com/thumbnail?id=1cBSM8LC3oPhFZFYkFkqjdAwwPnuM9ucj&sz=w1000",
-    optionA: "b",
-    optionB: "d",
-    optionC: "c",
-    optionD: "a",
-    correctOption: "d"
-  },
-  {
-    id: 121,
-    question: "Identify the famous Monument",
-    image: "https://drive.google.com/thumbnail?id=1oHe39jSLHrmdZuR72v5RokpeITHuvaK3&sz=w1000",
-    optionA: "Laxminarayan Temple",
-    optionB: "Amarnath Cave Temple",
-    optionC: "Lingaraja Temple",
-    optionD: "Akabar Tomb",
-    correctOption: "d"
-  },
-  {
-    id: 122,
-    question: "Identify the famous Monument",
-    image: "https://drive.google.com/thumbnail?id=1b06B81Gb5xEtjKF6M1K7NRbCpHscQ5ep&sz=w1000",
-    optionA: "Westminister Abbey",
-    optionB: "Fallingwater",
-    optionC: "Space needle",
-    optionD: "Angkor Wat",
-    correctOption: "d"
-  },
-  {
-    id: 123,
-    question: "Who is an architect of World Finance Centre - New York",
-    optionA: "Pierre Jeanneret",
-    optionB: "Louis Kahn",
-    optionC: "Philip Johnson",
-    optionD: "Cesar Pelli",
-    correctOption: "d"
-  },
-  {
-    id: 124,
-    question: "Who is an architect of Anna Venturi house",
-    optionA: "Christopher Benninger",
-    optionB: "Achyut Kanvinde",
-    optionC: "Raj Revel",
-    optionD: "Robert Venturi",
-    correctOption: "d"
-  },
-  {
-    id: 125,
-    type: 'statement',
-    question: "Statement 1: Bjarke Ingels designed the 8 House in Copenhagen.\nStatement 2: The building combines residential and commercial spaces in a figure-eight shape.",
-    optionA: "Statement 1 is False,  Statement 2 is True",
-    optionB: "Statement 1 is True,  Statement 2 is False",
-    optionC: "Both Statement 1 and Statement 2 is False",
-    optionD: "Both Statement 1 and Statement 2 are True.",
-    correctOption: "d"
-  },
-  {
-    id: 126,
-    type: 'statement',
-    question: "Statement 1: A shell structure is thin and curved.\nStatement 2: Shells distribute loads evenly across their surface.",
-    optionA: "Statement 1 is True,  Statement 2 is False",
-    optionB: "Both Statement 1 and Statement 2 is False",
-    optionC: "Statement 1 is False,  Statement 2 is True",
-    optionD: "Both Statement 1 and Statement 2 are True.",
-    correctOption: "d"
-  },
-  {
-    id: 127,
-    type: 'statement',
-    question: "Statement 1: A vapor barrier is used to prevent moisture from passing through walls.\nStatement 2: A firewall is designed to Allow the spread of fire between buildings.",
-    optionA: "Both Statement 1 and Statement 2 are True.",
-    optionB: "Both Statement 1 and Statement 2 is False",
-    optionC: "Statement 1 is False,  Statement 2 is True",
-    optionD: "Statement 1 is True,  Statement 2 is False",
-    correctOption: "d"
-  },
-  {
-    id: 128,
     type: 'statement',
     question: "Statement 1: A parapet wall extends above the roofline.\nStatement 2: A gable is the triangular portion of a wall between the slopes of a roof.",
     optionA: "Statement 1 is True,  Statement 2 is False",
@@ -1363,73 +1104,177 @@ export const foundationlatestQuestions: Question[] = [
     correctOption: "d"
   },
   {
-    id: 129,
-    type: 'match-pair',
-    question: "Match the Following",
-    columnAItems: [
-      "1. Rafter",
-      "2. Plinth",
-      "3. Purlin",
-      "4. Extrados"
-],
-    columnBItems: [
-      "A sloping beam supporting a pitched roof.",
-      "A horizontal beam supporting roof sheets.",
-      "The outer curve of an arch.",
-      "A square or circular base at the bottom of the column shaft."
-],
-    optionA: "1-D 2-B 3-C 4-A",
-    optionB: "1-A 2-D 3-C 4-B",
-    optionC: "1-C 2-A 3-B 4-D",
-    optionD: "1-A 2-D 3-B 4-C",
+    id: 103,
+    question: "1. Granite is an example of which type of stone?",
+    optionA: "Sedimentary Rock",
+    optionB: "Metamorphic Rock",
+    optionC: "Artificial Stone",
+    optionD: "Igneous Rock",
     correctOption: "d"
   },
   {
-    id: 130,
-    type: 'match-pair',
-    question: "Match the Following",
-    columnAItems: [
-      "1. Arch Terms",
-      "2. Truss Terms",
-      "3. Roof Terms",
-      "4. Door Terms"
-],
-    columnBItems: [
-      "Threshold",
-      "Dormer",
-      "Keystone",
-      "Chord"
-],
-    optionA: "1-A 2-D 3-C 4-B",
-    optionB: "1-B 2-A 3-D 4-C",
-    optionC: "1-A 2-B 3-D 4-C",
-    optionD: "1-C 2-D 3-B 4-A",
+    id: 104,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1bg6sgcpUqnFyt2mVIEpCg0AGGLYJYK2C&sz=w1000",
+    optionA: "c",
+    optionB: "a",
+    optionC: "d",
+    optionD: "b",
     correctOption: "d"
   },
   {
-    id: 131,
-    type: 'match-pair',
-    question: "Match the Following",
-    columnAItems: [
-      "1. Sydney",
-      "2. Baghdad",
-      "3. Vienna",
-      "4. Paris"
-],
-    columnBItems: [
-      "Tigris",
-      "Darling",
-      "Danube",
-      "Seine"
-],
-    optionA: "1-D 2-C 3-A 4-B",
-    optionB: "1-D 2-C 3-A 4-B",
-    optionC: "1-D 2-A 3-B 4-C",
-    optionD: "1-B 2-A 3-C 4-D",
+    id: 105,
+    question: "R. K. Laxman is famous ___________",
+    optionA: "Painter",
+    optionB: "Painter / Sculptor / Architect",
+    optionC: "Sculpture",
+    optionD: "Cartoon Artist",
     correctOption: "d"
   },
   {
-    id: 132,
+    id: 106,
+    question: "How many surviving temples are there in Khajuraho?",
+    optionA: "100",
+    optionB: "55",
+    optionC: "75",
+    optionD: "25",
+    correctOption: "d"
+  },
+  {
+    id: 107,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1c81XWbUUXBmqYWz7HlcFDlHCkGPQkKxU&sz=w1000",
+    optionA: "b",
+    optionB: "d",
+    optionC: "c",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 108,
+    question: "Famous Ulsoor Lake is located at ?",
+    optionA: "Jammu Kashmir",
+    optionB: "Andhra Pradesh",
+    optionC: "Kerala",
+    optionD: "Karnataka",
+    correctOption: "d"
+  },
+  {
+    id: 109,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1bgFiWtnPvtXR4N7gXQXEueTOLVa2Pzzn&sz=w1000",
+    optionA: "b",
+    optionB: "a",
+    optionC: "d",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 110,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1bc7oTVBMOHZcFyEjKgT2WoCQOcw87OR-&sz=w1000",
+    optionA: "b",
+    optionB: "c",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 111,
+    question: "An idea is a solution by imagination is Quated by ?",
+    optionA: "Nanami Pollock",
+    optionB: "Robert Venturi",
+    optionC: "Mies van der Rohe",
+    optionD: "Frank Lloyd Wright",
+    correctOption: "d"
+  },
+  {
+    id: 112,
+    question: "NRDC stands for?",
+    optionA: "National Road Development Committee",
+    optionB: "New Regional Design Commission",
+    optionC: "National Renewable Design Code",
+    optionD: "National Research Development Corporation",
+    correctOption: "d"
+  },
+  {
+    id: 113,
+    question: "Who is an architect of World Finance Centre - New York",
+    optionA: "Pierre Jeanneret",
+    optionB: "Louis Kahn",
+    optionC: "Philip Johnson",
+    optionD: "Cesar Pelli",
+    correctOption: "d"
+  },
+  {
+    id: 114,
+    question: "Marble's primary mineral component is?",
+    optionA: "Quartz",
+    optionB: "Feldspar",
+    optionC: "Mica",
+    optionD: "Calcite",
+    correctOption: "d"
+  },
+  {
+    id: 115,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1cAwDkg11ZV3MsG_-GjT--BfKRbthUiR-&sz=w1000",
+    optionA: "b",
+    optionB: "d",
+    optionC: "c",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 116,
+    question: "Which flooring type is best for commercial buildings?",
+    optionA: "Wooden Flooring",
+    optionB: "Carpet Flooring",
+    optionC: "Vinyl Flooring",
+    optionD: "Vitrified Tiles",
+    correctOption: "d"
+  },
+  {
+    id: 117,
+    question: "World Cancer Day will be Observed on which of the following day in this year  ?",
+    optionA: "Jan 04",
+    optionB: "Jul 04",
+    optionC: "Jul 04",
+    optionD: "Feb 04",
+    correctOption: "d"
+  },
+  {
+    id: 118,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1bZDcvZkF3y7aZs2I_K-IP5XQMPV92lEZ&sz=w1000",
+    optionA: "d",
+    optionB: "c",
+    optionC: "a",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 119,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1bz8QBflmcZRRHksXqafGDA-Q5GZLKQIP&sz=w1000",
+    optionA: "a",
+    optionB: "b",
+    optionC: "d",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 120,
+    question: "Identify the famous Monument",
+    image: "https://drive.google.com/thumbnail?id=1oHe39jSLHrmdZuR72v5RokpeITHuvaK3&sz=w1000",
+    optionA: "Laxminarayan Temple",
+    optionB: "Amarnath Cave Temple",
+    optionC: "Lingaraja Temple",
+    optionD: "Akabar Tomb",
+    correctOption: "d"
+  },
+  {
+    id: 121,
     type: 'match-pair',
     question: "Match the Following",
     columnAItems: [
@@ -1451,79 +1296,7 @@ export const foundationlatestQuestions: Question[] = [
     correctOption: "d"
   },
   {
-    id: 133,
-    question: "27. Which type of artificial lighting is known for its high energy efficiency and long lifespan, using semiconductors?",
-    optionA: "Incandescent Bulb",
-    optionB: "Halogen Lamp",
-    optionC: "Fluorescent Tube",
-    optionD: "LED (Light Emitting Diode)",
-    correctOption: "d"
-  },
-  {
-    id: 134,
-    question: "1. Granite is an example of which type of stone?",
-    optionA: "Sedimentary Rock",
-    optionB: "Metamorphic Rock",
-    optionC: "Artificial Stone",
-    optionD: "Igneous Rock",
-    correctOption: "d"
-  },
-  {
-    id: 135,
-    question: "Which flooring type is best for commercial buildings?",
-    optionA: "Wooden Flooring",
-    optionB: "Carpet Flooring",
-    optionC: "Vinyl Flooring",
-    optionD: "Vitrified Tiles",
-    correctOption: "d"
-  },
-  {
-    id: 136,
-    question: "50. Marble's primary mineral component is?",
-    optionA: "Quartz",
-    optionB: "Feldspar",
-    optionC: "Mica",
-    optionD: "Calcite",
-    correctOption: "d"
-  },
-  {
-    id: 137,
-    question: "A city block measuring 500 m × 300 m is shown on a map with a scale of 1:2500. What is the size on the map?",
-    optionA: "200 cm × 120 cm",
-    optionB: "2 cm × 1.2 cm",
-    optionC: "0.2 cm × 0.12 cm",
-    optionD: "0.2 m × 0.12 m",
-    correctOption: "d"
-  },
-  {
-    id: 138,
-    question: "A residential building has 15 floors. The height of ground floor is 3.8 meter (including length and slab thickness). Rest all other floors are of 3.3 meter high (including slab thickness). What is the total height of the building (from ground to terrace) in meters?",
-    optionA: "51",
-    optionB: "49.5",
-    optionC: "50.5",
-    optionD: "50",
-    correctOption: "d"
-  },
-  {
-    id: 139,
-    question: "The Architecture of Happiness is written By ?",
-    optionA: "Norman Foster",
-    optionB: "Steen Eiler Rasmussen",
-    optionC: "Bjarke Ingels",
-    optionD: "Alain de Botton",
-    correctOption: "d"
-  },
-  {
-    id: 140,
-    question: "An idea is a solution by imagination is Quated by ?",
-    optionA: "Nanami Pollock",
-    optionB: "Robert Venturi",
-    optionC: "Mies van der Rohe",
-    optionD: "Frank Lloyd Wright",
-    correctOption: "d"
-  },
-  {
-    id: 141,
+    id: 122,
     question: "GRIHA stands for?",
     optionA: "Green Rating for Integrated Housing Agency",
     optionB: "Green Resources India Housing Authority",
@@ -1532,43 +1305,16 @@ export const foundationlatestQuestions: Question[] = [
     correctOption: "d"
   },
   {
-    id: 142,
-    question: "NRDC stands for?",
-    optionA: "National Road Development Committee",
-    optionB: "New Regional Design Commission",
-    optionC: "National Renewable Design Code",
-    optionD: "National Research Development Corporation",
+    id: 123,
+    question: "A residential building has 15 floors. The height of ground floor is 3.8 meter (including length and slab thickness). Rest all other floors are of 3.3 meter high (including slab thickness). What is the total height of the building (from ground to terrace) in meters?",
+    optionA: "51.8",
+    optionB: "50.8",
+    optionC: "49.8",
+    optionD: "48.8",
     correctOption: "d"
   },
   {
-    id: 143,
-    question: "Who Started the Construction of Chashme Shahi?",
-    optionA: "Emperor Akbar",
-    optionB: "Qutb-ud-din Aibak (started), Iltutmish (completed), Firoz Shah Tughlaq (renovations)",
-    optionC: "Muhammad Quli Qutb Shah",
-    optionD: "Ali Mardan Khan (under Shah Jahan's rule)",
-    correctOption: "d"
-  },
-  {
-    id: 144,
-    question: "How many surviving temples are there in Khajuraho?",
-    optionA: "100",
-    optionB: "55",
-    optionC: "75",
-    optionD: "25",
-    correctOption: "d"
-  },
-  {
-    id: 145,
-    question: "What architectural style is Lingaraj Temple built in?",
-    optionA: "Indo-Islamic Architecture",
-    optionB: "Dravidian Architecture",
-    optionC: "Vesara Architecture",
-    optionD: "Kalinga Architecture",
-    correctOption: "d"
-  },
-  {
-    id: 146,
+    id: 124,
     question: "Who were the designers of the Taj Mahal?",
     optionA: "Jahangir",
     optionB: "Abu’l Hasan",
@@ -1577,16 +1323,36 @@ export const foundationlatestQuestions: Question[] = [
     correctOption: "d"
   },
   {
-    id: 147,
-    question: "Famous Ulsoor Lake is located at ?",
-    optionA: "Jammu Kashmir",
-    optionB: "Andhra Pradesh",
-    optionC: "Kerala",
-    optionD: "Karnataka",
+    id: 125,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1c8hQP5yEqop6NtGZT8yNLnLgEN0TlUqB&sz=w1000",
+    optionA: "b",
+    optionB: "a",
+    optionC: "d",
+    optionD: "c",
     correctOption: "d"
   },
   {
-    id: 148,
+    id: 126,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1cBSM8LC3oPhFZFYkFkqjdAwwPnuM9ucj&sz=w1000",
+    optionA: "b",
+    optionB: "d",
+    optionC: "c",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 127,
+    question: "A city block measuring 500 m × 300 m is shown on a map with a scale of 1:2500. What is the size on the map?",
+    optionA: "200 cm × 12  cm",
+    optionB: "2 cm × 1.2 cm",
+    optionC: "20 m × 12 m",
+    optionD: "0.2 m × 0.12 m",
+    correctOption: "d"
+  },
+  {
+    id: 128,
     question: "Thiruvalluvar Statue Satue is located at ?",
     optionA: "Amaravati, Andhra Pradesh",
     optionB: "Elephanta Caves, Mumbai",
@@ -1595,21 +1361,255 @@ export const foundationlatestQuestions: Question[] = [
     correctOption: "d"
   },
   {
+    id: 129,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1brOm6-r8OOkbkBrlTTXAc0cYY2lJaVHV&sz=w1000",
+    optionA: "c",
+    optionB: "d",
+    optionC: "a",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 130,
+    type: 'statement',
+    question: "Statement 1: A vapor barrier is used to prevent moisture from passing through walls.\nStatement 2: A firewall is designed to Allow the spread of fire between buildings.",
+    optionA: "Both Statement 1 and Statement 2 are True.",
+    optionB: "Both Statement 1 and Statement 2 is False",
+    optionC: "Statement 1 is False,  Statement 2 is True",
+    optionD: "Statement 1 is True,  Statement 2 is False",
+    correctOption: "d"
+  },
+  {
+    id: 131,
+    question: "Identify the famous Monument",
+    image: "https://drive.google.com/thumbnail?id=1b06B81Gb5xEtjKF6M1K7NRbCpHscQ5ep&sz=w1000",
+    optionA: "Westminister Abbey",
+    optionB: "Fallingwater",
+    optionC: "Space needle",
+    optionD: "Angkor Wat",
+    correctOption: "d"
+  },
+  {
+    id: 132,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1bXPov2VXfHiZf5rWgaOyeJYctQMcW06n&sz=w1000",
+    optionA: "a",
+    optionB: "d",
+    optionC: "c",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 133,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1ba0R4TlLvSn8U2XfrnnjEwPcQnCgcJ7Y&sz=w1000",
+    optionA: "d",
+    optionB: "b",
+    optionC: "a",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 134,
+    question: "27. Which type of artificial lighting is known for its high energy efficiency and long lifespan, using semiconductors?",
+    optionA: "Incandescent Bulb",
+    optionB: "Halogen Lamp",
+    optionC: "Fluorescent Tube",
+    optionD: "LED (Light Emitting Diode)",
+    correctOption: "d"
+  },
+  {
+    id: 135,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1bVKzlijrBWFM_VhMgirNJ9mrOlpOQtqy&sz=w1000",
+    optionA: "c",
+    optionB: "a",
+    optionC: "b",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 136,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1bue4JnedRFWmePl12I9XdbqMvnKjGg53&sz=w1000",
+    optionA: "d",
+    optionB: "b",
+    optionC: "a",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 137,
+    type: 'statement',
+    question: "Statement 1: A shell structure is thin and curved.\nStatement 2: Shells distribute loads evenly across their surface.",
+    optionA: "Statement 1 is True,  Statement 2 is False",
+    optionB: "Both Statement 1 and Statement 2 is False",
+    optionC: "Statement 1 is False,  Statement 2 is True",
+    optionD: "Both Statement 1 and Statement 2 are True.",
+    correctOption: "d"
+  },
+  {
+    id: 138,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. Rafter",
+      "2. Plinth",
+      "3. Purlin",
+      "4. Extrados"
+],
+    columnBItems: [
+      "A sloping beam supporting a pitched roof.",
+      "A horizontal beam supporting roof sheets.",
+      "The outer curve of an arch.",
+      "A square or circular base at the bottom of the column shaft."
+],
+    optionA: "1-D 2-B 3-C 4-A",
+    optionB: "1-A 2-D 3-C 4-B",
+    optionC: "1-C 2-A 3-B 4-D",
+    optionD: "1-A 2-D 3-B 4-C",
+    correctOption: "d"
+  },
+  {
+    id: 139,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. Arch Terms",
+      "2. Truss Terms",
+      "3. Roof Terms",
+      "4. Door Terms"
+],
+    columnBItems: [
+      "Threshold",
+      "Dormer",
+      "Keystone",
+      "Chord"
+],
+    optionA: "1-A 2-D 3-C 4-B",
+    optionB: "1-B 2-A 3-D 4-C",
+    optionC: "1-A 2-B 3-D 4-C",
+    optionD: "1-C 2-D 3-B 4-A",
+    correctOption: "d"
+  },
+  {
+    id: 140,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1c68px9n_coOZ4ro0xctowplwdHoaoylJ&sz=w1000",
+    optionA: "b",
+    optionB: "c",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 141,
+    question: "Who Started the Construction of Chashme Shahi?",
+    optionA: "Emperor Akbar",
+    optionB: "Qutb-ud-din Aibak (started), Iltutmish (completed), Firoz Shah Tughlaq (renovations)",
+    optionC: "Muhammad Quli Qutb Shah",
+    optionD: "Ali Mardan Khan (under Shah Jahan's rule)",
+    correctOption: "d"
+  },
+  {
+    id: 142,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1c3JdCjH22fFx2EU55gEbS7h-ASp9lWBy&sz=w1000",
+    optionA: "c",
+    optionB: "a",
+    optionC: "b",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 143,
+    question: "Who is an architect of Anna Venturi house",
+    optionA: "Christopher Benninger",
+    optionB: "Achyut Kanvinde",
+    optionC: "Raj Revel",
+    optionD: "Robert Venturi",
+    correctOption: "d"
+  },
+  {
+    id: 144,
+    question: "What architectural style is Mukteswar Temple built in?",
+    optionA: "Nagara Architecture",
+    optionB: "Dravidian Architecture",
+    optionC: "Vesara Architecture",
+    optionD: "Kalinga Architecture",
+    correctOption: "d"
+  },
+  {
+    id: 145,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1bkOl1-V95SaCiQcUn6VTySCf4S3TESL1&sz=w1000",
+    optionA: "b",
+    optionB: "a",
+    optionC: "c",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 146,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1c7Y5BqGHf2rRQ2s0CFYg3ASpq7nZhRM0&sz=w1000",
+    optionA: "a",
+    optionB: "b",
+    optionC: "c",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 147,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1bzhc5a_p4MiQtyCvzk-rmMqcYsN1qkbO&sz=w1000",
+    optionA: "d",
+    optionB: "a",
+    optionC: "c",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 148,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. Sydney",
+      "2. Baghdad",
+      "3. Vienna",
+      "4. Paris"
+],
+    columnBItems: [
+      "Tigris",
+      "Darling",
+      "Danube",
+      "Seine"
+],
+    optionA: "1-D 2-C 3-A 4-B",
+    optionB: "1-D 2-C 3-A 4-B",
+    optionC: "1-D 2-A 3-B 4-C",
+    optionD: "1-B 2-A 3-C 4-D",
+    correctOption: "d"
+  },
+  {
     id: 149,
-    question: "World Cancer Day will be Observed on which of the following day in this year  ?",
-    optionA: "4 January",
-    optionB: "4 July",
-    optionC: "4 July",
-    optionD: "4 February",
+    type: 'statement',
+    question: "Statement 1: Bjarke Ingels designed the 8 House in Copenhagen.\nStatement 2: The building combines residential and commercial spaces in a figure-eight shape.",
+    optionA: "Statement 1 is False,  Statement 2 is True",
+    optionB: "Statement 1 is True,  Statement 2 is False",
+    optionC: "Both Statement 1 and Statement 2 is False",
+    optionD: "Both Statement 1 and Statement 2 are True.",
     correctOption: "d"
   },
   {
     id: 150,
-    question: "R. K. Laxman is famous ___________",
-    optionA: "Painter",
-    optionB: "Painter / Sculptor / Architect",
-    optionC: "Sculpture",
-    optionD: "Cartoon Artist",
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1bcVnoxIoSkllm51DMhx0DUtnYRbgdwBS&sz=w1000",
+    optionA: "a",
+    optionB: "b",
+    optionC: "c",
+    optionD: "d",
     correctOption: "d"
   },
   {
@@ -1883,3 +1883,4 @@ export const foundationlatestQuestions: Question[] = [
 },
 
 ];
+
