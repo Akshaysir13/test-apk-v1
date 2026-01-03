@@ -1416,9 +1416,9 @@ export const foundationlatestQuestions: Question[] = [
     question: "Read the Instruction Carefully",
     image: "https://drive.google.com/thumbnail?id=1bVKzlijrBWFM_VhMgirNJ9mrOlpOQtqy&sz=w1000",
     optionA: "c",
-    optionB: "a",
-    optionC: "b",
-    optionD: "d",
+    optionB: "b",
+    optionC: "d",
+    optionD: "a",
     correctOption: "d"
   },
   { id: 136, question: "In Basic Colour Terminology used in architecture and design, which THREE attributes define a color?", optionA: "Hue, Saturation, Brightness", optionB: "Hue, Value, Brightness", optionC: "Red, Green, Blue", optionD: "Hue, Value, Chroma", correctOption: "d" },
@@ -1866,6 +1866,7 @@ export const foundationlatestQuestions: Question[] = [
 },
 
 ];
+
 
 
 
