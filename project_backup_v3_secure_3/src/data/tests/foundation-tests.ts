@@ -138,7 +138,7 @@ export const foundationTests: Test[] = [
   id: 'foundation-latest-full-mock-1',
   name: 'Full Mock Test 1 (2026)',
   description: 'Complete B.Arch Pattern: Aptitude + Math + Drawing',
-  duration: 10800, // 3 hours (10800 seconds)
+  duration: 12600, // 3.30 hours (10800 seconds)
   category: 'latest',
   course: 'foundation',
   
@@ -192,4 +192,5 @@ export const foundationTests: Test[] = [
 
 
 ];
+
 
