@@ -1062,10 +1062,10 @@ export const foundationlatestQuestions: Question[] = [
       "4. Nagina Lake"
 ],
     columnBItems: [
-      "New Delhi",
-      "Ahmedabad",
-      "Vellore",
-      "Srinagar"
+      "A.New Delhi",
+      "B.Ahmedabad",
+      "C.Vellore",
+      "D.Srinagar"
 ],
     optionA: "1-C 2-A 3-B 4-D",
     optionB: "1-C 2-D 3-A 4-B",
@@ -1231,7 +1231,7 @@ export const foundationlatestQuestions: Question[] = [
     optionA: "Wooden Flooring",
     optionB: "Carpet Flooring",
     optionC: "Vinyl Flooring",
-    optionD: "Vitrified Tiles",
+    optionD: "Vitrified Tiles Flooring",
     correctOption: "d"
   },
   {
@@ -1267,9 +1267,9 @@ export const foundationlatestQuestions: Question[] = [
     id: 120,
     question: "Identify the famous Monument",
     image: "https://drive.google.com/thumbnail?id=1oHe39jSLHrmdZuR72v5RokpeITHuvaK3&sz=w1000",
-    optionA: "Laxminarayan Temple",
-    optionB: "Amarnath Cave Temple",
-    optionC: "Lingaraja Temple",
+    optionA: "Auranjeb Tomb",
+    optionB: "Sher shah suri tomb",
+    optionC: "Hummayuns Tomb",
     optionD: "Akabar Tomb",
     correctOption: "d"
   },
@@ -1284,10 +1284,10 @@ export const foundationlatestQuestions: Question[] = [
       "4. Jerusalem"
 ],
     columnBItems: [
-      "The Holy City",
-      "Fashion Capital",
-      "First Throne",
-      "Harbour City"
+      "A.The Holy City",
+      "B.Fashion Capital",
+      "C.First Throne",
+      "D.Harbour City"
 ],
     optionA: "1-C 2-A 3-D 4-B",
     optionB: "1-D 2-C 3-A 4-B",
@@ -1384,9 +1384,9 @@ export const foundationlatestQuestions: Question[] = [
     id: 131,
     question: "Identify the famous Monument",
     image: "https://drive.google.com/thumbnail?id=1b06B81Gb5xEtjKF6M1K7NRbCpHscQ5ep&sz=w1000",
-    optionA: "Westminister Abbey",
-    optionB: "Fallingwater",
-    optionC: "Space needle",
+    optionA: "Pashupatinath Temple",
+    optionB: "Prambanan Temple",
+    optionC: "Shri Kali Temple",
     optionD: "Angkor Wat",
     correctOption: "d"
   },
@@ -1460,10 +1460,10 @@ export const foundationlatestQuestions: Question[] = [
       "4. Extrados"
 ],
     columnBItems: [
-      "A sloping beam supporting a pitched roof.",
-      "A horizontal beam supporting roof sheets.",
-      "The outer curve of an arch.",
-      "A square or circular base at the bottom of the column shaft."
+      "A.A sloping beam supporting a pitched roof.",
+      "B.A horizontal beam supporting roof sheets.",
+      "C.The outer curve of an arch.",
+      "D.A square or circular base at the bottom of the column shaft."
 ],
     optionA: "1-D 2-B 3-C 4-A",
     optionB: "1-A 2-D 3-C 4-B",
@@ -1482,10 +1482,10 @@ export const foundationlatestQuestions: Question[] = [
       "4. Door Terms"
 ],
     columnBItems: [
-      "Threshold",
-      "Dormer",
-      "Keystone",
-      "Chord"
+      "A.Threshold",
+      "B.Dormer",
+      "C.Keystone",
+      "D.Chord"
 ],
     optionA: "1-A 2-D 3-C 4-B",
     optionB: "1-B 2-A 3-D 4-C",
@@ -1581,10 +1581,10 @@ export const foundationlatestQuestions: Question[] = [
       "4. Paris"
 ],
     columnBItems: [
-      "Tigris",
-      "Darling",
-      "Danube",
-      "Seine"
+      "A.Tigris",
+      "B.Darling",
+      "C.Danube",
+      "D.Seine"
 ],
     optionA: "1-D 2-C 3-A 4-B",
     optionB: "1-D 2-C 3-A 4-B",
@@ -1883,4 +1883,5 @@ export const foundationlatestQuestions: Question[] = [
 },
 
 ];
+
 
