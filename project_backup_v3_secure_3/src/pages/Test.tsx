@@ -72,7 +72,7 @@ export default function Test() {
   const handleNumericInput = (val: string) => {
     if (val === 'clear') {
       setNumericInput('');
-      handleAnswer(currentQuestion, -1); // Clear answer
+      handleAnswer(activeQuestion.id, -1); // Clear answer
       return;
     }
 
@@ -82,7 +82,7 @@ export default function Test() {
 
     setNumericInput(newVal);
     // Store numeric answer as string in answers
-    handleAnswer(currentQuestion, newVal as any);
+    handleAnswer(activeQuestion.id, newVal as any);
   };
 
   useEffect(() => {
@@ -1095,7 +1095,7 @@ export default function Test() {
                         const val = e.target.value;
                         if (/^[0-9.]*$/.test(val) && val.length <= 10 && (val.match(/\./g) || []).length <= 1) {
                           setNumericInput(val);
-                          handleAnswer(currentQuestion, val);
+                          handleAnswer(activeQuestion.id, val);
                         }
                       }}
                       placeholder="ENTER VALUE"
