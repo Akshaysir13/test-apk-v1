@@ -1133,11 +1133,11 @@ export const foundationlatestQuestions: Question[] = [
   },
   {
     id: 106,
-    question: "How many surviving temples are there in Khajuraho?",
-    optionA: "100",
-    optionB: "55",
-    optionC: "75",
-    optionD: "25",
+    question: "31. For hot and dry climatic regions, which orientation of a rectangular building minimizes heat gain?",
+    optionA: "Longer axis east–west",
+    optionB: "Circular plan",
+    optionC: "Square plan with central courtyard",
+    optionD: "Longer axis north–south",
     correctOption: "d"
   },
   {
@@ -1313,15 +1313,15 @@ export const foundationlatestQuestions: Question[] = [
     optionD: "48.8",
     correctOption: "d"
   },
-  {
-    id: 124,
-    question: "Who were the designers of the Taj Mahal?",
-    optionA: "Jahangir",
-    optionB: "Abu’l Hasan",
-    optionC: "Mirak Mirza Ghiyath",
-    optionD: "Ustad Ahmad Lahori",
+    {
+  id: 124,
+    question: "Which ancient Indian text primarily deals with town planning, architecture, and construction principles?",
+    optionA: "Rigveda",
+    optionB: "Natya Shastra",
+    optionC: "Manusmriti",
+    optionD: "The Manasara",
     correctOption: "d"
-  },
+    },
   {
     id: 125,
     question: "Read the Instruction Carefully",
@@ -1410,15 +1410,7 @@ export const foundationlatestQuestions: Question[] = [
     optionD: "c",
     correctOption: "d"
   },
-  {
-    id: 134,
-    question: "27. Which type of artificial lighting is known for its high energy efficiency and long lifespan, using semiconductors?",
-    optionA: "Incandescent Bulb",
-    optionB: "Halogen Lamp",
-    optionC: "Fluorescent Tube",
-    optionD: "LED (Light Emitting Diode)",
-    correctOption: "d"
-  },
+  { id: 134, question: "What is the Golden Ratio (Phi) value approximately equal to, which is widely used in architectural proportions?", optionA: "1.414", optionB: "1.718", optionC: "1.732", optionD: "1.618", correctOption: "d" },
   {
     id: 135,
     question: "Read the Instruction Carefully",
@@ -1429,16 +1421,7 @@ export const foundationlatestQuestions: Question[] = [
     optionD: "d",
     correctOption: "d"
   },
-  {
-    id: 136,
-    question: "Read the Instruction Carefully",
-    image: "https://drive.google.com/thumbnail?id=1bue4JnedRFWmePl12I9XdbqMvnKjGg53&sz=w1000",
-    optionA: "d",
-    optionB: "b",
-    optionC: "a",
-    optionD: "c",
-    correctOption: "d"
-  },
+  { id: 136, question: "In Basic Colour Terminology used in architecture and design, which THREE attributes define a color?", optionA: "Hue, Saturation, Brightness", optionB: "Hue, Value, Brightness", optionC: "Red, Green, Blue", optionD: "Hue, Value, Chroma", correctOption: "d" },
   {
     id: 137,
     type: 'statement',
@@ -1883,5 +1866,6 @@ export const foundationlatestQuestions: Question[] = [
 },
 
 ];
+
 
 
