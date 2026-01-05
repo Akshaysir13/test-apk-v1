@@ -1865,7 +1865,816 @@ export const foundationlatestQuestions: Question[] = [
   optionA: "0", optionB: "0", optionC: "0", optionD: "0"
 },
 
+    //Full Test 2 (2026)
+    {
+    id: 101,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1eYTB_-vSFisEgrSsQQylokmj84EKICE7&sz=w1000",
+    optionA: "c",
+    optionB: "a",
+    optionC: "d",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 102,
+    type: 'statement',
+    question: "Statement 1: Achromatic colors are shades of gray without any hue.\nStatement 2: Chromatic colors have a dominant hue.",
+    optionA: "Statement 1 is True,  Statement 2 is False",
+    optionB: "Statement 1 is False,  Statement 2 is True",
+    optionC: "Both Statement 1 and Statement 2 is False",
+    optionD: "Both Statement 1 and Statement 2 are True.",
+    correctOption: "d"
+  },
+  {
+    id: 103,
+    question: "Lincoln Memorial Satue is located at ?",
+    optionA: "Florida",
+    optionB: "Miami",
+    optionC: "New York",
+    optionD: "Washington D.C., USA",
+    correctOption: "d"
+  },
+  {
+    id: 104,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1f9Ww0XyYXh9YbXoh7D4YnsRI6KPyw6tr&sz=w1000",
+    optionA: "a",
+    optionB: "d",
+    optionC: "b",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 105,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1evxdNdod--0aFwXImGHGhkRGnC-G58q7&sz=w1000",
+    optionA: "a",
+    optionB: "d",
+    optionC: "b",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 106,
+    type: 'statement',
+    question: "Statement 1: Steel is commonly used in construction due to its high tensile strength.\nStatement 2: Steel is highly resistant to corrosion without any treatment.",
+    optionA: "Both Statement 1 and Statement 2 are True.",
+    optionB: "Statement 1 is False,  Statement 2 is True",
+    optionC: "Both Statement 1 and Statement 2 is False",
+    optionD: "Statement 1 is True,  Statement 2 is False",
+    correctOption: "d"
+  },
+  {
+    id: 107,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1etcw-7P6O9w7iy-tgab8AaplFARoXj_o&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "b",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 108,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1epUK10HV40ZvVS8vKs1GHKlVSpoA33_s&sz=w1000",
+    optionA: "a",
+    optionB: "d",
+    optionC: "b",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 109,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1eouZ7ynEYCn-cT2AyCa6znKIFuN3yMaQ&sz=w1000",
+    optionA: "d",
+    optionB: "b",
+    optionC: "c",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 110,
+    question: "The scale of a map is 1:10000. A river measures 3 cm on the map. What is the actual length of the river?",
+    optionA: "30000 mm",
+    optionB: "3 km",
+    optionC: "30 km",
+    optionD: "300 meters",
+    correctOption: "d"
+  },
+  {
+    id: 111,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1f9fNk7tsJjMidl8Wb1TFdBGYgMa5-XiM&sz=w1000",
+    optionA: "b",
+    optionB: "a",
+    optionC: "d",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 112,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1eq3O8arAugtvA7yq6qnxRSVzRJ4Qo2Ar&sz=w1000",
+    optionA: "d",
+    optionB: "b",
+    optionC: "a",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 113,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. Capital",
+      "2. Panel",
+      "3. Frieze",
+      "4. Haunch"
+],
+    columnBItems: [
+      "The central part of a door, framed by stiles and rails.",
+      "The lower curved portion of an arch.",
+      "The topmost part of a column, often decorative.",
+      "A decorative horizontal band above the architrave."
+],
+    optionA: "1-B 2-A 3-D 4-C",
+    optionB: "1-B 2-D 3-C 4-A",
+    optionC: "1-D 2-C 3-B 4-A",
+    optionD: "1-C 2-A 3-D 4-B",
+    correctOption: "d"
+  },
+  {
+    id: 114,
+    question: "UNESCO Stand For ?",
+    optionA: "United Nations Educational, Scientific and Caretaker Organization",
+    optionB: "United Nations Educational, Scientist and Cultural Organization",
+    optionC: "United Nations Educated, Scientific and Cultural Organization",
+    optionD: "United Nations Educational, Scientific and Cultural Organization",
+    correctOption: "d"
+  },
+  {
+    id: 115,
+    question: "Pedology is Known As ?",
+    optionA: "Study of climate",
+    optionB: "Study of rock",
+    optionC: "Study of nervous system",
+    optionD: "Study of soil",
+    correctOption: "d"
+  },
+  {
+    id: 116,
+    question: "Which of the following is Primary Function of Non-Load Bearing Components?",
+    optionA: "To vertically transport people and goods in a building.",
+    optionB: "To distribute the weight of the structure to the ground and prevent settlement.",
+    optionC: "Provides access to high areas, ensures worker safety, and supports materials/tools.",
+    optionD: "To divide spaces and enhance aesthetics without supporting loads.",
+    correctOption: "d"
+  },
+  {
+    id: 117,
+    question: "3. In the Southern Hemisphere, the sun sets in summer toward the...?",
+    optionA: "North",
+    optionB: "Northeast",
+    optionC: "Northwest",
+    optionD: "Southwest",
+    correctOption: "d"
+  },
+  {
+    id: 118,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1etcy7GiXoKHQdNaz_i2dV-8lVSlM8cw-&sz=w1000",
+    optionA: "d",
+    optionB: "a",
+    optionC: "c",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 119,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1epeTD9xj23kyv7hGKUact3EqOAqplNDA&sz=w1000",
+    optionA: "d",
+    optionB: "a",
+    optionC: "b",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 120,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1fD99OzupnXW4ebqup6_B-L91_yp5btbS&sz=w1000",
+    optionA: "b",
+    optionB: "c",
+    optionC: "a",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 121,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1egNyAIwskY1vpvi5IUNEDcBF59Qz7ukV&sz=w1000",
+    optionA: "c",
+    optionB: "d",
+    optionC: "a",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 122,
+    question: "Dholavira City is located at ?",
+    optionA: "Rajasthan",
+    optionB: "Punjab, Pakistan",
+    optionC: "Sindh, Pakistan",
+    optionD: "Kutch, Gujarat",
+    correctOption: "d"
+  },
+  {
+    id: 123,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1f43hcjvuh5ByUt_NWrtuwNPrOsB5a-Y0&sz=w1000",
+    optionA: "c",
+    optionB: "d",
+    optionC: "b",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 124,
+    question: "The Last Supper Famous Work is of ?",
+    optionA: "Vincent van Gogh",
+    optionB: "Rembrandt",
+    optionC: "Claude Monet",
+    optionD: "Leonardo da Vinci",
+    correctOption: "d"
+  },
+  {
+    id: 125,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1ef-az-xk0ipJChpb4a2arsGF5_TXnck-&sz=w1000",
+    optionA: "c",
+    optionB: "d",
+    optionC: "a",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 126,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1epPKHzBdLZnAT-1TDbxNJVxSxashIilu&sz=w1000",
+    optionA: "b",
+    optionB: "c",
+    optionC: "a",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 127,
+    question: "AMRUT Stand For ?",
+    optionA: "Atal Mission for Rejuvenation and Urban Transfer",
+    optionB: "Atal Ministry for Rejuvenation and Urban Transformation",
+    optionC: "Atal Mission for Rejuvenation and Urban Transform",
+    optionD: "Atal Mission for Rejuvenation and Urban Transformation",
+    correctOption: "d"
+  },
+  {
+    id: 128,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1ekajDQJ9JR7pp_PRnxn1aU3GIM-AJ7ZT&sz=w1000",
+    optionA: "a",
+    optionB: "d",
+    optionC: "b",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 129,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1ec_lA2fXlpMfp3TvhsjjRamcsN9FOvSd&sz=w1000",
+    optionA: "b",
+    optionB: "c",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 130,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1xJ7iauVsySX7goodMmfu2LaNDOu_zRMs&sz=w1000",
+    optionA: "b",
+    optionB: "a",
+    optionC: "c",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 131,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1f9-CJpryoeNQgyfZDqTcmrpysnZfVZmB&sz=w1000",
+    optionA: "c",
+    optionB: "d",
+    optionC: "b",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 132,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1f7RRnqGMWxriJuEd74hGFoz7gaBItnYh&sz=w1000",
+    optionA: "b",
+    optionB: "c",
+    optionC: "a",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 133,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1ebbBxHbq9hlEy_j6sY7pvCME8UKCk3Jk&sz=w1000",
+    optionA: "d",
+    optionB: "b",
+    optionC: "c",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 134,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1fI9eaI-rNKnLDqa6wvfmaknJencG1_ps&sz=w1000",
+    optionA: "b",
+    optionB: "a",
+    optionC: "d",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 135,
+    type: 'statement',
+    question: "Statement 1: Concrete is a mixture of cement, sand, aggregates, and water.\nStatement 2: Concrete gains full strength within 7 days.",
+    optionA: "Both Statement 1 and Statement 2 are True.",
+    optionB: "Statement 1 is False,  Statement 2 is True",
+    optionC: "Both Statement 1 and Statement 2 is False",
+    optionD: "Statement 1 is True,  Statement 2 is False",
+    correctOption: "d"
+  },
+  {
+    id: 136,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. Anti-Terrorism Day",
+      "2. World Environment Day",
+      "3. International Yoga Day",
+      "4. World Population Day"
+],
+    columnBItems: [
+      "21 May",
+      "11 July",
+      "21 June",
+      "5 June"
+],
+    optionA: "1-B 2-A 3-C 4-D",
+    optionB: "1-B 2-D 3-C 4-A",
+    optionC: "1-C 2-A 3-B 4-D",
+    optionD: "1-A 2-D 3-C 4-B",
+    correctOption: "d"
+  },
+  {
+    id: 137,
+    question: "Count the number of surfaces",
+    image: "https://drive.google.com/thumbnail?id=1H4gW_7gCiX5K1IVes2uPYnGXEeNkX0y2&sz=w1000",
+    optionA: "22",
+    optionB: "25",
+    optionC: "24",
+    optionD: "23",
+    correctOption: "d"
+  },
+  {
+    id: 138,
+    question: "Seoul Is Capital of ?",
+    optionA: "Chaina",
+    optionB: "Japan",
+    optionC: "North Korea",
+    optionD: "South Korea",
+    correctOption: "d"
+  },
+  {
+    id: 139,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1f97XwLDQPpHm2U-5rvdd7TfkxxfCLYQ-&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "d",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 140,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1etWbrw4sHe4072d5ewa_PKzJXzW1kDu9&sz=w1000",
+    optionA: "d",
+    optionB: "a",
+    optionC: "c",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 141,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1eUZ4xycD6_nekNQOMcknqoHoBM2zxfhO&sz=w1000",
+    optionA: "7",
+    optionB: "5",
+    optionC: "3",
+    optionD: "6",
+    correctOption: "d"
+  },
+  {
+    id: 142,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1f9cg1L_DR68XhVqnOtPqd6HgcGncRwb0&sz=w1000",
+    optionA: "c",
+    optionB: "b",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 143,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1ekP1KZo7eMI0YU8CjaX-vAVteYe3T7Fa&sz=w1000",
+    optionA: "b",
+    optionB: "d",
+    optionC: "a",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 144,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1f8bSgDwm_y9Yhm4vggYbn6fCBgp57otS&sz=w1000",
+    optionA: "c",
+    optionB: "d",
+    optionC: "a",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 145,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1eua93rd7zx9RzBz99TmHP9y2l41Sc6Wo&sz=w1000",
+    optionA: "b",
+    optionB: "a",
+    optionC: "d",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 146,
+    question: "Question Figure shows correct Elevation of Object identify Correct Plan of Object",
+    image: "https://drive.google.com/thumbnail?id=1FcWWuDq2AxakvonVXZafN4pPtNLUD02Z&sz=w1000",
+    optionA: "c",
+    optionB: "b",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 147,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1eVgMwaxOTx3NyRRzvLQvW_0b5-6lFdVz&sz=w1000",
+    optionA: "c",
+    optionB: "d",
+    optionC: "a",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 148,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. Antonio Gaudí",
+      "2. Lauri Baker",
+      "3. Grimsheu",
+      "4. Norman Foster"
+],
+    columnBItems: [
+      "30 St Mary Axe (Gherkin)",
+      "Eden Project",
+      "Chitralekha Film Studio - Akkulam",
+      "Park Güell"
+],
+    optionA: "1-B 2-A 3-D 4-C",
+    optionB: "1-C 2-B 3-D 4-A",
+    optionC: "1-D 2-B 3-C 4-A",
+    optionD: "1-D 2-C 3-B 4-A",
+    correctOption: "d"
+  },
+  {
+    id: 149,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. Kathakali",
+      "2. Mayurbhanj Chhau",
+      "3. Karakattam",
+      "4. Tamasha/Lavani/Lezim"
+],
+    columnBItems: [
+      "Kerala",
+      "Tamil Nadu",
+      "Orissa",
+      "Maharashtra"
+],
+    optionA: "1-C 2-A 3-B 4-D",
+    optionB: "1-B 2-A 3-D 4-C",
+    optionC: "1-D 2-A 3-B 4-C",
+    optionD: "1-A 2-C 3-B 4-D",
+    correctOption: "d"
+  },
+  {
+    id: 150,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1f7QTZR5EtpvKacCjaPxY5riwb7lT9Ax2&sz=w1000",
+    optionA: "b",
+    optionB: "d",
+    optionC: "a",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 201,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1fK8cv0DuajhNQQXrY8kd8N06Qg65uBAm&sz=w1000",
+    optionA: "b",
+    optionB: "d",
+    optionC: "c",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 202,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1fL0eFnAVlPIv_iih43zit5HPZgdC5HXj&sz=w1000",
+    optionA: "c",
+    optionB: "a",
+    optionC: "d",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 203,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1fM0eCMPP6-F7xOH4xCz-WfaSHdwHJHGY&sz=w1000",
+    optionA: "c",
+    optionB: "d",
+    optionC: "a",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 204,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1fPMXJwIytiRDwceEtMTzzvQycYsRx24e&sz=w1000",
+    optionA: "a",
+    optionB: "d",
+    optionC: "c",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 205,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1fR8FOFoBXTehfq3oOV_b88HBl12yvJSe&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "d",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 206,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1fS6S7HeuwbKL6GylocXa7ZXs9pmrs4na&sz=w1000",
+    optionA: "d",
+    optionB: "c",
+    optionC: "a",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 207,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1fV746hyMimf3Lixornk_JFV_7qZjJrFB&sz=w1000",
+    optionA: "b",
+    optionB: "a",
+    optionC: "c",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 208,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1fcFXzZ-shX3gEzIfJMaF_ljNoMROViVA&sz=w1000",
+    optionA: "b",
+    optionB: "c",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 209,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1fdAMYMYtCcM2woYbcy2o8gmYLLF5TjJp&sz=w1000",
+    optionA: "b",
+    optionB: "c",
+    optionC: "a",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 210,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1ff5fhr4w6zAveHjkq6S-_WeNWK5EoloA&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "d",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 211,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1fjCJEI1hfVF2ondYlJnU6EtPYkV2fN8c&sz=w1000",
+    optionA: "a",
+    optionB: "d",
+    optionC: "c",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 212,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1fkk5h5h0_6BOVJ3fZqSgRVEF8fMCEbD9&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "d",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 213,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1fnTxwDCUvoLJ-50yJemDqWEYHgwFCAYt&sz=w1000",
+    optionA: "b",
+    optionB: "d",
+    optionC: "c",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 214,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1fo4fLgIsYCuhNHBZIiiaUI1V6PAS3goE&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "d",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 215,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1fqGq1hj0lNIzvSijwOkc9FJchTL7oqyQ&sz=w1000",
+    optionA: "d",
+    optionB: "a",
+    optionC: "c",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 216,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1fqrDSSuNFGkOCKL143u1sS74tVs0TGn_&sz=w1000",
+    optionA: "a",
+    optionB: "d",
+    optionC: "b",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 217,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1fuQkSNQgwkntVukqFUrEab00AAgoqgMl&sz=w1000",
+    optionA: "c",
+    optionB: "b",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 218,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1fvKNtlCdl0FmZewQbrK51_EXmXXPhvAC&sz=w1000",
+    optionA: "a",
+    optionB: "d",
+    optionC: "c",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 219,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1fyvs5ml3Z_zre3dVhb2QrMxtpKqN9sgI&sz=w1000",
+    optionA: "b",
+    optionB: "a",
+    optionC: "d",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 220,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1g-hGMkjfu6QcXJ5k_hKnJZ8_-z8PCuAt&sz=w1000",
+    optionA: "b",
+    optionB: "a",
+    optionC: "d",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 301,
+    type: "numeric",
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1g4w-ihp-1NasKhUm__keQ2KiRZQxuj2l&sz=w1000",
+    optionA: "",
+    optionB: "",
+    optionC: "",
+    optionD: "",
+    correctOption: "4.09"
+  },
+  {
+    id: 302,
+    type: "numeric",
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1g5pqBOEjmO_onlE_nkwrIe-g1ajA7XuC&sz=w1000",
+    optionA: "",
+    optionB: "",
+    optionC: "",
+    optionD: "",
+    correctOption: "2.2"
+  },
+  {
+    id: 303,
+    type: "numeric",
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1gDE_xBmCPNDoTQ3yfEoS5XEvZKYyobt2&sz=w1000",
+    optionA: "",
+    optionB: "",
+    optionC: "",
+    optionD: "",
+    correctOption: "2"
+  },
+  {
+    id: 304,
+    type: "numeric",    
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1gFv3230RtI_zfk9aEC9ngJq9-klzdYOu&sz=w1000",
+    optionA: "",
+    optionB: "",
+    optionC: "",
+    optionD: "",
+    correctOption: "5.8"
+  },
+  {
+    id: 305,
+    type: "numeric",
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1gGl3MMll7tegGuW5zo8eivGBCuXljZtc&sz=w1000",
+    optionA: "",
+    optionB: "",
+    optionC: "",
+    optionD: "",
+    correctOption: "85"
+  },
+{
+  id: 401,
+  question: "Draw Proportionate sketch of Given Image with Monochromatic Rendering Method. ",
+  image: "https://drive.google.com/thumbnail?id=1LVkElRcxf927f_Bs5XgptUotJjeZsfXl&sz=w1000",
+  correctOption: "manual_evaluation", // Special flag
+  optionA: "0", optionB: "0", optionC: "0", optionD: "0"
+},
+{
+  id: 402,
+  question: "Imagine You are watching from Spectator seat of a Basketball Game. Draw Scene From Your Perspective and colour it",
+  correctOption: "manual_evaluation", // Special flag
+  optionA: "0", optionB: "0", optionC: "0", optionD: "0"
+},
+
 ];
+
 
 
 
