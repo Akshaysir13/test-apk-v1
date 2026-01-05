@@ -1889,9 +1889,9 @@ export const foundationlatestQuestions: Question[] = [
   {
     id: 103,
     question: "Lincoln Memorial Satue is located at ?",
-    optionA: "Florida",
-    optionB: "Miami",
-    optionC: "New York",
+    optionA: "Florida,USA",
+    optionB: "Miami,USA",
+    optionC: "New York,USA",
     optionD: "Washington D.C., USA",
     correctOption: "d"
   },
@@ -2674,6 +2674,7 @@ export const foundationlatestQuestions: Question[] = [
 },
 
 ];
+
 
 
 
