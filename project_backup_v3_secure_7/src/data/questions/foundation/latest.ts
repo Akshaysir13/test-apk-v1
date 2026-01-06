@@ -2247,8 +2247,8 @@ export const foundationlatestQuestions: Question[] = [
     image: "https://drive.google.com/thumbnail?id=1H4gW_7gCiX5K1IVes2uPYnGXEeNkX0y2&sz=w1000",
     optionA: "22",
     optionB: "25",
-    optionC: "24",
-    optionD: "23",
+    optionC: "23",
+    optionD: "24",
     correctOption: "d"
   },
   {
@@ -2646,7 +2646,7 @@ export const foundationlatestQuestions: Question[] = [
     optionB: "",
     optionC: "",
     optionD: "",
-    correctOption: "5.8"
+    correctOption: "85"
   },
   {
     id: 305,
@@ -2657,7 +2657,7 @@ export const foundationlatestQuestions: Question[] = [
     optionB: "",
     optionC: "",
     optionD: "",
-    correctOption: "85"
+    correctOption: "5.8"
   },
 {
   id: 401,
@@ -2674,6 +2674,7 @@ export const foundationlatestQuestions: Question[] = [
 },
 
 ];
+
 
 
 
