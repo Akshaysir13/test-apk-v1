@@ -189,7 +189,7 @@ export const foundationTests: Test[] = [
   course: 'foundation',
   
   // IMPORTANT: Slice the TOTAL number of questions needed (50+20+5+1 = 76)
-  //questions: foundationlatestQuestions.slice(177,254),
+  questions: foundationlatestQuestions.slice(177,254),
   sections: [
     // Section 1: Aptitude (Indices 0-49)
     {
@@ -238,6 +238,7 @@ export const foundationTests: Test[] = [
 
 
 ];
+
 
 
 
