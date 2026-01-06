@@ -425,6 +425,7 @@ function AttemptDetailView({ attempt, onBack, tests, calculateMaxMarks }: Attemp
         {reviewQuestions.map((question: any, index: number) => {
           // Determine question type
           const isNumericType = question.type === 'numeric';
+          const isMatchPairType = question.type === 'match-pair';
           
           // Get student's answer and correct answer
           const studentAnswerIndex = attempt.answers?.[question.id];
@@ -499,8 +500,83 @@ function AttemptDetailView({ attempt, onBack, tests, calculateMaxMarks }: Attemp
                 </div>
               )}
 
-              {/* Numeric Type Answer Display */}
-              {isNumericType ? (
+              {/* Match-Pair Type Display */}
+              {isMatchPairType ? (
+                <div className="space-y-4">
+                  {/* Display the columns */}
+                  <div className="grid grid-cols-2 gap-4 mb-4">
+                    <div className="bg-blue-50 rounded-lg p-4 border-2 border-blue-300">
+                      <h4 className="font-bold text-blue-800 mb-3">Column A</h4>
+                      <div className="space-y-2">
+                        {question.columnAItems.map((item: string, idx: number) => (
+                          <div key={idx} className="bg-white p-2 rounded border border-blue-200">
+                            {item}
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                    <div className="bg-purple-50 rounded-lg p-4 border-2 border-purple-300">
+                      <h4 className="font-bold text-purple-800 mb-3">Column B</h4>
+                      <div className="space-y-2">
+                        {question.columnBItems.map((item: string, idx: number) => (
+                          <div key={idx} className="bg-white p-2 rounded border border-purple-200">
+                            <span className="font-bold mr-2">{String.fromCharCode(65 + idx)}.</span>
+                            {item}
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Display answer options */}
+                  <div className="space-y-2">
+                    {['a', 'b', 'c', 'd'].map((optionKey, optIdx) => {
+                      const optionText = question[`option${optionKey.toUpperCase()}`];
+                      if (!optionText) return null;
+                      
+                      const isStudentAnswer = studentAnswerIndex === optIdx;
+                      const isCorrectAnswer = correctAnswerKey === optionKey;
+
+                      return (
+                        <div
+                          key={optionKey}
+                          className={`p-3 rounded border-2 ${isCorrectAnswer
+                            ? 'bg-green-50 border-green-500'
+                            : isStudentAnswer && !isCorrect
+                              ? 'bg-red-50 border-red-500'
+                              : 'bg-gray-50 border-gray-200'
+                            }`}
+                        >
+                          <div className="flex items-start gap-3">
+                            <span className="font-bold min-w-[30px]">
+                              ({optionKey.toUpperCase()})
+                            </span>
+                            <span className="flex-1 font-mono">{optionText}</span>
+                            <div className="flex flex-col items-end gap-1">
+                              {isCorrectAnswer && (
+                                <span className="text-green-600 font-bold text-sm bg-green-100 px-2 py-0.5 rounded">
+                                  ✓ Correct Answer
+                                </span>
+                              )}
+                              {isStudentAnswer && !isCorrect && (
+                                <span className="text-red-600 font-bold text-sm bg-red-100 px-2 py-0.5 rounded">
+                                  ✗ Your Answer
+                                </span>
+                              )}
+                              {isStudentAnswer && isCorrect && (
+                                <span className="text-green-600 font-bold text-sm bg-green-100 px-2 py-0.5 rounded">
+                                  ✓ Your Answer (Correct)
+                                </span>
+                              )}
+                            </div>
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+              ) : isNumericType ? (
+                /* Numeric Type Answer Display */
                 <div className="space-y-3">
                   <div className="p-4 bg-green-50 border-2 border-green-500 rounded">
                     <div className="flex items-center gap-2 mb-2">
