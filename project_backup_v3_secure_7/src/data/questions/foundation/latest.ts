@@ -2917,9 +2917,9 @@ export const foundationlatestQuestions: Question[] = [
     question: "Read the instruction Carefully",
     image: "https://drive.google.com/thumbnail?id=1gx4P4ECXvlYBy8F9A0op9EIUSqqAfmNR&sz=w1000",
     optionA: "c",
-    optionB: "b",
+    optionB: "d",
     optionC: "a",
-    optionD: "d",
+    optionD: "b",
     correctOption: "d"
   },
   {
@@ -3502,6 +3502,7 @@ export const foundationlatestQuestions: Question[] = [
     
 
 ];
+
 
 
 
