@@ -97,6 +97,7 @@ export const foundationStudents: UserAccount[] = [
 { email: 'baranwaladitya438@gmail.com', password: 'Aditya@317', role: 'student', approved: true, courses: ['foundation'] },
 { email: 'student25@gmail.com', password: 'pass123', role: 'student', approved: true, courses: ['foundation'] },//dolly
  { email: 'student26@gmail.com', password: 'pass123', role: 'student', approved: true, courses: ['foundation'] },//edge
+  { email: 'student27@gmail.com', password: 'pass123', role: 'student', approved: true, courses: ['foundation'] },//Suruchi
 
   
 
@@ -144,6 +145,7 @@ export const foundationStudents: UserAccount[] = [
 },
 
 ];
+
 
 
 
