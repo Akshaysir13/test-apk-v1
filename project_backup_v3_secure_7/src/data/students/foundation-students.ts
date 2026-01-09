@@ -23,7 +23,7 @@ export const foundationStudents: UserAccount[] = [
 { email: 'atanishka.0908@gmail.com', password: 'Tanishka@1572', role: 'student', approved: true , courses: ['foundation'] },
 { email: 'maghnenwalo@gmail.com', password: 'Qwertyuiop1234567890', role: 'student', approved: true , courses: ['foundation'] },
 { email: 'arohi087149@gmail.com', password: 'Test@123', role: 'student', approved: true , courses: ['foundation'] },
-{ email: 'suruchigupta594@gmail.com', password: 'S.gupta123', role: 'student', approved: true , courses: ['foundation'] },
+{ email: 'suruchigupta594@gmail.com', password: 'pass123', role: 'student', approved: true , courses: ['foundation'] },
 { email: 'anand147nikhil@gmail.com', password: 'Nikhil@2006', role: 'student', approved: true , courses: ['foundation'] },
 { email: 'itsmename521@gmail.com', password: 'nid123', role: 'student', approved: true , courses: ['foundation'] },
 { email: 'mridhulprabhakaran@gmail.com', password: 'MaestroMridhul ', role: 'student', approved: true , courses: ['foundation'] },
@@ -144,6 +144,7 @@ export const foundationStudents: UserAccount[] = [
 },
 
 ];
+
 
 
 
