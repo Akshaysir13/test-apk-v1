@@ -4252,7 +4252,7 @@ export const foundationlatestQuestions: Question[] = [
     {
   id: 401,
   question: "Draw Proportionate sketch of Given Image with Black & White Rendering Method. ",
-  image: "https://drive.google.com/file/d/1uPD5a1-PAxdMUyb79UAQF2ub84ONLxQX/view?usp=drive_link",
+image: "https://drive.google.com/thumbnail?id=1uPD5a1-PAxdMUyb79UAQF2ub84ONLxQX&sz=w1000",
   correctOption: "manual_evaluation", // Special flag
   optionA: "0", optionB: "0", optionC: "0", optionD: "0"
 },
@@ -4265,6 +4265,7 @@ export const foundationlatestQuestions: Question[] = [
     
 
 ];
+
 
 
 
