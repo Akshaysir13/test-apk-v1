@@ -3977,10 +3977,10 @@ export const foundationlatestQuestions: Question[] = [
   {
     id: 149,
     question: "The Infinite Happiness Famous Documentry is Based on ?",
-    optionA: "Bjarke Ingels",
+    optionA: "Norman Foster",
     optionB: "Jun'ichirō Tanizaki",
     optionC: "Antonio Gaudí",
-    optionD: "Norman Foster",
+    optionD: "Bjarke Ingels",
     correctOption: "d"
   },
   {
@@ -4265,6 +4265,7 @@ image: "https://drive.google.com/thumbnail?id=1uPD5a1-PAxdMUyb79UAQF2ub84ONLxQX&
     
 
 ];
+
 
 
 
