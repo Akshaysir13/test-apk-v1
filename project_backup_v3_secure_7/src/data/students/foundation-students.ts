@@ -9,7 +9,7 @@ export const foundationStudents: UserAccount[] = [
   // PASTE YOUR STUDENTS HERE
   // Example format:
   // { email: 'student@gmail.com', password: 'pass123', role: 'student', approved: true, courses: ['foundation'] },
-  { email: 'test@gmail.com', password: 'test123', role: 'student', approved: true, courses: ['foundation'] },//mine
+  { email: 'test2@gmail.com', password: 'test123', role: 'student', approved: true, courses: ['foundation'] },//mine
   { email: 'test1@gmail.com', password: 'test123', role: 'student', approved: true , courses: ['foundation'] },//mine
 { email: 'akshaymoghe5@gmail.com', password: 'Sweetakshay', role: 'student', approved: true , courses: ['foundation'] },//mine
 { email: 'akshaymoghe8@gmail.com', password: 'Sweetavinash', role: 'student', approved: true , courses: ['foundation'] },//mine
@@ -153,6 +153,7 @@ export const foundationStudents: UserAccount[] = [
 },
 
 ];
+
 
 
 
