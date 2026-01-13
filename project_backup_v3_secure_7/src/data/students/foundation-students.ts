@@ -152,7 +152,16 @@ export const foundationStudents: UserAccount[] = [
   courses: ['foundation']
 },
 
+  {
+  email: 'student31@gmail.com', //Arhama
+  password: 'pass123',
+  role: 'student',
+  approved: true,
+  courses: ['foundation']
+},
+
 ];
+
 
 
 
