@@ -4262,9 +4262,820 @@ image: "https://drive.google.com/thumbnail?id=1uPD5a1-PAxdMUyb79UAQF2ub84ONLxQX&
   correctOption: "manual_evaluation", // Special flag
   optionA: "0", optionB: "0", optionC: "0", optionD: "0"
 },
+{
+    id: 101,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1m_WFu1R0AzJhEnSkqfLFImLNXir0OfkW&sz=w1000",
+    optionA: "a",
+    optionB: "b",
+    optionC: "d",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 102,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1nXMaCD22-9-rIVyNn4_cBzQinw7BTHME&sz=w1000",
+    optionA: "a",
+    optionB: "d",
+    optionC: "b",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 103,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1ngFOO6aqc277UoFmVlxQGqxmfDcGD16U&sz=w1000",
+    optionA: "b",
+    optionB: "a",
+    optionC: "d",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 104,
+    question: "Statement 1: A beam is a horizontal structural element.\nStatement 2: Beams resist bending forces due to applied loads.",
+    optionA: "Statement 1 is False,  Statement 2 is True",
+    optionB: "Statement 1 is True,  Statement 2 is False",
+    optionC: "Both Statement 1 and Statement 2 is False",
+    optionD: "Both Statement 1 and Statement 2 are True.",
+    correctOption: "d"
+  },
+  {
+    id: 105,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1mfypCIElVaO12thx3n4T8A1mwasjrhdO&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "b",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 106,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1nlRfqtvcac4SGEZ78814z_DvL063CX7R&sz=w1000",
+    optionA: "a",
+    optionB: "d",
+    optionC: "c",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 107,
+    question: "Statement 1: Trees are planted on the sunny side to block direct sun.\nStatement 2: In the Northern Hemisphere, this is the south side.",
+    optionA: "C. S1 is true, S2 is false",
+    optionB: "B. Both S1 and S2 are false",
+    optionC: "D. S1 is false, S2 is true",
+    optionD: "A. Both S1 and S2 are true",
+    correctOption: "d"
+  },
+  {
+    id: 108,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1moKkCX-q_oYYgFxcYlXr6zLSlGAnt15P&sz=w1000",
+    optionA: "c",
+    optionB: "a",
+    optionC: "b",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 109,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1mq-89Q18kG87JLd2INdrxMRB2jSIreQl&sz=w1000",
+    optionA: "c",
+    optionB: "b",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 110,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1mdZFr1_NLLqee1nP-XCBC_aat-BdfxTi&sz=w1000",
+    optionA: "d",
+    optionB: "a",
+    optionC: "c",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 111,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1mlCt21Ysu1Bl6qb_o2i9PgNokw0wMmaV&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "d",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 112,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1mxLwjOUBh9AoRSp9kAR17XjVkzyQiKq4&sz=w1000",
+    optionA: "d",
+    optionB: "a",
+    optionC: "c",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 113,
+    question: "Which of the following Architecture Style are used in - Lad Khan Temple?",
+    optionA: "Nagara",
+    optionB: "Colonial",
+    optionC: "Mughal",
+    optionD: "Vesara",
+    correctOption: "d"
+  },
+  {
+    id: 114,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1nDr2F5OBz3GbxkkKoa5PIhuyMk5G3C_j&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "d",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 115,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1msrwiqpa-cxzsv0LXNj1bCbMyQPRQkeS&sz=w1000",
+    optionA: "c",
+    optionB: "a",
+    optionC: "d",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 116,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. Bengal Partition",
+      "2. Delhi Chalo Movement",
+      "3. Champaran Satyagraha",
+      "4. Bhagat Singh, Rajguru, Sukhdev Hanged"
+],
+    columnBItems: [
+      "1917",
+      "1931",
+      "1905",
+      "1940"
+],
+    optionA: "1-C 2-D 3-B 4-A",
+    optionB: "1-D 2-B 3-C 4-A",
+    optionC: "1-B 2-A 3-D 4-C",
+    optionD: "1-C 2-D 3-A 4-B",
+    correctOption: "d"
+  },
+  {
+    id: 117,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1nPJOsn2C0hsurbGHBzGBJ3hHopHfkDyd&sz=w1000",
+    optionA: "16",
+    optionB: "12",
+    optionC: "14",
+    optionD: "15",
+    correctOption: "d"
+  },
+  {
+    id: 118,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1mfcl-u4Q6VX2kYK_UK17cgPQfqjpzb6G&sz=w1000",
+    optionA: "b",
+    optionB: "c",
+    optionC: "a",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 119,
+    question: "UDAY Stand For ?",
+    optionA: "Ujwal Discount Account Yojana",
+    optionB: "Ujwal Discom Assurance Yojana",
+    optionC: "Ujwal Discount Assuring Yojana",
+    optionD: "Ujwal Discount Assurance Yojana",
+    correctOption: "d"
+  },
+  {
+    id: 120,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1nE6lwYjWLPX76LPjckILdFBRRqYHsYQl&sz=w1000",
+    optionA: "c",
+    optionB: "d",
+    optionC: "b",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 121,
+    question: "Where is famous Shalimar Bagh is located ?",
+    optionA: "Fatehpur Sikri, Uttar Pradesh",
+    optionB: "Near Agra, Uttar Pradesh",
+    optionC: "Hyderabad, Telangana",
+    optionD: "Srinagar, Jammu & Kashmir",
+    correctOption: "d"
+  },
+  {
+    id: 122,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1nAuF7vX3tGMLgBthxIE0ZScc5ZeYn1Uu&sz=w1000",
+    optionA: "d",
+    optionB: "a",
+    optionC: "b",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 123,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1nqalfb-OrZAxD6MCi3Q-CfoCmtFrOx5G&sz=w1000",
+    optionA: "d",
+    optionB: "c",
+    optionC: "b",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 124,
+    question: "- Guernica Famous Work is of ?",
+    optionA: "Claude Monet",
+    optionB: "Vincent van Gogh",
+    optionC: "Leonardo da Vinci",
+    optionD: "Pablo Picasso",
+    correctOption: "d"
+  },
+  {
+    id: 125,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. Ionic Column",
+      "2. Dry Stone Masonry",
+      "3. Bow Window",
+      "4. Retaining Wall"
+],
+    columnBItems: [
+      "Similar to a bay window but curved.",
+      "Holds back soil or water.",
+      "Slender with scroll-shaped volutes on the capital.",
+      "Stones stacked without mortar."
+],
+    optionA: "1-D 2-C 3-B 4-A",
+    optionB: "1-A 2-B 3-D 4-C",
+    optionC: "1-D 2-C 3-A 4-B",
+    optionD: "1-C 2-D 3-A 4-B",
+    correctOption: "d"
+  },
+  {
+    id: 126,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. \"Do or Die\"",
+      "2. Lala Lajpat Rai",
+      "3. Murlidhar Amte",
+      "4. \"Satyamev Jayate\""
+],
+    columnBItems: [
+      "Shaheed-e-Azam",
+      "Mahatma Gandhi",
+      "Madan Mohan Malaviya",
+      "Baba Amte"
+],
+    optionA: "1-D 2-B 3-C 4-A",
+    optionB: "1-A 2-C 3-D 4-B",
+    optionC: "1-B 2-C 3-D 4-A",
+    optionD: "1-B 2-A 3-D 4-C",
+    correctOption: "d"
+  },
+  {
+    id: 127,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1nRlU3HntRuKpdQIMhPnFN6ozlg855M04&sz=w1000",
+    optionA: "b",
+    optionB: "d",
+    optionC: "a",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 128,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1ntCF7NCNUSDCDUCK0tm_byXxIqgkD3Rk&sz=w1000",
+    optionA: "a",
+    optionB: "b",
+    optionC: "d",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 129,
+    question: "Statement 1: Hue refers to the pure color without tint or shade.\nStatement 2: Red, blue, and green are examples of hues.",
+    optionA: "Statement 1 is True,  Statement 2 is False",
+    optionB: "Both Statement 1 and Statement 2 is False",
+    optionC: "Statement 1 is False,  Statement 2 is True",
+    optionD: "Both Statement 1 and Statement 2 are True.",
+    correctOption: "d"
+  },
+  {
+    id: 130,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1mkuXE5SPOinoiIyXz9Gf0zQ68ExUm2Eb&sz=w1000",
+    optionA: "b",
+    optionB: "c",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 131,
+    question: "Identify the famous Monument",
+    image: "https://drive.google.com/thumbnail?id=1PFB32_m6r9tsf9erdSAtR9Y-ti1-MBwS&sz=w1000",
+    optionA: "Neelkanth Mahadev Temple",
+    optionB: "Amarnath Cave Temple",
+    optionC: "Gangotri Temple",
+    optionD: "Meenakshi Temple",
+    correctOption: "d"
+  },
+  {
+    id: 132,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1mxfONs3D-KuUdZj2toNNsOown837t0Qn&sz=w1000",
+    optionA: "10",
+    optionB: "9",
+    optionC: "8",
+    optionD: "11",
+    correctOption: "d"
+  },
+  {
+    id: 133,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1mlzJ-iHZ28SCJCmzCiSZ7TG1dXcVhIMW&sz=w1000",
+    optionA: "a",
+    optionB: "b",
+    optionC: "c",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 134,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1nrKR13bZy5QWTk93Mgea79kXVpSEVP3p&sz=w1000",
+    optionA: "d",
+    optionB: "c",
+    optionC: "b",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 135,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1nVoPHohOv9RVEdP6GcJyNbZtWJHBn7aO&sz=w1000",
+    optionA: "d",
+    optionB: "c",
+    optionC: "a",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 136,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1mu2CS0_gdZYsaplqiFUyvMwv135WL_2o&sz=w1000",
+    optionA: "b",
+    optionB: "a",
+    optionC: "d",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 137,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1npeVdWAyedJtnbQfJOVjBXuVV3fFp81x&sz=w1000",
+    optionA: "a",
+    optionB: "b",
+    optionC: "d",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 138,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1nmOjNsaE_Q0k4M1M7eKV0Lyh4tSL0V3d&sz=w1000",
+    optionA: "a",
+    optionB: "b",
+    optionC: "c",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 139,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1miva5FpIIX-YwdPOtO67CbnKIyZZqxIN&sz=w1000",
+    optionA: "d",
+    optionB: "b",
+    optionC: "c",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 140,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1nWguvO9DaAMj9CBGD0_u3L_W-0O8c-st&sz=w1000",
+    optionA: "d",
+    optionB: "b",
+    optionC: "a",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 141,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1ns0Rnj2YjUis8-RLOcEFQ0_-iiBbqJQB&sz=w1000",
+    optionA: "c",
+    optionB: "b",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 142,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1nQEM-_1CEEqnY1Wheps5FNdMnttjdF0d&sz=w1000",
+    optionA: "9",
+    optionB: "12",
+    optionC: "11",
+    optionD: "10",
+    correctOption: "d"
+  },
+  {
+    id: 143,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1mo0XVH__WpTFjK-6rYOslG1TQ4_jPo8W&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "d",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 144,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1nMtmURLsgBY-dKUyXqFQEOxqlMQ2k-yD&sz=w1000",
+    optionA: "b",
+    optionB: "c",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 145,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. Yellowstone National Park",
+      "2. Serengeti National Park",
+      "3. Forbidden City",
+      "4. The Gherkin / 30 St Mary Axe"
+],
+    columnBItems: [
+      "London",
+      "Tanzania",
+      "USA",
+      "Beijing"
+],
+    optionA: "1-B 2-D 3-C 4-A",
+    optionB: "1-D 2-A 3-B 4-C",
+    optionC: "1-A 2-C 3-D 4-B",
+    optionD: "1-C 2-B 3-D 4-A",
+    correctOption: "d"
+  },
+  {
+    id: 146,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1nJBodFwQB1ruqzOiyKLzzsn5SD2NULjX&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "b",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 147,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1nNJDDKnAMNQamApk5Ap-M6Ch5U9UeZaQ&sz=w1000",
+    optionA: "b",
+    optionB: "d",
+    optionC: "c",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 148,
+    question: "I think you never stop learning is Quated by ?",
+    optionA: "Frank O. Gehry",
+    optionB: "Philip Johnson",
+    optionC: "Rem Koolhaas",
+    optionD: "Norman Foster",
+    correctOption: "d"
+  },
+  {
+    id: 149,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1nShDlPbtUDwOzqYjZFSiFnu4v_WVf-qZ&sz=w1000",
+    optionA: "b",
+    optionB: "a",
+    optionC: "c",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 150,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1n77aa4PsRdESnbH6iVcyCxpAmtxbfmd3&sz=w1000",
+    optionA: "19",
+    optionB: "22",
+    optionC: "21",
+    optionD: "20",
+    correctOption: "d"
+  },
+  {
+    id: 201,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1nz9XPwcNrfQ0G_NIcvIlPKA9IPALZFI-&sz=w1000",
+    optionA: "c",
+    optionB: "d",
+    optionC: "b",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 202,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1o6h3MkpXFWIJXIsy6YoYs0KY9xpuMnb8&sz=w1000",
+    optionA: "b",
+    optionB: "a",
+    optionC: "d",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 203,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1o81tmAEkdRXwDm3M33-w3o6NiK22q-ZM&sz=w1000",
+    optionA: "b",
+    optionB: "a",
+    optionC: "c",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 204,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1oB4M5ABTAVsmUprvW_PayY9drEIPeHr9&sz=w1000",
+    optionA: "a",
+    optionB: "d",
+    optionC: "b",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 205,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1oEAzLLfKML2QTuOdXytMmyMEW2G-Hjqy&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "b",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 206,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1oFf14YDB1ZC8QFHBGLjZGLDgN6_bn8p2&sz=w1000",
+    optionA: "a",
+    optionB: "d",
+    optionC: "c",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 207,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1oMtsOckxzqK_Zu0TUcod4XZquG0qQ7Ka&sz=w1000",
+    optionA: "b",
+    optionB: "c",
+    optionC: "a",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 208,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1oPmJfn-MTDa6JYDeR-kvkDz2_Hshe1S8&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "b",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 209,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1oPx8YmQBur4ET_U5vI_0ji9reeOx0EIx&sz=w1000",
+    optionA: "b",
+    optionB: "a",
+    optionC: "d",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 210,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1oRUf3SNvrzJjGCObL_du3qB-xa-TwVDi&sz=w1000",
+    optionA: "d",
+    optionB: "a",
+    optionC: "b",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 211,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1oU9_ncFwSoGQuRToH-OXGL4e3Eotjzym&sz=w1000",
+    optionA: "c",
+    optionB: "a",
+    optionC: "b",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 212,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1oWLGTXkmGy956tD1ul-kBMm9PGf2YYDf&sz=w1000",
+    optionA: "a",
+    optionB: "d",
+    optionC: "b",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 213,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1oXXt-Alj9GVrmxpkYX-vbKMrHBt-zj56&sz=w1000",
+    optionA: "b",
+    optionB: "d",
+    optionC: "c",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 214,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1ob3koZ6ZWRe4F7B1JoyhN-RtqlS_uJ8w&sz=w1000",
+    optionA: "d",
+    optionB: "a",
+    optionC: "c",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 215,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1od7BP0a6Ayi4pjRShGn3AutTC2ZYv0vQ&sz=w1000",
+    optionA: "d",
+    optionB: "b",
+    optionC: "c",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 216,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1odDB3Xt1WiTQyXSx3Yd6KGcn9Dw9jBWW&sz=w1000",
+    optionA: "d",
+    optionB: "b",
+    optionC: "a",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 217,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1odFxHKb8u4JukeIAJfTkKdrlgPyOTVdC&sz=w1000",
+    optionA: "d",
+    optionB: "b",
+    optionC: "c",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 218,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1ojEv8CAs44fMiW0z71SyXi2uCEjgjNco&sz=w1000",
+    optionA: "a",
+    optionB: "b",
+    optionC: "c",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 219,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1ok3osWEQH_MzcLkIaXwGNSYaBdHLJstB&sz=w1000",
+    optionA: "d",
+    optionB: "c",
+    optionC: "b",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 220,
+    question: "Read the Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1okQRMGHKGQDSY59v1HSnsbAw0qqsVS2Y&sz=w1000",
+    optionA: "d",
+    optionB: "a",
+    optionC: "c",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 301,
+    question: "Read the Instruction carefully",
+    type: "numeric",
+    image: "https://drive.google.com/thumbnail?id=1okiD87Fy8tKtT3aMRsIdi3OXGzkTbBdY&sz=w1000",
+    optionA: "",
+    optionB: "",
+    optionC: "",
+    optionD: "",
+    correctOption: "2454"
+  },
+  {
+    id: 302,
+    question: "Read the Instruction carefully",
+    type: "numeric",
+    image: "https://drive.google.com/thumbnail?id=1onnv8881IeI2AmiYvJd6K46Ne5Sg2gUR&sz=w1000",
+    optionA: "",
+    optionB: "",
+    optionC: "",
+    optionD: "",
+    correctOption: "50.49"
+  },
+  {
+    id: 303,
+    question: "Read the Instruction carefully",
+    type: "numeric",
+    image: "https://drive.google.com/thumbnail?id=1oo0hRI-jZ1sxZ7QOnoVP488aomOxM_r2&sz=w1000",
+    optionA: "",
+    optionB: "",
+    optionC: "",
+    optionD: "",
+    correctOption: "10"
+  },
+  {
+    id: 304,
+    question: "Read the Instruction carefully",
+    type: "numeric",
+    image: "https://drive.google.com/thumbnail?id=1oqPpff2QzCToeacQ_egP0hdmnPop8A8S&sz=w1000",
+    optionA: "",
+    optionB: "",
+    optionC: "",
+    optionD: "",
+    correctOption: "34"
+  },
+  {
+    id: 305,
+    question: "Read the Instruction carefully",
+    type: "numeric",
+    image: "https://drive.google.com/thumbnail?id=1orpVl5D7M1cjAhQ9VPH-a0nU86TtH04t&sz=w1000",
+    optionA: "",
+    optionB: "",
+    optionC: "",
+    optionD: "",
+    correctOption: "0.6"
+  },
+  {
+  id: 401,
+  question: "Draw Proportionate sketch of Given Image with Monochromatic Rendering Method. ",
+image: "https://drive.google.com/thumbnail?id=1gvefOdE69IT3vC-7KN9VqDFpxzx90Hap&sz=w1000",
+  correctOption: "manual_evaluation", // Special flag
+  optionA: "0", optionB: "0", optionC: "0", optionD: "0"
+},
+{
+  id: 402,
+  question: "Draw A 3D Asthetic Composition using Four Cube with 2cm × 2cm × 2cm, 4 Cuboid with 5cm × 2cm × 2cm and One Cylinder with 4cm As Hight.use Cool Cololurs for Composition",
+                                                                                "or",
+                                                        "Draw A Scene of a Diwali festival and Colour It",
+  correctOption: "manual_evaluation", // Special flag
+  optionA: "0", optionB: "0", optionC: "0", optionD: "0"
+},
     
 
 ];
+
 
 
 
