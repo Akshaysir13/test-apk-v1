@@ -5063,19 +5063,20 @@ image: "https://drive.google.com/thumbnail?id=1uPD5a1-PAxdMUyb79UAQF2ub84ONLxQX&
 image: "https://drive.google.com/thumbnail?id=1gvefOdE69IT3vC-7KN9VqDFpxzx90Hap&sz=w1000",
   correctOption: "manual_evaluation", // Special flag
   optionA: "0", optionB: "0", optionC: "0", optionD: "0"
-},
-{
+},{
   id: 402,
-  question: "Draw A 3D Aesthetic Composition using Four Cube with 2cm × 2cm × 2cm, 4 Cuboid with 5cm × 2cm × 2cm and One Cylinder with 4cm As Height. Use Cool Colours for Composition\nOR\nDraw A Scene of a Diwali festival and Colour It",
+  question: "Draw A 3D Aesthetic Composition using Four Cube with 2cm × 2cm × 2cm, 4 Cuboid with 5cm × 2cm × 2cm and One Cylinder with 4cm As Height. Use Cool Colours for Composition | OR | Draw A Scene of a Diwali festival and Colour It",
   correctOption: "manual_evaluation",
   optionA: "0",
   optionB: "0",
   optionC: "0",
   optionD: "0"
-}
+},
+
     
 
 ];
+
 
 
 
