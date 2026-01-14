@@ -5066,14 +5066,14 @@ image: "https://drive.google.com/thumbnail?id=1gvefOdE69IT3vC-7KN9VqDFpxzx90Hap&
 },
 {
   id: 402,
-  question: "Draw A 3D Asthetic Composition using Four Cube with 2cm × 2cm × 2cm, 4 Cuboid with 5cm × 2cm × 2cm and One Cylinder with 4cm As Hight.use Cool Cololurs for Composition",
-                                                                                OR "Draw A Scene of a Diwali festival and Colour It",
+  question: "Draw A 3D Asthetic Composition using Four Cube with 2cm × 2cm × 2cm, 4 Cuboid with 5cm × 2cm × 2cm and One Cylinder with 4cm As Hight.use Cool Cololurs for Composition OR Draw A Scene of a Diwali festival and Colour It",
   correctOption: "manual_evaluation", // Special flag
   optionA: "0", optionB: "0", optionC: "0", optionD: "0"
 },
     
 
 ];
+
 
 
 
