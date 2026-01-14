@@ -167,7 +167,7 @@ export const foundationStudents: UserAccount[] = [
   courses: ['foundation']
 },
   {
-  email: 'student31@gmail.com', //Arhama
+  email: 'student32@gmail.com', //Arhama
   password: 'pass123',
   role: 'student',
   approved: true,
@@ -175,6 +175,7 @@ export const foundationStudents: UserAccount[] = [
 }, //sudhisha
 
 ];
+
 
 
 
