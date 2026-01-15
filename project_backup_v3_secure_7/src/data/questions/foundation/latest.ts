@@ -4455,9 +4455,9 @@ image: "https://drive.google.com/thumbnail?id=1uPD5a1-PAxdMUyb79UAQF2ub84ONLxQX&
     id: 119,
     question: "UDAY Stand For ?",
     optionA: "Ujwal Discount Account Yojana",
-    optionB: "Ujwal Discom Assurance Yojana",
+    optionB: "Ujwal Discount Assurance Yojana",
     optionC: "Ujwal Discount Assuring Yojana",
-    optionD: "Ujwal Discount Assurance Yojana",
+    optionD: "Ujwal Discom Assurance Yojana",
     correctOption: "d"
   },
   {
@@ -5076,6 +5076,7 @@ image: "https://drive.google.com/thumbnail?id=1gvefOdE69IT3vC-7KN9VqDFpxzx90Hap&
     
 
 ];
+
 
 
 
