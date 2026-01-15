@@ -230,7 +230,6 @@ export default function Results() {
                             }`}
                         >
                           <div className="flex items-start gap-3">
-                            <span className="font-bold text-gray-600 mt-0.5">({letter})</span>
                             <span className="flex-1 text-gray-700">{opt.text}</span>
                             <div className="flex flex-col items-end shrink-0 gap-1">
                               {isCorrectChoice && (
