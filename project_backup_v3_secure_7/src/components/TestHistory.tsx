@@ -15,17 +15,17 @@ function ScreenshotBlocker({ onEnterFullscreen }: ScreenshotBlockerProps) {
 
   useEffect(() => {
     const userAgent = navigator.userAgent.toLowerCase();
-    
-    const webViewDetected = userAgent.includes('wv') || 
-                      userAgent.includes('webview') ||
-                      (window as any).ReactNativeWebView !== undefined ||
-                      (window as any).flutter_inappwebview !== undefined;
-    
+
+    const webViewDetected = userAgent.includes('wv') ||
+      userAgent.includes('webview') ||
+      (window as any).ReactNativeWebView !== undefined ||
+      (window as any).flutter_inappwebview !== undefined;
+
     const mobileKeywords = ['android', 'webos', 'iphone', 'ipad', 'ipod', 'blackberry', 'windows phone'];
     const isMobileUA = mobileKeywords.some(keyword => userAgent.includes(keyword));
     const isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
     const isSmallScreen = window.innerWidth <= 768;
-    
+
     setIsWebView(webViewDetected);
     setIsMobile((isMobileUA || (isTouchDevice && isSmallScreen)) && !webViewDetected);
   }, []);
@@ -302,7 +302,7 @@ interface AttemptDetailViewProps {
 
 function AttemptDetailView({ attempt, onBack, tests, calculateMaxMarks }: AttemptDetailViewProps) {
   const [showBlocker, setShowBlocker] = useState(false);
-  
+
   // Use stored questions from attempt if available, fallback to test questions
   const reviewQuestions = attempt.questions || tests.find(t => t.id === attempt.testId)?.questions;
 
@@ -351,7 +351,7 @@ function AttemptDetailView({ attempt, onBack, tests, calculateMaxMarks }: Attemp
   const handleEnterFullscreen = () => {
     setShowBlocker(false);
     if (document.documentElement.requestFullscreen) {
-      document.documentElement.requestFullscreen().catch(() => {});
+      document.documentElement.requestFullscreen().catch(() => { });
     }
   };
 
@@ -426,7 +426,7 @@ function AttemptDetailView({ attempt, onBack, tests, calculateMaxMarks }: Attemp
           // Determine question type
           const isNumericType = question.type === 'numeric';
           const isMatchPairType = question.type === 'match-pair';
-          
+
           // Get student's answer and correct answer
           const studentAnswerIndex = attempt.answers?.[question.id];
           const correctAnswerKey = question.correctOption;
@@ -491,9 +491,9 @@ function AttemptDetailView({ attempt, onBack, tests, calculateMaxMarks }: Attemp
               {/* Question Image (if present) */}
               {question.image && (
                 <div className="mb-4">
-                  <img 
-                    src={question.image} 
-                    alt="Question illustration" 
+                  <img
+                    src={question.image}
+                    alt="Question illustration"
                     className="max-w-full h-auto rounded border border-gray-300 shadow-sm"
                     style={{ maxHeight: '400px' }}
                   />
@@ -533,7 +533,7 @@ function AttemptDetailView({ attempt, onBack, tests, calculateMaxMarks }: Attemp
                     {['a', 'b', 'c', 'd'].map((optionKey, optIdx) => {
                       const optionText = question[`option${optionKey.toUpperCase()}`];
                       if (!optionText) return null;
-                      
+
                       const isStudentAnswer = studentAnswerIndex === optIdx;
                       const isCorrectAnswer = correctAnswerKey === optionKey;
 
@@ -548,9 +548,6 @@ function AttemptDetailView({ attempt, onBack, tests, calculateMaxMarks }: Attemp
                             }`}
                         >
                           <div className="flex items-start gap-3">
-                            <span className="font-bold min-w-[30px]">
-                              ({optionKey.toUpperCase()})
-                            </span>
                             <span className="flex-1 font-mono">{optionText}</span>
                             <div className="flex flex-col items-end gap-1">
                               {isCorrectAnswer && (
@@ -590,23 +587,20 @@ function AttemptDetailView({ attempt, onBack, tests, calculateMaxMarks }: Attemp
                   </div>
 
                   {!isUnattempted && (
-                    <div className={`p-4 border-2 rounded ${
-                      isCorrect 
-                        ? 'bg-green-50 border-green-500' 
+                    <div className={`p-4 border-2 rounded ${isCorrect
+                        ? 'bg-green-50 border-green-500'
                         : 'bg-red-50 border-red-500'
-                    }`}>
+                      }`}>
                       <div className="flex items-center gap-2 mb-2">
-                        <span className={`font-bold text-sm ${
-                          isCorrect
+                        <span className={`font-bold text-sm ${isCorrect
                             ? 'text-green-700'
                             : 'text-red-700'
-                        }`}>
+                          }`}>
                           {isCorrect ? 'Your Answer: (Correct)' : 'Your Answer: (Wrong)'}
                         </span>
                       </div>
-                      <div className={`text-2xl font-bold ${
-                        isCorrect ? 'text-green-700' : 'text-red-700'
-                      }`}>
+                      <div className={`text-2xl font-bold ${isCorrect ? 'text-green-700' : 'text-red-700'
+                        }`}>
                         {studentAnswerIndex}
                       </div>
                     </div>
@@ -632,9 +626,6 @@ function AttemptDetailView({ attempt, onBack, tests, calculateMaxMarks }: Attemp
                             }`}
                         >
                           <div className="flex items-start gap-3">
-                            <span className="font-bold min-w-[30px]">
-                              ({letter})
-                            </span>
                             <span className="flex-1">{opt.text}</span>
                             <div className="flex flex-col items-end gap-1">
                               {isCorrectAnswer && (
@@ -674,9 +665,6 @@ function AttemptDetailView({ attempt, onBack, tests, calculateMaxMarks }: Attemp
                             }`}
                         >
                           <div className="flex items-start gap-3">
-                            <span className="font-bold min-w-[30px]">
-                              ({optionKey.toUpperCase()})
-                            </span>
                             <span className="flex-1">{optionText}</span>
                             <div className="flex flex-col items-end gap-1">
                               {isCorrectAnswer && (
