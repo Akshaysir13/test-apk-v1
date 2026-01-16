@@ -983,9 +983,9 @@ export default function Test() {
                     ) : (
                       <>
                         {isAttempted && !isCorrect && (
-                          <p className="text-red-600 text-sm">Your answer: <span className="font-semibold">{String.fromCharCode(65 + (userAnswer as number))} - {q.shuffledOptions[userAnswer as number]?.text}</span></p>
+                          <p className="text-red-600 text-sm">Your answer: <span className="font-semibold">{q.shuffledOptions[userAnswer as number]?.text}</span></p>
                         )}
-                        <p className="text-green-600 text-sm font-semibold">Correct: <span className="font-semibold">{String.fromCharCode(65 + q.correctIndex)} - {q.shuffledOptions[q.correctIndex]?.text}</span></p>
+                        <p className="text-green-600 text-sm font-semibold">Correct: <span className="font-semibold">{q.shuffledOptions[q.correctIndex]?.text}</span></p>
                       </>
                     )}
                   </div>
