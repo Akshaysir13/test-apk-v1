@@ -55,9 +55,13 @@ export const rankBoosterStudents: UserAccount[] = [
 { email: '27kaushik.aayush2007@gmail.com', password: 'Pau@2050', role: 'student', approved: true , courses: ['rank_booster'] },
 { email: 'udishguglani253@gmail.com', password: 'udish17', role: 'student', approved: true , courses: ['rank_booster'] },
 { email: 'medirattalakshya@gmail.com', password: 'Lakshya1211', role: 'student', approved: true , courses: ['rank_booster'] },
+{ email: 'medirattalakshya@gmail.com', password: 'Lakshya1211', role: 'student', approved: true , courses: ['rank_booster'] },
+{ email: 'aryanjojare26@gmail.com', password: 'Aryan0230', role: 'student', approved: true , courses: ['rank_booster'] },
+{ email: 'tanmaybhagat5151@gmail.com', password: 'Tanmay5151', role: 'student', approved: true , courses: ['rank_booster'] },
 
 
 ];
+
 
 
 
