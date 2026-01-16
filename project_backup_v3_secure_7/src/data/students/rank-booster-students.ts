@@ -42,6 +42,18 @@ export const rankBoosterStudents: UserAccount[] = [
 { email: 'kulkarniavdhoot16@gmail.com', password: 'AVDH001', role: 'student', approved: true , courses: ['rank_booster'] },
 { email: 'student13@gmail.com', password: 'pass123', role: 'student', approved: true , courses: ['rank_booster'] },//mine
 { email: 'student99@gmail.com', password: 'pass123', role: 'student', approved: true , courses: ['rank_booster'] },//mine f54
+//rank booster 3.0
+{ email: 'narangkabir8@gmail.com', password: 'Kabir15@', role: 'student', approved: true , courses: ['rank_booster'] },
+{ email: 'nithyavishwa2007@gmail.com', password: '@Nithya2007', role: 'student', approved: true , courses: ['rank_booster'] },
+{ email: 'nikhilgurjar7879@gmail.com', password: 'nikhil1616', role: 'student', approved: true , courses: ['rank_booster'] },
+{ email: 'Sutharssanjay815@gmail.com ', password: 'Sanjay@123', role: 'student', approved: true , courses: ['rank_booster'] },
+{ email: 'Krishpatidar358@gmail.com', password: 'Krish0027', role: 'student', approved: true , courses: ['rank_booster'] },
+{ email: 'uttkarshgogad@gmail.com', password: 'Utkarsh09', role: 'student', approved: true , courses: ['rank_booster'] },
+{ email: 'Khushbuchaprana@gmail.com', password: 'Khushbu0410', role: 'student', approved: true , courses: ['rank_booster'] },
+{ email: 'Shoryendrasingh1902@gmail.com', password: '19022007', role: 'student', approved: true , courses: ['rank_booster'] },
+{ email: 'devanshbhatia845@gmail.com', password: 'Deva@2006', role: 'student', approved: true , courses: ['rank_booster'] },
+{ email: '27kaushik.aayush2007@gmail.com ', password: 'Pau@2050', role: 'student', approved: true , courses: ['rank_booster'] },
 
 
 ];
+
