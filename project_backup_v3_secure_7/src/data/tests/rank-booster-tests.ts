@@ -64,6 +64,176 @@ export const rankBoosterTests: Test[] = [
       }
     ]
   },
+{
+  id: 'rank_booster-white-full-mock-1',
+  name: 'Rank Booster: White Full Mock 01',
+  description: 'Complete B.Arch Pattern: Aptitude + Math + Drawing',
+  duration: 10800,
+  category: 'white',
+  course: 'rank_booster',
+
+  questions: rankBoosterWhiteQuestions.slice(0, 77),
+
+  sections: [
+    {
+      id: "aptitude",
+      name: "Aptitude",
+      type: "aptitude",
+      questionIndices: Array.from({ length: 50 }, (_, i) => i)
+    },
+    {
+      id: "math-mcq",
+      name: "Mathematics (MCQ)",
+      type: "math",
+      questionIndices: Array.from({ length: 20 }, (_, i) => i + 50)
+    },
+    {
+      id: "math-numeric",
+      name: "Mathematics (Numeric)",
+      type: "math",
+      questionIndices: Array.from({ length: 5 }, (_, i) => i + 70)
+    },
+    {
+      id: "drawing",
+      name: "Drawing",
+      type: "drawing",
+      questionIndices: [75, 76]
+    }
+  ]
+},
+{
+  id: 'rank_booster-blue-full-mock-1',
+  name: 'Rank Booster: Blue Full Mock 01',
+  description: 'Complete B.Arch Pattern: Aptitude + Math + Drawing',
+  duration: 10800,
+  category: 'blue',
+  course: 'rank_booster',
+
+  questions: rankBoosterBlueQuestions.slice(0, 77),
+
+  sections: [
+    {
+      id: "aptitude",
+      name: "Aptitude",
+      type: "aptitude",
+      questionIndices: Array.from({ length: 50 }, (_, i) => i)
+    },
+    {
+      id: "math-mcq",
+      name: "Mathematics (MCQ)",
+      type: "math",
+      questionIndices: Array.from({ length: 20 }, (_, i) => i + 50)
+    },
+    {
+      id: "math-numeric",
+      name: "Mathematics (Numeric)",
+      type: "math",
+      questionIndices: Array.from({ length: 5 }, (_, i) => i + 70)
+    },
+    {
+      id: "drawing",
+      name: "Drawing",
+      type: "drawing",
+      questionIndices: [75, 76]
+    }
+  ]
+},
+{
+  id: 'rank_booster-grey-full-mock-1',
+  name: 'Rank Booster: Grey Full Mock 01',
+  description: 'Complete B.Arch Pattern: Aptitude + Math + Drawing',
+  duration: 10800,
+  category: 'grey',
+  course: 'rank_booster',
+
+  questions: rankBoosterGreyQuestions.slice(0, 77),
+
+  sections: [
+    {
+      id: "aptitude",
+      name: "Aptitude",
+      type: "aptitude",
+      questionIndices: Array.from({ length: 50 }, (_, i) => i)
+    },
+    {
+      id: "math-mcq",
+      name: "Mathematics (MCQ)",
+      type: "math",
+      questionIndices: Array.from({ length: 20 }, (_, i) => i + 50)
+    },
+    {
+      id: "math-numeric",
+      name: "Mathematics (Numeric)",
+      type: "math",
+      questionIndices: Array.from({ length: 5 }, (_, i) => i + 70)
+    },
+    {
+      id: "drawing",
+      name: "Drawing",
+      type: "drawing",
+      questionIndices: [75, 76]
+    }
+  ]
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 ];
+
 
 
