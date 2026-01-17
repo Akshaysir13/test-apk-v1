@@ -1243,7 +1243,7 @@ export const foundationPYQQuestions: Question[] = [
 { id: 15, question: "Read the Instructions Carefully", image: "https://drive.google.com/thumbnail?id=1tjf362nUbpr289iGU9cWWRw0jyEso0r_&sz=w2000", optionA: "c", optionB: "a", optionC: "d", optionD: "b", correctOption: "d" },
 { id: 16, question: "Read the Instructions Carefully", image: "https://drive.google.com/thumbnail?id=1eE4eluLB9iHpXjAd-d4mm4aSsHI-K4nX&sz=w2000", optionA: "b", optionB: "c", optionC: "d", optionD: "a", correctOption: "d" },
 { id: 17, question: "Read the Instructions Carefully", image: "https://drive.google.com/thumbnail?id=1S-MJeBBDRSEaihI0-csSn-GuCjaR7W4H&sz=w2000", optionA: "a", optionB: "d", optionC: "b", optionD: "c", correctOption: "d" },
-{ id: 18, question: "Read the Instructions Carefully", image: "https://drive.google.com/thumbnail?id=10EiJs_Bi64pU09jblteMpqCW40aFhMdc&sz=w2000", optionA: "b", optionB: "a", optionC: "c", optionD: "d", correctOption: "d" },
+{ id: 18, question: "Read the Instructions Carefully", image: "https://drive.google.com/thumbnail?id=10EiJs_Bi64pU09jblteMpqCW40aFhMdc&sz=w2000", optionA: "b", optionB: "a", optionC: "d", optionD: "c", correctOption: "d" },
 { id: 19, question: "Read the Instructions Carefully", image: "https://drive.google.com/thumbnail?id=1pCmfqWLyihahI4XGGFxoHb7I9fc51m28&sz=w2000", optionA: "d", optionB: "c", optionC: "a", optionD: "b", correctOption: "d" },
 { id: 20, question: "Read the Instructions Carefully", image: "https://drive.google.com/thumbnail?id=1SDuQykM6JRfktp4mmHj2RyP04PPrNraK&sz=w2000", optionA: "a", optionB: "d", optionC: "c", optionD: "b", correctOption: "d" },
 { id: 21, question: "Read the Instructions Carefully", image: "https://drive.google.com/thumbnail?id=1M8V0QB9-nfn0zUGKnegllHL8AKdMVooj&sz=w2000", optionA: "b", optionB: "a", optionC: "d", optionD: "c", correctOption: "d" },
@@ -1255,7 +1255,7 @@ export const foundationPYQQuestions: Question[] = [
 { id: 27, question: "Read the Instructions Carefully", image: "https://drive.google.com/thumbnail?id=1qnpDRm7GSsJWar-X7tp_pamCZMbOB6td&sz=w2000", optionA: "d", optionB: "a", optionC: "b", optionD: "c", correctOption: "d" },
 { id: 28, question: "Read the Instructions Carefully", image: "https://drive.google.com/thumbnail?id=19XvdexWfMZ2q8bpV0j1jpbd9OPuWViv3&sz=w2000", optionA: "d", optionB: "b", optionC: "a", optionD: "c", correctOption: "d" },
 { id: 29, question: "Read the Instructions Carefully", image: "https://drive.google.com/thumbnail?id=1PevbC-926h1Pj8skvb95Q3WEJpxFFDRO&sz=w2000", optionA: "b", optionB: "d", optionC: "a", optionD: "c", correctOption: "d" },
-{ id: 30, question: "Read the Instructions Carefully", image: "https://drive.google.com/thumbnail?id=1DuarGY3_Jwm1ggOr7I-W0J8cqME1F6Z9&sz=w2000", optionA: "d", optionB: "b", optionC: "a", optionD: "c", correctOption: "d" },
+{ id: 30, question: "Read the Instructions Carefully", image: "https://drive.google.com/thumbnail?id=1DuarGY3_Jwm1ggOr7I-W0J8cqME1F6Z9&sz=w2000", optionA: "d", optionB: "b", optionC: "c", optionD: "a", correctOption: "d" },
 { id: 31, question: "Read the Instructions Carefully", image: "https://drive.google.com/thumbnail?id=1NFnm6s59YEtH8D1s26wTz0AMIM7GpN_S&sz=w2000", optionA: "a", optionB: "d", optionC: "c", optionD: "b", correctOption: "d" },
 { id: 32, question: "Read the Instructions Carefully", image: "https://drive.google.com/thumbnail?id=12K4VZMU51hbsfCIFJN9TJAqMTVwqgxNn&sz=w2000", optionA: "a", optionB: "c", optionC: "d", optionD: "b", correctOption: "d" },
 { id: 33, question: "Read the Instructions Carefully", image: "https://drive.google.com/thumbnail?id=1hTz2wnkYhPtAD7SJ2nYNktfINvZ6UPTs&sz=w2000", optionA: "b", optionB: "c", optionC: "a", optionD: "d", correctOption: "d" },
@@ -1636,4 +1636,5 @@ export const foundationPYQQuestions: Question[] = [
   // PASTE YOUR 3000 PYQ QUESTIONS HERE
 
 ];
+
 
