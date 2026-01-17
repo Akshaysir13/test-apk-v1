@@ -53,4 +53,274 @@ export const rankBoosterGreyQuestions: Question[] = [
 { id: 48, question: "Read the Instructions Carefully", image: "https://drive.google.com/thumbnail?id=108Va-1HKKKLndrTenE8wH4M26ipUFCVC&sz=w2000", optionA: "d", optionB: "a", optionC: "c", optionD: "b", correctOption: "d" },
 { id: 49, question: "Read the Instructions Carefully", image: "https://drive.google.com/thumbnail?id=16pY-yuMMi6QAsZC9dhCDNzEOTC2AdbJz&sz=w2000", optionA: "b", optionB: "d", optionC: "a", optionD: "c", correctOption: "d" },
 { id: 50, question: "Read the Instructions Carefully", image: "https://drive.google.com/thumbnail?id=1w5DmiRvAUWQqKbZGd7LrPYdqZp0-oBOF&sz=w2000", optionA: "b", optionB: "a", optionC: "d", optionD: "c", correctOption: "d" },
+  {
+    id: 201,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1lJ1HUTv3rJdPERl8I1JffX-cqdJafvfX&sz=w1000",
+    optionA: "c",
+    optionB: "a",
+    optionC: "d",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 202,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1lJgI8ED1If_5JOXuOuiz3m8LfRT7P37d&sz=w1000",
+    optionA: "c",
+    optionB: "a",
+    optionC: "d",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 203,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1lKXjUmCYTDDeE4lCcbl3rBnsIRsaQpLx&sz=w1000",
+    optionA: "b",
+    optionB: "a",
+    optionC: "d",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 204,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1lLnzemzerwgiyx17txmt6Z47E-hQ4y5t&sz=w1000",
+    optionA: "d",
+    optionB: "b",
+    optionC: "a",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 205,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1lLpKo2wa1ct1X1dOgTHLEw_4IG9Z_bg7&sz=w1000",
+    optionA: "a",
+    optionB: "b",
+    optionC: "d",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 206,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1lN5rcuLRYisl3IXVieXdvYUpxwCj-l7o&sz=w1000",
+    optionA: "c",
+    optionB: "a",
+    optionC: "d",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 207,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1lNHicJUByfziFFGkRYHUSDYUSVgNWNRa&sz=w1000",
+    optionA: "c",
+    optionB: "b",
+    optionC: "a",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 208,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1lNU4gYs4hPSQjSwZRiosp3uHaFSLIcf2&sz=w1000",
+    optionA: "d",
+    optionB: "a",
+    optionC: "b",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 209,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1lOlS0Tr3FeEvBCn4p4PoXjvf1h6XM5bV&sz=w1000",
+    optionA: "a",
+    optionB: "d",
+    optionC: "b",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 210,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1lRqubgUd5yqYKM5iu199MEoX3Nmv0YEK&sz=w1000",
+    optionA: "c",
+    optionB: "b",
+    optionC: "a",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 211,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1lV-Gv7rqzc4RPzkppH9xi7KGRFswVG-V&sz=w1000",
+    optionA: "a",
+    optionB: "b",
+    optionC: "d",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 212,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1lVHFwRffBfQ2fDc6RIwGWTqHYmzVo8ek&sz=w1000",
+    optionA: "c",
+    optionB: "d",
+    optionC: "a",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 213,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1lZ5En4CXFc4jHu7gNDeSAiWgNjAGZCh9&sz=w1000",
+    optionA: "d",
+    optionB: "b",
+    optionC: "a",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 214,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1l_YtBOejUm0WQMZB9y6WWZ8UADkiV8C6&sz=w1000",
+    optionA: "c",
+    optionB: "a",
+    optionC: "d",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 215,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1l_kFzQT2OF_IUu84UMUdgk9Ek6lvA6el&sz=w1000",
+    optionA: "b",
+    optionB: "c",
+    optionC: "a",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 216,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1lcdof3wYnbDMQh-Aq7B_riOOM-tvCE9p&sz=w1000",
+    optionA: "b",
+    optionB: "a",
+    optionC: "d",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 217,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1lf8Rc4H6L0YULsdGvOOy3JGgxfUSEG9x&sz=w1000",
+    optionA: "c",
+    optionB: "a",
+    optionC: "d",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 218,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1li-9RfZlcjZKLIfg9UvwMD3Q9Byhf9AS&sz=w1000",
+    optionA: "c",
+    optionB: "d",
+    optionC: "b",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 219,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1llHThJfTr4keBPZlZVgDkrp-vfhk_sYr&sz=w1000",
+    optionA: "c",
+    optionB: "b",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 220,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1lljYWDGGWPD8GUGMNiRzd67teMiCNdOY&sz=w1000",
+    optionA: "d",
+    optionB: "a",
+    optionC: "b",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 301,
+    type: "numeric",
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1lmkfaV2SPAKqzwD7D6Z7A7OtKg7t3NMm&sz=w1000",
+    optionA: "",
+    optionB: "",
+    optionC: "",
+    optionD: "",
+    correctOption: "70"
+  },
+  {
+    id: 302,
+    type: "numeric",
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1lnD_UedsLhdj8GrNxAY_pckNNYhbJofa&sz=w1000",
+    optionA: "",
+    optionB: "",
+    optionC: "",
+    optionD: "",
+    correctOption: "4"
+  },
+  {
+    id: 303,
+    type: "numeric",
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1lnX_Ug4Pzb2kc_5XKTEqyONER6sapGzm&sz=w1000",
+    optionA: "",
+    optionB: "",
+    optionC: "",
+    optionD: "",
+    correctOption: "25"
+  },
+  {
+    id: 304,
+    type: "numeric",
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1lruVm9OLKbr1iywzyxBKKvdk-1_CXfGP&sz=w1000",
+    optionA: "",
+    optionB: "",
+    optionC: "",
+    optionD: "",
+    correctOption: "19"
+  },
+  {
+    id: 305,
+    type: "numeric",
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1lt4HDCjf0S2pN27Z6VOZpbLB3BweFVim&sz=w1000",
+    optionA: "",
+    optionB: "",
+    optionC: "",
+    optionD: "",
+    correctOption: "14"
+  },
+
+    {
+  id: 401,
+  question: "Draw Proportionate sketch of Given Image with Black & White Rendering Method. ",
+image: "https://drive.google.com/thumbnail?id=1uPD5a1-PAxdMUyb79UAQF2ub84ONLxQX&sz=w1000",
+  correctOption: "manual_evaluation", // Special flag
+  optionA: "0", optionB: "0", optionC: "0", optionD: "0"
+},
+{
+  id: 402,
+  question: "Draw a Scene From Your Perspective Using Bus, Bus stop, Passengers, Seating Bench, Bus Driver, Road. Use A MonoChromatic Rendering Method to colour it. ",
+  correctOption: "manual_evaluation", // Special flag
+  optionA: "0", optionB: "0", optionC: "0", optionD: "0"
+},
+
 ];
