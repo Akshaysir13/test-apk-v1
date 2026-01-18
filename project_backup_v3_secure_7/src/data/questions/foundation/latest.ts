@@ -5072,10 +5072,823 @@ image: "https://drive.google.com/thumbnail?id=1gvefOdE69IT3vC-7KN9VqDFpxzx90Hap&
   optionC: "0",
   optionD: "0"
 },
+//Mock 6
+ {
+    id: 101,
+    type: 'statement',
+    question: "Statement 1: A modular building is constructed off-site.\nStatement 2: Modular construction reduces construction time and waste.",
+    optionA: "Statement 1 is True,  Statement 2 is False",
+    optionB: "Statement 1 is False,  Statement 2 is True",
+    optionC: "Both Statement 1 and Statement 2 is False",
+    optionD: "Both Statement 1 and Statement 2 are True.",
+    correctOption: "d"
+  },
+  {
+    id: 102,
+    question: "52. Which material is excellent for absorbing sound, often used in acoustic panels?",
+    optionA: "Polished Granite",
+    optionB: "Glass Sheet",
+    optionC: "Sheet Metal",
+    optionD: "Mineral Wool",
+    correctOption: "d"
+  },
+  {
+    id: 103,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. St. Patrick's Cathedral",
+      "2. St. Paul's Cathedral",
+      "3. Sacré-Cœur",
+      "4. Hagia Sophia"
+],
+    columnBItems: [
+      "Istanbul",
+      "Dublin",
+      "London",
+      "Paris"
+],
+    optionA: "1-B 2-D 3-A 4-C",
+    optionB: "1-A 2-D 3-C 4-B",
+    optionC: "1-C 2-D 3-B 4-A",
+    optionD: "1-B 2-C 3-D 4-A",
+    correctOption: "d"
+  },
+  {
+    id: 104,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1pFcFYbKm2_8V-FjHJf1394NbAdwHcXQB&sz=w1000",
+    optionA: "c",
+    optionB: "d",
+    optionC: "a",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 105,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1pgLzaxg8zdPXy3M4DnFSag-FIkXunTa0&sz=w1000",
+    optionA: "d",
+    optionB: "b",
+    optionC: "a",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 106,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1pJomWDPioh2MWViadEhJ7-ye720hYjyy&sz=w1000",
+    optionA: "d",
+    optionB: "b",
+    optionC: "c",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 107,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1pB5sa_HY31CW4SmSkGGacWvcj54OnTAL&sz=w1000",
+    optionA: "40",
+    optionB: "36",
+    optionC: "28",
+    optionD: "32",
+    correctOption: "d"
+  },
+  {
+    id: 108,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1q2-ICiVcmDagvKPR5YnbX61INP21RGAw&sz=w1000",
+    optionA: "d",
+    optionB: "b",
+    optionC: "c",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 109,
+    question: "A residential building has 10 floors. The height of ground floor is 5.2 meter (including length and slab thickness). Rest all other floors are of 4.5 meter high (including slab thickness). What is the total height of the building (from ground to terrace) in meters?",
+    optionA: "46.7",
+    optionB: "45.2",
+    optionC: "46.2",
+    optionD: "45.7",
+    correctOption: "d"
+  },
+  {
+    id: 110,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1povQz6UKm9CjoHzrrE7zemRX9JYtD3Pt&sz=w1000",
+    optionA: "22",
+    optionB: "21",
+    optionC: "23",
+    optionD: "24",
+    correctOption: "d"
+  },
+  {
+    id: 111,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1pr144FENFpTzSJmzJDEw4skIe6jvBXOq&sz=w1000",
+    optionA: "d",
+    optionB: "a",
+    optionC: "b",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 112,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1pEFkys_OgK7S5vLLYoWzk_vmJtDgISDK&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "b",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 113,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1pAoUJMaUhosYv3lsVh_b5GBgyn8yZuWo&sz=w1000",
+    optionA: "43",
+    optionB: "42",
+    optionC: "40",
+    optionD: "41",
+    correctOption: "d"
+  },
+  {
+    id: 114,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1pgwf0JFeZZRcbikoqcvAJOusk_FyZ4Bg&sz=w1000",
+    optionA: "d",
+    optionB: "c",
+    optionC: "b",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 115,
+    question: "IAEA Stand For ?",
+    optionA: "International Atom Energy Agency",
+    optionB: "Inter Atomic Energy Agency",
+    optionC: "International Atomic Energy Account",
+    optionD: "International Atomic Energy Agency",
+    correctOption: "d"
+  },
+  {
+    id: 116,
+    question: "A plot of 150 m × 75 m is drawn on a map at a scale of 1:500. What is the size on paper?",
+    optionA: "3 cm × 1.5 cm",
+    optionB: "30 m × 15 m",
+    optionC: "3 m × 1.5 m",
+    optionD: "30 cm × 15 cm",
+    correctOption: "d"
+  },
+  {
+    id: 117,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1pgezol9pfDXJRM67W6RTxr6oWYJWKmR5&sz=w1000",
+    optionA: "d",
+    optionB: "a",
+    optionC: "b",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 118,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1prNS1o6lsF0FZOy24XejXWBHxj2q08cK&sz=w1000",
+    optionA: "a",
+    optionB: "d",
+    optionC: "b",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 119,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1pu-vCUlKn3m6PmLBsIwh15d8wScSfnjx&sz=w1000",
+    optionA: "b",
+    optionB: "a",
+    optionC: "c",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 120,
+    question: "Morphology is Known As ?",
+    optionA: "Study of diseases",
+    optionB: "Study of water",
+    optionC: "Study of rocks",
+    optionD: "Study of structure of organ",
+    correctOption: "d"
+  },
+  {
+    id: 121,
+    type: 'statement',
+    question: "Statement 1: In summer, the sun rises from the southeast in the Northern Hemisphere.\nStatement 2: The sun always rises in the east and sets in the west.",
+    optionA: "D. S1 is false, but S2 is true",
+    optionB: "B. Both S1 and S2 are false",
+    optionC: "A. Both statements are true, and S2 is the correct explanation of S1",
+    optionD: "C. S1 is true, but S2 is false",
+    correctOption: "d"
+  },
+  {
+    id: 122,
+    type: 'statement',
+    question: "Statement 1: A king post is a central vertical post in a truss.\nStatement 2: A queen post is a pair of vertical posts in a truss.",
+    optionA: "Statement 1 is True,  Statement 2 is False",
+    optionB: "Statement 1 is False,  Statement 2 is True",
+    optionC: "Both Statement 1 and Statement 2 is False",
+    optionD: "Both Statement 1 and Statement 2 are True.",
+    correctOption: "d"
+  },
+  {
+    id: 123,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. PMGSY",
+      "2. PMJDY",
+      "3. NRDWP",
+      "4. PMMVY"
+],
+    columnBItems: [
+      "Pradhan Mantri Matru Vandana Yojana",
+      "National Rural Drinking Water Program",
+      "Pradhan Mantri Gram Sadak Yojana",
+      "Pradhan Mantri Jan Dhan Yojana"
+],
+    optionA: "1-C 2-B 3-D 4-A",
+    optionB: "1-B 2-A 3-C 4-D",
+    optionC: "1-B 2-C 3-A 4-D",
+    optionD: "1-C 2-D 3-B 4-A",
+    correctOption: "d"
+  },
+  {
+    id: 124,
+    question: "Which of the following Buiding Prominant Features are used in Greek?",
+    optionA: "- Use of concrete and arches",
+    optionB: "- Large domes on pendentives",
+    optionC: "- Pointed arches",
+    optionD: "- Classical orders (Doric, Ionic, Corinthian)",
+    correctOption: "d"
+  },
+  {
+    id: 125,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1pBOOFGbwbv5kqYhMTG0t77FWTiDy7Nww&sz=w1000",
+    optionA: "17",
+    optionB: "14",
+    optionC: "15",
+    optionD: "16",
+    correctOption: "d"
+  },
+  {
+    id: 126,
+    question: "Which of the following is Primary Function of False Ceiling?",
+    optionA: "To transfer loads from beams and slabs to the foundation.",
+    optionB: "To facilitate movement between different levels, especially for accessibility.",
+    optionC: "To distribute the weight of the structure to the ground and prevent settlement.",
+    optionD: "To conceal services, improve aesthetics, and enhance thermal/acoustic insulation.",
+    correctOption: "d"
+  },
+  {
+    id: 127,
+    question: "Identify the famous Monument",
+    image: "https://drive.google.com/thumbnail?id=1Ac7uuPyKXTmkJJlQnnTiyAHe7t1iRDlS&sz=w1000",
+    optionA: "Gateway Arch",
+    optionB: "TWA Terminal (JFK Airport)",
+    optionC: "Parliament Hall",
+    optionD: "White House",
+    correctOption: "d"
+  },
+  {
+    id: 128,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1pKd3rJhMByXfG6Y8PL7U8vlqwuGziK9F&sz=w1000",
+    optionA: "c",
+    optionB: "d",
+    optionC: "a",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 129,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1pkDPtBk9InhWTbb6ShxwzRXPkNsQmj3f&sz=w1000",
+    optionA: "c",
+    optionB: "a",
+    optionC: "d",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 130,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1pSnzopR0W1ghiTwCsuDutKENAj-6seUh&sz=w1000",
+    optionA: "a",
+    optionB: "d",
+    optionC: "c",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 131,
+    question: "Which of the following is Primary Function of Elevator?",
+    optionA: "Provides access to high areas, ensures worker safety, and supports materials/tools.",
+    optionB: "To protect the structure from weather conditions and external elements.",
+    optionC: "To transfer loads safely to the ground and support the superstructure.",
+    optionD: "To vertically transport people and goods in a building.",
+    correctOption: "d"
+  },
+  {
+    id: 132,
+    question: "What is Meaning of a Superstructure?",
+    optionA: "A suspended ceiling for aesthetics and insulation.",
+    optionB: "The top covering of a structure.",
+    optionC: "A system for heating, ventilation, and air conditioning.",
+    optionD: "The part above ground, including walls, floors, and roofs.",
+    correctOption: "d"
+  },
+  {
+    id: 133,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1pq1FNMk3Dddwkmw6sTpelz8YvnBPo4Ey&sz=w1000",
+    optionA: "22",
+    optionB: "21",
+    optionC: "23",
+    optionD: "24",
+    correctOption: "d"
+  },
+  {
+    id: 134,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1pqZ4NQPURtJPXRGN4Lskj42UNJjzW4P6&sz=w1000",
+    optionA: "17",
+    optionB: "14",
+    optionC: "15",
+    optionD: "16",
+    correctOption: "d"
+  },
+  {
+    id: 135,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1piNMaBjxLchk0hzTy5EGXseBvm3aHbhi&sz=w1000",
+    optionA: "a",
+    optionB: "d",
+    optionC: "c",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 136,
+    question: "Which of the Following Architect Design the Given Building",
+    image: "https://drive.google.com/thumbnail?id=1T9Vlx2B6Xucf5ADjJTzXUThduNeeKHuq&sz=w1000",
+    optionA: "A",
+    optionB: "C",
+    optionC: "B",
+    optionD: "D",
+    correctOption: "d"
+  },
+  {
+    id: 137,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. Eero Saarinen",
+      "2. Oscar Niemeyer",
+      "3. Charles Correa",
+      "4. IM Pei"
+],
+    columnBItems: [
+      "MIT Chapel",
+      "Our Lady Cathedral - Brasilia",
+      "National Centre for Atmospheric Research",
+      "City Centre Mall - Kolkata"
+],
+    optionA: "1-B 2-A 3-D 4-C",
+    optionB: "1-A 2-D 3-C 4-B",
+    optionC: "1-D 2-B 3-C 4-A",
+    optionD: "1-A 2-B 3-D 4-C",
+    correctOption: "d"
+  },
+  {
+    id: 138,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. Trombay",
+      "2. Katni",
+      "3. Nashik",
+      "4. Surat"
+],
+    columnBItems: [
+      "Atomic Research Center",
+      "Cement",
+      "Diamonds",
+      "Security Printing"
+],
+    optionA: "1-C 2-A 3-B 4-D",
+    optionB: "1-B 2-D 3-C 4-A",
+    optionC: "1-C 2-B 3-D 4-A",
+    optionD: "1-A 2-B 3-D 4-C",
+    correctOption: "d"
+  },
+  {
+    id: 139,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1pL4HNqWLH4APPYkqd2n2Swk7gQ13XTvH&sz=w1000",
+    optionA: "a",
+    optionB: "b",
+    optionC: "d",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 140,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1pdI2Eb6rCE7Npc3e_IHes0zhhVjCXzul&sz=w1000",
+    optionA: "a",
+    optionB: "d",
+    optionC: "c",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 141,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1piw_6vltAmQi7mOSvaPYqWc6pXsm3Q-s&sz=w1000",
+    optionA: "b",
+    optionB: "d",
+    optionC: "c",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 142,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1p_HntrpX-x68vVGTAxGieok4JItj8fDx&sz=w1000",
+    optionA: "d",
+    optionB: "a",
+    optionC: "b",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 143,
+    type: 'statement',
+    question: "Statement 1: A monument is a structure built to commemorate a person or event.\nStatement 2: A memorial is a type of monument specifically for remembering the dead.",
+    optionA: "Statement 1 is True,  Statement 2 is False",
+    optionB: "Statement 1 is False,  Statement 2 is True",
+    optionC: "Both Statement 1 and Statement 2 is False",
+    optionD: "Both Statement 1 and Statement 2 are True.",
+    correctOption: "d"
+  },
+  {
+    id: 144,
+    question: "Which of the Following Architect Design the Given Building",
+    image: "https://drive.google.com/thumbnail?id=1EVm18uUFwFI06mBE1cZw-atuQhdm0lZH&sz=w1000",
+    optionA: "A",
+    optionB: "C",
+    optionC: "B",
+    optionD: "D",
+    correctOption: "d"
+  },
+  {
+    id: 145,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1pBp5xv3aa153p899HSChjfoKQrvt2JJg&sz=w1000",
+    optionA: "a",
+    optionB: "d",
+    optionC: "b",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 146,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1pxxvYIYD7TzDzuENXupjVu5_lTAdQ8b6&sz=w1000",
+    optionA: "c",
+    optionB: "b",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 147,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1pthJKDljLeE20UNP7Y1ooKlZH2RKmZp5&sz=w1000",
+    optionA: "d",
+    optionB: "b",
+    optionC: "c",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 148,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1pDofH8lKF6c6IgUXH593oT9p4WvXVLor&sz=w1000",
+    optionA: "b",
+    optionB: "c",
+    optionC: "a",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 149,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1poK7Ed9LbJbcrtXJg00hp7925r78dxzG&sz=w1000",
+    optionA: "a",
+    optionB: "b",
+    optionC: "c",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 150,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1pIJ5saUN-3LZfaXfuY3eU_FCgAeAbkv6&sz=w1000",
+    optionA: "d",
+    optionB: "c",
+    optionC: "b",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 201,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1q5wZk6_kSg-c84gWut_TIlrn_Fr32583&sz=w1000",
+    optionA: "c",
+    optionB: "b",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 202,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1qBcYG4acJZSsvhJt1ATknskQIENDdTiX&sz=w1000",
+    optionA: "a",
+    optionB: "d",
+    optionC: "c",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 203,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1qBmhifnDQo44J12NQeDYYxQ_B3bSrNj6&sz=w1000",
+    optionA: "c",
+    optionB: "b",
+    optionC: "a",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 204,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1qC2G6YYFsaUyFRpzMdGw3zNXWlhK2xdy&sz=w1000",
+    optionA: "b",
+    optionB: "d",
+    optionC: "a",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 205,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1qDWhwv_F5g7URs-BYtJunuUITswnevI0&sz=w1000",
+    optionA: "d",
+    optionB: "b",
+    optionC: "c",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 206,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1qDe0dxKNRvugVA4pjSidCulDc7RRPXM2&sz=w1000",
+    optionA: "c",
+    optionB: "d",
+    optionC: "a",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 207,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1qFmmiBArgBsubDvoNuvhoDQ-bGW4vrdU&sz=w1000",
+    optionA: "a",
+    optionB: "b",
+    optionC: "d",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 208,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1qJJRbIfjKvG6jUVfNUje1PA8Ahmv7zy6&sz=w1000",
+    optionA: "b",
+    optionB: "d",
+    optionC: "a",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 209,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1qKwUjeOizbCuwMgqi1bp1LR2wcDryksd&sz=w1000",
+    optionA: "a",
+    optionB: "b",
+    optionC: "c",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 210,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1qTwCfNYHTEvi80KzdKryWUvDar_yz1l6&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "d",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 211,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1qWOt_XdVjfjqLE4GeDVI7VtwF1zR8MRW&sz=w1000",
+    optionA: "d",
+    optionB: "b",
+    optionC: "a",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 212,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1qXTfsdGfF78XcSpU2xHKbikfAvrIZ0BX&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "d",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 213,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1qXshOIFHGbj2dfEcUFy65g735i89PV33&sz=w1000",
+    optionA: "c",
+    optionB: "a",
+    optionC: "b",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 214,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1qYCyaXAF-pgKinvyTmfRP6WXl7Lb4QPW&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "d",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 215,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1q_KcCN1a4q1NKXod1w4_w7XlX8O2UJGh&sz=w1000",
+    optionA: "b",
+    optionB: "a",
+    optionC: "d",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 216,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1qdc7494IQNPAtrhatEYFsqA20x8GCouN&sz=w1000",
+    optionA: "b",
+    optionB: "c",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 217,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1qeL9Lx45MXFbJ7Xox4TKB7YGpOmHRCkA&sz=w1000",
+    optionA: "a",
+    optionB: "b",
+    optionC: "c",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 218,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1qfcNcNEt5NtE3asXjel_v0LkPtV7OGBv&sz=w1000",
+    optionA: "c",
+    optionB: "a",
+    optionC: "b",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 219,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1qhvhdKywDH_OTCSj99VLCnFoRv0P9RJy&sz=w1000",
+    optionA: "b",
+    optionB: "c",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 220,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1qipgQT4aoo2RdO6KMluxLfutSFItf42M&sz=w1000",
+    optionA: "a",
+    optionB: "b",
+    optionC: "d",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 301,
+    question: "Read the instruction Carefully",
+    type: "numeric",
+    image: "https://drive.google.com/thumbnail?id=1qirCMP3vbxVqORrOLAcsp9xLnq7iCp0M&sz=w1000",
+    optionA: "",
+    optionB: "",
+    optionC: "",
+    optionD: "",
+    correctOption: "3"
+  },
+  {
+    id: 302,
+    question: "Read the instruction Carefully",
+     type: "numeric",
+    image: "https://drive.google.com/thumbnail?id=1qj_qe4OLAPleeytiF98_q7BxG2SxKeh9&sz=w1000",
+    optionA: "",
+    optionB: "",
+    optionC: "",
+    optionD: "",
+    correctOption: "1"
+  },
+  {
+    id: 303,
+    question: "Read the instruction Carefully",
+    type: "numeric",
+    image: "https://drive.google.com/thumbnail?id=1qm-C0kb-4NSeCYTndNI4Nnh6Qvn8zyAS&sz=w1000",
+    optionA: "",
+    optionB: "",
+    optionC: "",
+    optionD: "",
+    correctOption: "2"
+  },
+  {
+    id: 304,
+    question: "Read the instruction Carefully",
+    type: "numeric",
+    image: "https://drive.google.com/thumbnail?id=1qnFvo4JWZnpUNvm5qH0Ck8PLJgoxEjyu&sz=w1000",
+    optionA: "",
+    optionB: "",
+    optionC: "",
+    optionD: "",
+    correctOption: "60"
+  },
+  {
+    id: 305,
+    question: "Read the instruction Carefully",
+    type: "numeric",
+    image: "https://drive.google.com/thumbnail?id=1qnJjQ_iGHdcAE5HuORzxzQDRyki03lzJ&sz=w1000",
+    optionA: "",
+    optionB: "",
+    optionC: "",
+    optionD: "",
+    correctOption: "0.5"
+  },
+{
+  id: 401,
+  question: "Draw Proportionate sketch of Given Image with Monochromatic Rendering Method. ",
+image: "https://drive.google.com/thumbnail?id=1bQfFwJqbRfvKosCz774PPli9_nVYxGq7&sz=w1000",
+  correctOption: "manual_evaluation", // Special flag
+  optionA: "0", optionB: "0", optionC: "0", optionD: "0"
+},
+{
+  id: 402,
+  question: "Draw a Scene of Man and Two Kids Sitting On Elephant in large Crowd and Colour it",
+  correctOption: "manual_evaluation",
+  optionA: "0",
+  optionB: "0",
+  optionC: "0",
+  optionD: "0"
+},
+  
 
     
 
 ];
+
 
 
 
