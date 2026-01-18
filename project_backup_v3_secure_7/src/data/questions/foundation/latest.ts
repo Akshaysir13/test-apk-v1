@@ -5139,19 +5139,19 @@ image: "https://drive.google.com/thumbnail?id=1gvefOdE69IT3vC-7KN9VqDFpxzx90Hap&
     question: "Read the instruction Carefully",
     image: "https://drive.google.com/thumbnail?id=1pJomWDPioh2MWViadEhJ7-ye720hYjyy&sz=w1000",
     optionA: "d",
-    optionB: "b",
+    optionB: "a",
     optionC: "c",
-    optionD: "a",
+    optionD: "b",
     correctOption: "d"
   },
   {
     id: 107,
     question: "Read the instruction Carefully",
     image: "https://drive.google.com/thumbnail?id=1pB5sa_HY31CW4SmSkGGacWvcj54OnTAL&sz=w1000",
-    optionA: "40",
+    optionA: "32",
     optionB: "36",
     optionC: "28",
-    optionD: "32",
+    optionD: "40",
     correctOption: "d"
   },
   {
@@ -5284,10 +5284,10 @@ image: "https://drive.google.com/thumbnail?id=1gvefOdE69IT3vC-7KN9VqDFpxzx90Hap&
     id: 121,
     type: 'statement',
     question: "Statement 1: In summer, the sun rises from the southeast in the Northern Hemisphere.\nStatement 2: The sun always rises in the east and sets in the west.",
-    optionA: "D. S1 is false, but S2 is true",
+    optionA: "C. S1 is true, but S2 is false",
     optionB: "B. Both S1 and S2 are false",
     optionC: "A. Both statements are true, and S2 is the correct explanation of S1",
-    optionD: "C. S1 is true, but S2 is false",
+    optionD: "D. S1 is false, but S2 is true",
     correctOption: "d"
   },
   {
@@ -5888,6 +5888,7 @@ image: "https://drive.google.com/thumbnail?id=1bQfFwJqbRfvKosCz774PPli9_nVYxGq7&
     
 
 ];
+
 
 
 
