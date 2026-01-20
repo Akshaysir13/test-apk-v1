@@ -249,7 +249,7 @@ export default function RankBoosterDashboard() {
             <div className="flex items-center gap-3">
               <button
                 onClick={() => navigate('/leaderboard', { state: { course: 'rank_booster' } })}
-                className="hidden md:flex px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 items-center gap-2"
+                className="flex px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 items-center gap-2"
               >
                 🏆 Leaderboard
               </button>
@@ -279,8 +279,8 @@ export default function RankBoosterDashboard() {
           <button
             onClick={() => setActiveTab('tests')}
             className={`px-6 py-3 font-medium transition-colors ${activeTab === 'tests'
-                ? 'border-b-2 border-blue-500 text-blue-600'
-                : 'text-gray-500 hover:text-gray-700'
+              ? 'border-b-2 border-blue-500 text-blue-600'
+              : 'text-gray-500 hover:text-gray-700'
               }`}
           >
             📚 Available Tests
@@ -288,8 +288,8 @@ export default function RankBoosterDashboard() {
           <button
             onClick={() => setActiveTab('history')}
             className={`px-6 py-3 font-medium transition-colors ${activeTab === 'history'
-                ? 'border-b-2 border-blue-500 text-blue-600'
-                : 'text-gray-500 hover:text-gray-700'
+              ? 'border-b-2 border-blue-500 text-blue-600'
+              : 'text-gray-500 hover:text-gray-700'
               }`}
           >
             📊 My Test History
@@ -419,8 +419,8 @@ export default function RankBoosterDashboard() {
                 <button
                   onClick={() => setSelectedCategory('all')}
                   className={`px-4 py-2 rounded-lg font-semibold transition-all ${selectedCategory === 'all'
-                      ? 'bg-blue-600 text-white shadow-lg'
-                      : 'bg-white text-gray-700 hover:bg-gray-100 border border-gray-300'
+                    ? 'bg-blue-600 text-white shadow-lg'
+                    : 'bg-white text-gray-700 hover:bg-gray-100 border border-gray-300'
                     }`}
                 >
                   All Tests
@@ -430,8 +430,8 @@ export default function RankBoosterDashboard() {
                     key={cat.id}
                     onClick={() => setSelectedCategory(cat.id)}
                     className={`px-4 py-2 rounded-lg font-semibold transition-all ${selectedCategory === cat.id
-                        ? 'bg-blue-600 text-white shadow-lg'
-                        : 'bg-white text-gray-700 hover:bg-gray-100 border border-gray-300'
+                      ? 'bg-blue-600 text-white shadow-lg'
+                      : 'bg-white text-gray-700 hover:bg-gray-100 border border-gray-300'
                       }`}
                   >
                     {cat.icon} {cat.name}
