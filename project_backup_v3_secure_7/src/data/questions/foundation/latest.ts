@@ -6638,6 +6638,7 @@ image: "https://drive.google.com/thumbnail?id=1bQfFwJqbRfvKosCz774PPli9_nVYxGq7&
   {
     id: 301,
     question: "Read the instruction Carefully",
+     type: "numeric",
     image: "https://drive.google.com/thumbnail?id=1sxGUA70ynmBMvIXvwKJKyrlxGc87CxOK&sz=w1000",
     optionA: "",
     optionB: "",
@@ -6648,6 +6649,7 @@ image: "https://drive.google.com/thumbnail?id=1bQfFwJqbRfvKosCz774PPli9_nVYxGq7&
   {
     id: 302,
     question: "Read the instruction Carefully",
+     type: "numeric",
     image: "https://drive.google.com/thumbnail?id=1szIYm_XpMulXYbcTD-LXGrEHDtGuwBvR&sz=w1000",
     optionA: "",
     optionB: "",
@@ -6658,6 +6660,7 @@ image: "https://drive.google.com/thumbnail?id=1bQfFwJqbRfvKosCz774PPli9_nVYxGq7&
   {
     id: 303,
     question: "Read the instruction Carefully",
+     type: "numeric",
     image: "https://drive.google.com/thumbnail?id=1t4C-o96wUIZAM80vMIN_NDgDC1oylUgC&sz=w1000",
     optionA: "",
     optionB: "",
@@ -6668,6 +6671,7 @@ image: "https://drive.google.com/thumbnail?id=1bQfFwJqbRfvKosCz774PPli9_nVYxGq7&
   {
     id: 304,
     question: "Read the instruction Carefully",
+     type: "numeric",
     image: "https://drive.google.com/thumbnail?id=1tC7zHxWeKg01OtdOOvEQzFrAVrgFhqQN&sz=w1000",
     optionA: "",
     optionB: "",
@@ -6678,6 +6682,7 @@ image: "https://drive.google.com/thumbnail?id=1bQfFwJqbRfvKosCz774PPli9_nVYxGq7&
   {
     id: 305,
     question: "Read the instruction Carefully",
+     type: "numeric",
     image: "https://drive.google.com/thumbnail?id=1tGTRVJ2z64DkEKzKQYzGhsQQ5xTInypp&sz=w1000",
     optionA: "",
     optionB: "",
@@ -6705,6 +6710,7 @@ image: "https://drive.google.com/thumbnail?id=1-5nQO2azLOrIys7bPiCvc1xP4Oh838a5&
     
 
 ];
+
 
 
 
