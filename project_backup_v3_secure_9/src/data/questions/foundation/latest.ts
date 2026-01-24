@@ -7159,10 +7159,10 @@ image: "https://drive.google.com/thumbnail?id=1-5nQO2azLOrIys7bPiCvc1xP4Oh838a5&
     id: 139,
     question: "Read the Instruction Carefully",
     image: "https://drive.google.com/thumbnail?id=13zhqtCkFOb36hEdCJn_4m7QDuFF1Xibh&sz=w1000",
-    optionA: "Sat Dec 30 1899 09:50:00 GMT+0521 (India Standard Time)",
-    optionB: "Sat Dec 30 1899 06:50:00 GMT+0521 (India Standard Time)",
-    optionC: "Sat Dec 30 1899 08:50:00 GMT+0521 (India Standard Time)",
-    optionD: "Sat Dec 30 1899 07:50:00 GMT+0521 (India Standard Time)",
+    optionA: "9:50",
+    optionB: "8:50",
+    optionC: "6:50",
+    optionD: "7:50 ",
     correctOption: "d"
   },
   {
@@ -7287,6 +7287,7 @@ image: "https://drive.google.com/thumbnail?id=1V5C-agMFHEOecIu6XsJONOF8kXRbFEQf&
     
 
 ];
+
 
 
 
