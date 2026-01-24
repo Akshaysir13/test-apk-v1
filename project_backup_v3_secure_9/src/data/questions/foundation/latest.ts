@@ -6706,10 +6706,593 @@ image: "https://drive.google.com/thumbnail?id=1-5nQO2azLOrIys7bPiCvc1xP4Oh838a5&
   optionC: "0",
   optionD: "0"
 },
-
+//Mock 8
+ {
+    id: 101,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. Anant Raje",
+      "2. Hafeez Contractor",
+      "3. Le Corbusier",
+      "4. Eero Saarinen"
+],
+    columnBItems: [
+      "TWA Terminal",
+      "DIFF Centre - New Delhi",
+      "Indian Statistical Institute - New Delhi",
+      "Club House - Chandigarh"
+],
+    optionA: "1-C 2-B 3-A 4-D",
+    optionB: "1-A 2-B 3-C 4-D",
+    optionC: "1-A 2-C 3-B 4-D",
+    optionD: "1-C 2-B 3-D 4-A",
+    correctOption: "d"
+  },
+  {
+    id: 102,
+    question: "HVAC stands for?",
+    optionA: "High Voltage Air Conditioning",
+    optionB: "Heat Ventilation and Air Conditioning",
+    optionC: "Heat Value and Air Cooling",
+    optionD: "Heating Ventilation and Air Conditioning",
+    correctOption: "d"
+  },
+  {
+    id: 103,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. Charles Correa",
+      "2. Zaha Hadid",
+      "3. Anant Raje",
+      "4. Rem Koolhaas"
+],
+    columnBItems: [
+      "Institute of Forest Management - Bhopal",
+      "Wangjing SOHO Tower",
+      "Aga Khan Palace - Toronto",
+      "CCTV Headquarters"
+],
+    optionA: "1-D 2-B 3-A 4-C",
+    optionB: "1-D 2-B 3-A 4-C",
+    optionC: "1-D 2-C 3-B 4-A",
+    optionD: "1-C 2-B 3-A 4-D",
+    correctOption: "d"
+  },
+  {
+    id: 104,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1zfffaqSJmukIgcPAAdh7aesjJoNfYQnW&sz=w1000",
+    optionA: "b",
+    optionB: "c",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 105,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. Brick Terms",
+      "2. Stair Terms",
+      "3. Arch Terms",
+      "4. Greek & Roman Column Terms"
+],
+    columnBItems: [
+      "Landing",
+      "Haunch",
+      "Header",
+      "Frieze"
+],
+    optionA: "1-B 2-A 3-D 4-C",
+    optionB: "1-D 2-B 3-C 4-A",
+    optionC: "1-D 2-B 3-C 4-A",
+    optionD: "1-C 2-A 3-B 4-D",
+    correctOption: "d"
+  },
+  {
+    id: 106,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1-pa0XahmfKLgvVNk3ckmvTUqUZ66dmBW&sz=w1000",
+    optionA: "west",
+    optionB: "east",
+    optionC: "north",
+    optionD: "south",
+    correctOption: "d"
+  },
+  {
+    id: 107,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1-dWw7yYeqyt1zkvzeXq2raub4Utv3aUM&sz=w1000",
+    optionA: "28",
+    optionB: "25",
+    optionC: "26",
+    optionD: "27",
+    correctOption: "d"
+  },
+  {
+    id: 108,
+    question: "Identify the famous Monument",
+    image: "https://drive.google.com/thumbnail?id=1vmpF30QMvy48zm0Hg78wVH5EJles48K2&sz=w1000",
+    optionA: "Fallingwater House",
+    optionB: "TWA Terminal (JFK Airport)",
+    optionC: "BMW Museum",
+    optionD: "Arc de Triomphe",
+    correctOption: "d"
+  },
+  {
+    id: 109,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1zW8w7jm-K-imk02I4zoIYUX5k4GXsK-R&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "d",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 110,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1zi6BVHYiYYdxlTPRfVZKjwnDpRLZ8z3B&sz=w1000",
+    optionA: "b",
+    optionB: "c",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 111,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1zB8MAVRFpsgdtDBtnGF-MMatKFKkpYOG&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "d",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 112,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1zuADOMCFXrgPUdInHA8NLa-ElIcz84Ah&sz=w1000",
+    optionA: "a",
+    optionB: "b",
+    optionC: "d",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 113,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. Keystone",
+      "2. Stile",
+      "3. Soffit",
+      "4. Architrave"
+],
+    columnBItems: [
+      "The underside of an arch or lintel.",
+      "The vertical edges of a door frame.",
+      "The central topmost stone in an arch.",
+      "The horizontal beam resting directly on the columns."
+],
+    optionA: "1-B 2-C 3-D 4-A",
+    optionB: "1-D 2-A 3-C 4-B",
+    optionC: "1-A 2-C 3-D 4-B",
+    optionD: "1-C 2-B 3-A 4-D",
+    correctOption: "d"
+  },
+  {
+    id: 114,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1z8c80kvF99rKthXfddGiC6ek1anZXI1x&sz=w1000",
+    optionA: "b",
+    optionB: "c",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 115,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1-VIowb6wNQj1N2Zgimw_Q_xB8tgZZn4h&sz=w1000",
+    optionA: "a",
+    optionB: "d",
+    optionC: "c",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 116,
+    question: "Which type of paint finish is highly reflective?",
+    optionA: "Matte",
+    optionB: "Satin",
+    optionC: "Distemper",
+    optionD: "Glossy",
+    correctOption: "d"
+  },
+  {
+    id: 117,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1zSGGK0Kav6lXoAG621rEM9D0QsGBtdDt&sz=w1000",
+    optionA: "b",
+    optionB: "c",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 118,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1yzYA7rAHSnGvN6LOhQ_4u2u_SKkmlQhV&sz=w1000",
+    optionA: "c",
+    optionB: "d",
+    optionC: "b",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 119,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1zbYlisM6AeeaXjUXxwvExUXrwVvfoTGA&sz=w1000",
+    optionA: "b",
+    optionB: "c",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 120,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1zfaXATtE-F2ytB7ntnGArAhzlTY2BWy-&sz=w1000",
+    optionA: "b",
+    optionB: "d",
+    optionC: "c",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 121,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1zdPtIlAXyxsba6EgyIooXgYi_hcc9K_S&sz=w1000",
+    optionA: "d",
+    optionB: "b",
+    optionC: "a",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 122,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1-zqrZdvl5yZLFHCIqks72iRm4Rs_06Gy&sz=w1000",
+    optionA: "8",
+    optionB: "7",
+    optionC: "5",
+    optionD: "6",
+    correctOption: "d"
+  },
+  {
+    id: 123,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1zwrOE6O24uGiUrI49f1mhg3g1jOVUQgR&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "d",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 124,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1z4DiHkgFVkqzs5quSnNrEwPzxFhuN-HX&sz=w1000",
+    optionA: "b",
+    optionB: "d",
+    optionC: "a",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 125,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1zbILKr-8hgv1JVfZE-D2Gl1TzJzdKm5s&sz=w1000",
+    optionA: "a",
+    optionB: "d",
+    optionC: "c",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 126,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1zgRf4l5gVSTWnRhHDYltiOnHbRCbn7Ne&sz=w1000",
+    optionA: "b",
+    optionB: "c",
+    optionC: "a",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 127,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. Partition of India",
+      "2. Indian National Congress",
+      "3. Chauri Chaura Incident",
+      "4. Rowlatt Satyagraha"
+],
+    columnBItems: [
+      "1922",
+      "1947",
+      "1919",
+      "1885"
+],
+    optionA: "1-D 2-C 3-A 4-B",
+    optionB: "1-A 2-B 3-D 4-C",
+    optionC: "1-A 2-B 3-C 4-D",
+    optionD: "1-B 2-D 3-A 4-C",
+    correctOption: "d"
+  },
+  {
+    id: 128,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1z7251X7BUJhKxwwwuoCU6X9qXjlv8g_A&sz=w1000",
+    optionA: "d",
+    optionB: "c",
+    optionC: "a",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 129,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1keCudrjMxvlVbUtP9XBV7FgprfEmsv4g&sz=w1000",
+    optionA: "c",
+    optionB: "a",
+    optionC: "b",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 130,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. Westminster Abbey",
+      "2. Duomo di Milano",
+      "3. St. Basil's Cathedral",
+      "4. St. Peter's Basilica"
+],
+    columnBItems: [
+      "Moscow",
+      "Vatican City",
+      "Milan",
+      "London"
+],
+    optionA: "1-B 2-C 3-D 4-A",
+    optionB: "1-C 2-D 3-A 4-B",
+    optionC: "1-C 2-B 3-D 4-A",
+    optionD: "1-D 2-C 3-A 4-B",
+    correctOption: "d"
+  },
+  {
+    id: 131,
+    question: "Which type of lime is best for water-resistant construction?",
+    optionA: "Fat Lime",
+    optionB: "Quick Lime",
+    optionC: "Slaked Lime",
+    optionD: "Hydraulic Lime",
+    correctOption: "d"
+  },
+  {
+    id: 132,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1-VGh7HClLfLuFy-a4H1_gF65xOy5c-6j&sz=w1000",
+    optionA: "c",
+    optionB: "b",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 133,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1zuZrPc9w6aqSDIgGrK7RbYiGfY8Smxlc&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "d",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 134,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1zIdYqv7z0P0ljaokI5O2iqZx3pl8_A-6&sz=w1000",
+    optionA: "c",
+    optionB: "a",
+    optionC: "d",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 135,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=106GZPhYLR784bGZpZyNFCeyf8Hm3PfW9&sz=w1000",
+    optionA: "c",
+    optionB: "b",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 136,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1zWUfZSnmTDQqTI7xpT-YnZ0ZC89s33D8&sz=w1000",
+    optionA: "a",
+    optionB: "d",
+    optionC: "b",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 137,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1-WjF5d5lExP0sMeW-rLJGRA5Mwnoixol&sz=w1000",
+    optionA: "73",
+    optionB: "76",
+    optionC: "74",
+    optionD: "75",
+    correctOption: "d"
+  },
+  {
+    id: 138,
+    question: "Statement 1: Full scale means drawing is exactly the same size as object.\nStatement 2: It is used in technical models and mockups.",
+    optionA: "C. S1 is true, S2 is false",
+    optionB: "D. S1 is false, S2 is true",
+    optionC: "B. Both S1 and S2 are false",
+    optionD: "A. Both S1 and S2 are true",
+    correctOption: "d"
+  },
+  {
+    id: 139,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=13zhqtCkFOb36hEdCJn_4m7QDuFF1Xibh&sz=w1000",
+    optionA: "Sat Dec 30 1899 09:50:00 GMT+0521 (India Standard Time)",
+    optionB: "Sat Dec 30 1899 06:50:00 GMT+0521 (India Standard Time)",
+    optionC: "Sat Dec 30 1899 08:50:00 GMT+0521 (India Standard Time)",
+    optionD: "Sat Dec 30 1899 07:50:00 GMT+0521 (India Standard Time)",
+    correctOption: "d"
+  },
+  {
+    id: 140,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1-2yeaGgGQO4GMyeyjM1LjNNV5kQJ_Mhf&sz=w1000",
+    optionA: "c",
+    optionB: "b",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 141,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1zr0_mQt5M2SkFIXxa9MOXdlJFGyyvzke&sz=w1000",
+    optionA: "b",
+    optionB: "a",
+    optionC: "d",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 142,
+    question: "Which property makes terracotta suitable for roofing tiles?",
+    optionA: "High weight",
+    optionB: "Low temperature resistance",
+    optionC: "Brittle nature",
+    optionD: "Water resistance and durability",
+    correctOption: "d"
+  },
+  {
+    id: 143,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1z1wFxt2qQwrjP0HEPhvvO6nRw8tdWWQT&sz=w1000",
+    optionA: "a",
+    optionB: "b",
+    optionC: "d",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 144,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1zbk6VwO5no2CLPylqe21opesqQ7XQ15q&sz=w1000",
+    optionA: "c",
+    optionB: "a",
+    optionC: "d",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 145,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1zYpk8JpKen0rrpbgfy52bM0h_JVS1yiz&sz=w1000",
+    optionA: "c",
+    optionB: "b",
+    optionC: "a",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 146,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1zaTcKWFLG6Ga3Pu34QrkepHvAYc4UPBj&sz=w1000",
+    optionA: "b",
+    optionB: "d",
+    optionC: "c",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 147,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1-ebGXRD7GYh4LLRtDIvuy-YRzxTXnm9B&sz=w1000",
+    optionA: "40",
+    optionB: "41",
+    optionC: "43",
+    optionD: "42",
+    correctOption: "d"
+  },
+  {
+    id: 148,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1-3U-5W2G8eUpwV6bRw2fhpFSNLAnxok5&sz=w1000",
+    optionA: "c",
+    optionB: "a",
+    optionC: "d",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 149,
+    question: "Statement 1: The longest day in the Northern Hemisphere is in December.\nStatement 2: That day is called the summer solstice.",
+    optionA: "C. S1 is true, but S2 is false",
+    optionB: "A. Both statements are true, and S2 is the correct explanation of S1",
+    optionC: "D. S1 is false, but S2 is true",
+    optionD: "B. Both S1 and S2 are false",
+    correctOption: "d"
+  },
+  {
+    id: 150,
+    question: "Read the Instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1-YrK_1jF3f8PngQh7U2BnajRNXqXYOgX&sz=w1000",
+    optionA: "21",
+    optionB: "23",
+    optionC: "25",
+    optionD: "24",
+    correctOption: "d"
+  },
+{
+  id: 401,
+  question: "Draw Proportionate sketch of Given Image with Black and white Rendering Method. ",
+image: "https://drive.google.com/thumbnail?id=1V5C-agMFHEOecIu6XsJONOF8kXRbFEQf&sz=w1000",
+  correctOption: "manual_evaluation", // Special flag
+  optionA: "0", optionB: "0", optionC: "0", optionD: "0"
+},
+{
+  id: 402,
+  question: "You are visitor in zoo, One family is viwing zoo Animals. Draw a scene in your Perspective and colour it.",
+  correctOption: "manual_evaluation",
+  optionA: "0",
+  optionB: "0",
+  optionC: "0",
+  optionD: "0"
+},
     
 
 ];
+
 
 
 
