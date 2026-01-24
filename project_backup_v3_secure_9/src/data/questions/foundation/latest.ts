@@ -7278,20 +7278,16 @@ image: "https://drive.google.com/thumbnail?id=1-5nQO2azLOrIys7bPiCvc1xP4Oh838a5&
   question: "Draw Proportionate sketch of Given Image with Black and white Rendering Method. ",
 image: "https://drive.google.com/thumbnail?id=1V5C-agMFHEOecIu6XsJONOF8kXRbFEQf&sz=w1000",
   correctOption: "manual_evaluation", // Special flag
-  optionA: "0", optionB: "0", optionC: "0", optionD: "0"
 },
 {
   id: 402,
   question: "You are visitor in zoo, One family is viwing zoo Animals. Draw a scene in your Perspective and colour it.",
   correctOption: "manual_evaluation",
-  optionA: "0",
-  optionB: "0",
-  optionC: "0",
-  optionD: "0"
 },
     
 
 ];
+
 
 
 
