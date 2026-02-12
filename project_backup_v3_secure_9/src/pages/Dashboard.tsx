@@ -129,6 +129,7 @@ export default function Dashboard() {
                 </h3>
                 <p className="text-2xl font-bold text-green-600">5999/- ( July & Augest )</p>
                 <p className="text-2xl font-bold text-green-600">4999/- ( October )</p>
+                <p className="text-2xl font-bold text-green-600">2999/- ( February )</p>
               </div>
 
               <div className="bg-white p-6 rounded-lg shadow">
@@ -237,4 +238,5 @@ export default function Dashboard() {
       </div>
     </div>
   );
+
 }
