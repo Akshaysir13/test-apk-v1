@@ -127,7 +127,7 @@ export default function Dashboard() {
                 <h3 className="text-lg font-semibold text-gray-700 mb-2">
                   Your Course Fee Paid
                 </h3>
-                <p className="text-2xl font-bold text-green-400">5999/- ( July & Augest )</p>
+                <p className="text-2xl font-bold text-green-400">5999/- ( July Augest )</p>
                 <p className="text-2xl font-bold text-green-400">4999/- ( October )</p>
                   <p className="text-2xl font-bold text-green-400">2999/- ( February )</p>
               </div>
@@ -240,4 +240,5 @@ export default function Dashboard() {
   );
 
 }
+
 
