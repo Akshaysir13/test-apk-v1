@@ -194,7 +194,7 @@ export const foundationStudents: UserAccount[] = [
   approved: true,
   courses: ['foundation']
 }, //taniska
-{ email: ' bhumikashar1807@gmail.com', password: 'bhumika@123', role: 'student', approved: true, courses: ['foundation'] },
+{ email: 'bhumikashar1807@gmail.com', password: 'bhumika@123', role: 'student', approved: true, courses: ['foundation'] },
 { email: 'tejasvi.vic@gmail.com', password: 'India@26#', role: 'student', approved: true, courses: ['foundation'] },
 { email: 'anshikasonakiya955@gmail.com', password: 'Anshika*1', role: 'student', approved: true, courses: ['foundation'] },
 { email: 'pranaychennupati@gmail.com', password: 'JeeBarch@26', role: 'student', approved: true, courses: ['foundation'] },
@@ -202,9 +202,10 @@ export const foundationStudents: UserAccount[] = [
 { email: 'vsvs.naga.jasmitha@gmail.com', password: 'Jasmitha@2009', role: 'student', approved: true, courses: ['foundation'] },
 { email: 'swetass8292@gmail.com', password: 'Sweta@62031', role: 'student', approved: true, courses: ['foundation'] },
 { email: 'Khushbuchaprana@gmail.com', password: 'Khushbu@0410', role: 'student', approved: true, courses: ['foundation'] },
-{ email: 'kumarisakshi52905@gmail.com', password: 'Golgappu ', role: 'student', approved: true, courses: ['foundation'] },
-{ email: 'shaikhkarishma654@gmail.com', password: 'Karrshu ', role: 'student', approved: true, courses: ['foundation'] },
+{ email: 'kumarisakshi52905@gmail.com', password: 'Golgappu', role: 'student', approved: true, courses: ['foundation'] },
+{ email: 'shaikhkarishma654@gmail.com', password: 'Karrshu', role: 'student', approved: true, courses: ['foundation'] },
 ];
+
 
 
 
