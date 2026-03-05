@@ -7284,9 +7284,607 @@ image: "https://drive.google.com/thumbnail?id=1V5C-agMFHEOecIu6XsJONOF8kXRbFEQf&
   question: "You are visitor in zoo, One family is viwing zoo Animals. Draw a scene in your Perspective and colour it.",
   correctOption: "manual_evaluation",
 },
-    
+//TEST 1 April
+  {
+    id: 101,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. Mullion",
+      "2. Transom",
+      "3. Clerestory",
+      "4. Skylight/Rooflight"
+],
+    columnBItems: [
+      "Horizontal bar above door/window separating opening",
+      "Vertical bar dividing window/curtain wall panels",
+      "Window installed in roof plane",
+      "High window section above eye level"
+],
+    optionA: "1-D 2-B 3-A 4-C",
+    optionB: "1-B 2-D 3-A 4-C",
+    optionC: "1-B 2-A 3-C 4-D",
+    optionD: "1-B 2-A 3-D 4-C",
+    correctOption: "d"
+  },
+  {
+    id: 102,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. Norman Foster",
+      "2. Raj Revel",
+      "3. Skidmore, Owings & Merrill",
+      "4. Daniel Libeskind"
+],
+    columnBItems: [
+      "Millu Bridge",
+      "Jewish Museum",
+      "Engineers India House - New Delhi",
+      "John Hancock Tower"
+],
+    optionA: "1-C 2-B 3-A 4-D",
+    optionB: "1-D 2-A 3-B 4-C",
+    optionC: "1-D 2-B 3-A 4-C",
+    optionD: "1-A 2-C 3-D 4-B",
+    correctOption: "d"
+  },
+  {
+    id: 103,
+    question: "Question Figure shows correct Elevation of Object identify Correct Plan of Object",
+    image: "https://drive.google.com/thumbnail?id=1ggnDd_sG3nI16yiCJYAyEUZg56TEm9JS&sz=w1000",
+    optionA: "d",
+    optionB: "a",
+    optionC: "c",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 104,
+    question: "ITPI stands for?",
+    optionA: "Institute of Town Planning India",
+    optionB: "Indian Technical Planning Institute",
+    optionC: "Infrastructure & Town Policy Institute",
+    optionD: "Institute of Town Planners, India",
+    correctOption: "d"
+  },
+  {
+    id: 105,
+    question: "Identify odd one out",
+    image: "https://drive.google.com/thumbnail?id=1LpP0GZXLjGlcMTXTAyR7EVdXobo9cUPA&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "b",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 106,
+    question: "The horizontal flat surface of a step in a staircase is called:",
+    optionA: "Riser",
+    optionB: "Nosing",
+    optionC: "Tread",
+    optionD: "Soffit",
+    correctOption: "c"
+  },
+  {
+    id: 107,
+    question: "identift the correct view in the direction of arrow",
+    image: "https://drive.google.com/thumbnail?id=1fhwG4LrJWP3QygIxjOqEbrhKRiCYL-kb&sz=w1000",
+    optionA: "c",
+    optionB: "b",
+    optionC: "a",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 108,
+    question: "Identify Famous temple",
+    image: "https://drive.google.com/thumbnail?id=1qqpbUS4py4xVr5vyg0byNMr9zVqdi8yF&sz=w1000",
+    optionA: "minnakshi temple",
+    optionB: "Arunachaleshwer temple",
+    optionC: "Rameshwaram Temple",
+    optionD: "Chidambaram Nataraj temple",
+    correctOption: "d"
+  },
+  {
+    id: 109,
+    question: "A split-complementary colour scheme consists of:",
+    optionA: "One colour and its two neighbours on the colour wheel",
+    optionB: "One colour and the two colours adjacent to its direct complement",
+    optionC: "Three equally spaced colours on the colour wheel",
+    optionD: "Four colours forming a rectangle on the colour wheel",
+    correctOption: "b"
+  },
+  {
+    id: 110,
+    question: "Zaha Hadid's use of computational tools to generate non-linear geometry is associated with which style?",
+    optionA: "Brutalism",
+    optionB: "High-Tech Architecture",
+    optionC: "Parametricism",
+    optionD: "Organic Architecture",
+    correctOption: "c"
+  },
+  {
+    id: 111,
+    question: "S1: A colonnade is a row of evenly spaced columns supporting a roof or entablature along a walkway or building facade. S2: Colonnades are found only in ancient Greek and Roman architecture and are never used in modern buildings.",
+    optionA: "Both true",
+    optionB: "Both false",
+    optionC: "S1 true, S2 false",
+    optionD: "S1 false, S2 true",
+    correctOption: "c"
+  },
+  {
+    id: 112,
+    question: "Which city features the \"Finger Plan\" with transit corridors?",
+    optionA: "Stockholm",
+    optionB: "Copenhagen",
+    optionC: "Amsterdam",
+    optionD: "Oslo",
+    correctOption: "b"
+  },
+  {
+    id: 113,
+    question: "Which architectural term describes the arrangement and design of windows and openings in a building?",
+    optionA: "Massing",
+    optionB: "Cladding",
+    optionC: "Fenestration",
+    optionD: "Articulation",
+    correctOption: "c"
+  },
+  {
+    id: 114,
+    question: "S1: Value in colour theory refers to the lightness or darkness of a colour. S2: A tint is created by adding white to a pure colour, increasing its value.",
+    optionA: "Both true, S2 explains S1",
+    optionB: "Both true, S2 does not explain S1",
+    optionC: "S1 true, S2 false",
+    optionD: "S1 false, S2 true",
+    correctOption: "b"
+  },
+  {
+    id: 115,
+    question: "The term used to describe the principal exterior face of a building is:",
+    optionA: "Elevation",
+    optionB: "Facade",
+    optionC: "Section",
+    optionD: "Plan",
+    correctOption: "b"
+  },
+  {
+    id: 116,
+    question: "Question Figure shows correct plan of Object identify Correct Elevation of Object",
+    image: "https://drive.google.com/thumbnail?id=1QlrKwpuyYtZdepzewrzF646wDRjcjhhw&sz=w1000",
+    optionA: "c",
+    optionB: "d",
+    optionC: "a",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 117,
+    question: "The Konark Sun Temple is designed in the form of:",
+    optionA: "A seven-storey pyramid",
+    optionB: "A chariot with 24 wheels pulled by 7 horses",
+    optionC: "A lotus flower with 12 petals",
+    optionD: "A boat sailing on the sea",
+    correctOption: "b"
+  },
+  {
+    id: 118,
+    question: "S1: A shade is created by adding black to a pure hue. S2: A tone is created by adding white to a pure hue.",
+    optionA: "Both true",
+    optionB: "Both false",
+    optionC: "S1 true, S2 false",
+    optionD: "S1 false, S2 true",
+    correctOption: "c"
+  },
+  {
+    id: 119,
+    question: "Mirror is Place In Place of X Identify Correct mirror image of Question figure",
+    image: "https://drive.google.com/thumbnail?id=1Bk_ogOfPgYRPtoltKIAiiurnmB_eTw-B&sz=w1000",
+    optionA: "d",
+    optionB: "a",
+    optionC: "c",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 120,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. Havelock Bridge",
+      "2. Dibang Bridge",
+      "3. Vidyasagar Setu",
+      "4. Mahatma Gandhi Setu"
+],
+    columnBItems: [
+      "Patna, Bihar",
+      "Kolkata, West Bengal",
+      "Andhra Pradesh",
+      "Arunachal Pradesh"
+],
+    optionA: "1-B 2-D 3-C 4-A",
+    optionB: "1-D 2-A 3-C 4-B",
+    optionC: "1-B 2-A 3-C 4-D",
+    optionD: "1-C 2-D 3-B 4-A",
+    correctOption: "d"
+  },
+  {
+    id: 121,
+    question: "Which of the following building materials is obtained by burning limestone at high temperatures?",
+    optionA: "Cement",
+    optionB: "Lime",
+    optionC: "Plaster of Paris",
+    optionD: "Fly ash",
+    correctOption: "b"
+  },
+  {
+    id: 122,
+    question: "The Kandariya Mahadeva Temple at Khajuraho is a celebrated example of which temple style?",
+    optionA: "Dravidien",
+    optionB: "Vesara",
+    optionC: "Hoysala",
+    optionD: "Nagara",
+    correctOption: "d"
+  },
+  {
+    id: 123,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. Amer Fort",
+      "2. Chittorgarh Fort",
+      "3. Dhamek Stupa",
+      "4. Bada/Chhota Imambara"
+],
+    columnBItems: [
+      "Lucknow",
+      "Chittor",
+      "Jaipur",
+      "Sarnath"
+],
+    optionA: "1-C 2-D 3-B 4-A",
+    optionB: "1-B 2-A 3-C 4-D",
+    optionC: "1-B 2-D 3-A 4-C",
+    optionD: "1-C 2-B 3-D 4-A",
+    correctOption: "d"
+  },
+  {
+    id: 124,
+    question: "Question Figure shows correct plan of Object identify Correct Elevation of Object",
+    image: "https://drive.google.com/thumbnail?id=1YvOAhVvNyqmBBLuRhOz_EsySOIJhmEE1&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "d",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 125,
+    question: "Mirror is Place In Place of X Identify Correct mirror image of Question figure",
+    image: "https://drive.google.com/thumbnail?id=1mucYL9YHzc9b6BPRhIagQIxaDuljiSMz&sz=w1000",
+    optionA: "b",
+    optionB: "d",
+    optionC: "c",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 126,
+    question: "Read the instruction Carefully",
+    image: "https://drive.google.com/thumbnail?id=1CsQAD-Gmdj0c4kjRSw_b_1KImgfQ--PQ&sz=w1000",
+    optionA: "a",
+    optionB: "b",
+    optionC: "d",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 127,
+    question: "Mirror is Place In Place of X Identify Correct mirror image of Question figure",
+    image: "https://drive.google.com/thumbnail?id=1_6OHJ2kXRv65N6WyKrnRK4ImWUTy9PdS&sz=w1000",
+    optionA: "b",
+    optionB: "a",
+    optionC: "d",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 128,
+    question: "identift the correct view in the direction of arrow",
+    image: "https://drive.google.com/thumbnail?id=17BpV_GP1GJZZIjU59k1qK7Z5r23GeTaH&sz=w1000",
+    optionA: "c",
+    optionB: "a",
+    optionC: "b",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 129,
+    question: "Who was the first architect to receive the Pritzker Architecture Prize in 1979?",
+    optionA: "Le Corbusier",
+    optionB: "Philip Johnson",
+    optionC: "Louis Kahn",
+    optionD: "Frank Lloyd Wright",
+    correctOption: "b"
+  },
+  {
+    id: 130,
+    question: "Indentify Famous Church",
+    image: "https://drive.google.com/thumbnail?id=1AjnqEU7_oSMynF-pfO8Lgu92CNNRP1vF&sz=w1000",
+    optionA: "Note Re dam Cathedral",
+    optionB: "Duram Cathedral",
+    optionC: "The Abby",
+    optionD: "The Whestminister Abby",
+    correctOption: "d"
+  },
+  {
+    id: 131,
+    question: "Which were the FIRST sites from India added to the UNESCO World Heritage List?",
+    optionA: "Taj Mahal & Agra Fort only",
+    optionB: "Ajanta Caves, Ellora Caves, Agra Fort & Taj Mahal",
+    optionC: "Ellora Caves",
+    optionD: "Khajuraho & Sanchi",
+    correctOption: "b"
+  },
+  {
+    id: 132,
+    question: "NIST stands for?",
+    optionA: "National Infrastructure Survey Team",
+    optionB: "National Institute for Science and Technology",
+    optionC: "National Information & Safety Training",
+    optionD: "National Institute of Standards and Technology",
+    correctOption: "d"
+  },
+  {
+    id: 133,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. Gypsum Board/Drywall",
+      "2. Plaster (Cement/Lime)",
+      "3. Paint/Coating",
+      "4. Bitumen/Asphalt"
+],
+    columnBItems: [
+      "Liquid pigment+binder applied to surfaces",
+      "Plaster core between paper liners",
+      "Mixture applied wet, hardens to smooth finish",
+      "Viscous petroleum derivative"
+],
+    optionA: "1-B 2-D 3-C 4-A",
+    optionB: "1-A 2-C 3-B 4-D",
+    optionC: "1-C 2-D 3-B 4-A",
+    optionD: "1-B 2-C 3-A 4-D",
+    correctOption: "d"
+  },
+  {
+    id: 134,
+    question: "Identify City Sky line",
+    image: "https://drive.google.com/thumbnail?id=1PkYnQ0qrAEvwxqG14PQWXklJygP7jt6m&sz=w1000",
+    optionA: "Las Vegus City",
+    optionB: "New York City",
+    optionC: "Chicago City",
+    optionD: "Seatal City",
+    correctOption: "d"
+  },
+  {
+    id: 135,
+    question: "River sand is preferred over sea sand in construction because:",
+    optionA: "River sand has larger particle size",
+    optionB: "Sea sand contains salts that cause corrosion of steel and efflorescence in walls",
+    optionC: "River sand is cheaper and more easily available",
+    optionD: "Sea sand has higher moisture content making it difficult to use",
+    correctOption: "b"
+  },
+  {
+    id: 136,
+    question: "Historic Event year of American Independence was at?",
+    optionA: "4th July 1773",
+    optionB: "4th July 1774",
+    optionC: "4th July 1775",
+    optionD: "4th July 1776",
+    correctOption: "d"
+  },
+  {
+    id: 137,
+    question: "Frank Gehry won the Pritzker Prize in 1989. His winning was largely influenced by his working style of:",
+    optionA: "Climate-responsive sustainable design",
+    optionB: "Deconstructivist sculptural titanium-clad forms",
+    optionC: "Minimalist glass and steel modernism",
+    optionD: "Humanistic modernism with warm natural materials",
+    correctOption: "b"
+  },
+  {
+    id: 138,
+    question: "Which structural member is primarily designed to resist bending forces?",
+    optionA: "Column",
+    optionB: "Footing",
+    optionC: "Wall",
+    optionD: "Beam",
+    correctOption: "d"
+  },
+  {
+    id: 139,
+    question: "S1: \"Scale 1:100\" means 1 unit on drawing equals 100 units in reality. S2: Larger scale drawings (like 1:50) show less detail than smaller scales (like 1:500).",
+    optionA: "Both true",
+    optionB: "Both false",
+    optionC: "S1 true, S2 false",
+    optionD: "S1 false, S2 true",
+    correctOption: "c"
+  },
+  {
+    id: 140,
+    question: "identift the correct view in the direction of arrow",
+    image: "https://drive.google.com/thumbnail?id=1AfTArobnIldbGUcz9fSUK1gRUUo398P-&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "b",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 141,
+    question: "Count the number of surfaces",
+    image: "https://drive.google.com/thumbnail?id=1QMZmYtLmxqbDAN4NWaSldaAxwkjrH7Mm&sz=w1000",
+    optionA: "16",
+    optionB: "19",
+    optionC: "18",
+    optionD: "17",
+    correctOption: "d"
+  },
+  {
+    id: 142,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. Chicago",
+      "2. Scotland",
+      "3. Prague",
+      "4. Vienna"
+],
+    columnBItems: [
+      "City of 100 Spires, Golden City",
+      "Imperial City, Atomic City",
+      "Land of Cakes",
+      "Windy City"
+],
+    optionA: "1-A 2-D 3-C 4-B",
+    optionB: "1-C 2-D 3-A 4-B",
+    optionC: "1-D 2-C 3-B 4-A",
+    optionD: "1-D 2-C 3-A 4-B",
+    correctOption: "d"
+  },
+  {
+    id: 143,
+    question: "10. In the Northern Hemisphere, ideal tree placement for shading is on the...?",
+    optionA: "East side",
+    optionB: "West side",
+    optionC: "North side",
+    optionD: "South side",
+    correctOption: "d"
+  },
+  {
+    id: 144,
+    question: "16. In winter, the sun takes a...?",
+    optionA: "High arc",
+    optionB: "Full circle",
+    optionC: "No arc",
+    optionD: "Low arc",
+    correctOption: "d"
+  },
+  {
+    id: 145,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. Thiruvalluvar Statue",
+      "2. Mahatma Gandhi Statue",
+      "3. Jogimara Cave",
+      "4. Dancing Girl"
+],
+    columnBItems: [
+      "Gandhi Maidan, Patna",
+      "Kanyakumari, Tamil Nadu",
+      "Mohenjo-daro",
+      "Chhattisgarh"
+],
+    optionA: "1-D 2-A 3-C 4-B",
+    optionB: "1-B 2-C 3-A 4-D",
+    optionC: "1-D 2-C 3-B 4-A",
+    optionD: "1-B 2-A 3-D 4-C",
+    correctOption: "d"
+  },
+  {
+    id: 146,
+    question: "identift the correct view in the direction of arrow",
+    image: "https://drive.google.com/thumbnail?id=1lfXa_uZWr98r4dZkPev7OIgANaqyNF0q&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "b",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 147,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. Minimalism (c. 1990–present)",
+      "2. Eco-Architecture/Sustainable Design (c. 1990–present)",
+      "3. Parametricism (c. 2000–present)",
+      "4. Neo-Futurism (c. 2000–present)"
+],
+    columnBItems: [
+      "Style reducing form, material, detail to essential elements",
+      "Style using algorithms to generate complex, adaptive forms",
+      "Style envisioning dynamic, technological, sustainable urban futures",
+      "Approach prioritizing environmental performance, resource efficiency"
+],
+    optionA: "1-C 2-B 3-A 4-D",
+    optionB: "1-D 2-B 3-A 4-C",
+    optionC: "1-C 2-B 3-D 4-A",
+    optionD: "1-A 2-D 3-B 4-C",
+    correctOption: "d"
+  },
+  {
+    id: 148,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. Stylobate",
+      "2. Peristyle",
+      "3. Clerestory",
+      "4. Oculus"
+],
+    columnBItems: [
+      "A row of windows placed high in a wall above the roofline of an adjacent lower section to admit light into the interior.",
+      "The top step of the stepped platform or base on which a row of classical columns stands directly.",
+      "A continuous row of columns surrounding the exterior of a temple or enclosing a courtyard or garden.",
+      "A circular opening or window at the crown of a dome or in a wall admitting light into the space below or beyond."
+],
+    optionA: "1-A 2-D 3-B 4-C",
+    optionB: "1-A 2-D 3-C 4-B",
+    optionC: "1-C 2-B 3-A 4-D",
+    optionD: "1-B 2-C 3-A 4-D",
+    correctOption: "d"
+  },
+  {
+    id: 149,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. Norman Foster",
+      "2. John Utzon",
+      "3. Lauri Baker",
+      "4. Achyut Kanvinde"
+],
+    columnBItems: [
+      "Sydney Opera House - Australia",
+      "Low Cost Housing - Auroville",
+      "Wembley Stadium - London",
+      "NII - Pune"
+],
+    optionA: "1-A 2-C 3-D 4-B",
+    optionB: "1-C 2-D 3-A 4-B",
+    optionC: "1-A 2-B 3-C 4-D",
+    optionD: "1-C 2-A 3-B 4-D",
+    correctOption: "d"
+  },
+  {
+    id: 150,
+    question: "Identify Famous Statue",
+    image: "https://drive.google.com/thumbnail?id=1dglqzKYZSZYA0FEOGbalxo8ypBW7V9gq&sz=w1000",
+    optionA: "The Satue of Unity",
+    optionB: "The Statue Of Pieata",
+    optionC: "Satue of Liberty",
+    optionD: "Christ the Redemmer",
+    correctOption: "d"
+  },
 
 ];
+
 
 
 
