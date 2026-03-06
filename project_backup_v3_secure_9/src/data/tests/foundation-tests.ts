@@ -519,7 +519,25 @@ export const foundationTests: Test[] = [
       }
     ]
   },
+  {
+    id: 'foundation-latest-pattern-test-2-April',
+    name: 'Foundation: Mock 2 (April 2026)',
+    description: 'Solve the expected paper of this year',
+    duration: DEFAULT_TEST_DURATION,
+    questions: foundationlatestQuestions.slice(741,791),
+    category: 'latest',
+    course: 'foundation',
+    sections: [
+      {
+        id: "aptitude",
+        name: "Aptitude",
+        type: "aptitude",
+        questionIndices: Array.from({ length: 50 }, (_, i) => i)
+      }
+    ]
+  },
 ];
+
 
 
 
