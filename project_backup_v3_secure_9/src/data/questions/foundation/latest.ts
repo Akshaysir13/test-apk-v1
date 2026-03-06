@@ -7883,7 +7883,595 @@ image: "https://drive.google.com/thumbnail?id=1V5C-agMFHEOecIu6XsJONOF8kXRbFEQf&
     correctOption: "d"
   },
 
+//Test 2 April
+     {
+    id: 101,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1eH28mFaiLab22LbIwL_3avClI-RMcbUc&sz=w1000",
+    optionA: "d",
+    optionB: "b",
+    optionC: "a",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 102,
+    question: "Which of the Following Architect Design the Given Building",
+    image: "https://drive.google.com/thumbnail?id=1-qslk06bEsAbJd-YI5Aq76qrekg2MzHJ&sz=w1000",
+    optionA: "Le Corbosier",
+    optionB: "Raj Rewal",
+    optionC: "C P Kuckreja",
+    optionD: "Louis Kahn",
+    correctOption: "d"
+  },
+  {
+    id: 103,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1FBWGl63t3qItP-higcOTl6RPmXFm1B1F&sz=w1000",
+    optionA: "d",
+    optionB: "c",
+    optionC: "b",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 104,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1Cu6IgdYfox0nv2A1lkOeWdMWO-coO8hS&sz=w1000",
+    optionA: "d",
+    optionB: "b",
+    optionC: "a",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 105,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1R8HRryKD21fLchZL_9hZnWTemIFC-R63&sz=w1000",
+    optionA: "a",
+    optionB: "b",
+    optionC: "c",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 106,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. Lime",
+      "2. Bamboo",
+      "3. Straw/Thatch",
+      "4. Rammed Earth"
+],
+    columnBItems: [
+      "Fast-growing grass with hollow culms",
+      "Compacted subsoil (clay, sand, gravel) in formwork",
+      "Dried stalks of grain plants",
+      "Calcium oxide/hydroxide from limestone"
+],
+    optionA: "1-A 2-C 3-D 4-B",
+    optionB: "1-D 2-A 3-B 4-C",
+    optionC: "1-D 2-C 3-A 4-B",
+    optionD: "1-D 2-A 3-C 4-B",
+    correctOption: "d"
+  },
+  {
+    id: 107,
+    question: "A plot of 150 m × 75 m is drawn on a map at a scale of 1:500. What is the size on paper?",
+    optionA: "3 cm × 1.5 cm",
+    optionB: "30 m × 15 m",
+    optionC: "3 m × 1.5 m",
+    optionD: "0.3 m × 0.15 m",
+    correctOption: "d"
+  },
+  {
+    id: 108,
+    question: "Who is an architect of IIM Kolkata Bridge",
+    optionA: "Le Corbusier",
+    optionB: "IM Pei",
+    optionC: "CP Kukreja",
+    optionD: "Christopher Benninger",
+    correctOption: "d"
+  },
+  {
+    id: 109,
+    question: "Architecture should speak of its time and place, but learn for timelessness. is Quated by ?",
+    optionA: "Philip Johnson",
+    optionB: "Sydney Pollack",
+    optionC: "Human Centered Design",
+    optionD: "Frank Gehry",
+    correctOption: "d"
+  },
+  {
+    id: 110,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1OnY6zbzpu-ZX0Tn5nBv3gYYkKlTuxTAk&sz=w1000",
+    optionA: "d",
+    optionB: "b",
+    optionC: "c",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 111,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1dkpb24StqHxHcHSwCLMIQIZewFSi00wn&sz=w1000",
+    optionA: "c",
+    optionB: "d",
+    optionC: "a",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 112,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1vdONElSdAtsqRp7Ri22d8qe4hZIpQELM&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "d",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 113,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1yv1jJ8pamXFRSt6i3ChDB2TA1XkoTNBt&sz=w1000",
+    optionA: "b",
+    optionB: "d",
+    optionC: "a",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 114,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1eYyZmMHFx74oyS1qS5Ln3EKpOLiGj3CU&sz=w1000",
+    optionA: "b",
+    optionB: "a",
+    optionC: "d",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 115,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1NuAg2GNPXinooniZXqzdf1qccqAoyloV&sz=w1000",
+    optionA: "b",
+    optionB: "a",
+    optionC: "c",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 116,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1QYZF9zlAXPOsXP9GHf0qInJ1sOx8lbCa&sz=w1000",
+    optionA: "d",
+    optionB: "b",
+    optionC: "c",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 117,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1YBuXyD3nzKWHmkFZmPS7LbnjiKsEeQ1_&sz=w1000",
+    optionA: "c",
+    optionB: "a",
+    optionC: "d",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 118,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. Aedicule",
+      "2. Balcony",
+      "3. Bay",
+      "4. Bracket"
+],
+    columnBItems: [
+      "Altar surrounds, window treatments",
+      "Facade composition, structural grids",
+      "Cornice support, furniture, shelves",
+      "Residential facades, theaters"
+],
+    optionA: "1-A 2-B 3-D 4-C",
+    optionB: "1-C 2-B 3-D 4-A",
+    optionC: "1-B 2-D 3-A 4-C",
+    optionD: "1-A 2-D 3-B 4-C",
+    correctOption: "d"
+  },
+  {
+    id: 119,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1ZnvulWH66KsyQNK3b6uhDq_Q47sDJ61Q&sz=w1000",
+    optionA: "d",
+    optionB: "c",
+    optionC: "b",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 120,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1kHm5ZXktoTYmbZQpYs3QlV0DYpIfH0pa&sz=w1000",
+    optionA: "c",
+    optionB: "a",
+    optionC: "d",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 121,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1VNfIK-Pun1HUkaMX5dwtkIWxS5TRHnMr&sz=w1000",
+    optionA: "d",
+    optionB: "c",
+    optionC: "b",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 122,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. Atrium",
+      "2. Facade",
+      "3. Fenestration",
+      "4. Cantilever"
+],
+    columnBItems: [
+      "A large open-roofed or skylit central hall inside a building rising through multiple floors with natural light from above.",
+      "A structural element projecting horizontally beyond its support without any support at its free outer end.",
+      "The principal exterior face of a building usually the front elevation facing a street or public open space.",
+      "The arrangement proportion and design of windows and openings in a building's wall or facade."
+],
+    optionA: "1-D 2-B 3-A 4-C",
+    optionB: "1-B 2-A 3-C 4-D",
+    optionC: "1-B 2-D 3-A 4-C",
+    optionD: "1-A 2-C 3-D 4-B",
+    correctOption: "d"
+  },
+  {
+    id: 123,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. Gothic Architecture",
+      "2. Roman Architecture",
+      "3. Greek Architecture",
+      "4. Islamic Architecture"
+],
+    columnBItems: [
+      "Use of Doric, Ionic, and Corinthian column orders.",
+      "Extensive use of arches, domes, and concrete construction.",
+      "Domes, minarets, arches, and geometric ornamentation.",
+      "Pointed arches, ribbed vaults, flying buttresses, stained glass."
+],
+    optionA: "1-B 2-D 3-C 4-A",
+    optionB: "1-C 2-A 3-D 4-B",
+    optionC: "1-B 2-C 3-A 4-D",
+    optionD: "1-D 2-B 3-A 4-C",
+    correctOption: "d"
+  },
+  {
+    id: 124,
+    question: "Statement 1: A truss is a structural framework of triangular units.\nStatement 2: A cantilever is a beam supported at both ends.",
+    optionA: "Both Statement 1 and Statement 2 are True.",
+    optionB: "Statement 1 is False,  Statement 2 is True",
+    optionC: "Both Statement 1 and Statement 2 is False",
+    optionD: "Statement 1 is True,  Statement 2 is False",
+    correctOption: "d"
+  },
+  {
+    id: 125,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1Og1AZTYRHWwCBHYZ9FrgQ6cSNfFEE1KJ&sz=w1000",
+    optionA: "b",
+    optionB: "c",
+    optionC: "a",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 126,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1TA2Ar55gAi8_ImmHmdCZeqAa0ssyUGZ4&sz=w1000",
+    optionA: "c",
+    optionB: "d",
+    optionC: "a",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 127,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. Brief/Program",
+      "2. Site Analysis",
+      "3. Massing",
+      "4. Floor Plan"
+],
+    columnBItems: [
+      "Evaluation of physical, legal, environmental context",
+      "Horizontal section cut at ~1.2m showing spatial layout",
+      "Document outlining client requirements, scope, constraints",
+      "Three-dimensional composition of building volumes"
+],
+    optionA: "1-B 2-C 3-D 4-A",
+    optionB: "1-D 2-B 3-C 4-A",
+    optionC: "1-D 2-C 3-A 4-B",
+    optionD: "1-C 2-A 3-D 4-B",
+    correctOption: "d"
+  },
+  {
+    id: 128,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1D9hry-K74Oc65Lt1tZ5zOz-DC68haqTt&sz=w1000",
+    optionA: "a",
+    optionB: "b",
+    optionC: "d",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 129,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. Footing",
+      "2. Grade Beam",
+      "3. Shear Wall",
+      "4. Curtain Wall"
+],
+    columnBItems: [
+      "Supports walls, ties footings, resists soil pressure",
+      "Distributes column/wall loads to soil safely",
+      "Weather barrier, aesthetic facade, admits light",
+      "Provides structural stability, limits sway"
+],
+    optionA: "1-C 2-D 3-A 4-B",
+    optionB: "1-A 2-D 3-C 4-B",
+    optionC: "1-B 2-C 3-D 4-A",
+    optionD: "1-B 2-A 3-D 4-C",
+    correctOption: "d"
+  },
+  {
+    id: 130,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. Clerestory",
+      "2. Colonnade",
+      "3. Column",
+      "4. Cornice"
+],
+    columnBItems: [
+      "Classical buildings, interior crown molding",
+      "Temples, porticos, interior spaces",
+      "St. Peter's Square, classical facades",
+      "Naves of churches, modern sustainable design"
+],
+    optionA: "1-A 2-B 3-D 4-C",
+    optionB: "1-D 2-C 3-A 4-B",
+    optionC: "1-D 2-C 3-A 4-B",
+    optionD: "1-D 2-C 3-B 4-A",
+    correctOption: "d"
+  },
+  {
+    id: 131,
+    question: "Who is an architect of Jewish Museum",
+    optionA: "Hafeez Contractor",
+    optionB: "Zaha Hadid",
+    optionC: "Antonio Gaudí",
+    optionD: "Daniel Libeskind",
+    correctOption: "d"
+  },
+  {
+    id: 132,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1azHzsUw9GRmYTwv0mwuJxE9BozZqSsnm&sz=w1000",
+    optionA: "b",
+    optionB: "a",
+    optionC: "c",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 133,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1NvXGClIHb3eZkpVVCxE0wi4yxLaYT61d&sz=w1000",
+    optionA: "b",
+    optionB: "a",
+    optionC: "c",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 134,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1Xf3u9zZeTi8po2imfa1xMzVQBypJNfag&sz=w1000",
+    optionA: "b",
+    optionB: "c",
+    optionC: "a",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 135,
+    question: "Statement 1: Vision scale is about how an object looks from up close.\nStatement 2: It helps design large signage or city facades.",
+    optionA: "B. Both S1 and S2 are false",
+    optionB: "C. S1 is true, S2 is false",
+    optionC: "A. Both S1 and S2 are true",
+    optionD: "D. S1 is false, S2 is true",
+    correctOption: "d"
+  },
+  {
+    id: 136,
+    question: "Statement 1: The sun path in the Southern Hemisphere curves northward.\nStatement 2: The sun appears in the northern sky throughout the day.",
+    optionA: "D. S1 is false, but S2 is true",
+    optionB: "B. Both statements are true, but S2 is not the correct explanation of S1",
+    optionC: "C. S1 is true, but S2 is false",
+    optionD: "A. Both statements are true, and S2 is the correct explanation of S1",
+    correctOption: "d"
+  },
+  {
+    id: 137,
+    question: "Statement 1: The primary colors in the additive color model are red, green, and blue.\nStatement 2: In the subtractive color model, the primary colors are cyan, magenta, and yellow.",
+    optionA: "Statement 1 is True,  Statement 2 is False",
+    optionB: "Both Statement 1 and Statement 2 is False",
+    optionC: "Statement 1 is False,  Statement 2 is True",
+    optionD: "Both Statement 1 and Statement 2 are True.",
+    correctOption: "d"
+  },
+  {
+    id: 138,
+    question: "HUDCO stands for?",
+    optionA: "Housing & Urban Development Council",
+    optionB: "Housing and Utility Department Corporation",
+    optionC: "Human Development Company",
+    optionD: "Housing and Urban Development Corporation",
+    correctOption: "d"
+  },
+  {
+    id: 139,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1CxIpeXPn9e2y7d2yVTvDYS1f-xgMs2HN&sz=w1000",
+    optionA: "d",
+    optionB: "b",
+    optionC: "a",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 140,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1nj7mj03f_SzBb9NsdfzW-iLAIJXqa9bO&sz=w1000",
+    optionA: "c",
+    optionB: "a",
+    optionC: "b",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 141,
+    question: "A residential building has 10 floors. The height of ground floor is 5 meter (including length and slab thickness). Rest all other floors are of 4.5 meter high (including slab thickness). What is the total height of the building (from ground to terrace) in meters?",
+    optionA: "46.5",
+    optionB: "45",
+    optionC: "46",
+    optionD: "45.5",
+    correctOption: "d"
+  },
+  {
+    id: 142,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=115BW-zFLS3Jh_NQY0dC6A0UTqytolw4y&sz=w1000",
+    optionA: "c",
+    optionB: "a",
+    optionC: "d",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 143,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1zUPvWAahWuMLWjyxZbyEIUbGshYSJrei&sz=w1000",
+    optionA: "b",
+    optionB: "a",
+    optionC: "d",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 144,
+    question: "Statement 1: Jean Nouvel designed the Louvre Abu Dhabi.\nStatement 2: He also designed the Torre Agbar in Barcelona.",
+    optionA: "Statement 1 is True,  Statement 2 is False",
+    optionB: "Statement 1 is False,  Statement 2 is True",
+    optionC: "Both Statement 1 and Statement 2 is False",
+    optionD: "Both Statement 1 and Statement 2 are True.",
+    correctOption: "d"
+  },
+  {
+    id: 145,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. Tread",
+      "2. Handrail",
+      "3. Baluster/Railing",
+      "4. Door"
+],
+    columnBItems: [
+      "Graspable rail along stair/ramp edge",
+      "Vertical posts supporting handrail",
+      "Movable barrier in wall opening",
+      "Horizontal part of step where foot is placed"
+],
+    optionA: "1-D 2-A 3-C 4-B",
+    optionB: "1-D 2-B 3-C 4-A",
+    optionC: "1-D 2-B 3-C 4-A",
+    optionD: "1-D 2-A 3-B 4-C",
+    correctOption: "d"
+  },
+  {
+    id: 146,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1fVWWyC8PoMDL1DaiGIz28DBYkLMGk5BT&sz=w1000",
+    optionA: "c",
+    optionB: "b",
+    optionC: "a",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 147,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1aZLYTKeaGqtSHJmW9Fw1zHntIIo7L3ma&sz=w1000",
+    optionA: "c",
+    optionB: "a",
+    optionC: "d",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 148,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1RTibcTZtgxkW3YNR7Efo0O7RpLSADWXi&sz=w1000",
+    optionA: "c",
+    optionB: "b",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 149,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1pUw0SqrHcK7ZJuyUIKJ90hQct39phNpB&sz=w1000",
+    optionA: "d",
+    optionB: "a",
+    optionC: "c",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 150,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1NH04eTpfsn7yNC5B4xtaiD_nihD2aFif&sz=w1000",
+    optionA: "a",
+    optionB: "d",
+    optionC: "c",
+    optionD: "b",
+    correctOption: "d"
+  },
+
 ];
+
 
 
 
