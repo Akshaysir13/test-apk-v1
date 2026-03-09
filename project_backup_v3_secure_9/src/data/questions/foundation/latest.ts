@@ -8469,8 +8469,596 @@ image: "https://drive.google.com/thumbnail?id=1V5C-agMFHEOecIu6XsJONOF8kXRbFEQf&
     optionD: "b",
     correctOption: "d"
   },
+//TEST 3 April
+      {
+    id: 101,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=15Vr-e_WnQrxaWE08kg0RYGerM036lQPg&sz=w1000",
+    optionA: "b",
+    optionB: "d",
+    optionC: "c",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 102,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=12tbq0vqnJZ3asq1B00PUlzWzRhTHYPi6&sz=w1000",
+    optionA: "Nither A nor B",
+    optionB: "Set B",
+    optionC: "Both A and B",
+    optionD: "Set A",
+    correctOption: "d"
+  },
+  {
+    id: 103,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1bovxx9zGg9eZetNGunNkgKV7Tljhwqex&sz=w1000",
+    optionA: "c",
+    optionB: "d",
+    optionC: "b",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 104,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1vKzFx9jFOtLpGd2xpL97ubkU01Sk7ZFV&sz=w1000",
+    optionA: "a",
+    optionB: "b",
+    optionC: "d",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 105,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1M0YZYup6Beuf9s0xS53zFDCGOViS6EZ-&sz=w1000",
+    optionA: "a",
+    optionB: "d",
+    optionC: "c",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 106,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1YFza1CQ9uhYgq_edSv-CwIvfgacacVe_&sz=w1000",
+    optionA: "a",
+    optionB: "d",
+    optionC: "c",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 107,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. Hafeez Contractor",
+      "2. Herber Baker",
+      "3. CP Kukreja",
+      "4. BV Doshi"
+],
+    columnBItems: [
+      "Apollo Hospital - New Delhi",
+      "BARC - Kota, RJ",
+      "Secretariat Building",
+      "BITS Pilani - Goa"
+],
+    optionA: "1-D 2-B 3-A 4-C",
+    optionB: "1-C 2-A 3-D 4-B",
+    optionC: "1-D 2-B 3-C 4-A",
+    optionD: "1-D 2-C 3-A 4-B",
+    correctOption: "d"
+  },
+  {
+    id: 108,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1xB5eYcSi29fncUgeLMNZvGFIB0njJjvL&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "b",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 109,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1FJCXzM61IlhVQEKC3EOkmlwZWWRgnbPE&sz=w1000",
+    optionA: "d",
+    optionB: "a",
+    optionC: "b",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 110,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1D-_qGw5fZXgetYllu75J0x8dOSENHDyD&sz=w1000",
+    optionA: "d",
+    optionB: "c",
+    optionC: "a",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 111,
+    question: "Why are overhangs used?",
+    optionA: "Aesthetic purpose only",
+    optionB: "To increase rain exposure",
+    optionC: "Block winter sun",
+    optionD: "To shade summer sun",
+    correctOption: "d"
+  },
+  {
+    id: 112,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1LUn7Jz6DDZ3VEH1dPFRFVBv8m600fiHv&sz=w1000",
+    optionA: "c",
+    optionB: "d",
+    optionC: "b",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 113,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1NnValhHRk9QZ9RU6BMQ9Z75KDNPWClNH&sz=w1000",
+    optionA: "d",
+    optionB: "a",
+    optionC: "b",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 114,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=11hLYFsbHfPU0S9KJdGeZ150PocBZofk5&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "b",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 115,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1WXEiCbEGOi26Tv_QuWzZZIBg8RMkgfoG&sz=w1000",
+    optionA: "d",
+    optionB: "c",
+    optionC: "a",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 116,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1G37SC35h5FeUPA1v1NSJEFOVbZzltDVm&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "b",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 117,
+    question: "Plastering of walls is done primarily to:",
+    optionA: "Increase the load-bearing capacity of walls",
+    optionB: "Provide a smooth finished surface and protect masonry from weather",
+    optionC: "Add decorative colour to the building exterior",
+    optionD: "Strengthen the bond between bricks in masonry",
+    correctOption: "b"
+  },
+  {
+    id: 118,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1XVlui8NN7u_VRtl69_3smRqzTynSSu60&sz=w1000",
+    optionA: "a",
+    optionB: "b",
+    optionC: "c",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 119,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1Eu88teIZNjikXeRHlWugcNlh_X0J5pA0&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "b",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 120,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=10Fgpp_w7d66DL7djU9GpgpWsmGpc9_V_&sz=w1000",
+    optionA: "b",
+    optionB: "a",
+    optionC: "c",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 121,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1z1Rib_WTtdPuB04M-du4RZU59qjlkKaO&sz=w1000",
+    optionA: "b",
+    optionB: "a",
+    optionC: "c",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 122,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1bbF6eULMv1pMzu2ek2RIwMXClH3C_RpR&sz=w1000",
+    optionA: "c",
+    optionB: "a",
+    optionC: "d",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 123,
+    question: "What type of louvre is best for east and west walls?",
+    optionA: "Circular",
+    optionB: "Horizontal",
+    optionC: "Diagonal",
+    optionD: "Vertical",
+    correctOption: "d"
+  },
+  {
+    id: 124,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1-UpDliWlCATFBj7F7pucsPqPwEjOkBs4&sz=w1000",
+    optionA: "c",
+    optionB: "d",
+    optionC: "b",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 125,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. World Pneumonia Day",
+      "2. Children's Day, World Diabetes Day",
+      "3. Naturopathy Day",
+      "4. National Integration Day"
+],
+    columnBItems: [
+      "12 November",
+      "14 November",
+      "18 November",
+      "19 November"
+],
+    optionA: "1-B 2-A 3-D 4-C",
+    optionB: "1-D 2-C 3-A 4-B",
+    optionC: "1-D 2-B 3-C 4-A",
+    optionD: "1-A 2-B 3-C 4-D",
+    correctOption: "d"
+  },
+  {
+    id: 126,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. Vault",
+      "2. Vestibule",
+      "3. Voussoir",
+      "4. Abutment"
+],
+    columnBItems: [
+      "Small entrance hall or anteroom leading to larger space",
+      "Wedge-shaped stone/brick forming arch, radiating from center",
+      "Arched masonry/concrete ceiling or roof spanning space",
+      "Massive support receiving thrust of arch, vault, or bridge"
+],
+    optionA: "1-A 2-C 3-B 4-D",
+    optionB: "1-A 2-B 3-D 4-C",
+    optionC: "1-B 2-D 3-A 4-C",
+    optionD: "1-C 2-A 3-B 4-D",
+    correctOption: "d"
+  },
+  {
+    id: 127,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1SHeQNh8ePKK4rE_q2UdJwkmpEvPQ2I7z&sz=w1000",
+    optionA: "c",
+    optionB: "a",
+    optionC: "d",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 128,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=11e5egQLQlUNIA7JwI4u7MY45SIatl43E&sz=w1000",
+    optionA: "b",
+    optionB: "c",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 129,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. Anant Raje",
+      "2. Hafeez Contractor",
+      "3. Le Corbusier",
+      "4. Eero Saarinen"
+],
+    columnBItems: [
+      "TWA Terminal",
+      "DIFF Centre - New Delhi",
+      "Indian Statistical Institute - New Delhi",
+      "Club House - Chandigarh"
+],
+    optionA: "1-C 2-B 3-A 4-D",
+    optionB: "1-A 2-B 3-C 4-D",
+    optionC: "1-A 2-C 3-B 4-D",
+    optionD: "1-C 2-B 3-D 4-A",
+    correctOption: "d"
+  },
+  {
+    id: 130,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1CDWYF6nPEnLXOisOvTPT9eQFrU4cfpdi&sz=w1000",
+    optionA: "a",
+    optionB: "b",
+    optionC: "d",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 131,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1m6ybzXqV2Yi98-rMP7csTyZxNeRXjOeu&sz=w1000",
+    optionA: "d",
+    optionB: "a",
+    optionC: "b",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 132,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1HLnIlnP8TSfgXqpCnr8ZaDapHeGY8F21&sz=w1000",
+    optionA: "c",
+    optionB: "d",
+    optionC: "b",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 133,
+    question: "Who designed Washington D.C.?",
+    optionA: "Georges Haussmann",
+    optionB: "Pierre Charles L'Enfant",
+    optionC: "Daniel Burnham",
+    optionD: "James Craig",
+    correctOption: "b"
+  },
+  {
+    id: 134,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1RTXkFluuQX3iozrB29gX7EMTvcIHCdGv&sz=w1000",
+    optionA: "b",
+    optionB: "d",
+    optionC: "c",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 135,
+    question: "S1: A lintel is a horizontal structural member placed below a door or window opening to support the wall above it. S2: Lintels are placed above openings to carry the load of the masonry above and transfer it to the sides.",
+    optionA: "Both true",
+    optionB: "Both true, S2 does not explain S1",
+    optionC: "S1 true, S2 false",
+    optionD: "S1 false, S2 true",
+    correctOption: "a"
+  },
+  {
+    id: 136,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1eLoTztiFnM1_WosdiXU12dv_z7yR4enC&sz=w1000",
+    optionA: "b",
+    optionB: "c",
+    optionC: "a",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 137,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1NxZpQGsF98W_ypaEomrSvTOnOG2hoLyh&sz=w1000",
+    optionA: "d",
+    optionB: "b",
+    optionC: "c",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 138,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1TFNh0-SCOChsHaKCEFVOjuakJsNtdpbs&sz=w1000",
+    optionA: "c",
+    optionB: "b",
+    optionC: "a",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 139,
+    question: "The soffit of a beam or slab refers to:",
+    optionA: "The top surface that receives the floor finish",
+    optionB: "The bottom exposed surface of the beam or slab",
+    optionC: "The side face of the beam",
+    optionD: "The joint between the beam and column",
+    correctOption: "b"
+  },
+  {
+    id: 140,
+    question: "Key Monastery is described as the oldest monastery in:",
+    optionA: "Ladakh",
+    optionB: "Sikkim",
+    optionC: "Arunachal Pradesh",
+    optionD: "The Spiti Valley",
+    correctOption: "d"
+  },
+  {
+    id: 141,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. Gothic Revival",
+      "2. Beaux-Arts",
+      "3. Arts and Crafts",
+      "4. Art Nouveau"
+],
+    columnBItems: [
+      "(c. 1740–1900)",
+      "(c. 1830–1920)",
+      "( c. 1880–1920)",
+      "(c. 1890–1910)"
+],
+    optionA: "1-A 2-B 3-D 4-C",
+    optionB: "1-A 2-C 3-D 4-B",
+    optionC: "1-D 2-B 3-A 4-C",
+    optionD: "1-D 2-A 3-C 4-B",
+    correctOption: "d"
+  },
+  {
+    id: 142,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1Xu4ODDSblUnrj9OybGFp2ixRmhlcV3rv&sz=w1000",
+    optionA: "d",
+    optionB: "a",
+    optionC: "b",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 143,
+    question: "S1: Flooring is the finished surface layer applied on top of the structural slab to provide a usable and aesthetic floor surface. S2: Common flooring materials include marble, vitrified tiles, granite, and wooden planks.",
+    optionA: "none True",
+    optionB: "Both true",
+    optionC: "S1 true, S2 false",
+    optionD: "S1 false, S2 true",
+    correctOption: "b"
+  },
+  {
+    id: 144,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. Marble",
+      "2. Granite",
+      "3. Sand",
+      "4. Aggregate (Coarse)"
+],
+    columnBItems: [
+      "Crushed stone/gravel 4.75mm+",
+      "Tempered metamorphic limestone (calcium carbonate)",
+      "Igneous rock with quartz, feldspar, mica",
+      "Fine aggregate from rock/weathering"
+],
+    optionA: "1-C 2-D 3-A 4-B",
+    optionB: "1-D 2-B 3-C 4-A",
+    optionC: "1-C 2-A 3-B 4-D",
+    optionD: "1-B 2-C 3-D 4-A",
+    correctOption: "d"
+  },
+  {
+    id: 145,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1Vuw7af-21pI9YGIGHf1Nt8Gkhszquy9D&sz=w1000",
+    optionA: "a",
+    optionB: "d",
+    optionC: "b",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 146,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. Chobe National Park (Kathari)",
+      "2. Red Square",
+      "3. Temple of Abu Simbel",
+      "4. The Pentagon"
+],
+    columnBItems: [
+      "Moscow",
+      "Egypt",
+      "USA",
+      "Botswana"
+],
+    optionA: "1-A 2-D 3-B 4-C",
+    optionB: "1-A 2-D 3-B 4-C",
+    optionC: "1-B 2-C 3-A 4-D",
+    optionD: "1-D 2-A 3-B 4-C",
+    correctOption: "d"
+  },
+  {
+    id: 147,
+    question: "The term \"saturation\" in color refers to:",
+    optionA: "The brightness of a color",
+    optionB: "The intensity or purity of a color",
+    optionC: "The temperature of a color",
+    optionD: "The position on the color wheel",
+    correctOption: "b"
+  },
+  {
+    id: 148,
+    question: "S1: A monochromatic colour scheme uses variations of a single hue through different tints, shades, and tones. S2: Monochromatic schemes are created by combining multiple unrelated hues from opposite sides of the colour wheel.",
+    optionA: "Both true",
+    optionB: "Both false",
+    optionC: "S1 true, S2 false",
+    optionD: "S1 false, S2 true",
+    correctOption: "c"
+  },
+  {
+    id: 149,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1nRQc6qrlgizmaweiNQwTQKHGcBSqlPa2&sz=w1000",
+    optionA: "d",
+    optionB: "a",
+    optionC: "c",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 150,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. Srirangapatna Fort",
+      "2. Panhala Fort",
+      "3. Kumbhalgarh Fort",
+      "4. Golconda Fort"
+],
+    columnBItems: [
+      "Karnataka",
+      "Telangana",
+      "Kolhapur",
+      "Udaipur"
+],
+    optionA: "1-C 2-A 3-B 4-D",
+    optionB: "1-D 2-C 3-B 4-A",
+    optionC: "1-B 2-C 3-D 4-A",
+    optionD: "1-A 2-C 3-D 4-B",
+    correctOption: "d"
+  },
 
 ];
+
 
 
 
