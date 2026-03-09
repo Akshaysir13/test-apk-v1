@@ -290,7 +290,9 @@ export const foundationStudents: UserAccount[] = [
   approved: true,
   courses: ['foundation']
 },
+{ email: 'himeshmandloi24@gmail.com', password: 'himesh2411#', role: 'student', approved: true, courses: ['foundation'] },
 ];
+
 
 
 
