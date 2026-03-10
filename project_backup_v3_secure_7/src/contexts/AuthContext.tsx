@@ -126,6 +126,34 @@ export function AuthProvider({ children }: { children: ReactNode }) {
           return;
         }
 
+        // Before restoring the session, ensure this device/account is not blocked
+        try {
+          console.log('\n[BLOCK CHECK] Checking user_devices for restored session');
+          console.log('  └─ Email from session:', data.user_email);
+          console.log('  └─ Device ID from storage:', deviceId);
+
+          const { data: deviceRow, error: deviceRowError } = await supabase
+            .from('user_devices')
+            .select('*')
+            .eq('user_email', data.user_email)
+            .eq('device_id', deviceId)
+            .maybeSingle();
+
+          if (deviceRowError) {
+            console.error('❌ Error while checking block status during restore:', deviceRowError);
+          } else if ((deviceRow as any)?.is_blocked === true) {
+            console.log('  └─ Device/account is blocked. Deleting session and forcing re-login.');
+            await supabase
+              .from('user_sessions')
+              .delete()
+              .eq('device_id', deviceId);
+            setIsCheckingSession(false);
+            return;
+          }
+        } catch (blockCheckError) {
+          console.error('❌ Unexpected error while checking block status during restore:', blockCheckError);
+        }
+
         console.log('Session found:', data);
 
         const expiresAt = new Date(data.expires_at);
@@ -248,6 +276,22 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         console.error('  Code:', deviceError.code);
         console.error('  Message:', deviceError.message);
         throw deviceError;
+      }
+
+      // STEP 3A: Block check using is_blocked flag
+      const existingBlocked = (existingDevice as any)?.is_blocked === true;
+      const ownerBlocked = (deviceOwner as any)?.is_blocked === true;
+
+      if (existingBlocked || ownerBlocked) {
+        console.log('\n[BLOCK CHECK] Account/device is blocked in user_devices');
+        console.log('  └─ Email:', email);
+        console.log('  └─ Existing device blocked:', existingBlocked ? 'YES' : 'NO');
+        console.log('  └─ Device owner blocked:', ownerBlocked ? 'YES' : 'NO');
+        console.log('╚═══════════════════════════════════════════════════════════╝\n');
+        return {
+          success: false,
+          message: 'Device validation failed: Unknown error'
+        };
       }
 
       // STEP 4: Handle different scenarios
