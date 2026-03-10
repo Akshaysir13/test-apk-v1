@@ -9057,7 +9057,622 @@ image: "https://drive.google.com/thumbnail?id=1V5C-agMFHEOecIu6XsJONOF8kXRbFEQf&
     correctOption: "d"
   },
 
+    //Test 4 April
+      {
+    id: 101,
+    question: "Indentify the following Building",
+    image: "https://drive.google.com/thumbnail?id=1E97U_h7h-fM7k73Sl7oFPjNu7Ii0FWR5&sz=w1000",
+    optionA: "Pompidou france",
+    optionB: "Bran castle",
+    optionC: "museum of Art Brazile",
+    optionD: "Chrysler Building",
+    correctOption: "d"
+  },
+  {
+    id: 102,
+    question: "Read The Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1GxETAro90228r_6mMlCU3IWMoeLOGljb&sz=w1000",
+    optionA: "c",
+    optionB: "b",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 103,
+    question: "Read The Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1GbWXfcHMzKz267WsSAIV7O6mswGUIEDd&sz=w1000",
+    optionA: "d",
+    optionB: "a",
+    optionC: "b",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 104,
+    question: "Read The Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1STZBJfUhOwxF77FVdIXG_rpk3CAIVWvU&sz=w1000",
+    optionA: "d",
+    optionB: "b",
+    optionC: "a",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 105,
+    question: "Read The Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1GH3MAgE0Waz6_XUP_2zXyU1AUng9Sd6j&sz=w1000",
+    optionA: "Set A",
+    optionB: "Set B",
+    optionC: "Both A and B",
+    optionD: "Nither A and B",
+    correctOption: "d"
+  },
+  {
+    id: 106,
+    question: "Read The Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1GiiaLgZTnaLp4n_cwQSL95qRvl-gNjn4&sz=w1000",
+    optionA: "b",
+    optionB: "c",
+    optionC: "a",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 107,
+    question: "Which of the following Buiding Prominant Features are used in Gothic?",
+    optionA: "- Symmetry and proportion",
+    optionB: "- Greek and Roman influence",
+    optionC: "- Grand, dramatic designs",
+    optionD: "- Pointed arches",
+    correctOption: "d"
+  },
+  {
+    id: 108,
+    question: "Read The Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1GR8sa2O9J_nHOpS3gl5lK_OI0Fw4tn0H&sz=w1000",
+    optionA: "b",
+    optionB: "a",
+    optionC: "d",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 109,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. Keystone",
+      "2. Lintel",
+      "3. Mullion",
+      "4. Nave"
+],
+    columnBItems: [
+      "Central longitudinal aisle of a church, flanked by side aisles",
+      "Vertical bar dividing panes of glass or window units",
+      "Horizontal beam spanning opening (door/window), supporting load above",
+      "Central wedge-shaped stone at crown of arch, locking voussoirs in place"
+],
+    optionA: "1-D 2-A 3-C 4-B",
+    optionB: "1-C 2-D 3-A 4-B",
+    optionC: "1-A 2-C 3-D 4-B",
+    optionD: "1-D 2-C 3-B 4-A",
+    correctOption: "d"
+  },
+  {
+    id: 110,
+    question: "Read The Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1GY3SoUuZxK4LAuUN8YYHJPZro0o3WZWJ&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "b",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 111,
+    question: "Read The Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1GfVyv60_8XxZPh9NB6a6RifFVfD62FGa&sz=w1000",
+    optionA: "d",
+    optionB: "c",
+    optionC: "a",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 112,
+    question: "Statement 1: Steel is commonly used in construction due to its high tensile strength.\nStatement 2: Steel is highly resistant to corrosion without any treatment.",
+    optionA: "Both Statement 1 and Statement 2 are True.",
+    optionB: "Statement 1 is False,  Statement 2 is True",
+    optionC: "Both Statement 1 and Statement 2 is False",
+    optionD: "Statement 1 is True,  Statement 2 is False",
+    correctOption: "d"
+  },
+  {
+    id: 113,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. Cement",
+      "2. Sand",
+      "3. Gravel",
+      "4. Aluminum"
+],
+    columnBItems: [
+      "Fine aggregate used in mortar, plaster, and concrete.",
+      "Coarse aggregate used in concrete production.",
+      "Lightweight corrosion-resistant metal used for frames and panels.",
+      "Binding material used to prepare mortar and concrete."
+],
+    optionA: "1-B 2-D 3-C 4-A",
+    optionB: "1-C 2-D 3-B 4-A",
+    optionC: "1-A 2-D 3-C 4-B",
+    optionD: "1-D 2-A 3-B 4-C",
+    correctOption: "d"
+  },
+  {
+    id: 114,
+    question: "Read The Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1GYS8upMyqPtR-xlZ6UnpH8eifKDMZjry&sz=w1000",
+    optionA: "c",
+    optionB: "a",
+    optionC: "d",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 115,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. Victoria Garden",
+      "2. Mahakaleshwar Temple",
+      "3. Anand Bhavan",
+      "4. Gol Gumbaz"
+],
+    columnBItems: [
+      "Bijapur",
+      "Ujjain",
+      "Prayagraj",
+      "Mumbai"
+],
+    optionA: "1-D 2-A 3-C 4-B",
+    optionB: "1-A 2-D 3-C 4-B",
+    optionC: "1-B 2-C 3-D 4-A",
+    optionD: "1-D 2-B 3-C 4-A",
+    correctOption: "d"
+  },
+  {
+    id: 116,
+    question: "Read The Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=19Gbmej889vLuESsUyOtd2QgLaJOIx8Lv&sz=w1000",
+    optionA: "a",
+    optionB: "b",
+    optionC: "c",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 117,
+    question: "Read The Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1P5oP4C8-EajvAEaFouQ6te8-g6BECvaJ&sz=w1000",
+    optionA: "b",
+    optionB: "d",
+    optionC: "a",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 118,
+    question: "Read The Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1GlD-SbTJDYkNEFmDWaNgo4jm_LoSBpoW&sz=w1000",
+    optionA: "d",
+    optionB: "a",
+    optionC: "b",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 119,
+    question: "Read The Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1GU2MZeiMsaPe446ILeJ-2VAfG27Gc8Ry&sz=w1000",
+    optionA: "Nither A and B",
+    optionB: "Set B",
+    optionC: "Both A and B",
+    optionD: "Set A",
+    correctOption: "d"
+  },
+  {
+    id: 120,
+    question: "Read The Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1GduE11DnLebwa7EeOW0gvf-thdZ2-TXX&sz=w1000",
+    optionA: "d",
+    optionB: "b",
+    optionC: "a",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 121,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. Obelisk",
+      "2. Ziggurat",
+      "3. Tympanum",
+      "4. Rustication"
+],
+    columnBItems: [
+      "A tall narrow tapering four-sided stone monument of Egyptian origin ending in a small pyramid shape at the top.",
+      "A massive stepped pyramidal temple tower built by ancient Mesopotamian civilizations as a sacred platform for a shrine at the top.",
+      "The triangular or semi-circular decorated area enclosed within a pediment or above a door between lintel and arch above.",
+      "A masonry technique where stone blocks are given a rough textured surface with recessed joints to convey strength and boldness."
+],
+    optionA: "1-A 2-C 3-D 4-B",
+    optionB: "1-A 2-D 3-C 4-B",
+    optionC: "1-D 2-A 3-B 4-C",
+    optionD: "1-A 2-B 3-C 4-D",
+    correctOption: "d"
+  },
+  {
+    id: 122,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. Renaissance Architecture",
+      "2. Modern Architecture",
+      "3. Art Deco Architecture",
+      "4. Brutalist Architecture"
+],
+    columnBItems: [
+      "Symmetry, proportion, and classical orders.",
+      "Massive concrete forms and rough surfaces.",
+      "Bold geometric shapes and decorative motifs.",
+      "Minimal ornamentation and functional design."
+],
+    optionA: "1-A 2-B 3-C 4-D",
+    optionB: "1-C 2-B 3-D 4-A",
+    optionC: "1-D 2-B 3-C 4-A",
+    optionD: "1-A 2-D 3-C 4-B",
+    correctOption: "d"
+  },
+  {
+    id: 123,
+    question: "Indentify the following Building",
+    image: "https://drive.google.com/thumbnail?id=1yuprCT1dkNZwsP8kcx6KgYR7RervBsvd&sz=w1000",
+    optionA: "The Shard",
+    optionB: "Pompidou france",
+    optionC: "the Sistine Chapel",
+    optionD: "Burj Khalifa",
+    correctOption: "d"
+  },
+  {
+    id: 124,
+    question: "Read The Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1GT4sOJDS4jOOzORGaumrU3s3EWy9V7Jt&sz=w1000",
+    optionA: "c",
+    optionB: "d",
+    optionC: "b",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 125,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. Roman",
+      "2. Gothic",
+      "3. Art Nouveau",
+      "4. Postmodern"
+],
+    columnBItems: [
+      "Park Guell",
+      "Sydney Opera House",
+      "The Westminster abbey",
+      "Agora And Acropolis"
+],
+    optionA: "1-B 2-D 3-A 4-C",
+    optionB: "1-A 2-C 3-B 4-D",
+    optionC: "1-D 2-B 3-A 4-C",
+    optionD: "1-D 2-C 3-A 4-B",
+    correctOption: "a"
+  },
+  {
+    id: 126,
+    question: "Read The Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1Ga2eXnB1ORq73m7evX7Jj5YYDPmcDGps&sz=w1000",
+    optionA: "b",
+    optionB: "a",
+    optionC: "c",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 127,
+    question: "Who is an architect of Sangat - Ahmedabad",
+    optionA: "Charles Correa",
+    optionB: "Pierre Jeanneret",
+    optionC: "Raj Revel",
+    optionD: "BV Doshi",
+    correctOption: "d"
+  },
+  {
+    id: 128,
+    question: "Read The Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1GaMqZX35b_LjkUCLKz3cGTuWNvZiD_M7&sz=w1000",
+    optionA: "b",
+    optionB: "a",
+    optionC: "d",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 129,
+    question: "Read The Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=10JhVr-46uz4GLbfQGA_17iA-sp1swnFc&sz=w1000",
+    optionA: "d",
+    optionB: "a",
+    optionC: "c",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 130,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. Kozhikode",
+      "2. Amritsar",
+      "3. Jaisalmer",
+      "4. Thisur"
+],
+    columnBItems: [
+      "Golden City",
+      "Golden City of India",
+      "Gold Capital of India",
+      "City of Spices"
+],
+    optionA: "1-C 2-D 3-B 4-A",
+    optionB: "1-C 2-D 3-A 4-B",
+    optionC: "1-B 2-A 3-C 4-D",
+    optionD: "1-D 2-A 3-B 4-C",
+    correctOption: "d"
+  },
+  {
+    id: 131,
+    question: "Read The Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1GkiFp_j5kQy2ModSQwWoYhtockTZl9uT&sz=w1000",
+    optionA: "c",
+    optionB: "d",
+    optionC: "b",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 132,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. Beam",
+      "2. Slab",
+      "3. Roof",
+      "4. Truss"
+],
+    columnBItems: [
+      "Supports long-span roofs/bridges efficiently",
+      "Weather protection, thermal insulation, aesthetic form",
+      "Supports floors/roofs, transfers loads to columns",
+      "Provides usable surface, distributes live/dead loads"
+],
+    optionA: "1-D 2-B 3-C 4-A",
+    optionB: "1-A 2-C 3-D 4-B",
+    optionC: "1-B 2-A 3-D 4-C",
+    optionD: "1-C 2-D 3-B 4-A",
+    correctOption: "d"
+  },
+  {
+    id: 133,
+    question: "Read The Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1GKP8ryVTzgiFVjYJJH2_KggWGZtham6_&sz=w1000",
+    optionA: "b",
+    optionB: "d",
+    optionC: "a",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 134,
+    question: "For me, architecture is a social act is Quated by ?",
+    optionA: "Yatin Pandey",
+    optionB: "Norman Foster",
+    optionC: "Leonardo da Vinci",
+    optionD: "David Adjaye",
+    correctOption: "d"
+  },
+  {
+    id: 135,
+    question: "Read The Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1GMzmLgt5pZmuoD2mDomF1c28xcgCNcdO&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "b",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 136,
+    question: "Who is an architect of JNU - Delhi",
+    optionA: "Lauri Baker",
+    optionB: "BV Doshi",
+    optionC: "Charles Correa",
+    optionD: "CP Kukreja",
+    correctOption: "d"
+  },
+  {
+    id: 137,
+    question: "Read The Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1GgSxlLWXfUkKFdT589sWVCVAaaNeAkU8&sz=w1000",
+    optionA: "d",
+    optionB: "c",
+    optionC: "b",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 138,
+    question: "Read The Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1GnY2WUF-g51shpWhKv48Klv_LPsLJhr1&sz=w1000",
+    optionA: "a",
+    optionB: "b",
+    optionC: "d",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 139,
+    question: "Read The Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1GCXdFBTsgjz6q50iY_eHMwUB7a2zb9S6&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "b",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 140,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. Arcade",
+      "2. Colonnade",
+      "3. Portico",
+      "4. Loggia"
+],
+    columnBItems: [
+      "A roofed gallery or corridor open on one or more sides typically supported by columns or arches within a building.",
+      "A series of arches supported by columns or piers forming a covered walkway along a street or building.",
+      "A row of evenly spaced columns supporting a roof or entablature forming a covered walkway or ceremonial passage.",
+      "A porch or entrance structure with a roof supported by columns forming a grand covered entrance to a building."
+],
+    optionA: "1-A 2-B 3-D 4-C",
+    optionB: "1-C 2-A 3-B 4-D",
+    optionC: "1-C 2-A 3-B 4-D",
+    optionD: "1-B 2-C 3-D 4-A",
+    correctOption: "d"
+  },
+  {
+    id: 141,
+    question: "Statement 1: Analogous colors are next to each other on the color wheel.\nStatement 2: Red and green are an example of analogous colors.",
+    optionA: "Statement 1 is False,  Statement 2 is True",
+    optionB: "Both Statement 1 and Statement 2 are True.",
+    optionC: "Both Statement 1 and Statement 2 is False",
+    optionD: "Statement 1 is True,  Statement 2 is False",
+    correctOption: "d"
+  },
+  {
+    id: 142,
+    question: "Read The Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=152bXtEwhPuumT0JI5R2Qu_Syy5AyFS6F&sz=w1000",
+    optionA: "d",
+    optionB: "c",
+    optionC: "a",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 143,
+    question: "Read The Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1GdsmnP5RG0g77W2iDtovMWeGjcsPM-bR&sz=w1000",
+    optionA: "b",
+    optionB: "a",
+    optionC: "c",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 144,
+    question: "Read The Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1GVWrSy92rhbm3r3EcQvAs7M5_0-hFySP&sz=w1000",
+    optionA: "d",
+    optionB: "b",
+    optionC: "c",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 145,
+    question: "Read The Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1GISrRhYhAIpe4hUSi45V52L2i18JTdtp&sz=w1000",
+    optionA: "d",
+    optionB: "b",
+    optionC: "a",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 146,
+    question: "Read The Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1GmgtORcHLmvKQDEAg_HUFZQ08VDXewta&sz=w1000",
+    optionA: "c",
+    optionB: "b",
+    optionC: "a",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 147,
+    question: "Read The Instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1GNZ8laqIoZgKT7ZQtRthSDkb7JPo-2a2&sz=w1000",
+    optionA: "c",
+    optionB: "d",
+    optionC: "b",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 148,
+    question: "Statement 1: Reinforced concrete uses steel bars to resist tensile forces.\nStatement 2: Concrete is strong in compression but weak in tension.",
+    optionA: "Statement 1 is False,  Statement 2 is True",
+    optionB: "Statement 1 is True,  Statement 2 is False",
+    optionC: "Both Statement 1 and Statement 2 is False",
+    optionD: "Both Statement 1 and Statement 2 are True.",
+    correctOption: "d"
+  },
+  {
+    id: 149,
+    question: "Which of the following Buiding Prominant Features are used in Art Nouveau?",
+    optionA: "- Bold geometric shapes",
+    optionB: "- Playful, eclectic designs",
+    optionC: "- Fragmented, distorted structures",
+    optionD: "- Organic, flowing curves",
+    correctOption: "d"
+  },
+  {
+    id: 150,
+    type: 'match-pair',
+    question: "Match the Following",
+    columnAItems: [
+      "1. Unani Day",
+      "2. Science Day",
+      "3. Women's Day",
+      "4. World TB Day"
+],
+    columnBItems: [
+      "8 March",
+      "28 February",
+      "11 February",
+      "24 March"
+],
+    optionA: "1-C 2-A 3-B 4-D",
+    optionB: "1-B 2-A 3-D 4-C",
+    optionC: "1-D 2-A 3-B 4-C",
+    optionD: "1-C 2-B 3-A 4-D",
+    correctOption: "d"
+  },
+
 ];
+
 
 
 
