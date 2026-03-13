@@ -307,8 +307,9 @@ export const foundationStudents: UserAccount[] = [
 { email: 'aa8214.21karan@gmail.com', password: 'Karan@2003', role: 'student', approved: true, courses: ['foundation'] },
   { email: 'pragyansarmatezpur@gmail.com', password: 'pragyanop', role: 'student', approved: true, courses: ['foundation'] }, 
 { email: 'ruchaipar@gmail.com', password: '#rucha123', role: 'student', approved: true, courses: ['foundation'] },			
-{ email: 'paribedi5@gmail.com', password: 'Arshnoor', role: 'student', approved: true },
+{ email: 'paribedi5@gmail.com', password: 'Arshnoor', role: 'student', approved: true, courses: ['foundation'] },
 ];
+
 
 
 
