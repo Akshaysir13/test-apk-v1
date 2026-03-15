@@ -367,6 +367,34 @@ export const foundationStudents: UserAccount[] = [
 { email: 'diya.agrawal1717@gmail.com', password: 'Architect', role: 'student', approved: true, courses: ['foundation'] },
 { email: 'kondamabhinav@gmail.com', password: 'abhi@arch', role: 'student', approved: true, courses: ['foundation'] },
 { email: 'tejasrustagi2006@gmail.com', password: 'kiz5019', role: 'student', approved: true, courses: ['foundation'] },
+   {
+  email: 'student70@gmail.com',
+  password: 'pass123',
+  role: 'student',
+  approved: true,
+  courses: ['foundation']
+},
+  {
+  email: 'student71@gmail.com',
+  password: 'pass123',
+  role: 'student',
+  approved: true,
+  courses: ['foundation']
+},
+{
+  email: 'student72@gmail.com',
+  password: 'pass123',
+  role: 'student',
+  approved: true,
+  courses: ['foundation']
+},
+  {
+  email: 'student73@gmail.com',
+  password: 'pass123',
+  role: 'student',
+  approved: true,
+  courses: ['foundation']
+},
 ];
 
 
