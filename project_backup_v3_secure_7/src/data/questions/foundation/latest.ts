@@ -9672,7 +9672,7 @@ image: "https://drive.google.com/thumbnail?id=1V5C-agMFHEOecIu6XsJONOF8kXRbFEQf&
   },
 
     //Full Mock 1 April
-      {
+     {
     id: 101,
     type: 'match-pair',
     question: "Match the Pair",
@@ -9698,30 +9698,30 @@ image: "https://drive.google.com/thumbnail?id=1V5C-agMFHEOecIu6XsJONOF8kXRbFEQf&
     id: 102,
     question: "Read the Instruction",
     image: "https://drive.google.com/thumbnail?id=1f9zAZrnUZvRJaXLA5rVZVq9VfU75xHER&sz=w1000",
-    optionA: "d",
-    optionB: "a",
-    optionC: "c",
-    optionD: "b",
+    optionA: "D",
+    optionB: "A",
+    optionC: "C",
+    optionD: "B",
     correctOption: "d"
   },
   {
     id: 103,
     question: "find the missing ?",
     image: "https://drive.google.com/thumbnail?id=1kyRB3jYANi1i8rjotF9N5Vt4U6_mWOEC&sz=w1000",
-    optionA: "c",
-    optionB: "d",
-    optionC: "b",
-    optionD: "a",
+    optionA: "C",
+    optionB: "D",
+    optionC: "B",
+    optionD: "A",
     correctOption: "d"
   },
   {
     id: 104,
     question: "Read the Instruction",
     image: "https://drive.google.com/thumbnail?id=1LvG9pRRoR68kS5LlcO2trpoMZ74fLXp5&sz=w1000",
-    optionA: "b",
-    optionB: "d",
-    optionC: "c",
-    optionD: "a",
+    optionA: "B",
+    optionB: "D",
+    optionC: "C",
+    optionD: "A",
     correctOption: "d"
   },
   {
@@ -9737,10 +9737,10 @@ image: "https://drive.google.com/thumbnail?id=1V5C-agMFHEOecIu6XsJONOF8kXRbFEQf&
     id: 106,
     question: "find the odd one",
     image: "https://drive.google.com/thumbnail?id=1hEL4hDEZwCy06APFl21bkzgNb7gZVYOq&sz=w1000",
-    optionA: "b",
-    optionB: "c",
-    optionC: "d",
-    optionD: "a",
+    optionA: "B",
+    optionB: "C",
+    optionC: "D",
+    optionD: "A",
     correctOption: "d"
   },
   {
@@ -9769,19 +9769,19 @@ image: "https://drive.google.com/thumbnail?id=1V5C-agMFHEOecIu6XsJONOF8kXRbFEQf&
     id: 108,
     question: "Find next in series",
     image: "https://drive.google.com/thumbnail?id=1XDh2NKC3ur7X3iDEMv5lOjhaQksNh5LK&sz=w1000",
-    optionA: "a",
-    optionB: "c",
-    optionC: "b",
-    optionD: "d",
+    optionA: "A",
+    optionB: "C",
+    optionC: "B",
+    optionD: "D",
     correctOption: "d"
   },
   {
     id: 109,
     question: "What is \"biophilic design\"?",
-    optionA: "Design incorporating natural elements to connect people with nature",
-    optionB: "Using only artificial materials",
-    optionC: "Designing for extreme climates",
-    optionD: "Focusing only on technology",
+    optionA: "Design Incorporating Natural Elements To Connect People With Nature",
+    optionB: "Using Only Artificial Materials",
+    optionC: "Designing For Extreme Climates",
+    optionD: "Focusing Only On Technology",
     correctOption: "a"
   },
   {
@@ -9790,17 +9790,17 @@ image: "https://drive.google.com/thumbnail?id=1V5C-agMFHEOecIu6XsJONOF8kXRbFEQf&
     optionA: "Indoor Environmental Quotient",
     optionB: "Internal Engineering Quality",
     optionC: "Indoor Environmental Quality",
-    optionD: "INDOOR ENVIRONMENTAL QUALITY",
+    optionD: "Indoor Environmental Quality",
     correctOption: "d"
   },
   {
     id: 111,
     question: "Read the instruction",
     image: "https://drive.google.com/thumbnail?id=1Z9VuP1SYpiZVLMmnIAX9aTOjN7OolF4N&sz=w1000",
-    optionA: "a",
-    optionB: "b",
-    optionC: "d",
-    optionD: "c",
+    optionA: "A",
+    optionB: "B",
+    optionC: "D",
+    optionD: "C",
     correctOption: "d"
   },
   {
@@ -9809,7 +9809,7 @@ image: "https://drive.google.com/thumbnail?id=1V5C-agMFHEOecIu6XsJONOF8kXRbFEQf&
     optionA: "Joseph Allen Stein",
     optionB: "Raj Revel",
     optionC: "Charles Correa",
-    optionD: "HAFEEZ CONTRACTOR",
+    optionD: "Hafeez Contractor",
     correctOption: "d"
   },
   {
@@ -9818,36 +9818,36 @@ image: "https://drive.google.com/thumbnail?id=1V5C-agMFHEOecIu6XsJONOF8kXRbFEQf&
     optionA: "Jaipur",
     optionB: "Ujjain",
     optionC: "Pune",
-    optionD: "NEW DELHI",
+    optionD: "New Delhi",
     correctOption: "d"
   },
   {
     id: 114,
     question: "S1: Fatehpur Sikri was built by Emperor Akbar and served as the Mughal capital for a brief period before being abandoned. S2: Fatehpur Sikri showcases a unique blend of Hindu and Islamic architectural styles reflecting Akbar's syncretic approach.",
-    optionA: "Both true, S2 explains S1",
-    optionB: "Both true, S2 does not explain S1",
-    optionC: "S1 true, S2 false",
-    optionD: "S1 FALSE, S2 TRUE",
+    optionA: "Both True, S2 Explains S1",
+    optionB: "Both True, S2 Does Not Explain S1",
+    optionC: "S1 True, S2 False",
+    optionD: "S1 False, S2 True",
     correctOption: "d"
   },
   {
     id: 115,
     question: "find front view of figure",
     image: "https://drive.google.com/thumbnail?id=1TKz7H0oiqToS_Iqg5ARMJxnaF4SNyPkf&sz=w1000",
-    optionA: "c",
-    optionB: "b",
-    optionC: "d",
-    optionD: "a",
+    optionA: "C",
+    optionB: "B",
+    optionC: "D",
+    optionD: "A",
     correctOption: "d"
   },
   {
     id: 116,
     question: "find missing ?",
     image: "https://drive.google.com/thumbnail?id=1ee9tpAWzM26oV7EObbjSHxkiEQhUuWxt&sz=w1000",
-    optionA: "a",
-    optionB: "b",
-    optionC: "c",
-    optionD: "d",
+    optionA: "A",
+    optionB: "B",
+    optionC: "C",
+    optionD: "D",
     correctOption: "d"
   },
   {
@@ -9862,10 +9862,10 @@ image: "https://drive.google.com/thumbnail?id=1V5C-agMFHEOecIu6XsJONOF8kXRbFEQf&
   {
     id: 118,
     question: "Which of the following best describes \"gamut\" in color terminology?",
-    optionA: "The brightness of a color",
-    optionB: "The range of colors a device can reproduce",
-    optionC: "The saturation level of a color",
-    optionD: "The temperature of a light source",
+    optionA: "The Brightness Of A Color",
+    optionB: "The Range Of Colors A Device Can Reproduce",
+    optionC: "The Saturation Level Of A Color",
+    optionD: "The Temperature Of A Light Source",
     correctOption: "b"
   },
   {
@@ -9905,8 +9905,8 @@ image: "https://drive.google.com/thumbnail?id=1V5C-agMFHEOecIu6XsJONOF8kXRbFEQf&
     question: "Who is an architect of LIC Building - New Delhi",
     optionA: "Sharat Das",
     optionB: "Anant Raje",
-    optionC: "CP Kukreja",
-    optionD: "CHARLES CORREA",
+    optionC: "Cp Kukreja",
+    optionD: "Charles Correa",
     correctOption: "d"
   },
   {
@@ -9943,49 +9943,49 @@ image: "https://drive.google.com/thumbnail?id=1V5C-agMFHEOecIu6XsJONOF8kXRbFEQf&
   {
     id: 124,
     question: "What is a \"gradient\" in digital design?",
-    optionA: "A single solid color",
-    optionB: "A gradual blend between two or more colors",
-    optionC: "A high-contrast color pair",
-    optionD: "A desaturated color scheme",
+    optionA: "A Single Solid Color",
+    optionB: "A Gradual Blend Between Two Or More Colors",
+    optionC: "A High-Contrast Color Pair",
+    optionD: "A Desaturated Color Scheme",
     correctOption: "b"
   },
   {
     id: 125,
     question: "Read the Instruction",
     image: "https://drive.google.com/thumbnail?id=1jWjpl6Y6vRuiL8CJPTu9sSYm-nq1pcO2&sz=w1000",
-    optionA: "b",
-    optionB: "c",
-    optionC: "a",
-    optionD: "d",
+    optionA: "B",
+    optionB: "C",
+    optionC: "A",
+    optionD: "D",
     correctOption: "d"
   },
   {
     id: 126,
     question: "Read the instruction bR",
     image: "https://drive.google.com/thumbnail?id=1geqf58-eYghPWlerdY5p6DaEWgoj8W58&sz=w1000",
-    optionA: "d",
-    optionB: "c",
-    optionC: "b",
-    optionD: "a",
+    optionA: "D",
+    optionB: "C",
+    optionC: "B",
+    optionD: "A",
     correctOption: "d"
   },
   {
     id: 127,
     question: "Indo-Saracenic Architecture blends which three elements?",
-    optionA: "Baroque, Mughal, and Classical",
-    optionB: "Hindu, Buddhist, and Colonial",
-    optionC: "Indian, Islamic, and Gothic",
-    optionD: "ROMAN, GREEK, AND ISLAMIC",
+    optionA: "Baroque, Mughal, And Classical",
+    optionB: "Hindu, Buddhist, And Colonial",
+    optionC: "Indian, Islamic, And Gothic",
+    optionD: "Roman, Greek, And Islamic",
     correctOption: "c"
   },
   {
     id: 128,
     question: "find mirror on given axis",
     image: "https://drive.google.com/thumbnail?id=1cB20z_0gt8rlzriJiVvkSScngkx20Ehc&sz=w1000",
-    optionA: "c",
-    optionB: "d",
-    optionC: "b",
-    optionD: "a",
+    optionA: "C",
+    optionB: "D",
+    optionC: "B",
+    optionD: "A",
     correctOption: "d"
   },
   {
@@ -10002,9 +10002,9 @@ image: "https://drive.google.com/thumbnail?id=1V5C-agMFHEOecIu6XsJONOF8kXRbFEQf&
     id: 130,
     question: "Cuba Is Famously Known For ?",
     optionA: "The Big Smoke",
-    optionB: "City of Vines",
-    optionC: "Land of a Thousand Lakes",
-    optionD: "SUGAR BOWL OF THE WORLD",
+    optionB: "City Of Vines",
+    optionC: "Land Of A Thousand Lakes",
+    optionD: "Sugar Bowl Of The World",
     correctOption: "d"
   },
   {
@@ -10013,7 +10013,7 @@ image: "https://drive.google.com/thumbnail?id=1V5C-agMFHEOecIu6XsJONOF8kXRbFEQf&
     optionA: "Jammu Kashmir",
     optionB: "Andhra Pradesh",
     optionC: "Manipur",
-    optionD: "GUJARAT",
+    optionD: "Gujarat",
     correctOption: "d"
   },
   {
@@ -10040,10 +10040,10 @@ image: "https://drive.google.com/thumbnail?id=1V5C-agMFHEOecIu6XsJONOF8kXRbFEQf&
     id: 134,
     question: "Read the Instruction",
     image: "https://drive.google.com/thumbnail?id=1I-LRYke1hNWcrYO5ohe_zhb_PlIFjkxy&sz=w1000",
-    optionA: "d",
-    optionB: "b",
-    optionC: "a",
-    optionD: "c",
+    optionA: "D",
+    optionB: "B",
+    optionC: "A",
+    optionD: "C",
     correctOption: "d"
   },
   {
@@ -10072,17 +10072,17 @@ image: "https://drive.google.com/thumbnail?id=1V5C-agMFHEOecIu6XsJONOF8kXRbFEQf&
     optionA: "Proportion",
     optionB: "Massing",
     optionC: "Scale",
-    optionD: "RHYTHM",
+    optionD: "Rhythm",
     correctOption: "d"
   },
   {
     id: 138,
     question: "find the odd one number",
     image: "https://drive.google.com/thumbnail?id=1nJna6JZOj0BYL3XSLcbrXeYvWH0hLVGS&sz=w1000",
-    optionA: "a",
-    optionB: "c",
-    optionC: "b",
-    optionD: "d",
+    optionA: "A",
+    optionB: "C",
+    optionC: "B",
+    optionD: "D",
     correctOption: "d"
   },
   {
@@ -10090,17 +10090,17 @@ image: "https://drive.google.com/thumbnail?id=1V5C-agMFHEOecIu6XsJONOF8kXRbFEQf&
     question: "Who is an architect of Mantri Pinnacle - Bangalore",
     optionA: "Raj Revel",
     optionB: "Pierre Jeanneret",
-    optionC: "BV Doshi",
-    optionD: "HAFEEZ CONTRACTOR",
+    optionC: "Bv Doshi",
+    optionD: "Hafeez Contractor",
     correctOption: "d"
   },
   {
     id: 140,
     question: "Statement 1: The color red is often associated with warmth and energy.\nStatement 2: The color blue is often associated with calmness and tranquility.",
-    optionA: "Statement 1 is True,  Statement 2 is False",
-    optionB: "Statement 1 is False,  Statement 2 is True",
-    optionC: "Both Statement 1 and Statement 2 is False",
-    optionD: "BOTH STATEMENT 1 AND STATEMENT 2 ARE TRUE.",
+    optionA: "Statement 1 Is True, Statement 2 Is False",
+    optionB: "Statement 1 Is False, Statement 2 Is True",
+    optionC: "Both Statement 1 And Statement 2 Is False",
+    optionD: "Both Statement 1 And Statement 2 Are True.",
     correctOption: "d"
   },
   {
@@ -10128,10 +10128,10 @@ image: "https://drive.google.com/thumbnail?id=1V5C-agMFHEOecIu6XsJONOF8kXRbFEQf&
   {
     id: 142,
     question: "S1: The Antarala is a vestibule or transitional space between the Garbhagriha and the Mandapa in a Hindu temple. S2: The Antarala serves as a spatial buffer between the sacred inner sanctum and the public gathering hall of the temple.",
-    optionA: "Both true, S2 explains S1",
-    optionB: "Both true, S2 does not explain S1",
-    optionC: "S1 true, S2 false",
-    optionD: "S1 FALSE, S2 TRUE",
+    optionA: "Both True, S2 Explains S1",
+    optionB: "Both True, S2 Does Not Explain S1",
+    optionC: "S1 True, S2 False",
+    optionD: "S1 False, S2 True",
     correctOption: "b"
   },
   {
@@ -10147,10 +10147,10 @@ image: "https://drive.google.com/thumbnail?id=1V5C-agMFHEOecIu6XsJONOF8kXRbFEQf&
   {
     id: 144,
     question: "Which material was predominantly used in the construction of the Taj Mahal?",
-    optionA: "Red sandstone",
+    optionA: "Red Sandstone",
     optionB: "Granite",
-    optionC: "White marble",
-    optionD: "LIMESTONE",
+    optionC: "White Marble",
+    optionD: "Limestone",
     correctOption: "c"
   },
   {
@@ -10178,40 +10178,40 @@ image: "https://drive.google.com/thumbnail?id=1V5C-agMFHEOecIu6XsJONOF8kXRbFEQf&
   {
     id: 146,
     question: "Statement 1: The color wheel was first developed by Sir Isaac Newton.\nStatement 2: Secondary colors are created by mixing two primary colors.",
-    optionA: "Statement 1 is False,  Statement 2 is True",
-    optionB: "Statement 1 is True,  Statement 2 is False",
-    optionC: "Both Statement 1 and Statement 2 is False",
-    optionD: "BOTH STATEMENT 1 AND STATEMENT 2 ARE TRUE.",
+    optionA: "Statement 1 Is False, Statement 2 Is True",
+    optionB: "Statement 1 Is True, Statement 2 Is False",
+    optionC: "Both Statement 1 And Statement 2 Is False",
+    optionD: "Both Statement 1 And Statement 2 Are True.",
     correctOption: "d"
   },
   {
     id: 147,
     question: "complete the pattern",
     image: "https://drive.google.com/thumbnail?id=1qN6aK5jYiux4izfzwZcGqboFWQUaUzct&sz=w1000",
-    optionA: "c",
-    optionB: "a",
-    optionC: "b",
-    optionD: "d",
+    optionA: "C",
+    optionB: "A",
+    optionC: "B",
+    optionD: "D",
     correctOption: "d"
   },
   {
     id: 148,
     question: "find top view of figure",
     image: "https://drive.google.com/thumbnail?id=1NCo9e3YlxUDBVpk0W9SdT9cUy7rtpKg8&sz=w1000",
-    optionA: "b",
-    optionB: "a",
-    optionC: "d",
-    optionD: "c",
+    optionA: "B",
+    optionB: "A",
+    optionC: "D",
+    optionD: "C",
     correctOption: "d"
   },
   {
     id: 149,
     question: "Read the instruction coding",
     image: "https://drive.google.com/thumbnail?id=1kUJ9UNiC4ZuQmLjg_e9BR3CBWjuBNcfU&sz=w1000",
-    optionA: "b",
-    optionB: "a",
-    optionC: "c",
-    optionD: "d",
+    optionA: "B",
+    optionB: "A",
+    optionC: "C",
+    optionD: "D",
     correctOption: "d"
   },
   {
@@ -10220,14 +10220,14 @@ image: "https://drive.google.com/thumbnail?id=1V5C-agMFHEOecIu6XsJONOF8kXRbFEQf&
     optionA: "International Maritime Forum",
     optionB: "International Media Foundation",
     optionC: "Integrated Market Facility",
-    optionD: "INTERNATIONAL MONETARY FUND",
+    optionD: "International Monetary Fund",
     correctOption: "d"
   },
   {
     id: 201,
     question: "Read the Instruction",
     image: "https://drive.google.com/thumbnail?id=1t05HcBotZChrKKGSCb2ey2NIpHe_-z8P&sz=w1000",
-    optionA: "c",
+    optionA: "",
     optionB: "b",
     optionC: "a",
     optionD: "d",
@@ -10428,10 +10428,7 @@ image: "https://drive.google.com/thumbnail?id=1V5C-agMFHEOecIu6XsJONOF8kXRbFEQf&
     type: 'numeric',
     question: "Read the Instruction",
     image: "https://drive.google.com/thumbnail?id=1u7QMw5JN5Sjn78H9LU9B_-07v6AcCb5y&sz=w1000",
-    optionA: "",
-    optionB: "",
-    optionC: "",
-    optionD: "",
+
     correctOption: "240"
   },
   {
@@ -10439,10 +10436,7 @@ image: "https://drive.google.com/thumbnail?id=1V5C-agMFHEOecIu6XsJONOF8kXRbFEQf&
     type: 'numeric',
     question: "Read the Instruction",
     image: "https://drive.google.com/thumbnail?id=1uAWHUJsbEBj49eu5hPtMOMxVAMV6Ubjz&sz=w1000",
-    optionA: "",
-    optionB: "",
-    optionC: "",
-    optionD: "",
+
     correctOption: "6699"
   },
   {
@@ -10450,10 +10444,7 @@ image: "https://drive.google.com/thumbnail?id=1V5C-agMFHEOecIu6XsJONOF8kXRbFEQf&
     type: 'numeric',
     question: "Read the Instruction",
     image: "https://drive.google.com/thumbnail?id=1uLoCvdAcAWkttCZuYWqq2hqX2ZbhNfD1&sz=w1000",
-    optionA: "",
-    optionB: "",
-    optionC: "",
-    optionD: "",
+
     correctOption: "16"
   },
   {
@@ -10461,10 +10452,7 @@ image: "https://drive.google.com/thumbnail?id=1V5C-agMFHEOecIu6XsJONOF8kXRbFEQf&
     type: 'numeric',
     question: "Read the Instruction",
     image: "https://drive.google.com/thumbnail?id=1ucXypdlLYv3vPrAHnN_xJLgQV_xOVU9w&sz=w1000",
-    optionA: "",
-    optionB: "",
-    optionC: "",
-    optionD: "",
+
     correctOption: "75"
   },
   {
@@ -10472,23 +10460,22 @@ image: "https://drive.google.com/thumbnail?id=1V5C-agMFHEOecIu6XsJONOF8kXRbFEQf&
     type: 'numeric',
     question: "Read the Instruction",
     image: "https://drive.google.com/thumbnail?id=1unzGPmW1nfPZdnDX4EihalLnSHAQSt3j&sz=w1000",
-    optionA: "",
-    optionB: "",
-    optionC: "",
-    optionD: "",
+  
     correctOption: "51"
   },
-      {
-  id: 401,
-  question: "Draw Proportionate sketch of Given Image with Black and white Rendering Method. ",
-image: "https://drive.google.com/thumbnail?id=1fCvzh2quOO8cE9KxTRkWc_GuNz9kjE2p&sz=w1000",
-  correctOption: "manual_evaluation", // Special flag
-},
-{
-  id: 402,
-  question: "Draw a detailed sketch of a traditional weekly village bazaar (haat). Show rows of colourfulstalls selling vegetables, pottery, clothes etc , villagers happily bargaining  and cattle tied near the entrance. Use suitable colours.",
-  correctOption: "manual_evaluation",
-},
+  {
+    id: 401,
+    question: "Draw Proportionate sketch of Given Image with Black and white Rendering Method.",
+    image: "https://drive.google.com/thumbnail?id=1fCvzh2quOO8cE9KxTRkWc_GuNz9kjE2p&sz=w1000",
+
+    correctOption: "manual_evaluation"
+  },
+  {
+    id: 402,
+    question: "Draw a detailed sketch of a traditional weekly village bazaar (haat). Show rows of colourfulstalls selling vegetables, pottery, clothes etc , villagers happily bargaining  and cattle tied near the entrance. Use suitable colours.",
+
+    correctOption: "manual_evaluation"
+  }
     
 ];
 
