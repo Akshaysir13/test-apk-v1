@@ -10481,7 +10481,7 @@ image: "https://drive.google.com/thumbnail?id=1V5C-agMFHEOecIu6XsJONOF8kXRbFEQf&
       {
   id: 401,
   question: "Draw Proportionate sketch of Given Image with Black and white Rendering Method. ",
-image: "https://drive.google.com/file/d/1fCvzh2quOO8cE9KxTRkWc_GuNz9kjE2p/view?usp=drive_link",
+image: "https://drive.google.com/thumbnail?id=1fCvzh2quOO8cE9KxTRkWc_GuNz9kjE2p&sz=w1000",
   correctOption: "manual_evaluation", // Special flag
 },
 {
