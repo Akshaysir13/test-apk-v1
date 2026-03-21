@@ -10486,8 +10486,7 @@ image: "https://drive.google.com/file/d/1fCvzh2quOO8cE9KxTRkWc_GuNz9kjE2p/view?u
 },
 {
   id: 402,
-  question: "Draw a detailed sketch of a traditional weekly village bazaar (haat). Show rows of colourful
-stalls selling vegetables, pottery, clothes etc , villagers happily bargaining  and cattle tied near the entrance. Use suitable colours.",
+  question: "Draw a detailed sketch of a traditional weekly village bazaar (haat). Show rows of colourfulstalls selling vegetables, pottery, clothes etc , villagers happily bargaining  and cattle tied near the entrance. Use suitable colours.",
   correctOption: "manual_evaluation",
 },
     
