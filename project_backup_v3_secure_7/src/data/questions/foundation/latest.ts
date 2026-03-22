@@ -10475,7 +10475,589 @@ image: "https://drive.google.com/thumbnail?id=1V5C-agMFHEOecIu6XsJONOF8kXRbFEQf&
     question: "Draw a detailed sketch of a traditional weekly village bazaar (haat). Show rows of colourfulstalls selling vegetables, pottery, clothes etc , villagers happily bargaining  and cattle tied near the entrance. Use suitable colours.",
 
     correctOption: "manual_evaluation"
-  }
+  },
+//TEST 5 Aptitude April
+    {
+    id: 1,
+    question: "Find next in series",
+    image: "https://drive.google.com/thumbnail?id=1YgFOkQbdX7cQS8fhsv8tJntqi6m4PmVL&sz=w1000",
+    optionA: "a",
+    optionB: "d",
+    optionC: "c",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 2,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. WHO Formation",
+      "2. Verselis treaty",
+      "3. Vienna Treaty",
+      "4. American Independence"
+],
+    columnBItems: [
+      "7th April 1948",
+      "1815",
+      "1918-1919",
+      "4th July 1776"
+],
+    optionA: "1-B 2-C 3-D 4-A",
+    optionB: "1-A 2-D 3-B 4-C",
+    optionC: "1-A 2-D 3-C 4-B",
+    optionD: "1-A 2-C 3-B 4-D",
+    correctOption: "d"
+  },
+  {
+    id: 3,
+    question: "The term used to describe the principal exterior face of a building is:",
+    optionA: "Elevation",
+    optionB: "Facade",
+    optionC: "Section",
+    optionD: "Plan",
+    correctOption: "b"
+  },
+  {
+    id: 4,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Sun temple",
+      "2. Champaner Pavagadh archaeological parks",
+      "3. Humayun's tomb",
+      "4. Pinjore Garden"
+],
+    columnBItems: [
+      "Delhi",
+      "Panchkula, Haryana",
+      "Panchmahal, Gujarat",
+      "Konark, Orissa"
+],
+    optionA: "1-C 2-A 3-B 4-D",
+    optionB: "1-A 2-C 3-B 4-D",
+    optionC: "1-D 2-A 3-C 4-B",
+    optionD: "1-D 2-C 3-A 4-B",
+    correctOption: "d"
+  },
+  {
+    id: 5,
+    question: "The Baroque architectural style originated in the 17th century in which country?",
+    optionA: "France",
+    optionB: "England",
+    optionC: "Spain",
+    optionD: "Italy",
+    correctOption: "d"
+  },
+  {
+    id: 6,
+    question: "The Pritzker Architecture Prize was established by the Hyatt Foundation in which year?",
+    optionA: "1965",
+    optionB: "1973",
+    optionC: "1979",
+    optionD: "1985",
+    correctOption: "c"
+  },
+  {
+    id: 7,
+    question: "Which school of design, founded in Germany in 1919, profoundly shaped modern architecture?",
+    optionA: "École des Beaux-Arts",
+    optionB: "Bauhaus",
+    optionC: "Cranbrook Academy",
+    optionD: "Vkhutemas",
+    correctOption: "b"
+  },
+  {
+    id: 8,
+    question: "7. Human scale is based on?",
+    optionA: "Artistic ratios",
+    optionB: "Astronomical sizes",
+    optionC: "Machine measurements",
+    optionD: "Average body proportions",
+    correctOption: "d"
+  },
+  {
+    id: 9,
+    question: "PMUY",
+    optionA: "Pradhan Mantri Urja Utpadan Yojana",
+    optionB: "Pradhan Mantri Utthan Unnati Yojana",
+    optionC: "Pradhan Mantri Unnat Udyog Yojana",
+    optionD: "Pradhan Mantri Ujjwala Yojana",
+    correctOption: "d"
+  },
+  {
+    id: 10,
+    question: "A colour scheme that uses two colours directly opposite each other on the colour wheel is called:",
+    optionA: "Analogous",
+    optionB: "Triadic",
+    optionC: "Complementary",
+    optionD: "Split-complementary",
+    correctOption: "c"
+  },
+  {
+    id: 11,
+    question: "Identify the Correct  Architectural Terms used",
+    image: "https://drive.google.com/thumbnail?id=13Py58-j-R22LppNhEe8heNROoM2JvawW&sz=w1000",
+    optionA: "Portico",
+    optionB: "Saltbox Roof",
+    optionC: "Frieze",
+    optionD: "Pagoda",
+    correctOption: "d"
+  },
+  {
+    id: 12,
+    question: "Which architect is famous for the \"Barcelona Pavilion\"?",
+    optionA: "Walter Gropius",
+    optionB: "Mies van der Rohe",
+    optionC: "Alvar Aalto",
+    optionD: "Frank Lloyd Wright",
+    correctOption: "b"
+  },
+  {
+    id: 13,
+    question: "Which of the Following Architect Design the Given Building",
+    image: "https://drive.google.com/thumbnail?id=1fPqg-AMta1USr2rLLMbJ7o-WbHJfqxW_&sz=w1000",
+    optionA: "KT Ravindran",
+    optionB: "Raj Rewal",
+    optionC: "P Guggernet",
+    optionD: "Charles Correa",
+    correctOption: "d"
+  },
+  {
+    id: 14,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. \"Aram haram hai\"",
+      "2. \"Jai Jagat\"",
+      "3. \"Sare Jahan Se Achha Ye Hindustan Hamara\"",
+      "4. \"Jai Hind\""
+],
+    columnBItems: [
+      "Jawaharlal Nehru",
+      "Vinoba Bhave",
+      "Netaji Subhas Chandra Bose",
+      "Mohammad Iqbal"
+],
+    optionA: "1-D 2-C 3-A 4-B",
+    optionB: "1-D 2-A 3-B 4-C",
+    optionC: "1-A 2-C 3-B 4-D",
+    optionD: "1-A 2-B 3-D 4-C",
+    correctOption: "d"
+  },
+  {
+    id: 15,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Trombay",
+      "2. Katni",
+      "3. Nashik",
+      "4. Surat"
+],
+    columnBItems: [
+      "Atomic Research Center",
+      "Cement",
+      "Diamonds",
+      "Security Printing"
+],
+    optionA: "1-C 2-A 3-B 4-D",
+    optionB: "1-B 2-D 3-C 4-A",
+    optionC: "1-C 2-B 3-D 4-A",
+    optionD: "1-A 2-B 3-D 4-C",
+    correctOption: "d"
+  },
+  {
+    id: 16,
+    question: "Which type of marble is most commonly used for countertops?",
+    optionA: "Slate",
+    optionB: "Red Sandstone",
+    optionC: "Limestone",
+    optionD: "Granite Marble",
+    correctOption: "d"
+  },
+  {
+    id: 17,
+    question: "S1: Western Ghats is a serial Natural World Heritage Site spread across multiple states.\n S2: Western Ghats includes protected areas in Maharashtra, Karnataka, Kerala and Tamil Nadu.",
+    optionA: "Both Correct",
+    optionB: "Both Incorrect",
+    optionC: "Only S1 Correct",
+    optionD: "Only S2 Correct",
+    correctOption: "a"
+  },
+  {
+    id: 18,
+    question: "The Dravidian style is characterized by a pyramidal tower called:",
+    optionA: "Shikhara",
+    optionB: "Vimana",
+    optionC: "Rekha",
+    optionD: "Latina",
+    correctOption: "b"
+  },
+  {
+    id: 19,
+    question: "Identify the Correct  Architectural Terms used",
+    image: "https://drive.google.com/thumbnail?id=1GvbmQtyHH9CjXzIgPVDauiqF-_2bxioa&sz=w1000",
+    optionA: "Surround",
+    optionB: "Fan Light",
+    optionC: "Brace",
+    optionD: "Patio",
+    correctOption: "d"
+  },
+  {
+    id: 20,
+    question: "Romi Khosla is particularly known for designing:",
+    optionA: "Shopping malls",
+    optionB: "Educational and institutional buildings",
+    optionC: "High-rise luxury apartments",
+    optionD: "Industrial warehouses",
+    correctOption: "b"
+  },
+  {
+    id: 21,
+    question: "Series of steps between floors is:",
+    optionA: "Staircase",
+    optionB: "Facade",
+    optionC: "Dome",
+    optionD: "Foundation",
+    correctOption: "a"
+  },
+  {
+    id: 22,
+    question: "Which of the following is a web-safe color?",
+    optionA: "#FFCC00",
+    optionB: "#FF5733",
+    optionC: "#1A2B3C",
+    optionD: "#GHIJKL",
+    correctOption: "a"
+  },
+  {
+    id: 23,
+    question: "find front view of figure",
+    image: "https://drive.google.com/thumbnail?id=1PmxSFFgJ2CVOKdz9skxomC0ak7zbe3Qo&sz=w1000",
+    optionA: "a",
+    optionB: "b",
+    optionC: "d",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 24,
+    question: "Which roofing material is made from fired clay and is one of the oldest traditional roofing materials in India?",
+    optionA: "Asbestos sheet",
+    optionB: "Mangalore tiles",
+    optionC: "GI sheet",
+    optionD: "Polycarbonate sheet",
+    correctOption: "b"
+  },
+  {
+    id: 25,
+    question: "Statement 1: A library is a building housing a collection of books and resources.\nStatement 2: A museum is an institution that preserves and exhibits artifacts and art.",
+    optionA: "Statement 1 is True, Statement 2 is False",
+    optionB: "Statement 1 is False, Statement 2 is True",
+    optionC: "Both Statement 1 and Statement 2 is False",
+    optionD: "Both Statement 1 and Statement 2 are True.",
+    correctOption: "d"
+  },
+  {
+    id: 26,
+    question: "S1: Emulsion paints are water-based and easy to apply on interior walls. S2: Emulsion paints have strong odor and require long drying time.",
+    optionA: "Both true",
+    optionB: "Both false",
+    optionC: "S1 true, S2 false",
+    optionD: "S1 false, S2 true",
+    correctOption: "c"
+  },
+  {
+    id: 27,
+    question: "What is the hexadecimal code for pure white in web design?",
+    optionA: "#000000",
+    optionB: "#FFFFFF",
+    optionC: "#FFFF00",
+    optionD: "#CCCCCC",
+    correctOption: "b"
+  },
+  {
+    id: 28,
+    question: "Which of the Following Architect Design the Given Building",
+    image: "https://drive.google.com/thumbnail?id=1T9Vlx2B6Xucf5ADjJTzXUThduNeeKHuq&sz=w1000",
+    optionA: "A",
+    optionB: "C",
+    optionC: "B",
+    optionD: "D",
+    correctOption: "d"
+  },
+  {
+    id: 29,
+    question: "Which of the Following Architect Design the Given Building",
+    image: "https://drive.google.com/thumbnail?id=1XlCo0bd9Tfs8e2W3k80_hIu8Q9Bk56Ri&sz=w1000",
+    optionA: "B V Doshi",
+    optionB: "Charles Correa",
+    optionC: "Louis Kahn",
+    optionD: "Kuldip Singh",
+    correctOption: "d"
+  },
+  {
+    id: 30,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Non-Load Bearing Wall",
+      "2. Ashlar Masonry",
+      "3. Strip Foundation",
+      "4. Load-Bearing Wall"
+],
+    columnBItems: [
+      "Precisely cut stones with uniform joints.",
+      "Acts as a partition but does not support loads.",
+      "Supports structural loads from above.",
+      "Continuous footing under walls."
+],
+    optionA: "1-D 2-A 3-C 4-B",
+    optionB: "1-B 2-D 3-C 4-A",
+    optionC: "1-C 2-D 3-B 4-A",
+    optionD: "1-B 2-A 3-D 4-C",
+    correctOption: "d"
+  },
+  {
+    id: 31,
+    question: "S1: Frank Gehry's buildings feature sculptural titanium-clad deconstructed forms that challenge conventional geometry. S2: His design process begins with rigid structural calculations, never with expressive sketches or gestural drawings.",
+    optionA: "Both true",
+    optionB: "Both false",
+    optionC: "S1 true, S2 false",
+    optionD: "S1 false, S2 true",
+    correctOption: "c"
+  },
+  {
+    id: 32,
+    question: "A 'transfer beam' in a high-rise building is used to:",
+    optionA: "Connect the building to adjacent structures",
+    optionB: "Redirect loads from discontinued columns to other structural members",
+    optionC: "Resist seismic forces at the base",
+    optionD: "Support mechanical plant rooms",
+    correctOption: "b"
+  },
+  {
+    id: 33,
+    question: "The Kandariya Mahadeva Temple at Khajuraho belongs to which regional sub-style of Nagara?",
+    optionA: "Odisha style",
+    optionB: "Solanki style",
+    optionC: "Chandela style",
+    optionD: "Pratihara style",
+    correctOption: "c"
+  },
+  {
+    id: 34,
+    question: "INDENTIFY THE FAMOUS CHURCH",
+    image: "https://drive.google.com/thumbnail?id=1RyJ6WRtoMExhUS5ty2Mt_sTtNrmFUa9v&sz=w1000",
+    optionA: "Pauline Chapel",
+    optionB: "Sistine Chapel",
+    optionC: "Nicholas V Chapel",
+    optionD: "Redemptoris Mater Chapel",
+    correctOption: "b"
+  },
+  {
+    id: 35,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Sydney Opera House",
+      "2. Pompidou Center, Paris",
+      "3. Guggenheim Museum Bilbao",
+      "4. Beijing National Stadium (Bird's Nest)"
+],
+    columnBItems: [
+      "High-Tech cultural center, 1977, Piano & Rogers",
+      "Parametric/Olympic stadium, 2008, Herzog & de Meuron + Ai Weiwei",
+      "Deconstructivist icon, 1997, Frank Gehry",
+      "Expressionist landmark, 1973, Jørn Utzon"
+],
+    optionA: "1-B 2-A 3-C 4-D",
+    optionB: "1-C 2-D 3-B 4-A",
+    optionC: "1-B 2-A 3-D 4-C",
+    optionD: "1-D 2-A 3-C 4-B",
+    correctOption: "d"
+  },
+  {
+    id: 36,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Zinc",
+      "2. Asphalt",
+      "3. Reinforced Concrete",
+      "4. Polycarbonate"
+],
+    columnBItems: [
+      "Corrosion-resistant metal used in roofing and cladding.",
+      "Transparent thermoplastic used for skylights and lightweight roofing.",
+      "Bituminous material used for waterproofing and road surfaces.",
+      "Concrete strengthened with steel bars to resist tension and compression."
+],
+    optionA: "1-B 2-A 3-C 4-D",
+    optionB: "1-D 2-A 3-C 4-B",
+    optionC: "1-A 2-B 3-D 4-C",
+    optionD: "1-A 2-C 3-D 4-B",
+    correctOption: "d"
+  },
+  {
+    id: 37,
+    question: "INDENTIFY THE FAMOUS TEMPLE",
+    image: "https://drive.google.com/thumbnail?id=1gMpPByjn-xEBJLiuLoXIUHSr3EuiT5av&sz=w1000",
+    optionA: "Dilwara Temples",
+    optionB: "Palitana Temples",
+    optionC: "Ranakpur Jain Temple",
+    optionD: "Gomateshwara Temple",
+    correctOption: "c"
+  },
+  {
+    id: 38,
+    question: "1. Granite is an example of which type of stone?",
+    optionA: "Sedimentary Rock",
+    optionB: "Metamorphic Rock",
+    optionC: "Artificial Stone",
+    optionD: "Igneous Rock",
+    correctOption: "d"
+  },
+  {
+    id: 39,
+    question: "Read the Instruction",
+    image: "https://drive.google.com/thumbnail?id=1oeGlvhrIjyBVQXSa6sHSR_z_cOtBN_WH&sz=w1000",
+    optionA: "c",
+    optionB: "d",
+    optionC: "b",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 40,
+    question: "Which of the Following Architect Design the Given Building",
+    image: "https://drive.google.com/thumbnail?id=1-2axv4_FctoW4uD96_oAnpgEwd3AQlJX&sz=w1000",
+    optionA: "A",
+    optionB: "C",
+    optionC: "B",
+    optionD: "D",
+    correctOption: "d"
+  },
+  {
+    id: 41,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Pench National Park",
+      "2. Ranthambore National Park",
+      "3. Bandhavgarh National Park",
+      "4. Bandipur National Park"
+],
+    columnBItems: [
+      "Rajasthan",
+      "Madhya Pradesh",
+      "Madhya Pradesh",
+      "Karnataka"
+],
+    optionA: "1-A 2-D 3-C 4-B",
+    optionB: "1-A 2-C 3-D 4-B",
+    optionC: "1-C 2-D 3-B 4-A",
+    optionD: "1-C 2-A 3-B 4-D",
+    correctOption: "d"
+  },
+  {
+    id: 42,
+    question: "Romanesque architecture is most distinctly identified by:",
+    optionA: "Pointed arches and ribbed vaults",
+    optionB: "Rounded arches and massive stone walls",
+    optionC: "Flying buttresses and large windows",
+    optionD: "Geodesic dome structures",
+    correctOption: "b"
+  },
+  {
+    id: 43,
+    question: "find top view of figure",
+    image: "https://drive.google.com/thumbnail?id=1PB7sNTYhfZeDU2Z0hsAJQxsx3VgLkg5D&sz=w1000",
+    optionA: "b",
+    optionB: "a",
+    optionC: "d",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 44,
+    question: "GBCI stands for?",
+    optionA: "Green Building Certification Institute",
+    optionB: "Green Building Code of India",
+    optionC: "Government Building Control India",
+    optionD: "Green Building Certification Institute",
+    correctOption: "d"
+  },
+  {
+    id: 45,
+    question: "Vishu, Onam is Celebrated in Which of the Following State ?",
+    optionA: "Bihar",
+    optionB: "Odisha",
+    optionC: "Mizorm",
+    optionD: "Kerala",
+    correctOption: "d"
+  },
+  {
+    id: 46,
+    question: "Which term describes architecture that is designed using local materials, climate knowledge, and regional building traditions without formal architectural training?",
+    optionA: "Postmodern architecture",
+    optionB: "Vernacular architecture",
+    optionC: "Brutalist architecture",
+    optionD: "Parametric architecture",
+    correctOption: "b"
+  },
+  {
+    id: 47,
+    question: "Read the Instruction",
+    image: "https://drive.google.com/thumbnail?id=1xKEFWNRIALStAxf2nhlN8cHkyy35O-Qa&sz=w1000",
+    optionA: "b",
+    optionB: "d",
+    optionC: "c",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 48,
+    question: "What is \"context\" in architectural design?",
+    optionA: "The surrounding environment and conditions of a site",
+    optionB: "The budget of the project",
+    optionC: "The construction timeline",
+    optionD: "The interior furniture",
+    correctOption: "a"
+  },
+  {
+    id: 49,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Amer Fort",
+      "2. Chittorgarh Fort",
+      "3. Dhamek Stupa",
+      "4. Bada/Chhota Imambara"
+],
+    columnBItems: [
+      "Lucknow",
+      "Chittor",
+      "Jaipur",
+      "Sarnath"
+],
+    optionA: "1-C 2-D 3-B 4-A",
+    optionB: "1-B 2-A 3-C 4-D",
+    optionC: "1-B 2-D 3-A 4-C",
+    optionD: "1-C 2-B 3-D 4-A",
+    correctOption: "d"
+  },
+  {
+    id: 50,
+    question: "Read the instruction coding",
+    image: "https://drive.google.com/thumbnail?id=1j5Z8Y4-EcRuv3sm3wK_Q3uzcmZM-uyK0&sz=w1000",
+    optionA: "d",
+    optionB: "a",
+    optionC: "b",
+    optionD: "c",
+    correctOption: "d"
+  },
     
 ];
 
