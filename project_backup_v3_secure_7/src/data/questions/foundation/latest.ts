@@ -10579,9 +10579,9 @@ image: "https://drive.google.com/thumbnail?id=1V5C-agMFHEOecIu6XsJONOF8kXRbFEQf&
   {
     id: 9,
     question: "PMUY",
-    optionA: "Pradhan Mantri Urja Utpadan Yojana",
-    optionB: "Pradhan Mantri Utthan Unnati Yojana",
-    optionC: "Pradhan Mantri Unnat Udyog Yojana",
+    optionA: "Pradhan Mantri Urja Yojana",
+    optionB: "Pradhan Mantri Utthan Yojana",
+    optionC: "Pradhan Mantri Unnat Yojana",
     optionD: "Pradhan Mantri Ujjwala Yojana",
     correctOption: "d"
   },
