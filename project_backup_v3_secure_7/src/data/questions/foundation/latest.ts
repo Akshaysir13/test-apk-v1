@@ -11860,7 +11860,7 @@ image: "https://drive.google.com/thumbnail?id=1V5C-agMFHEOecIu6XsJONOF8kXRbFEQf&
   },
   {
     id: 402,
-    question: "A kitchen counter contains items that suggest someone is baking — a mixing bowl, a wooden spoon, scattered flour, a recipe book, and a tray of unbaked cookies. Arrange these objects into a composition that tells the story of the baker. OR  Draw a colourful sketch of a school playground during recess, showing children playing different games, a teacher supervising, and a few students sitting under a tree. Use lively and suitable colours",
+    question: "A kitchen counter contains items that suggest someone is baking — a mixing bowl, a wooden spoon, scattered flour, a recipe book, and a tray of unbaked cookies. Arrange these objects into a composition that tells the story of the baker. OR Sketch a unique eco-friendly greenhouse built into a hillside that reconnects with nature. Include features such as glass panels, wooden beams, climbing vines, and a rainwater collection system using natural materials. The structure should blend harmoniously with the surrounding landscape. Depict natural light, shadow, and textures effectively. Colour it as per your choice.",
     correctOption: "manual_evaluation"
   },
     
