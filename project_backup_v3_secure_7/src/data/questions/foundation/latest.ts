@@ -9789,7 +9789,7 @@ image: "https://drive.google.com/thumbnail?id=1V5C-agMFHEOecIu6XsJONOF8kXRbFEQf&
     question: "IEQ stands for?",
     optionA: "Indoor Environmental Quotient",
     optionB: "Internal Engineering Quality",
-    optionC: "Indoor Environmental Quality",
+    optionC: "Indoor Environment Quality",
     optionD: "Indoor Environmental Quality",
     correctOption: "d"
   },
@@ -9828,7 +9828,7 @@ image: "https://drive.google.com/thumbnail?id=1V5C-agMFHEOecIu6XsJONOF8kXRbFEQf&
     optionB: "Both True, S2 Does Not Explain S1",
     optionC: "S1 True, S2 False",
     optionD: "S1 False, S2 True",
-    correctOption: "d"
+    correctOption: "c"
   },
   {
     id: 115,
@@ -9857,7 +9857,7 @@ image: "https://drive.google.com/thumbnail?id=1V5C-agMFHEOecIu6XsJONOF8kXRbFEQf&
     optionB: "49.8",
     optionC: "50.3",
     optionD: "50.8",
-    correctOption: "d"
+    correctOption: "c"
   },
   {
     id: 118,
@@ -10073,7 +10073,7 @@ image: "https://drive.google.com/thumbnail?id=1V5C-agMFHEOecIu6XsJONOF8kXRbFEQf&
     optionB: "Massing",
     optionC: "Scale",
     optionD: "Rhythm",
-    correctOption: "d"
+    correctOption: "c"
   },
   {
     id: 138,
