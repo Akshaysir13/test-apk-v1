@@ -635,6 +635,53 @@ export const foundationTests: Test[] = [
       }
     ]
   },
+
+  {
+    id: 'foundation-latest-full-mock-April-2 ( 3.30hr )',
+    name: 'Foundation: Full Mock 2 (April 2026)', // Note only description is different in original file, keeping ID same as original though it's likely a bug
+    description: 'Complete B.Arch Pattern: Aptitude + Math + Drawing',
+    duration: 12600, // 3.30 hours (10800 seconds)
+    category: 'latest',
+    course: 'foundation',
+
+    // IMPORTANT: Slice the TOTAL number of questions needed (50+20+5+1 = 76)
+    questions: foundationlatestQuestions.slice(1018,1095),
+    sections: [
+      // Section 1: Aptitude (Indices 0-49)
+      {
+        id: "aptitude",
+        name: "Aptitude",
+        type: "aptitude",
+        // Creates an array [0, 1, 2, ... 49]
+        questionIndices: Array.from({ length: 50 }, (_, i) => i)
+      },
+      // Section 2: Mathematics MCQ (Indices 50-69)
+      {
+        id: "math-mcq",
+        name: "Mathematics (MCQ)",
+        type: "math",
+        // Creates an array [50, 51, ... 69]
+        questionIndices: Array.from({ length: 20 }, (_, i) => i + 50)
+      },
+      // Section 3: Mathematics Numeric (Indices 70-74)
+      {
+        id: "math-numeric",
+        name: "Mathematics (Numeric)",
+        type: "math",
+        // Creates an array [70, 71, ... 74]
+        questionIndices: Array.from({ length: 5 }, (_, i) => i + 70)
+      },
+      // Section 4: Drawing (Index 75)
+      {
+        id: "drawing",
+        name: "Drawing",
+        type: "drawing",
+        // Single index [75]
+        questionIndices: [75, 76]
+
+      }
+    ]
+  },
   
 ];
 
