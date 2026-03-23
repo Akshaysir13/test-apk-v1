@@ -11058,8 +11058,814 @@ image: "https://drive.google.com/thumbnail?id=1V5C-agMFHEOecIu6XsJONOF8kXRbFEQf&
     optionD: "c",
     correctOption: "d"
   },
+
+     {
+    id: 101,
+    question: "Which term describes the perceived warmth or coolness of a color?",
+    optionA: "Value",
+    optionB: "Chroma",
+    optionC: "Temperature",
+    optionD: "Saturation",
+    correctOption: "c"
+  },
+  {
+    id: 102,
+    question: "Read the Instruction",
+    image: "https://drive.google.com/thumbnail?id=1vMF0hLQyZ-5fqIs6IuUlhTnCu2yiTgHr&sz=w1000",
+    optionA: "b",
+    optionB: "c",
+    optionC: "a",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 103,
+    question: "find the missing ?",
+    image: "https://drive.google.com/thumbnail?id=1mVQjsFdzmmViAHxUMWwdcgHKSWVJc7tO&sz=w1000",
+    optionA: "d",
+    optionB: "a",
+    optionC: "b",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 104,
+    question: "INDENTIFY THE FAMOUS TEMPLE",
+    image: "https://drive.google.com/thumbnail?id=19BT7lM_6BgihH8tHCMjtH2cB8K1LNJrF&sz=w1000",
+    optionA: "Somnath Temple",
+    optionB: "Akshardham Temple",
+    optionC: "Dwarkadhish Temple",
+    optionD: "Ambaji Temple",
+    correctOption: "b"
+  },
+  {
+    id: 105,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Charles Correa",
+      "2. Pier Luigi Nervi",
+      "3. James Hoban",
+      "4. Lauri Baker"
+],
+    columnBItems: [
+      "White House",
+      "Palasetto Dello",
+      "LIC Building - New Delhi",
+      "Literacy Village - Lucknow"
+],
+    optionA: "1-C 2-A 3-D 4-B",
+    optionB: "1-D 2-C 3-B 4-A",
+    optionC: "1-A 2-B 3-C 4-D",
+    optionD: "1-C 2-B 3-A 4-D",
+    correctOption: "d"
+  },
+  {
+    id: 106,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Colonial Architecture",
+      "2. Indo-Saracenic Architecture",
+      "3. Victorian Gothic",
+      "4. Bauhaus Architecture"
+],
+    columnBItems: [
+      "Functional design using industrial materials.",
+      "Revival of medieval Gothic design.",
+      "Blend of Indian, Islamic, and Gothic elements.",
+      "European styles adapted to local climates."
+],
+    optionA: "1-C 2-B 3-D 4-A",
+    optionB: "1-D 2-C 3-A 4-B",
+    optionC: "1-B 2-D 3-C 4-A",
+    optionD: "1-D 2-C 3-B 4-A",
+    correctOption: "d"
+  },
+  {
+    id: 107,
+    question: "10 floors: Ground floor = 4.8 m, upper floors = 4.5 m each. Total building height (m)?",
+    optionA: "46.3",
+    optionB: "44.8",
+    optionC: "45.8",
+    optionD: "45.3",
+    correctOption: "d"
+  },
+  {
+    id: 108,
+    question: "The bottom window member is:",
+    optionA: "Sill",
+    optionB: "Riser",
+    optionC: "Vault",
+    optionD: "Beam",
+    correctOption: "a"
+  },
+  {
+    id: 109,
+    question: "find top view of figure",
+    image: "https://drive.google.com/thumbnail?id=1O6cDaNtO9HiXxZ3GVE5UxVOqdNDpE5ul&sz=w1000",
+    optionA: "b",
+    optionB: "c",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 110,
+    question: "find front view of figure",
+    image: "https://drive.google.com/thumbnail?id=1TiV03wZeeEI3h3cX6MiOvD365ni0w16i&sz=w1000",
+    optionA: "d",
+    optionB: "a",
+    optionC: "c",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 111,
+    question: "INDENTIFY THE FAMOUS CHURCH",
+    image: "https://drive.google.com/thumbnail?id=1VIICu8JnqfUWDyC0hicPfwq4fSSpP9rF&sz=w1000",
+    optionA: "Notre-Dame de Paris",
+    optionB: "Sagrada Família",
+    optionC: "Cologne Cathedral",
+    optionD: "Milan Cathedral",
+    correctOption: "b"
+  },
+  {
+    id: 112,
+    question: "Read the instruction bR",
+    image: "https://drive.google.com/thumbnail?id=1fj-088JekNuzTQhUFeb0NvA2a06Mxp6o&sz=w1000",
+    optionA: "b",
+    optionB: "c",
+    optionC: "a",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 113,
+    question: "S1: A sunshade or chajja is a horizontal projected slab provided above windows and doors to protect them from direct sun and rain. S2: Chajjas are purely decorative elements with no functional purpose in a building.",
+    optionA: "Both true",
+    optionB: "Both false",
+    optionC: "S1 true, S2 false",
+    optionD: "S1 false, S2 true",
+    correctOption: "c"
+  },
+  {
+    id: 114,
+    question: "The decorative honeycomb-like three-dimensional ornamentation in Islamic architecture is called:",
+    optionA: "Arabesque",
+    optionB: "Muqarnas",
+    optionC: "Pietra dura",
+    optionD: "Jali",
+    correctOption: "b"
+  },
+  {
+    id: 115,
+    question: "Srinagar is capital of which of the following Union teritory ?",
+    optionA: "Himachal Pradesh",
+    optionB: "Andaman and Nicobar",
+    optionC: "Jharkhand",
+    optionD: "Jammu and Kashmir",
+    correctOption: "d"
+  },
+  {
+    id: 116,
+    question: "What is Composition of stainless steel?",
+    optionA: "Iron+Carban+Chromiaun+ nikel",
+    optionB: "Iron+Carban+Chromiaun",
+    optionC: "Iron+Carban",
+    optionD: "100% Iron",
+    correctOption: "a"
+  },
+  {
+    id: 117,
+    question: "Which of the following best describes \"gamut\" in color terminology?",
+    optionA: "The brightness of a color",
+    optionB: "The range of colors a device can reproduce",
+    optionC: "The saturation level of a color",
+    optionD: "The temperature of a light source",
+    correctOption: "b"
+  },
+  {
+    id: 118,
+    question: "find the odd one number",
+    image: "https://drive.google.com/thumbnail?id=1nd4HFI48bhnoRQwLpDNwxnq19c1unTaG&sz=w1000",
+    optionA: "d",
+    optionB: "b",
+    optionC: "c",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 119,
+    question: "Which term refers to Repeatation of same pattern ?",
+    optionA: "Proportion",
+    optionB: "Massing",
+    optionC: "Scale",
+    optionD: "Rhythm",
+    correctOption: "d"
+  },
+  {
+    id: 120,
+    question: "Read the instruction coding",
+    image: "https://drive.google.com/thumbnail?id=1jj2dDgj4JoSw_C1L3r_QBgJyh93S0hZv&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "d",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 121,
+    question: "Which color scheme uses four colors arranged into two complementary pairs?",
+    optionA: "Analogous",
+    optionB: "Tetradic",
+    optionC: "Monochromatic",
+    optionD: "Triadic",
+    correctOption: "b"
+  },
+  {
+    id: 122,
+    question: "Read the Instruction",
+    image: "https://drive.google.com/thumbnail?id=13UmCEuBZIHyJD5a0q0Zqsy1hIHpg_f5T&sz=w1000",
+    optionA: "c",
+    optionB: "b",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 123,
+    question: "Which architectural style is characterized by Round Arches and Spires ?",
+    optionA: "Gothic",
+    optionB: "Byzantine",
+    optionC: "Romanesque",
+    optionD: "Baroque",
+    correctOption: "c"
+  },
+  {
+    id: 124,
+    question: "find visible surface count",
+    image: "https://drive.google.com/thumbnail?id=1W7KY_EOLNDXQ02GOPxlQeEAeKXmSSMse&sz=w1000",
+    optionA: "16",
+    optionB: "17",
+    optionC: "14",
+    optionD: "15",
+    correctOption: "d"
+  },
+  {
+    id: 125,
+    question: "Vitrified tiles are preferred over ceramic tiles in heavy traffic areas because:",
+    optionA: "They are cheaper and easier to install",
+    optionB: "They are denser, less porous, and more resistant to staining and wear",
+    optionC: "They are available in larger sizes only",
+    optionD: "They are made from natural stone rather than clay",
+    correctOption: "b"
+  },
+  {
+    id: 126,
+    question: "find mirror on given axis",
+    image: "https://drive.google.com/thumbnail?id=1bSdeAtDo9Hi9qW-jOmsvWbB8DoeRveyn&sz=w1000",
+    optionA: "b",
+    optionB: "d",
+    optionC: "a",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 127,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=1ZqTiybXov9ZmaozrJga0cp0gWOtfdWM0&sz=w1000",
+    optionA: "c",
+    optionB: "a",
+    optionC: "d",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 128,
+    question: "Who is an architect of Doordarshan Centre - New Delhi",
+    optionA: "Hafeez Contractor",
+    optionB: "Pierre Jeanneret",
+    optionC: "Achyut Kanvinde",
+    optionD: "Raj Revel",
+    correctOption: "d"
+  },
+  {
+    id: 129,
+    question: "10 floors: Ground floor = 5.0 m, upper floors = 4.5 m each. Total building height (m)?",
+    optionA: "45",
+    optionB: "46.5",
+    optionC: "46",
+    optionD: "45.5",
+    correctOption: "d"
+  },
+  {
+    id: 130,
+    question: "The Baroque architectural style originated in the 17th century in which country?",
+    optionA: "France",
+    optionB: "England",
+    optionC: "Spain",
+    optionD: "Italy",
+    correctOption: "d"
+  },
+  {
+    id: 131,
+    question: "The Charminar in Hyderabad was built in 1591 by which ruler?",
+    optionA: "Aurangzeb",
+    optionB: "Muhammad Quli Qutb Shah",
+    optionC: "Mahmud Gawan",
+    optionD: "Ibrahim Adil Shah",
+    correctOption: "b"
+  },
+  {
+    id: 132,
+    question: "Lumenous in color theory describes:",
+    optionA: "The intensity of a color",
+    optionB: "The lightness or darkness of a color",
+    optionC: "The light reflecting property of a color",
+    optionD: "The hue family of a color",
+    correctOption: "c"
+  },
+  {
+    id: 133,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Art Nouveau",
+      "2. Art Deco",
+      "3. Postmodern",
+      "4. Deconstructivism"
+],
+    columnBItems: [
+      "- CCTV Headquarters",
+      "- Secession Building",
+      "- AT&T Building",
+      "- Palais de Tokyo"
+],
+    optionA: "1-A 2-D 3-B 4-C",
+    optionB: "1-C 2-B 3-D 4-A",
+    optionC: "1-A 2-D 3-C 4-B",
+    optionD: "1-B 2-D 3-C 4-A",
+    correctOption: "d"
+  },
+  {
+    id: 134,
+    question: "Who Planned the City of Durgapur",
+    optionA: "Roger Anger",
+    optionB: "Otto Königsberger (Final Plan)",
+    optionC: "B.V. Doshi",
+    optionD: "Joseph Allen Stein",
+    correctOption: "d"
+  },
+  {
+    id: 135,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Mahabalipuram",
+      "2. Rani ki vav [Queens step wells]",
+      "3. Victorian Gothic and Art Deco ensemble",
+      "4. Keoladeo National Park"
+],
+    columnBItems: [
+      "Mumbai, MH",
+      "Tamil Nadu",
+      "Rajastan",
+      "Patan, Gujarat"
+],
+    optionA: "1-B 2-C 3-A 4-D",
+    optionB: "1-A 2-C 3-D 4-B",
+    optionC: "1-C 2-A 3-B 4-D",
+    optionD: "1-B 2-D 3-A 4-C",
+    correctOption: "d"
+  },
+  {
+    id: 136,
+    question: "GIB stands for?",
+    optionA: "Global Infrastructure Board",
+    optionB: "Green India Buildings",
+    optionC: "Green Infrastructure Bureau",
+    optionD: "Green Indian Building",
+    correctOption: "d"
+  },
+  {
+    id: 137,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Barabar Caves",
+      "2. Badami Caves",
+      "3. Male Torso",
+      "4. Sphinx"
+],
+    columnBItems: [
+      "Bihar",
+      "Mohenjo-daro",
+      "Karnataka",
+      "Giza, Egypt"
+],
+    optionA: "1-A 2-D 3-C 4-B",
+    optionB: "1-C 2-B 3-A 4-D",
+    optionC: "1-B 2-A 3-D 4-C",
+    optionD: "1-A 2-C 3-B 4-D",
+    correctOption: "d"
+  },
+  {
+    id: 138,
+    question: "Which type of roof is characterized by two slopes on each side, with the lower slope steeper?",
+    optionA: "Gable roof",
+    optionB: "Hip roof",
+    optionC: "Mansard roof",
+    optionD: "Flat roof",
+    correctOption: "c"
+  },
+  {
+    id: 139,
+    question: "An arched structure forming a ceiling or roof constructed in masonry or concrete is called:",
+    optionA: "Dome",
+    optionB: "Vault",
+    optionC: "Truss",
+    optionD: "Shell",
+    correctOption: "b"
+  },
+  {
+    id: 140,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Chhatra Mahal",
+      "2. Nishat Bagh",
+      "3. Fort William",
+      "4. Safdarjung Tomb"
+],
+    columnBItems: [
+      "Delhi",
+      "Bundi",
+      "Kolkata",
+      "Srinagar"
+],
+    optionA: "1-C 2-A 3-D 4-B",
+    optionB: "1-A 2-B 3-C 4-D",
+    optionC: "1-A 2-C 3-D 4-B",
+    optionD: "1-B 2-D 3-C 4-A",
+    correctOption: "d"
+  },
+  {
+    id: 141,
+    question: "BV Doshi, the first Indian architect to receive the Pritzker Prize, was awarded it in which year?",
+    optionA: "2014",
+    optionB: "2016",
+    optionC: "2018",
+    optionD: "2020",
+    correctOption: "c"
+  },
+  {
+    id: 142,
+    question: "The 'slenderness ratio' of a column indicates its susceptibility to which failure mode?",
+    optionA: "Shear failure",
+    optionB: "Bending failure",
+    optionC: "Buckling",
+    optionD: "Bearing failure",
+    correctOption: "c"
+  },
+  {
+    id: 143,
+    question: "Future of Architecture in 100 Buildings is written By ?",
+    optionA: "Mariam Kamara",
+    optionB: "Jane Jacobs",
+    optionC: "Bjarke Ingels",
+    optionD: "Marc Kushner",
+    correctOption: "d"
+  },
+  {
+    id: 144,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. British Colombia",
+      "2. Imperial",
+      "3. Stanford",
+      "4. Yale University"
+],
+    columnBItems: [
+      "USA",
+      "Canada",
+      "London",
+      "California"
+],
+    optionA: "1-C 2-A 3-D 4-B",
+    optionB: "1-A 2-D 3-B 4-C",
+    optionC: "1-D 2-A 3-B 4-C",
+    optionD: "1-B 2-C 3-D 4-A",
+    correctOption: "d"
+  },
+  {
+    id: 145,
+    question: "find the odd one",
+    image: "https://drive.google.com/thumbnail?id=1i3Q0yEjKpYbIP02oSxm_qEZjOmf_8ccJ&sz=w1000",
+    optionA: "c",
+    optionB: "a",
+    optionC: "d",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 146,
+    question: "Statement 1: Fumihiko Maki is a Japanese architect who designed the 4 World Trade Center in New York.\nStatement 2: He is a recipient of the Pritzker Architecture Prize.",
+    optionA: "Both Statement 1 and Statement 2 is False",
+    optionB: "Statement 1 is True, Statement 2 is False",
+    optionC: "Statement 1 is False, Statement 2 is True",
+    optionD: "Both Statement 1 and Statement 2 are True.",
+    correctOption: "d"
+  },
+  {
+    id: 147,
+    question: "Brutalism takes its name from the French term 'béton brut', meaning:",
+    optionA: "Rough stone",
+    optionB: "Raw concrete",
+    optionC: "Exposed steel",
+    optionD: "Unfinished brick",
+    correctOption: "b"
+  },
+  {
+    id: 148,
+    question: "find missing ?",
+    image: "https://drive.google.com/thumbnail?id=1eAMdtNFw7GfF1HwfFZOqA8mgW0dwBOCS&sz=w1000",
+    optionA: "d",
+    optionB: "c",
+    optionC: "b",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 149,
+    question: "Find next in series",
+    image: "https://drive.google.com/thumbnail?id=1Xcj-pXELsCntTYDtdBdqLytQHwUbcLd8&sz=w1000",
+    optionA: "b",
+    optionB: "c",
+    optionC: "a",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 150,
+    question: "find surface count",
+    image: "https://drive.google.com/thumbnail?id=1VXa5d5BDblJNyTQYGPqTAW7YQhPZOvFX&sz=w1000",
+    optionA: "27",
+    optionB: "28",
+    optionC: "25",
+    optionD: "26",
+    correctOption: "d"
+  },
+  {
+    id: 201,
+    question: "Read the Instruction carefull",
+    image: "https://drive.google.com/thumbnail?id=1w8K5WujncNz5QnnBH1vk315ndof8cCMX&sz=w1000",
+    optionA: "c",
+    optionB: "a",
+    optionC: "d",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 202,
+    question: "Read the Instruction carefull",
+    image: "https://drive.google.com/thumbnail?id=1w8vF_MVu0n2N6pkbTvFF-ysJJK77LiTG&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "b",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 203,
+    question: "Read the Instruction carefull",
+    image: "https://drive.google.com/thumbnail?id=1wKMpl463t-mmBMct9Yus-gfbI5uEUNz-&sz=w1000",
+    optionA: "b",
+    optionB: "c",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 204,
+    question: "Read the Instruction carefull",
+    image: "https://drive.google.com/thumbnail?id=1wO261aVfPCI_rbDegRw85d_V3b2mIU88&sz=w1000",
+    optionA: "d",
+    optionB: "b",
+    optionC: "a",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 205,
+    question: "Read the Instruction carefull",
+    image: "https://drive.google.com/thumbnail?id=1wU91-NzxnihBx4FbiTC9qPiIj0d5QA1-&sz=w1000",
+    optionA: "c",
+    optionB: "b",
+    optionC: "a",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 206,
+    question: "Read the Instruction carefull",
+    image: "https://drive.google.com/thumbnail?id=1wV5_RWozMPFGKo-qj3wGN0_f8RoA784d&sz=w1000",
+    optionA: "c",
+    optionB: "d",
+    optionC: "b",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 207,
+    question: "Read the Instruction carefull",
+    image: "https://drive.google.com/thumbnail?id=1wZGZ0ypZjUPJbIa398jaCzboM3tR_7nw&sz=w1000",
+    optionA: "d",
+    optionB: "c",
+    optionC: "a",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 208,
+    question: "Read the Instruction carefull",
+    image: "https://drive.google.com/thumbnail?id=1waqWxqF8VuFmi8CS0s76US3dEBztkjfl&sz=w1000",
+    optionA: "b",
+    optionB: "a",
+    optionC: "d",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 209,
+    question: "Read the Instruction carefull",
+    image: "https://drive.google.com/thumbnail?id=1wb_0O6Pi2t_CQEuu4gpswacUwkgPR5eM&sz=w1000",
+    optionA: "d",
+    optionB: "b",
+    optionC: "a",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 210,
+    question: "Read the Instruction carefull",
+    image: "https://drive.google.com/thumbnail?id=1wduzEgdiq8-KRupyjHdk6x4Y_K81RbKu&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "b",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 211,
+    question: "Read the Instruction carefull",
+    image: "https://drive.google.com/thumbnail?id=1wf4z6osjkEpOEJW1UkNAgRguNqLxVzK6&sz=w1000",
+    optionA: "d",
+    optionB: "b",
+    optionC: "c",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 212,
+    question: "Read the Instruction carefull",
+    image: "https://drive.google.com/thumbnail?id=1wlXKAM41MS_uyWaVbTEL5rHt6P38LFIi&sz=w1000",
+    optionA: "c",
+    optionB: "d",
+    optionC: "b",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 213,
+    question: "Read the Instruction carefull",
+    image: "https://drive.google.com/thumbnail?id=1wvQbEkd2aWj7SrBqUhQdPGsn-FOhgtzp&sz=w1000",
+    optionA: "b",
+    optionB: "d",
+    optionC: "a",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 214,
+    question: "Read the Instruction carefull",
+    image: "https://drive.google.com/thumbnail?id=1wzH2VehzpVpA08lC_tP8WPO3kaDQpoOM&sz=w1000",
+    optionA: "d",
+    optionB: "a",
+    optionC: "b",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 215,
+    question: "Read the Instruction carefull",
+    image: "https://drive.google.com/thumbnail?id=1x2AGs5jLqM_0Urg7RNeIg16tHlpVK5pT&sz=w1000",
+    optionA: "c",
+    optionB: "a",
+    optionC: "b",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 216,
+    question: "Read the Instruction carefull",
+    image: "https://drive.google.com/thumbnail?id=1x2ChK82XFqigbSF3Z6xUAZBXi-vti5Jh&sz=w1000",
+    optionA: "a",
+    optionB: "d",
+    optionC: "b",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 217,
+    question: "Read the Instruction carefull",
+    image: "https://drive.google.com/thumbnail?id=1x4JXXNBGjcxkurV1YWU0VIBFiDUB0TdK&sz=w1000",
+    optionA: "c",
+    optionB: "b",
+    optionC: "a",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 218,
+    question: "Read the Instruction carefull",
+    image: "https://drive.google.com/thumbnail?id=1EY6qygnR13iH32WU5RTp0_-zcGBwYNM1&sz=w1000",
+    optionA: "b",
+    optionB: "c",
+    optionC: "a",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 219,
+    question: "Read the Instruction carefull",
+    image: "https://drive.google.com/thumbnail?id=1x5ONrpWdsb74WexuVrFYTp0mHFq8Il0z&sz=w1000",
+    optionA: "c",
+    optionB: "d",
+    optionC: "a",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 220,
+    question: "Read the Instruction carefull",
+    image: "https://drive.google.com/thumbnail?id=1x7tUvvAZgREFiE3Oh02xMiFCfXbnRoww&sz=w1000",
+    optionA: "d",
+    optionB: "a",
+    optionC: "b",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 301,
+    type: 'numeric',
+    question: "Read the Instruction carefull",
+    image: "https://drive.google.com/thumbnail?id=1xBOutNqJ5597pyYk5jMT1m8o3KfO69Z4&sz=w1000",
+    correctOption: "48"
+  },
+  {
+    id: 302,
+    type: 'numeric',
+    question: "Read the Instruction carefull",
+    image: "https://drive.google.com/thumbnail?id=1xCrk0l3MQMJIHjRX3Bik_R52HJlIMEHQ&sz=w1000",
+    correctOption: "7"
+  },
+  {
+    id: 303,
+    type: 'numeric',
+    question: "Read the Instruction carefull",
+    image: "https://drive.google.com/thumbnail?id=1xMz6aO4qU-TNRas4GRqA4J2NXd8K1s-E&sz=w1000",
+    correctOption: "0"
+  },
+  {
+    id: 304,
+    type: 'numeric',
+    question: "Read the Instruction carefull",
+    image: "https://drive.google.com/thumbnail?id=1xQO8R_mHHdtwHYfSLrF6C55AMAHVt1S3&sz=w1000",
+    correctOption: "1"
+  },
+  {
+    id: 305,
+    type: 'numeric',
+    question: "Read the Instruction carefull",
+    image: "https://drive.google.com/thumbnail?id=1xRq56y20T3YPPw9BuS915RfeVD4Mt9po&sz=w1000",
+    correctOption: "72"
+  },
+  {
+    id: 401,
+    question: "Draw Proportionate sketch of Given Image with Black and white Rendering Method.",
+    image: "https://drive.google.com/thumbnail?id=1Usqle_ytVu4WCXR_KuL0MfN0Gl8RWV2n&sz=w1000",
+    correctOption: "manual_evaluation"
+  },
+  {
+    id: 402,
+    question: "A kitchen counter contains items that suggest someone is baking — a mixing bowl, a wooden spoon, scattered flour, a recipe book, and a tray of unbaked cookies. Arrange these objects into a composition that tells the story of the baker. OR  Draw a colourful sketch of a school playground during recess, showing children playing different games, a teacher supervising, and a few students sitting under a tree. Use lively and suitable colours",
+    correctOption: "manual_evaluation"
+  },
     
 ];
+
 
 
 
