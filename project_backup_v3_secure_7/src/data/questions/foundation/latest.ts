@@ -11442,11 +11442,11 @@ image: "https://drive.google.com/thumbnail?id=1V5C-agMFHEOecIu6XsJONOF8kXRbFEQf&
   {
     id: 136,
     question: "GIB stands for?",
-    optionA: "Global Infrastructure Board",
+    optionA: "Global Infrastructure and Building",
     optionB: "Green India Buildings",
     optionC: "Green Infrastructure Bureau",
     optionD: "Green Indian Building",
-    correctOption: "d"
+    correctOption: "a"
   },
   {
     id: 137,
