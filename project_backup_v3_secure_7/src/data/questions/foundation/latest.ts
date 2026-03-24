@@ -11178,7 +11178,7 @@ image: "https://drive.google.com/thumbnail?id=1V5C-agMFHEOecIu6XsJONOF8kXRbFEQf&
     optionB: "a",
     optionC: "c",
     optionD: "b",
-    correctOption: "d"
+    correctOption: "c"
   },
   {
     id: 111,
