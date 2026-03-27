@@ -11863,6 +11863,597 @@ image: "https://drive.google.com/thumbnail?id=1V5C-agMFHEOecIu6XsJONOF8kXRbFEQf&
     question: "A kitchen counter contains items that suggest someone is baking — a mixing bowl, a wooden spoon, scattered flour, a recipe book, and a tray of unbaked cookies. Arrange these objects into a composition that tells the story of the baker. OR Sketch a unique eco-friendly greenhouse built into a hillside that reconnects with nature. Include features such as glass panels, wooden beams, climbing vines, etc. The structure should blend harmoniously with the surrounding landscape. Depict natural light, shadow, and textures effectively. Colour it as per your choice.",
     correctOption: "manual_evaluation"
   },
+
+      {
+    id: 1,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=12VV3-CqkO7uTaLllWtX3SmWMXY4kPVEV&sz=w1000",
+    optionA: "a",
+    optionB: "d",
+    optionC: "c",
+    optionD: "b",
+    correctOption: "a"
+  },
+  {
+    id: 2,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=12-zGF7YlURRoqs8WjhYRZGAGxKnW9gDo&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "d",
+    optionD: "b",
+    correctOption: "a"
+  },
+  {
+    id: 3,
+    question: "In traditional art, what is created by mixing a color with gray?",
+    optionA: "A tint",
+    optionB: "A shade",
+    optionC: "A tone",
+    optionD: "A gradient",
+    correctOption: "c"
+  },
+  {
+    id: 4,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=12sCBdH-DkHXtpylF5g0cq2ZZzfgPf2J9&sz=w1000",
+    optionA: "a",
+    optionB: "d",
+    optionC: "b",
+    optionD: "c",
+    correctOption: "a"
+  },
+  {
+    id: 5,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=11ejX-sfomqNOe-BX4IIVdln7s-kBHWKk&sz=w1000",
+    optionA: "c",
+    optionB: "d",
+    optionC: "b",
+    optionD: "a",
+    correctOption: "a"
+  },
+  {
+    id: 6,
+    question: "The Guggenheim Museum Bilbao by Frank Gehry is a landmark example of:",
+    optionA: "Minimalism",
+    optionB: "High-Tech Architecture",
+    optionC: "Deconstructivism",
+    optionD: "Brutalism",
+    correctOption: "c"
+  },
+  {
+    id: 7,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=12aUxA1KxyHEoBLeQL4Z0hZR38MKflotE&sz=w1000",
+    optionA: "d",
+    optionB: "a",
+    optionC: "c",
+    optionD: "b",
+    correctOption: "a"
+  },
+  {
+    id: 8,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=12fQx2qLC0Dfx6C1Jv_RStCwBWc9HCzhk&sz=w1000",
+    optionA: "c",
+    optionB: "d",
+    optionC: "a",
+    optionD: "b",
+    correctOption: "a"
+  },
+  {
+    id: 9,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Stair Terms",
+      "2. Arch Terms",
+      "3. Truss Terms",
+      "4. Roof Terms"
+],
+    columnBItems: [
+      "Intrados",
+      "Riser",
+      "Gable",
+      "Rafter"
+],
+    optionA: "1-C 2-D 3-B 4-A",
+    optionB: "1-A 2-B 3-D 4-C",
+    optionC: "1-D 2-C 3-A 4-B",
+    optionD: "1-B 2-A 3-D 4-C",
+    correctOption: "d"
+  },
+  {
+    id: 10,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=12M4aTJUJ0neOUQyKrV3JcL61_XmUKNA9&sz=w1000",
+    optionA: "a",
+    optionB: "b",
+    optionC: "d",
+    optionD: "c",
+    correctOption: "a"
+  },
+  {
+    id: 11,
+    question: "A building plot of 120 m × 80 m is represented on a blueprint at a scale of 1:400. What size is shown?",
+    optionA: "30 cm × 20 cm",
+    optionB: "300 cm × 200 cm",
+    optionC: "3 m × 2 m",
+    optionD: "0.3 m × 0.2 m",
+    correctOption: "a"
+  },
+  {
+    id: 12,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=11YxWkAjt-heLJPIjvS5WWcrY7Nae2XVL&sz=w1000",
+    optionA: "b",
+    optionB: "d",
+    optionC: "c",
+    optionD: "a",
+    correctOption: "a"
+  },
+  {
+    id: 13,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=12Un2Vb52_Y83yTUN3NyoFiey38tdGEiW&sz=w1000",
+    optionA: "b",
+    optionB: "d",
+    optionC: "c",
+    optionD: "a",
+    correctOption: "a"
+  },
+  {
+    id: 14,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=137dSqLB5Kuhz_GnnUJVAGqSzxHV0FddE&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "d",
+    optionD: "b",
+    correctOption: "a"
+  },
+  {
+    id: 15,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=137RsA-gcoPVcSjortTF7VzJkL77chSSx&sz=w1000",
+    optionA: "d",
+    optionB: "a",
+    optionC: "c",
+    optionD: "b",
+    correctOption: "a"
+  },
+  {
+    id: 16,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=11kv4flH3NtzggM2vGuHO_WJEHCUaLwGK&sz=w1000",
+    optionA: "c",
+    optionB: "d",
+    optionC: "b",
+    optionD: "a",
+    correctOption: "a"
+  },
+  {
+    id: 17,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Mysore",
+      "2. Shivakashi",
+      "3. Jwalamukhi",
+      "4. Aligarh"
+],
+    columnBItems: [
+      "Petroleum",
+      "Sandalwood, Silk",
+      "Firecrackers",
+      "Locks"
+],
+    optionA: "1-A 2-C 3-B 4-D",
+    optionB: "1-A 2-C 3-B 4-D",
+    optionC: "1-D 2-B 3-C 4-A",
+    optionD: "1-B 2-C 3-A 4-D",
+    correctOption: "d"
+  },
+  {
+    id: 18,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=12tOk4J_QOMcnCm-6-ax9qQQ8qz210h2f&sz=w1000",
+    optionA: "c",
+    optionB: "d",
+    optionC: "b",
+    optionD: "a",
+    correctOption: "a"
+  },
+  {
+    id: 19,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=12V3z7at3VPUoIzeiCUPXhiGHut93KPx1&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "b",
+    optionD: "d",
+    correctOption: "a"
+  },
+  {
+    id: 20,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Myanmar Independence",
+      "2. French Revolution",
+      "3. Vietnam War",
+      "4. Paris Treaty"
+],
+    columnBItems: [
+      "1955 - 1975",
+      "1946-47",
+      "1948",
+      "1789"
+],
+    optionA: "1-D 2-B 3-C 4-A",
+    optionB: "1-B 2-A 3-C 4-D",
+    optionC: "1-D 2-B 3-A 4-C",
+    optionD: "1-C 2-D 3-A 4-B",
+    correctOption: "d"
+  },
+  {
+    id: 21,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=12xsF5-zdU6SCPdEKawQdTr9lm9N86X3-&sz=w1000",
+    optionA: "b",
+    optionB: "c",
+    optionC: "a",
+    optionD: "d",
+    correctOption: "a"
+  },
+  {
+    id: 22,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Module",
+      "2. Grid",
+      "3. Proportion",
+      "4. Symmetry"
+],
+    columnBItems: [
+      "Standardized unit of measurement or component",
+      "Balanced arrangement of elements about an axis",
+      "Regulating pattern of lines for planning structure/layout",
+      "Mathematical relationship between parts and whole"
+],
+    optionA: "1-D 2-B 3-A 4-C",
+    optionB: "1-A 2-B 3-C 4-D",
+    optionC: "1-B 2-A 3-D 4-C",
+    optionD: "1-A 2-C 3-D 4-B",
+    correctOption: "d"
+  },
+  {
+    id: 23,
+    type: 'statement',
+    question: "S1: A facade is the front face of a building. S2: A facade never includes windows.",
+    optionA: "Both correct",
+    optionB: "S1 correct",
+    optionC: "S2 correct",
+    optionD: "Both incorrect",
+    correctOption: "b"
+  },
+  {
+    id: 24,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=11uOx2WV7CONUAM7gvu4lzU4gDJOVNFSX&sz=w1000",
+    optionA: "d",
+    optionB: "c",
+    optionC: "a",
+    optionD: "b",
+    correctOption: "a"
+  },
+  {
+    id: 25,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Fenestration",
+      "2. Void/Solid",
+      "3. Facade",
+      "4. Curtain Wall"
+],
+    columnBItems: [
+      "Relationship between empty spaces and built mass",
+      "Non-load-bearing exterior skin attached to structure",
+      "Arrangement, proportion, and design of windows/openings",
+      "Exterior face of building, especially principal elevation"
+],
+    optionA: "1-D 2-B 3-C 4-A",
+    optionB: "1-B 2-C 3-A 4-D",
+    optionC: "1-D 2-A 3-C 4-B",
+    optionD: "1-C 2-A 3-D 4-B",
+    correctOption: "d"
+  },
+  {
+    id: 26,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Varaha Cave",
+      "2. Padanleni Cave",
+      "3. Little Mermaid",
+      "4. Udayagiri Caves"
+],
+    columnBItems: [
+      "Vidisha, Madhya Pradesh",
+      "Copenhagen, Denmark",
+      "Tamil Nadu",
+      "Nashik, Maharashtra"
+],
+    optionA: "1-A 2-B 3-D 4-C",
+    optionB: "1-C 2-D 3-A 4-B",
+    optionC: "1-C 2-A 3-D 4-B",
+    optionD: "1-C 2-D 3-B 4-A",
+    correctOption: "d"
+  },
+  {
+    id: 27,
+    question: "Which material offers both high tensile and compressive strength and is used in structural frames?",
+    optionA: "Unreinforced concrete",
+    optionB: "Structural steel",
+    optionC: "Adobe",
+    optionD: "Unreinforced brick",
+    correctOption: "b"
+  },
+  {
+    id: 28,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=12EV8QxUfmJp7DbLjeJZyFC3NES3Vcnzj&sz=w1000",
+    optionA: "c",
+    optionB: "a",
+    optionC: "b",
+    optionD: "d",
+    correctOption: "a"
+  },
+  {
+    id: 29,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=12zouxeqUU6QxRxc6lhfju1abwTYwfg2I&sz=w1000",
+    optionA: "b",
+    optionB: "c",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "a"
+  },
+  {
+    id: 30,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=13C3q50INcei7deLFOdoxckkiddfXIDpv&sz=w1000",
+    optionA: "d",
+    optionB: "b",
+    optionC: "c",
+    optionD: "a",
+    correctOption: "a"
+  },
+  {
+    id: 31,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=139s7pYJQPQRDsvKgme-wgBsIRKjndDDo&sz=w1000",
+    optionA: "22",
+    optionB: "21",
+    optionC: "23",
+    optionD: "24",
+    correctOption: "a"
+  },
+  {
+    id: 32,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=12waGtBwPCcJNHeBA4rvB_B_be8nxU1V_&sz=w1000",
+    optionA: "d",
+    optionB: "c",
+    optionC: "b",
+    optionD: "a",
+    correctOption: "a"
+  },
+  {
+    id: 33,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=138hkzmtjrcmx8JIy3vs2Fi9PIiwfaFjl&sz=w1000",
+    optionA: "b",
+    optionB: "a",
+    optionC: "d",
+    optionD: "c",
+    correctOption: "a"
+  },
+  {
+    id: 34,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=12p_Aq0V1fXAGRAZFPzQcRTYRhCRj92nL&sz=w1000",
+    optionA: "c",
+    optionB: "b",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "a"
+  },
+  {
+    id: 35,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=11fvSWL8lJgmhaZK4VgOJFH8-Khl-G_JM&sz=w1000",
+    optionA: "b",
+    optionB: "c",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "a"
+  },
+  {
+    id: 36,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=11b_8ap4Bb_Tacsn3aJ3EXCVrcPDfm7t2&sz=w1000",
+    optionA: "c",
+    optionB: "d",
+    optionC: "b",
+    optionD: "a",
+    correctOption: "a"
+  },
+  {
+    id: 37,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Cantilever",
+      "2. Cartouche",
+      "3. Casement",
+      "4. Cavetto"
+],
+    columnBItems: [
+      "Concave quarter-round molding, often used in cornices",
+      "Window hinged at side, opening outward like a door",
+      "Oval or oblong ornamental frame, often for inscriptions or coats of arms",
+      "Beam/slab fixed at one end, projecting freely; creates overhangs"
+],
+    optionA: "1-D 2-B 3-A 4-C",
+    optionB: "1-D 2-B 3-A 4-C",
+    optionC: "1-C 2-A 3-B 4-D",
+    optionD: "1-D 2-C 3-B 4-A",
+    correctOption: "d"
+  },
+  {
+    id: 38,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Wall",
+      "2. Column",
+      "3. Beam",
+      "4. Slab"
+],
+    columnBItems: [
+      "Vertical construction used to enclose, divide, or support spaces in a building.",
+      "Flat horizontal structural element forming floors or roofs, usually made of reinforced concrete.",
+      "Vertical structural member designed to transfer compressive loads from beams or slabs to the foundation.",
+      "Horizontal structural member that supports loads and transfers them to columns or walls."
+],
+    optionA: "1-C 2-A 3-B 4-D",
+    optionB: "1-D 2-C 3-B 4-A",
+    optionC: "1-D 2-C 3-A 4-B",
+    optionD: "1-A 2-C 3-D 4-B",
+    correctOption: "d"
+  },
+  {
+    id: 39,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=12PbU-QEoxzaBdGTbGpnPfVnoC_Br6x04&sz=w1000",
+    optionA: "c",
+    optionB: "b",
+    optionC: "a",
+    optionD: "d",
+    correctOption: "a"
+  },
+  {
+    id: 40,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=1352tRclAIphanoPcPoHWlK0A2QwbmG7d&sz=w1000",
+    optionA: "d",
+    optionB: "b",
+    optionC: "a",
+    optionD: "c",
+    correctOption: "a"
+  },
+  {
+    id: 41,
+    question: "find front view of figure",
+    image: "https://drive.google.com/thumbnail?id=1Pps18fW2QUM3p-RJi9Xgjy3OJ46-KQq-&sz=w1000",
+    optionA: "b",
+    optionB: "a",
+    optionC: "d",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 42,
+    question: "Read the instruction bR",
+    image: "https://drive.google.com/thumbnail?id=1gJgVwRgmya4pC0A8-epiQLv0uuaIPWG6&sz=w1000",
+    optionA: "a",
+    optionB: "d",
+    optionC: "c",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 43,
+    question: "Who is an architect of Nagakin Capsule Tower",
+    optionA: "Hafeez Contractor",
+    optionB: "Renzo Piano",
+    optionC: "Le Corbusier",
+    optionD: "Kisho Kurokawa",
+    correctOption: "d"
+  },
+  {
+    id: 44,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=12C0dCvGth09tX3J8yebOoXa73wHJybbB&sz=w1000",
+    optionA: "Both A and D",
+    optionB: "Only A and B",
+    optionC: "Only A nad C",
+    optionD: "only D",
+    correctOption: "a"
+  },
+  {
+    id: 45,
+    question: "PMGKY",
+    optionA: "Pradhan Mantri Green Kisan Yojana",
+    optionB: "Pradhan Mantri Garib Kalyan Yojana",
+    optionC: "Pradhan Mantri Gram Kalyan Yojana",
+    optionD: "Pradhan Mantri Gramin Krishi Yojana",
+    correctOption: "b"
+  },
+  {
+    id: 46,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=12ebnr-oP-9O0us-bp41GjGK50feYvk4G&sz=w1000",
+    optionA: "d",
+    optionB: "c",
+    optionC: "a",
+    optionD: "b",
+    correctOption: "a"
+  },
+  {
+    id: 47,
+    type: 'statement',
+    question: "Statement 1: A silo is a structure for storing bulk materials, often cylindrical.\nStatement 2: A barn is a farm building used for storage and sheltering animals.",
+    optionA: "Statement 1 is True, Statement 2 is False",
+    optionB: "Statement 1 is False, Statement 2 is True",
+    optionC: "Both Statement 1 and Statement 2 is False",
+    optionD: "Both Statement 1 and Statement 2 are True.",
+    correctOption: "d"
+  },
+  {
+    id: 48,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=13JdMYT5YZH9Q7V9Zg4q3jpP-M8Hpv36Z&sz=w1000",
+    optionA: "b",
+    optionB: "d",
+    optionC: "c",
+    optionD: "a",
+    correctOption: "a"
+  },
+  {
+    id: 49,
+    type: 'statement',
+    question: "S1: Simultaneous contrast occurs when two colours placed next to each other mutually influence and alter each other's appearance. S2: This effect was extensively studied by Michel Eugène Chevreul and later by Josef Albers.",
+    optionA: "Both true, S2 explains S1",
+    optionB: "Both true, S2 does not explain S1",
+    optionC: "S1 true, S2 false",
+    optionD: "S1 false, S2 true",
+    correctOption: "b"
+  },
+  {
+    id: 50,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=11XqbhetIoV8DZ8Qz5TdBDjdFsAiWyVmD&sz=w1000",
+    optionA: "c",
+    optionB: "b",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "a"
+  },
     
 ];
 
