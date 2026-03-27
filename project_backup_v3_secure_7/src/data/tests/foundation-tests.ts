@@ -690,7 +690,7 @@ export const foundationTests: Test[] = [
     name: 'Foundation: Mock 6 (April 2026)',
     description: 'Solve the expected paper of this year',
     duration: DEFAULT_TEST_DURATION,
-    questions: foundationlatestQuestions.slice(1095,1145),
+    //questions: foundationlatestQuestions.slice(1095,1145),
     category: 'latest',
     course: 'foundation',
     sections: [
