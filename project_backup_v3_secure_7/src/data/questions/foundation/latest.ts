@@ -12454,7 +12454,837 @@ image: "https://drive.google.com/thumbnail?id=1V5C-agMFHEOecIu6XsJONOF8kXRbFEQf&
     optionD: "a",
     correctOption: "a"
   },
-    
+    {
+    id: 101,
+    question: "Hafeez Contractor is primarily known for which type of architectural work in India?",
+    optionA: "Low-cost rural housing using mud and bamboo",
+    optionB: "Contemporary commercial towers and high-rise residential buildings",
+    optionC: "Heritage conservation and restoration of colonial structures",
+    optionD: "Vastu-based temple and religious architecture",
+    correctOption: "b"
+  },
+  {
+    id: 102,
+    question: "What is the result of mixing all primary colors in the subtractive (CMYK) model?",
+    optionA: "White",
+    optionB: "Black",
+    optionC: "Gray",
+    optionD: "Brown",
+    correctOption: "b"
+  },
+  {
+    id: 103,
+    question: "Which term describes the perceived difference between two colours placed next to each other?",
+    optionA: "Harmony",
+    optionB: "Contrast",
+    optionC: "Saturation",
+    optionD: "Value",
+    correctOption: "b"
+  },
+  {
+    id: 104,
+    question: "What does \"massing\" refer to in architecture?",
+    optionA: "The weight of building materials",
+    optionB: "The overall shape and volume of a building",
+    optionC: "The color scheme used",
+    optionD: "The type of foundation",
+    correctOption: "b"
+  },
+  {
+    id: 105,
+    question: "Which of the following natural stones is most commonly used for flooring, steps, and exterior paving due to its hardness and slip resistance?",
+    optionA: "Marble",
+    optionB: "Limestone",
+    optionC: "Kota stone",
+    optionD: "Travertine",
+    correctOption: "c"
+  },
+  {
+    id: 106,
+    question: "What is the standard size of a modular brick used in India?",
+    optionA: "300mm x 150mm x 100mm",
+    optionB: "190mm x 90mm x 90mm",
+    optionC: "230mm x 115mm x 75mm",
+    optionD: "250mm x 120mm x 80mm",
+    correctOption: "b"
+  },
+  {
+    id: 107,
+    question: "find front view of figure",
+    image: "https://drive.google.com/thumbnail?id=1Q76PTP6dBzNk6MAaSV8pci4-x0GDgE5p&sz=w1000",
+    optionA: "a",
+    optionB: "b",
+    optionC: "c",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 108,
+    question: "find front view of figure",
+    image: "https://drive.google.com/thumbnail?id=1ShrfMSj_l88lRRfZY2XZql5jtPNlmtXs&sz=w1000",
+    optionA: "d",
+    optionB: "a",
+    optionC: "c",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 109,
+    question: "find mirror on given axis",
+    image: "https://drive.google.com/thumbnail?id=1d_AZVyYhkhG_lhVIS3XDa6XN7Zfr-1oC&sz=w1000",
+    optionA: "d",
+    optionB: "a",
+    optionC: "b",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 110,
+    question: "find visible surface count",
+    image: "https://drive.google.com/thumbnail?id=1VzBzY8bejmaKQ7cOepYJcRs_pp8HQdYD&sz=w1000",
+    optionA: "18",
+    optionB: "19",
+    optionC: "16",
+    optionD: "17",
+    correctOption: "d"
+  },
+  {
+    id: 111,
+    question: "Identify the Garden Style of following Building",
+    image: "https://drive.google.com/thumbnail?id=1oS9Bv8o9gMV1DVZhpT4uFfsjzQEjyOTU&sz=w1000",
+    optionA: "Japanese Garden",
+    optionB: "Italian Garden",
+    optionC: "Woodland Garden",
+    optionD: "Wild Garden",
+    correctOption: "a"
+  },
+  {
+    id: 112,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Nagara",
+      "2. Ancient Egyptian",
+      "3. Greek",
+      "4. Roman"
+],
+    columnBItems: [
+      "Curvilinear Shikhara (Temple Towers)",
+      "Obelisks",
+      "Domes",
+      "Ionic Columns"
+],
+    optionA: "1-A 2-D 3-B 4-C",
+    optionB: "1-A 2-D 3-C 4-B",
+    optionC: "1-D 2-A 3-C 4-B",
+    optionD: "1-A 2-B 3-D 4-C",
+    correctOption: "d"
+  },
+  {
+    id: 113,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Postmodern Architecture",
+      "2. Deconstructivism",
+      "3. High-Tech Architecture",
+      "4. International Style"
+],
+    columnBItems: [
+      "Movement reacting against modernism with historical references.",
+      "Style emphasizing exposed structural and mechanical elements.",
+      "Style with fragmented and distorted forms.",
+      "Modernist architecture using glass, steel, and minimal ornament."
+],
+    optionA: "1-C 2-A 3-D 4-B",
+    optionB: "1-A 2-D 3-B 4-C",
+    optionC: "1-B 2-D 3-A 4-C",
+    optionD: "1-A 2-C 3-B 4-D",
+    correctOption: "d"
+  },
+  {
+    id: 114,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Flamboyant Gothic (c. 1350–1550)",
+      "2. Perpendicular Gothic (c. 1350–1600, England)",
+      "3. Renaissance (c. 1400–1600)",
+      "4. Mannerist (c. 1520–1600)"
+],
+    columnBItems: [
+      "Late Gothic style with elaborate, flame-like tracery",
+      "Late Renaissance style experimenting with classical rules",
+      "Late English Gothic emphasizing vertical lines",
+      "Revival of classical principles from Italy across Europe"
+],
+    optionA: "1-B 2-D 3-A 4-C",
+    optionB: "1-B 2-D 3-C 4-A",
+    optionC: "1-D 2-A 3-B 4-C",
+    optionD: "1-A 2-C 3-D 4-B",
+    correctOption: "d"
+  },
+  {
+    id: 115,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Zaha Hadid",
+      "2. Le Corbusier",
+      "3. Charles Correa",
+      "4. Habib Rehman"
+],
+    columnBItems: [
+      "Punjab and Haryana High Court",
+      "Contemporary Arts Centre",
+      "Navi Mumbai Master Plan",
+      "RK Puram (Y)"
+],
+    optionA: "1-A 2-D 3-C 4-B",
+    optionB: "1-B 2-C 3-A 4-D",
+    optionC: "1-D 2-A 3-C 4-B",
+    optionD: "1-B 2-A 3-C 4-D",
+    correctOption: "d"
+  },
+  {
+    id: 116,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Norman Foster",
+      "2. Raj Revel",
+      "3. Skidmore, Owings & Merrill",
+      "4. Daniel Libeskind"
+],
+    columnBItems: [
+      "Millu Bridge",
+      "Jewish Museum",
+      "Engineers India House - New Delhi",
+      "John Hancock Tower"
+],
+    optionA: "1-C 2-B 3-A 4-D",
+    optionB: "1-D 2-A 3-B 4-C",
+    optionC: "1-D 2-B 3-A 4-C",
+    optionD: "1-A 2-C 3-D 4-B",
+    correctOption: "d"
+  },
+  {
+    id: 117,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Agra fort",
+      "2. Buddhist caves [Sanchi]",
+      "3. Kanchenjunga National Park",
+      "4. Taj mahal"
+],
+    columnBItems: [
+      "Sanchi, MP",
+      "Agra, UP",
+      "Agra, UP",
+      "Sikkim"
+],
+    optionA: "1-D 2-B 3-C 4-A",
+    optionB: "1-D 2-A 3-C 4-B",
+    optionC: "1-B 2-D 3-A 4-C",
+    optionD: "1-B 2-A 3-D 4-C",
+    correctOption: "d"
+  },
+  {
+    id: 118,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Shigeru Ban",
+      "2. Zaha Hadid",
+      "3. John Utzon",
+      "4. Tadao Ando"
+],
+    columnBItems: [
+      "The Byker Wall",
+      "Library and Learning Centre",
+      "Church of Light",
+      "Kingo House - Denmark"
+],
+    optionA: "1-B 2-C 3-A 4-D",
+    optionB: "1-C 2-A 3-B 4-D",
+    optionC: "1-A 2-D 3-B 4-C",
+    optionD: "1-A 2-B 3-D 4-C",
+    correctOption: "d"
+  },
+  {
+    id: 119,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Kremlin",
+      "2. Waterloo",
+      "3. CN Tower",
+      "4. Hagia Sophia (St. Sophia)"
+],
+    columnBItems: [
+      "Moscow",
+      "Belgium",
+      "Canada",
+      "Constantinople (Istanbul)"
+],
+    optionA: "1-D 2-A 3-B 4-C",
+    optionB: "1-A 2-B 3-D 4-C",
+    optionC: "1-A 2-C 3-D 4-B",
+    optionD: "1-A 2-B 3-C 4-D",
+    correctOption: "d"
+  },
+  {
+    id: 120,
+    question: "Which Mughal ruler built Humayun's Tomb?",
+    optionA: "Akbar",
+    optionB: "Haji Begum",
+    optionC: "Shah Jahan",
+    optionD: "Babur",
+    correctOption: "b"
+  },
+  {
+    id: 121,
+    question: "The International Style promotes which design principle?",
+    optionA: "Regional materials and local craft",
+    optionB: "Historical ornamentation and symmetry",
+    optionC: "Volume over mass, regularity, absence of applied ornament",
+    optionD: "Organic forms inspired by nature",
+    correctOption: "c"
+  },
+  {
+    id: 122,
+    question: "The apse in a traditional Christian church is typically located at:",
+    optionA: "The west end",
+    optionB: "The north transept",
+    optionC: "The east end, behind the altar",
+    optionD: "The crossing of nave and transept",
+    correctOption: "c"
+  },
+  {
+    id: 123,
+    question: "S1: Coping is the protective cap or covering placed on top of a wall to prevent water from entering the wall. S2: Coping is provided at the bottom of a wall to act as a moisture barrier between the wall and the foundation.",
+    optionA: "Both true",
+    optionB: "Both false",
+    optionC: "S1 true, S2 false",
+    optionD: "S1 false, S2 true",
+    correctOption: "c"
+  },
+  {
+    id: 124,
+    question: "S1: A floor plan shows the layout of spaces as seen from above. S2: A floor plan includes furniture and fixtures to show functionality.",
+    optionA: "Both false",
+    optionB: "S1 true, S2 false",
+    optionC: "S1 false, S2 true",
+    optionD: "Both correct",
+    correctOption: "a"
+  },
+  {
+    id: 125,
+    question: "INDENTIFY THE FAMOUS TEMPLE",
+    image: "https://drive.google.com/thumbnail?id=1Nu_QJdbkcTLIt_gNM0HbXd1h2LwGj00_&sz=w1000",
+    optionA: "Hoysaleswara Temple",
+    optionB: "Kesava Temple Somanathapura",
+    optionC: "Chennakeshava Temple Belur",
+    optionD: "Pattadakal Temples",
+    correctOption: "c"
+  },
+  {
+    id: 126,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=143cGiHa8ck4_e-25NCFTYXJNN9w2K_BU&sz=w1000",
+    optionA: "c",
+    optionB: "a",
+    optionC: "b",
+    optionD: "d",
+    correctOption: "a"
+  },
+  {
+    id: 127,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=148b5Gjtm0APfG3NRSSaiu8CX9jabC53X&sz=w1000",
+    optionA: "c",
+    optionB: "a",
+    optionC: "b",
+    optionD: "d",
+    correctOption: "a"
+  },
+  {
+    id: 128,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=149fRbXu569xxGAsjTURMtLORE8T0BjiO&sz=w1000",
+    optionA: "a",
+    optionB: "b",
+    optionC: "c",
+    optionD: "d",
+    correctOption: "a"
+  },
+  {
+    id: 129,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=14FU_n3-1Wio-yjBHK5_TxGYcqlfmWZnK&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "d",
+    optionD: "b",
+    correctOption: "a"
+  },
+  {
+    id: 130,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=14MiZPEc8YnORqVYX5n0ZARLRq4G2Oipl&sz=w1000",
+    optionA: "b",
+    optionB: "d",
+    optionC: "a",
+    optionD: "c",
+    correctOption: "a"
+  },
+  {
+    id: 131,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=14RERzgpCCwLhM4OFSjOp5VTFWLsq3TGK&sz=w1000",
+    optionA: "b",
+    optionB: "c",
+    optionC: "a",
+    optionD: "d",
+    correctOption: "a"
+  },
+  {
+    id: 132,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=14WZ8RYVEj63Qj_jZhQUK51rjYJwrmdxD&sz=w1000",
+    optionA: "b",
+    optionB: "c",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "a"
+  },
+  {
+    id: 133,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=14WrBz8QNgm5nLmZvA5yQoW-AqinArCjR&sz=w1000",
+    optionA: "d",
+    optionB: "b",
+    optionC: "c",
+    optionD: "a",
+    correctOption: "a"
+  },
+  {
+    id: 134,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=14XVo8SSmupgBmNwhaiR5C0VjXXKgLqTm&sz=w1000",
+    optionA: "d",
+    optionB: "b",
+    optionC: "c",
+    optionD: "a",
+    correctOption: "a"
+  },
+  {
+    id: 135,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=14bIYs6hPpJSdRmrtCc70mWp4ZtwseZkt&sz=w1000",
+    optionA: "c",
+    optionB: "a",
+    optionC: "b",
+    optionD: "d",
+    correctOption: "a"
+  },
+  {
+    id: 136,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=14isFVzx4HgaY473RIHL2Xcl6GKJDys47&sz=w1000",
+    optionA: "a",
+    optionB: "b",
+    optionC: "c",
+    optionD: "d",
+    correctOption: "a"
+  },
+  {
+    id: 137,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=14jDCLPVvVXD55OcaT6UDfH2Y7q46gCyX&sz=w1000",
+    optionA: "b",
+    optionB: "c",
+    optionC: "a",
+    optionD: "d",
+    correctOption: "a"
+  },
+  {
+    id: 138,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=14pExiO0OrePSh7ZcUc8rA0PV1XDdCo7X&sz=w1000",
+    optionA: "b",
+    optionB: "a",
+    optionC: "c",
+    optionD: "d",
+    correctOption: "a"
+  },
+  {
+    id: 139,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=14pL69zpMdtpYtqTSxcTFagG_yWH0WW6U&sz=w1000",
+    optionA: "c",
+    optionB: "b",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "a"
+  },
+  {
+    id: 140,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=14sVfH_WPGAymmfq-dUxOCFJmQx9wu0E5&sz=w1000",
+    optionA: "b",
+    optionB: "d",
+    optionC: "c",
+    optionD: "a",
+    correctOption: "a"
+  },
+  {
+    id: 141,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=14wYAhztyYXIE8jOeoZHU2aBHeX8-He0K&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "b",
+    optionD: "d",
+    correctOption: "a"
+  },
+  {
+    id: 142,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=14xNoErnYsG3DIxvwxyZYNEPd_SSPpVop&sz=w1000",
+    optionA: "b",
+    optionB: "c",
+    optionC: "a",
+    optionD: "d",
+    correctOption: "a"
+  },
+  {
+    id: 143,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=15-4-XfW9SSpcyR72WH66lLEQpUk57Nlo&sz=w1000",
+    optionA: "c",
+    optionB: "d",
+    optionC: "b",
+    optionD: "a",
+    correctOption: "a"
+  },
+  {
+    id: 144,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=152ClvODQ8Um4hddJaDqFgc9MAJNmszPv&sz=w1000",
+    optionA: "c",
+    optionB: "a",
+    optionC: "b",
+    optionD: "d",
+    correctOption: "a"
+  },
+  {
+    id: 145,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=153ww5HwVJ-ysmHBHIVP2pLCjMgJp8F4z&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "b",
+    optionD: "d",
+    correctOption: "a"
+  },
+  {
+    id: 146,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=159YRWMjPybVRhrLJWu0ZXQfi3iqD5sKa&sz=w1000",
+    optionA: "c",
+    optionB: "b",
+    optionC: "a",
+    optionD: "d",
+    correctOption: "a"
+  },
+  {
+    id: 147,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=159ZXZ0M17WfnbNsFFCkm0cQ6DZg2_HXi&sz=w1000",
+    optionA: "25",
+    optionB: "26",
+    optionC: "27",
+    optionD: "24",
+    correctOption: "a"
+  },
+  {
+    id: 148,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=15BKh1T-z5ejzRfmfa1WeaTdQesDjOpx6&sz=w1000",
+    optionA: "15",
+    optionB: "16",
+    optionC: "17",
+    optionD: "14",
+    correctOption: "a"
+  },
+  {
+    id: 149,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=15DYiy4oEAZmSvb9oy9HvSk9hg_Q8LGYO&sz=w1000",
+    optionA: "30",
+    optionB: "31",
+    optionC: "32",
+    optionD: "29",
+    correctOption: "a"
+  },
+  {
+    id: 150,
+    question: "find the missing ?",
+    image: "https://drive.google.com/thumbnail?id=1lNJ88k1gEFEA6pO2Z5_2X9VkqvVns-It&sz=w1000",
+    optionA: "b",
+    optionB: "a",
+    optionC: "d",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 201,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=18xU-LpezPAZ5V6nxZ0FN9vkuypuJpfi0&sz=w1000",
+    optionA: "c",
+    optionB: "b",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "a"
+  },
+  {
+    id: 202,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=18zR8FALJtFLiGb_V-TSNHkrxar9P40HE&sz=w1000",
+    optionA: "b",
+    optionB: "c",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "a"
+  },
+  {
+    id: 203,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=190vThN3YSfFCzNU3G5NyY4KrDJOXvVxv&sz=w1000",
+    optionA: "c",
+    optionB: "a",
+    optionC: "b",
+    optionD: "d",
+    correctOption: "a"
+  },
+  {
+    id: 204,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=199I1Sx47aZmNFzAGShKgKGr0Rk_CY0iv&sz=w1000",
+    optionA: "c",
+    optionB: "d",
+    optionC: "a",
+    optionD: "b",
+    correctOption: "a"
+  },
+  {
+    id: 205,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=199Lwrd0s9lMW-DJbPKcF1atsxtvlHJ8f&sz=w1000",
+    optionA: "b",
+    optionB: "c",
+    optionC: "a",
+    optionD: "d",
+    correctOption: "a"
+  },
+  {
+    id: 206,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=19A-aMSY_fJKTznd_Ln4W24yACfDCmuev&sz=w1000",
+    optionA: "a",
+    optionB: "b",
+    optionC: "c",
+    optionD: "d",
+    correctOption: "a"
+  },
+  {
+    id: 207,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=19Apt_8rLJCH6ri207AzPNkf1-3_B2D_w&sz=w1000",
+    optionA: "a",
+    optionB: "b",
+    optionC: "c",
+    optionD: "d",
+    correctOption: "a"
+  },
+  {
+    id: 208,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=19BBZUdBaZrQ-RIkW7DxtnatpOsHpHvHl&sz=w1000",
+    optionA: "b",
+    optionB: "d",
+    optionC: "c",
+    optionD: "a",
+    correctOption: "a"
+  },
+  {
+    id: 209,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=19CeMRw6N--tGgVKaUIymXqXzOaTG0Dnm&sz=w1000",
+    optionA: "c",
+    optionB: "d",
+    optionC: "a",
+    optionD: "b",
+    correctOption: "a"
+  },
+  {
+    id: 210,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=19H--epfTCbJnZ5Y3lmnno0nxF2uLO4iK&sz=w1000",
+    optionA: "b",
+    optionB: "c",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "a"
+  },
+  {
+    id: 211,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=19TLNDvB6siCeVUuwWtCr4IAOP39Wrg3M&sz=w1000",
+    optionA: "c",
+    optionB: "d",
+    optionC: "b",
+    optionD: "a",
+    correctOption: "a"
+  },
+  {
+    id: 212,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=19UN0-uBo6tTjp-uFLKOM8QvwXt1t0qbJ&sz=w1000",
+    optionA: "d",
+    optionB: "b",
+    optionC: "c",
+    optionD: "a",
+    correctOption: "a"
+  },
+  {
+    id: 213,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=19V3DtjTxO_zMVdibSau88VVckOjQaTE1&sz=w1000",
+    optionA: "c",
+    optionB: "b",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "a"
+  },
+  {
+    id: 214,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=19bLC_hBlAm71mDK6oAtbbV6eIsMUjfyL&sz=w1000",
+    optionA: "d",
+    optionB: "c",
+    optionC: "b",
+    optionD: "a",
+    correctOption: "a"
+  },
+  {
+    id: 215,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=19d1RXa_-T_R_mKd3F3x-jj8J35qkJF8V&sz=w1000",
+    optionA: "c",
+    optionB: "b",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "a"
+  },
+  {
+    id: 216,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=19jCahZoYRq4kMe5JIpjskTOW96ZV7Arr&sz=w1000",
+    optionA: "a",
+    optionB: "d",
+    optionC: "c",
+    optionD: "b",
+    correctOption: "a"
+  },
+  {
+    id: 217,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=19n0ROIipExK5zdl2ccP8Gtt3x7X_Gv3O&sz=w1000",
+    optionA: "d",
+    optionB: "c",
+    optionC: "b",
+    optionD: "a",
+    correctOption: "a"
+  },
+  {
+    id: 218,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=19oI4EmDuS7GEDGrkMbTNQ9Nep2zXhXk1&sz=w1000",
+    optionA: "b",
+    optionB: "c",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "a"
+  },
+  {
+    id: 219,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=19xwvlGBSAkemWBU01vPE6m9siwNefxbP&sz=w1000",
+    optionA: "b",
+    optionB: "c",
+    optionC: "a",
+    optionD: "d",
+    correctOption: "a"
+  },
+  {
+    id: 220,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=19zFx0RK2TOIV6SnjqTIBsjC5GMPCh5KU&sz=w1000",
+    optionA: "d",
+    optionB: "b",
+    optionC: "c",
+    optionD: "a",
+    correctOption: "a"
+  },
+  {
+    id: 301,
+    type: 'numeric',
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=1A86MUMn_b9PoP2G3pVAuQvdRKfp8KkTp&sz=w1000",
+    correctOption: "32"
+  },
+  {
+    id: 302,
+    type: 'numeric',
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=1AAEXJndNCQeyk2s8SEqaNpJ1O2TaWHpg&sz=w1000",
+    correctOption: "23"
+  },
+  {
+    id: 303,
+    type: 'numeric',
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=1AAjE42SEels07QNrzHzx1ceYSXYmnBqU&sz=w1000",
+    correctOption: "6"
+  },
+  {
+    id: 304,
+    type: 'numeric',
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=1ANbp2StR4V_YqPrM1CpMJBwzJqcjpslB&sz=w1000",
+    correctOption: "3"
+  },
+  {
+    id: 305,
+    type: 'numeric',
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=1AaM3GLDigTNX4xCdZ0kGr001VeILtIGo&sz=w1000",
+    correctOption: "29"
+  },
+  {
+    id: 401,
+    question: "Draw Proportionate sketch of Given Image with Monochromatic Rendering Method.",
+    image: "https://drive.google.com/thumbnail?id=1AckZYTPWfFyR33B0qAf1mLqAMsAObvNM&sz=w1000",
+    correctOption: "manual_evaluation"
+  },
+  {
+    id: 402,
+    question: "Draw a scene of a rural cricket match being played in an open field. Show a batsman hitting a shot, fielders in position, an enthusiastic crowd sitting around the boundary,vendors selling cold drinks etc use colour of your choice",
+    correctOption: "manual_evaluation"
+  },
 ];
 
 
