@@ -704,8 +704,8 @@ export const foundationTests: Test[] = [
   },
 
    {
-    id: 'foundation-latest-full-mock-April-2 ( 3.30hr )',
-    name: 'Foundation: Full Mock 2 (April 2026)', // Note only description is different in original file, keeping ID same as original though it's likely a bug
+    id: 'foundation-latest-full-mock-April-3 ( 3.30hr )',
+    name: 'Foundation: Full Mock 3 (April 2026)', // Note only description is different in original file, keeping ID same as original though it's likely a bug
     description: 'Complete B.Arch Pattern: Aptitude + Math + Drawing',
     duration: 12600, // 3.30 hours (10800 seconds)
     category: 'latest',
