@@ -749,6 +749,262 @@ export const foundationTests: Test[] = [
       }
     ]
   },
+
+  {
+    id: 'foundation-latest-pattern-test-7-April',
+    name: 'Foundation: Mock 7 Easy (April 2026)',
+    description: 'Solve the expected paper of this year',
+    duration: DEFAULT_TEST_DURATION,
+    questions: foundationlatestQuestions.slice(1222,1272),
+    category: 'latest',
+    course: 'foundation',
+    sections: [
+      {
+        id: "aptitude",
+        name: "Aptitude",
+        type: "aptitude",
+        questionIndices: Array.from({ length: 50 }, (_, i) => i)
+      }
+    ]
+  },
+  {
+    id: 'foundation-latest-pattern-test-8-April',
+    name: 'Foundation: Mock 8 Easy (April 2026)',
+    description: 'Solve the expected paper of this year',
+    duration: DEFAULT_TEST_DURATION,
+    questions: foundationlatestQuestions.slice(1272, 1322),
+    category: 'latest',
+    course: 'foundation',
+    sections: [
+      {
+        id: "aptitude",
+        name: "Aptitude",
+        type: "aptitude",
+        questionIndices: Array.from({ length: 50 }, (_, i) => i)
+      }
+    ]
+  },
+  {
+    id: 'foundation-latest-pattern-test-9-April',
+    name: 'Foundation: Mock 9 Easy (April 2026)',
+    description: 'Solve the expected paper of this year',
+    duration: DEFAULT_TEST_DURATION,
+    questions: foundationlatestQuestions.slice(1322, 1372),
+    category: 'latest',
+    course: 'foundation',
+    sections: [
+      {
+        id: "aptitude",
+        name: "Aptitude",
+        type: "aptitude",
+        questionIndices: Array.from({ length: 50 }, (_, i) => i)
+      }
+    ]
+  },
+  {
+    id: 'foundation-latest-pattern-test-10-April',
+    name: 'Foundation: Mock 10 Easy (April 2026)',
+    description: 'Solve the expected paper of this year',
+    duration: DEFAULT_TEST_DURATION,
+    questions: foundationlatestQuestions.slice(1372, 1422),
+    category: 'latest',
+    course: 'foundation',
+    sections: [
+      {
+        id: "aptitude",
+        name: "Aptitude",
+        type: "aptitude",
+        questionIndices: Array.from({ length: 50 }, (_, i) => i)
+      }
+    ]
+  },
+  {
+    id: 'foundation-latest-pattern-test-11-April',
+    name: 'Foundation: Mock 11 Easy (April 2026)',
+    description: 'Solve the expected paper of this year',
+    duration: DEFAULT_TEST_DURATION,
+    questions: foundationlatestQuestions.slice(1422, 1472),
+    category: 'latest',
+    course: 'foundation',
+    sections: [
+      {
+        id: "aptitude",
+        name: "Aptitude",
+        type: "aptitude",
+        questionIndices: Array.from({ length: 50 }, (_, i) => i)
+      }
+    ]
+  },
+  {
+    id: 'foundation-latest-pattern-test-12-April',
+    name: 'Foundation: Mock 12 Easy (April 2026)',
+    description: 'Solve the expected paper of this year',
+    duration: DEFAULT_TEST_DURATION,
+    questions: foundationlatestQuestions.slice(1472, 1522),
+    category: 'latest',
+    course: 'foundation',
+    sections: [
+      {
+        id: "aptitude",
+        name: "Aptitude",
+        type: "aptitude",
+        questionIndices: Array.from({ length: 50 }, (_, i) => i)
+      }
+    ]
+  },
+  {
+    id: 'foundation-latest-pattern-test-13-April',
+    name: 'Foundation: Mock 13 Easy (April 2026)',
+    description: 'Solve the expected paper of this year',
+    duration: DEFAULT_TEST_DURATION,
+    questions: foundationlatestQuestions.slice(1522, 1572),
+    category: 'latest',
+    course: 'foundation',
+    sections: [
+      {
+        id: "aptitude",
+        name: "Aptitude",
+        type: "aptitude",
+        questionIndices: Array.from({ length: 50 }, (_, i) => i)
+      }
+    ]
+  },
+  {
+    id: 'foundation-latest-pattern-test-14-April',
+    name: 'Foundation: Mock 14 Easy (April 2026)',
+    description: 'Solve the expected paper of this year',
+    duration: DEFAULT_TEST_DURATION,
+    questions: foundationlatestQuestions.slice(1572, 1622),
+    category: 'latest',
+    course: 'foundation',
+    sections: [
+      {
+        id: "aptitude",
+        name: "Aptitude",
+        type: "aptitude",
+        questionIndices: Array.from({ length: 50 }, (_, i) => i)
+      }
+    ]
+  },
+  {
+    id: 'foundation-latest-pattern-test-15-April',
+    name: 'Foundation: Mock 15 Easy (April 2026)',
+    description: 'Solve the expected paper of this year',
+    duration: DEFAULT_TEST_DURATION,
+    questions: foundationlatestQuestions.slice(1622, 1672),
+    category: 'latest',
+    course: 'foundation',
+    sections: [
+      {
+        id: "aptitude",
+        name: "Aptitude",
+        type: "aptitude",
+        questionIndices: Array.from({ length: 50 }, (_, i) => i)
+      }
+    ]
+  },
+  {
+    id: 'foundation-latest-pattern-test-16-April',
+    name: 'Foundation: Mock 16 Easy (April 2026)',
+    description: 'Solve the expected paper of this year',
+    duration: DEFAULT_TEST_DURATION,
+    questions: foundationlatestQuestions.slice(1672, 1722),
+    category: 'latest',
+    course: 'foundation',
+    sections: [
+      {
+        id: "aptitude",
+        name: "Aptitude",
+        type: "aptitude",
+        questionIndices: Array.from({ length: 50 }, (_, i) => i)
+      }
+    ]
+  },
+  {
+    id: 'foundation-latest-pattern-test-17-April',
+    name: 'Foundation: Mock 17 Easy (April 2026)',
+    description: 'Solve the expected paper of this year',
+    duration: DEFAULT_TEST_DURATION,
+    questions: foundationlatestQuestions.slice(1722, 1772),
+    category: 'latest',
+    course: 'foundation',
+    sections: [
+      {
+        id: "aptitude",
+        name: "Aptitude",
+        type: "aptitude",
+        questionIndices: Array.from({ length: 50 }, (_, i) => i)
+      }
+    ]
+  },
+  {
+    id: 'foundation-latest-pattern-test-18-April',
+    name: 'Foundation: Mock 18 Easy (April 2026)',
+    description: 'Solve the expected paper of this year',
+    duration: DEFAULT_TEST_DURATION,
+    questions: foundationlatestQuestions.slice(1772, 1822),
+    category: 'latest',
+    course: 'foundation',
+    sections: [
+      {
+        id: "aptitude",
+        name: "Aptitude",
+        type: "aptitude",
+        questionIndices: Array.from({ length: 50 }, (_, i) => i)
+      }
+    ]
+  },
+  {
+    id: 'foundation-latest-pattern-test-19-April',
+    name: 'Foundation: Mock 19 Easy (April 2026)',
+    description: 'Solve the expected paper of this year',
+    duration: DEFAULT_TEST_DURATION,
+    questions: foundationlatestQuestions.slice(1822, 1872),
+    category: 'latest',
+    course: 'foundation',
+    sections: [
+      {
+        id: "aptitude",
+        name: "Aptitude",
+        type: "aptitude",
+        questionIndices: Array.from({ length: 50 }, (_, i) => i)
+      }
+    ]
+  },
+  {
+    id: 'foundation-latest-pattern-test-20-April',
+    name: 'Foundation: Mock 20 Easy (April 2026)',
+    description: 'Solve the expected paper of this year',
+    duration: DEFAULT_TEST_DURATION,
+    questions: foundationlatestQuestions.slice(1872, 1922),
+    category: 'latest',
+    course: 'foundation',
+    sections: [
+      {
+        id: "aptitude",
+        name: "Aptitude",
+        type: "aptitude",
+        questionIndices: Array.from({ length: 50 }, (_, i) => i)
+      }
+    ]
+  },
+  {
+    id: 'foundation-latest-pattern-test-21-April',
+    name: 'Foundation: Mock 21 Easy (April 2026)',
+    description: 'Solve the expected paper of this year',
+    duration: DEFAULT_TEST_DURATION,
+    questions: foundationlatestQuestions.slice(1922, 1972),
+    category: 'latest',
+    course: 'foundation',
+    sections: [
+      {
+        id: "aptitude",
+        name: "Aptitude",
+        type: "aptitude",
+        questionIndices: Array.from({ length: 50 }, (_, i) => i)
+      }
+    ]
+  },
   
 ];
 
