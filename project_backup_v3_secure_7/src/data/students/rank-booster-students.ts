@@ -7,8 +7,8 @@ import { UserAccount } from '../../types';
 
 export const rankBoosterStudents: UserAccount[] = [
   // PASTE YOUR STUDENTS HERE
-  { email: 'akshaymoghe5@gmail.com', password: 'sweetakshay@13', role: 'student', approved: true , courses: ['rank_booster'] },//rankbooster
-{ email: 'bituponkalita740@gmail.com', password: 'Bitupan@26', role: 'student', approved: true , courses: ['rank_booster'] },
+{ email: 'student500@gmail.com', password: 'pass123', role: 'student', approved: true , courses: ['rank_booster'] },
+  { email: 'bituponkalita740@gmail.com', password: 'Bitupan@26', role: 'student', approved: true , courses: ['rank_booster'] },
 { email: 'surekhashinde084@gmail.com', password: 'Rutuja15', role: 'student', approved: true , courses: ['rank_booster'] },
 { email: 'tanshusurya@gmail.com', password: 'Kumar@123', role: 'student', approved: true , courses: ['rank_booster'] },
 { email: 'abhyudaythakur706@gmail.com', password: '#Abhyuday', role: 'student', approved: true , courses: ['rank_booster'] },
@@ -29,7 +29,12 @@ export const rankBoosterStudents: UserAccount[] = [
 { email: 'tanshusurya@gmail.com', password: 'Kumar@123', role: 'student', approved: true , courses: ['rank_booster'] },
 { email: 'architecture.z053@gmail.com', password: 'SURYA53', role: 'student', approved: true , courses: ['rank_booster'] },
 { email: 'nisarg142008@gmail.com', password: 'Nisarg@0404', role: 'student', approved: true , courses: ['rank_booster'] },
-  
+{ email: 'mrblackwidow345@gmail.com', password: 'Virat157', role: 'student', approved: true , courses: ['rank_booster'] },
+{ email: 'riddhibhattacharya.sc1b.21.aasb@gmail.com', password: 'soura!82', role: 'student', approved: true , courses: ['rank_booster'] },
+{ email: 'shrutikajaybhaye07@gmail.com', password: 'Shrutika@30', role: 'student', approved: true , courses: ['rank_booster'] },
+{ email: 'u5567248@gmail.com', password: 'Umama0102', role: 'student', approved: true , courses: ['rank_booster'] },
+{ email: 'priyadarshnithiru@gmail.com', password: 'Priyu1508', role: 'student', approved: true , courses: ['rank_booster'] },
+{ email: 'ssac.shaanagne25@gmail.com', password: 'mogheinstitute@123', role: 'student', approved: true , courses: ['rank_booster'] },
 
 
 
