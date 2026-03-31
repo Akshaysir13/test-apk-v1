@@ -35,6 +35,7 @@ export const rankBoosterStudents: UserAccount[] = [
 { email: 'u5567248@gmail.com', password: 'Umama0102', role: 'student', approved: true , courses: ['rank_booster'] },
 { email: 'priyadarshnithiru@gmail.com', password: 'Priyu1508', role: 'student', approved: true , courses: ['rank_booster'] },
 { email: 'ssac.shaanagne25@gmail.com', password: 'mogheinstitute@123', role: 'student', approved: true , courses: ['rank_booster'] },
+  { email: 'student501@gmail.com', password: 'pass123', role: 'student', approved: true , courses: ['rank_booster'] },
 
 
 
