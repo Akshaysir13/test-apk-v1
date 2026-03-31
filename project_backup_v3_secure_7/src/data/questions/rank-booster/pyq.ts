@@ -310,4 +310,505 @@ export const rankBoosterPYQQuestions: Question[] = [
 { id: 48, question: "Read the Instructions Carefully", image: "https://drive.google.com/thumbnail?id=1qtUAFt7ZRQTKlwJsFCW0esRorYblZ5Yy&sz=w2000", optionA: "c", optionB: "a", optionC: "b", optionD: "d", correctOption: "d" },
 { id: 49, question: "Read the Instructions Carefully", image: "https://drive.google.com/thumbnail?id=1qtbOC6kN5ZVbnwI3Wo_BMthYgzats4j2&sz=w2000", optionA: "c", optionB: "b", optionC: "d", optionD: "a", correctOption: "d" },
 { id: 50, question: "Read the Instructions Carefully", image: "https://drive.google.com/thumbnail?id=1qxuTec8eNTT0xZ3nC5jpbv86TYP3Br6a&sz=w2000", optionA: "a", optionB: "b", optionC: "d", optionD: "c", correctOption: "d" },
+  // 2026 April Attempt
+      {
+    id: 101,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1xZkKHTvfdSsI9j8XZmr_d_tSUF0G1Oji&sz=w1000",
+    optionA: "4",
+    optionB: "3",
+    optionC: "1",
+    optionD: "2",
+    correctOption: "d"
+  },
+  {
+    id: 102,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1xc2WZcIQGP49qVHtv3ids1YVAqHxCGEe&sz=w1000",
+    optionA: "1",
+    optionB: "3",
+    optionC: "2",
+    optionD: "4",
+    correctOption: "d"
+  },
+  {
+    id: 103,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1xf5UgGi2adAI1usbaRA0ITkhVWHM_GZp&sz=w1000",
+    optionA: "3",
+    optionB: "4",
+    optionC: "2",
+    optionD: "1",
+    correctOption: "d"
+  },
+  {
+    id: 104,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1xf5uyhRcEH3Jt-Do5Zkm-4F-bQ5QMXek&sz=w1000",
+    optionA: "4",
+    optionB: "2",
+    optionC: "3",
+    optionD: "1",
+    correctOption: "d"
+  },
+  {
+    id: 105,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1xfRklBHsQzE-33Olr95l2NN7hTH93UEO&sz=w1000",
+    optionA: "4",
+    optionB: "2",
+    optionC: "1",
+    optionD: "3",
+    correctOption: "d"
+  },
+  {
+    id: 106,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1xla2TrRqvmncAHQxGtXklc_IwlbAG7Lq&sz=w1000",
+    optionA: "1",
+    optionB: "2",
+    optionC: "4",
+    optionD: "3",
+    correctOption: "d"
+  },
+  {
+    id: 107,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1xqYHxbi79OoyltmO8GrCncrjReLBPxpL&sz=w1000",
+    optionA: "3",
+    optionB: "2",
+    optionC: "1",
+    optionD: "4",
+    correctOption: "d"
+  },
+  {
+    id: 108,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1xtKkxGZCuYPgqb85rR6GERmJQUGXavLx&sz=w1000",
+    optionA: "2",
+    optionB: "4",
+    optionC: "3",
+    optionD: "1",
+    correctOption: "d"
+  },
+  {
+    id: 109,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1xuH6LynCs4nktSPESgQtt_dW9VvwwjQv&sz=w1000",
+    optionA: "3",
+    optionB: "4",
+    optionC: "1",
+    optionD: "2",
+    correctOption: "d"
+  },
+  {
+    id: 110,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1y4tsPnKJhpzUeazVkHUp_g7dSlyBZ2fj&sz=w1000",
+    optionA: "2",
+    optionB: "3",
+    optionC: "1",
+    optionD: "4",
+    correctOption: "d"
+  },
+  {
+    id: 111,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1y6JVMFuI4msEKdu1VjPoNHytiNuran3l&sz=w1000",
+    optionA: "4",
+    optionB: "3",
+    optionC: "1",
+    optionD: "2",
+    correctOption: "d"
+  },
+  {
+    id: 112,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1y8kFhy5OETKPS3VFoPOZaKVVVtzr7Sp6&sz=w1000",
+    optionA: "2",
+    optionB: "4",
+    optionC: "1",
+    optionD: "3",
+    correctOption: "d"
+  },
+  {
+    id: 113,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1yDjc09s1sJfy0tY3JdczLJVhsyaQIruG&sz=w1000",
+    optionA: "4",
+    optionB: "1",
+    optionC: "2",
+    optionD: "3",
+    correctOption: "d"
+  },
+  {
+    id: 114,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1yEdlbgJFnLAfqjrQH57tOduCoxp1O9iJ&sz=w1000",
+    optionA: "3",
+    optionB: "1",
+    optionC: "2",
+    optionD: "4",
+    correctOption: "d"
+  },
+  {
+    id: 115,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1yKNIB4PImhnEKkHEbq1GLfO3xBETe2XF&sz=w1000",
+    optionA: "2",
+    optionB: "3",
+    optionC: "1",
+    optionD: "4",
+    correctOption: "d"
+  },
+  {
+    id: 116,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1yXv-FQuJ0PjT-w_meQLSgbZCPcS7d5zZ&sz=w1000",
+    optionA: "3",
+    optionB: "4",
+    optionC: "1",
+    optionD: "2",
+    correctOption: "d"
+  },
+  {
+    id: 117,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1ygOGVA3VSCCHJe-UKroDKick9YpvyNm6&sz=w1000",
+    optionA: "4",
+    optionB: "1",
+    optionC: "2",
+    optionD: "3",
+    correctOption: "d"
+  },
+  {
+    id: 118,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1yhSOK449hVjYarV91qz0IMXPjSQdnDsf&sz=w1000",
+    optionA: "2",
+    optionB: "4",
+    optionC: "1",
+    optionD: "3",
+    correctOption: "d"
+  },
+  {
+    id: 119,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1ykWj2L8H7enEVfif61AiVRHYDv8NYpVe&sz=w1000",
+    optionA: "2",
+    optionB: "3",
+    optionC: "4",
+    optionD: "1",
+    correctOption: "d"
+  },
+  {
+    id: 120,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1yqrLK35pfChDh4GcdjVttI2ADMDy3a-l&sz=w1000",
+    optionA: "3",
+    optionB: "4",
+    optionC: "1",
+    optionD: "2",
+    correctOption: "d"
+  },
+  {
+    id: 121,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1z1BqKv7vNOxfNrZcbIL1DRPDBV8yKwi1&sz=w1000",
+    optionA: "4",
+    optionB: "2",
+    optionC: "1",
+    optionD: "3",
+    correctOption: "d"
+  },
+  {
+    id: 122,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1z4DTa9Jd0Ywqhgqu_cFFj__GxYTfurGY&sz=w1000",
+    optionA: "2",
+    optionB: "1",
+    optionC: "4",
+    optionD: "3",
+    correctOption: "d"
+  },
+  {
+    id: 123,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1zAc7Gs7W97rG8zizDwZIM9lmeCqWuBut&sz=w1000",
+    optionA: "4",
+    optionB: "3",
+    optionC: "1",
+    optionD: "2",
+    correctOption: "d"
+  },
+  {
+    id: 124,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1zCfqgDrXpuE90qsk_9oAHFqm9o7_tsbz&sz=w1000",
+    optionA: "1",
+    optionB: "3",
+    optionC: "2",
+    optionD: "4",
+    correctOption: "d"
+  },
+  {
+    id: 125,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1zJ47fWiV-MgY8XXOxCLncWnSW076qlyM&sz=w1000",
+    optionA: "2",
+    optionB: "3",
+    optionC: "1",
+    optionD: "4",
+    correctOption: "d"
+  },
+  {
+    id: 126,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1zK00xuUl5jXDJc5XaV2O9OdcEMZPtCEv&sz=w1000",
+    optionA: "3",
+    optionB: "1",
+    optionC: "2",
+    optionD: "4",
+    correctOption: "d"
+  },
+  {
+    id: 127,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1zPKpHQK_eCB61rDVomeHcGfusi6ZbSXq&sz=w1000",
+    optionA: "3",
+    optionB: "2",
+    optionC: "1",
+    optionD: "4",
+    correctOption: "d"
+  },
+  {
+    id: 128,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1z_vYXeGWu7VRlXjmPuYquB8tBhY6OAFc&sz=w1000",
+    optionA: "3",
+    optionB: "2",
+    optionC: "1",
+    optionD: "4",
+    correctOption: "d"
+  },
+  {
+    id: 129,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1zbaOACF52t_cQWfS2Byt07T1T1jS6juL&sz=w1000",
+    optionA: "4",
+    optionB: "2",
+    optionC: "1",
+    optionD: "3",
+    correctOption: "d"
+  },
+  {
+    id: 130,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1zfRfkEHVCLtOGow8bAUJrgKrDt04rpM-&sz=w1000",
+    optionA: "3",
+    optionB: "2",
+    optionC: "1",
+    optionD: "4",
+    correctOption: "d"
+  },
+  {
+    id: 131,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1zm4ZJBLaML2Jq3x6FtRxu-kM1NopgeG6&sz=w1000",
+    optionA: "2",
+    optionB: "3",
+    optionC: "1",
+    optionD: "4",
+    correctOption: "d"
+  },
+  {
+    id: 132,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1zuQwe6LcAJNb9KdvmQB8lupLfA9Pkc0I&sz=w1000",
+    optionA: "4",
+    optionB: "2",
+    optionC: "1",
+    optionD: "3",
+    correctOption: "d"
+  },
+  {
+    id: 133,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1zzUP48K28OTDcPfpcJz4ig4KzEy5zJOY&sz=w1000",
+    optionA: "4",
+    optionB: "3",
+    optionC: "1",
+    optionD: "2",
+    correctOption: "d"
+  },
+  {
+    id: 134,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1GZ-6gvbjB1mwrcv2FJM06lrR34Y2-BMz&sz=w1000",
+    optionA: "2",
+    optionB: "4",
+    optionC: "1",
+    optionD: "3",
+    correctOption: "d"
+  },
+  {
+    id: 135,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1-1WQycMkvFF23xxA8O6CVs9nYaBSDmfx&sz=w1000",
+    optionA: "4",
+    optionB: "1",
+    optionC: "3",
+    optionD: "2",
+    correctOption: "d"
+  },
+  {
+    id: 136,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1-8D3QxjarTY_WzU1kBBPFP246mw9o7fp&sz=w1000",
+    optionA: "4",
+    optionB: "2",
+    optionC: "3",
+    optionD: "1",
+    correctOption: "d"
+  },
+  {
+    id: 137,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1-FAtk3NzihypOPYNYPE1yRs5pCx0zSCg&sz=w1000",
+    optionA: "1",
+    optionB: "4",
+    optionC: "2",
+    optionD: "3",
+    correctOption: "d"
+  },
+  {
+    id: 138,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1-LFAzkz-b6o5og_lAWx_WStUA8u2mDhW&sz=w1000",
+    optionA: "3",
+    optionB: "1",
+    optionC: "2",
+    optionD: "4",
+    correctOption: "d"
+  },
+  {
+    id: 139,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1-OBvYhCJwbXx_ryPUD1u82OS2nLpec-w&sz=w1000",
+    optionA: "1",
+    optionB: "4",
+    optionC: "3",
+    optionD: "2",
+    correctOption: "d"
+  },
+  {
+    id: 140,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1-Qu598gytve__TmZioT1YtWPwQK8aYU4&sz=w1000",
+    optionA: "3",
+    optionB: "1",
+    optionC: "4",
+    optionD: "2",
+    correctOption: "d"
+  },
+  {
+    id: 141,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1-V25Ebe8li-sN6VhR3y7EiQ4cateMLvl&sz=w1000",
+    optionA: "2",
+    optionB: "3",
+    optionC: "1",
+    optionD: "4",
+    correctOption: "d"
+  },
+  {
+    id: 142,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1-X4Faw5p8R3fT-Jva5M09BPPHttijJFw&sz=w1000",
+    optionA: "3",
+    optionB: "2",
+    optionC: "1",
+    optionD: "4",
+    correctOption: "d"
+  },
+  {
+    id: 143,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1-_j36xDLrPAvQFxOV-Bg-tfZghdV9fWa&sz=w1000",
+    optionA: "4",
+    optionB: "2",
+    optionC: "1",
+    optionD: "3",
+    correctOption: "d"
+  },
+  {
+    id: 144,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1-aUNV2w1AFzRrG6Ve9tBsUdLtn2u7V7-&sz=w1000",
+    optionA: "3",
+    optionB: "4",
+    optionC: "1",
+    optionD: "2",
+    correctOption: "d"
+  },
+  {
+    id: 145,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1-b941o1pPFvpCH_eCzYbvJSYXzt9DaDQ&sz=w1000",
+    optionA: "3",
+    optionB: "2",
+    optionC: "1",
+    optionD: "4",
+    correctOption: "d"
+  },
+  {
+    id: 146,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1-gR2u1KvGGNda3DW2S4Jid9b43dUdGmi&sz=w1000",
+    optionA: "4",
+    optionB: "3",
+    optionC: "1",
+    optionD: "2",
+    correctOption: "d"
+  },
+  {
+    id: 147,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1-kJOlnPei4QumH9iLwCV6eWwGTVjmoyE&sz=w1000",
+    optionA: "4",
+    optionB: "1",
+    optionC: "3",
+    optionD: "2",
+    correctOption: "d"
+  },
+  {
+    id: 148,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1-lQyV3efxmknjy-7sF-QDGOtmg_Sjdx5&sz=w1000",
+    optionA: "3",
+    optionB: "4",
+    optionC: "1",
+    optionD: "2",
+    correctOption: "d"
+  },
+  {
+    id: 149,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1-nCg8pHxqJAkoOiAtEwkDFYWA4olgF65&sz=w1000",
+    optionA: "3",
+    optionB: "2",
+    optionC: "4",
+    optionD: "1",
+    correctOption: "d"
+  },
+  {
+    id: 150,
+    question: "Read the instruction carefully",
+    image: "https://drive.google.com/thumbnail?id=1-o2oxt2vms4sispsBa69HzzZ_fUHlGfO&sz=w1000",
+    optionA: "4",
+    optionB: "2",
+    optionC: "1",
+    optionD: "3",
+    correctOption: "d"
+  },
 ];
