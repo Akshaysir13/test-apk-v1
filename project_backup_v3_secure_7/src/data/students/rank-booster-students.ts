@@ -43,6 +43,25 @@ export const rankBoosterStudents: UserAccount[] = [
   { email: 'student502@gmail.com', password: 'pass123', role: 'student', approved: true , courses: ['rank_booster'] },
   { email: 'narangkabir8@gmail.com', password: 'Kabir15@', role: 'student', approved: true , courses: ['rank_booster'] },
   { email: 'student503@gmail.com', password: 'pass123', role: 'student', approved: true , courses: ['rank_booster'] },
+  { email: 'maanveeerjhorar13@gmail.com', password: '282008', role: 'student', approved: true , courses: ['rank_booster'] },
+
+
+
+{ email: 'student504@gmail.com', password: 'pass123', role: 'student', approved: true, courses: ['rank_booster'] },
+{ email: 'student505@gmail.com', password: 'pass123', role: 'student', approved: true, courses: ['rank_booster'] },
+{ email: 'student506@gmail.com', password: 'pass123', role: 'student', approved: true, courses: ['rank_booster'] },
+{ email: 'student507@gmail.com', password: 'pass123', role: 'student', approved: true, courses: ['rank_booster'] },
+{ email: 'student508@gmail.com', password: 'pass123', role: 'student', approved: true, courses: ['rank_booster'] },
+{ email: 'student509@gmail.com', password: 'pass123', role: 'student', approved: true, courses: ['rank_booster'] },
+{ email: 'student510@gmail.com', password: 'pass123', role: 'student', approved: true, courses: ['rank_booster'] },
+{ email: 'student511@gmail.com', password: 'pass123', role: 'student', approved: true, courses: ['rank_booster'] },
+{ email: 'student512@gmail.com', password: 'pass123', role: 'student', approved: true, courses: ['rank_booster'] },
+{ email: 'student513@gmail.com', password: 'pass123', role: 'student', approved: true, courses: ['rank_booster'] },
+{ email: 'student514@gmail.com', password: 'pass123', role: 'student', approved: true, courses: ['rank_booster'] },
+{ email: 'student515@gmail.com', password: 'pass123', role: 'student', approved: true, courses: ['rank_booster'] },
+{ email: 'student516@gmail.com', password: 'pass123', role: 'student', approved: true, courses: ['rank_booster'] },
+{ email: 'student517@gmail.com', password: 'pass123', role: 'student', approved: true, courses: ['rank_booster'] },
+{ email: 'student518@gmail.com', password: 'pass123', role: 'student', approved: true, courses: ['rank_booster'] },
 
 
 
