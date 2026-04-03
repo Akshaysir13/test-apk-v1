@@ -837,10 +837,10 @@ export const foundationTests: Test[] = [
   },
   {
     id: 'foundation-latest-pattern-test-12-April',
-    name: 'Foundation: Mock 12 Easy (April 2026)',
+    name: 'Foundation: Mock 12 Moderate (April 2026)',
     description: 'Solve the expected paper of this year',
     duration: DEFAULT_TEST_DURATION,
-   // questions: foundationlatestQuestions.slice(1472, 1522),
+   questions: foundationlatestQuestions.slice(1472, 1522),
     category: 'latest',
     course: 'foundation',
     sections: [
@@ -854,10 +854,10 @@ export const foundationTests: Test[] = [
   },
   {
     id: 'foundation-latest-pattern-test-13-April',
-    name: 'Foundation: Mock 13 Easy (April 2026)',
+    name: 'Foundation: Mock 13 Moderate (April 2026)',
     description: 'Solve the expected paper of this year',
     duration: DEFAULT_TEST_DURATION,
-   // questions: foundationlatestQuestions.slice(1522, 1572),
+    questions: foundationlatestQuestions.slice(1522, 1572),
     category: 'latest',
     course: 'foundation',
     sections: [
@@ -871,10 +871,10 @@ export const foundationTests: Test[] = [
   },
   {
     id: 'foundation-latest-pattern-test-14-April',
-    name: 'Foundation: Mock 14 Easy (April 2026)',
+    name: 'Foundation: Mock 14 Moderate (April 2026)',
     description: 'Solve the expected paper of this year',
     duration: DEFAULT_TEST_DURATION,
-    //questions: foundationlatestQuestions.slice(1572, 1622),
+    questions: foundationlatestQuestions.slice(1572, 1622),
     category: 'latest',
     course: 'foundation',
     sections: [
@@ -888,10 +888,10 @@ export const foundationTests: Test[] = [
   },
   {
     id: 'foundation-latest-pattern-test-15-April',
-    name: 'Foundation: Mock 15 Easy (April 2026)',
+    name: 'Foundation: Mock 15 Moderate (April 2026)',
     description: 'Solve the expected paper of this year',
     duration: DEFAULT_TEST_DURATION,
-    //questions: foundationlatestQuestions.slice(1622, 1672),
+    questions: foundationlatestQuestions.slice(1622, 1672),
     category: 'latest',
     course: 'foundation',
     sections: [
@@ -905,10 +905,10 @@ export const foundationTests: Test[] = [
   },
   {
     id: 'foundation-latest-pattern-test-16-April',
-    name: 'Foundation: Mock 16 Easy (April 2026)',
+    name: 'Foundation: Mock 16 Moderate (April 2026)',
     description: 'Solve the expected paper of this year',
     duration: DEFAULT_TEST_DURATION,
-    //questions: foundationlatestQuestions.slice(1672, 1722),
+    questions: foundationlatestQuestions.slice(1672, 1722),
     category: 'latest',
     course: 'foundation',
     sections: [
@@ -925,7 +925,7 @@ export const foundationTests: Test[] = [
     name: 'Foundation: Mock 17 Easy (April 2026)',
     description: 'Solve the expected paper of this year',
     duration: DEFAULT_TEST_DURATION,
-   // questions: foundationlatestQuestions.slice(1722, 1772),
+   //questions: foundationlatestQuestions.slice(1722, 1772),
     category: 'latest',
     course: 'foundation',
     sections: [
