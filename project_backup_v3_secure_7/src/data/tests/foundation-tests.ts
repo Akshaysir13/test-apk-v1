@@ -1010,7 +1010,7 @@ export const foundationTests: Test[] = [
     name: 'Foundation: Mock 22 Modderate (April 2026)',
     description: 'Solve the expected paper of this year',
     duration: DEFAULT_TEST_DURATION,
-    questions: foundationlatestQuestions.slice(1972, 2015),
+    questions: foundationlatestQuestions.slice(1972, 2022),
     category: 'latest',
     course: 'foundation',
     sections: [
