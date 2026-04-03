@@ -19555,2667 +19555,2860 @@ image: "https://drive.google.com/thumbnail?id=1V5C-agMFHEOecIu6XsJONOF8kXRbFEQf&
   },
 
     //1m
-  {
+{
     id: 1,
-    question: "Read the Instruction",
-    optionA: "https://drive.google.com/file/d/18HKylHxB5GdRGCaGDXF8MCgmpjF2QaQ0/view?usp=drive_link,",
-    optionB: "b",
-    optionC: "c",
-    optionD: "d",
-    correctOption: "a"
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Nagasaki Nuclear Attack",
+      "2. Magh Bihu",
+      "3. UNESCO Formation",
+      "4. Amerigo Vespucci's Exploration"
+],
+    columnBItems: [
+      "16th November 1945",
+      "1501",
+      "9th August 1945",
+      "Assam / North East"
+],
+    optionA: "1-D 2-C 3-B 4-A",
+    optionB: "1-A 2-C 3-D 4-B",
+    optionC: "1-D 2-B 3-C 4-A",
+    optionD: "1-C 2-D 3-A 4-B",
+    correctOption: "d"
   },
   {
     id: 2,
-    question: "Read the Instruction",
-    optionA: "https://drive.google.com/file/d/1CcBiiwoxWY92uievIODRdZy9iN-ZIEPz/view?usp=drive_link,",
-    optionB: "d",
-    optionC: "c",
-    optionD: "b",
-    correctOption: "a"
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. 2nd World War",
+      "2. Treaty of Versailles",
+      "3. Russian Revolution",
+      "4. United Nations Formation"
+],
+    columnBItems: [
+      "24th August 1945",
+      "1939 - 1945",
+      "1919",
+      "1917"
+],
+    optionA: "1-B 2-A 3-D 4-C",
+    optionB: "1-B 2-A 3-C 4-D",
+    optionC: "1-D 2-C 3-A 4-B",
+    optionD: "1-B 2-C 3-D 4-A",
+    correctOption: "d"
   },
   {
     id: 3,
-    type: 'match-pair',
-    question: "Match the Pair",
-    columnAItems: [
-      "GROUP1"
-],
-    columnBItems: [
-      "1. Hyderabad",
-      "2. Hyderabad-Secunderabad",
-      "3. Gandhinagar-Ahmedabad",
-      "4. Bhubaneswar-Cuttack"
-],
-    image: "A) Twin City of South India |\nB) High Tech City |\nC) Twin City Of EAST India |\nD) Twin City Of West India |",
-    optionA: "",
-    optionB: "1-A 2-B 3-C 4-D",
-    optionC: "1-A 2-B 3-C 4-D",
-    optionD: "1-A 2-C 3-D 4-B",
-    correctOption: "1-b 2-a 3-d 4-c"
+    question: "Who is an architect of Government Museum and Art Gallery - Chandigarh",
+    optionA: "Moshe Safdie",
+    optionB: "Zaha Hadid",
+    optionC: "Norman Foster",
+    optionD: "Le Corbusier",
+    correctOption: "d"
   },
   {
     id: 4,
-    type: 'match-pair',
-    question: "Match the Pair",
-    columnAItems: [
-      "GROUP1"
-],
-    columnBItems: [
-      "1. Canada",
-      "2. Iraq",
-      "3. Kenya",
-      "4. Italy"
-],
-    image: "A) Baghdad |\nB) Nairobi |\nC) Ottawa |\nD) Rome |",
-    optionA: "",
-    optionB: "1-A 2-B 3-C 4-D",
-    optionC: "1-B 2-C 3-A 4-D",
-    optionD: "1-B 2-A 3-C 4-D",
-    correctOption: "1-c 2-a 3-b 4-d"
+    question: "Which color is psychologically associated with calmness, trust, and stability in architectural design?",
+    optionA: "Red",
+    optionB: "Yellow",
+    optionC: "Blue",
+    optionD: "Orange",
+    correctOption: "c"
   },
   {
     id: 5,
-    question: "The scale of a map is 1:600. If a pipeline measures 50 cm on the map, what is its actual length?",
-    optionA: "",
-    optionB: "30000 mm",
-    optionC: "3 km",
-    optionD: "30 km",
-    correctOption: "300 meters"
+    type: 'statement',
+    question: "S1: Agra Fort was initially built by Akbar.\n S2: Agra Fort predates the Delhi Sultanate period.",
+    optionA: "Both Correct",
+    optionB: "Both Incorrect",
+    optionC: "Only S1 Correct",
+    optionD: "Only S2 Correct",
+    correctOption: "c"
   },
   {
     id: 6,
-    question: "INDENTIFY THE FAMOUS TEMPLE",
-    optionA: "https://drive.google.com/file/d/1cxXhSN9FBkR9lrAFd4VzLzxEolLe2LAF/view?usp=drive_link,",
-    optionB: "Shore Temple",
-    optionC: "Airavatesvara Temple",
-    optionD: "Meenakshi Amman Temple",
-    correctOption: "brihadeeswarar temple"
+    question: "Regards it as just as easy to build a chicken house as to build a cathedral. is Quated by ?",
+    optionA: "Zaha Hadid",
+    optionB: "Norman Foster",
+    optionC: "Vitruvius",
+    optionD: "Frank Lloyd Wright",
+    correctOption: "d"
   },
   {
     id: 7,
-    question: "Which of the Following Architect Design the Given Building",
-    optionA: "https://drive.google.com/file/d/1_U6DPbhRofQkjg65fHUPrSF1UdaSZrQb/view?usp=drive_link,",
-    optionB: "Shivnath Prasad",
-    optionC: "Hafeez Contractor",
-    optionD: "Le Corbosier",
-    correctOption: "p n mathur"
+    question: "The central wedge-shaped stone at the top of an arch that locks all other stones in place is called:",
+    optionA: "Voussoir",
+    optionB: "Springer",
+    optionC: "Keystone",
+    optionD: "Impost",
+    correctOption: "c"
   },
   {
     id: 8,
     type: 'statement',
-    question: "Statement 1: The Louvre Pyramid in Paris is a glass and metal structure.\nStatement 2: It was designed by I.M. Pei.",
-    optionA: "",
-    optionB: "Statement 1 is True, Statement 2 is False",
-    optionC: "Statement 1 is False, Statement 2 is True",
-    optionD: "Both Statement 1 and Statement 2 is False",
-    correctOption: "both statement 1 and statement 2 are true."
+    question: "Statement 1: Complementary colors are opposite each other on the color wheel.\nStatement 2: Analogous colors are next to each other on the color wheel.",
+    optionA: "Statement 1 is True, Statement 2 is False",
+    optionB: "Statement 1 is False, Statement 2 is True",
+    optionC: "Both Statement 1 and Statement 2 is False",
+    optionD: "Both Statement 1 and Statement 2 are True.",
+    correctOption: "d"
   },
   {
     id: 9,
-    question: "Identify the Structure of following Building",
-    optionA: "https://drive.google.com/file/d/1zlMtTk0fl-uPS4fIbW9CwHOlAS0MS3gv/view?usp=drive_link,",
-    optionB: "Grinder Structure",
-    optionC: "Shell Structure",
-    optionD: "Dome Structure",
-    correctOption: "tube structure"
-  },
-  {
-    id: 10,
-    question: "25. Which of the following is the Biggest Man-Made Lake in India?",
-    optionA: "",
-    optionB: "Hirakud Reservoir, Odisha",
-    optionC: "Rana Pratap Sagar, Rajasthan",
-    optionD: "Nagarjuna Sagar, Telangana",
-    correctOption: "govind ballabh pant sagar, uttar pradesh"
-  },
-  {
-    id: 11,
-    question: "find the odd one number",
-    optionA: "https://drive.google.com/file/d/1nCuV88lCITHfpcpdal7xwR0Rq8NWKIh2/view?usp=drive_link",
-    optionB: "c",
-    optionC: "d",
-    optionD: "a",
+    question: "The term 'nave' in church architecture refers to:",
+    optionA: "The semicircular recess at the east end",
+    optionB: "The central longitudinal hall where the congregation sits",
+    optionC: "The covered walkway around a courtyard",
+    optionD: "The bell tower attached to the church",
     correctOption: "b"
   },
   {
+    id: 10,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Vincent van Gogh",
+      "2. Michelangelo",
+      "3. Rembrandt",
+      "4. Leonardo da Vinci"
+],
+    columnBItems: [
+      "- Bedroom in Arles",
+      "- Statue of Pietà",
+      "- Adoration of the Magi",
+      "- The Blinding of Samson"
+],
+    optionA: "1-D 2-A 3-C 4-B",
+    optionB: "1-B 2-D 3-C 4-A",
+    optionC: "1-D 2-A 3-B 4-C",
+    optionD: "1-A 2-B 3-D 4-C",
+    correctOption: "d"
+  },
+  {
+    id: 11,
+    question: "famous Portuguese Colonie In India Was at ?",
+    optionA: "Odisha",
+    optionB: "Palk Strait (Gifted to Sri Lanka)",
+    optionC: "Andhra Pradesh",
+    optionD: "Goa, Daman, Diu",
+    correctOption: "d"
+  },
+  {
     id: 12,
-    question: "The Humayun's Tomb in Delhi was designed by which architect?",
-    optionA: "",
-    optionB: "Ustad Ahmad Lahauri",
-    optionC: "Mirak Mirza Ghiyas",
-    optionD: "Ustad Isa Khan",
-    correctOption: "muhandis qasim"
+    question: "INDENTIFY THE FAMOUS CHURCH",
+    image: "https://drive.google.com/thumbnail?id=1_O5q7uU8O7QJyLA8G-EvV-VrSvfXZvlo&sz=w1000",
+    optionA: "Westminster Abbey",
+    optionB: "Hagia Sophia",
+    optionC: "St. Peter's Basilica",
+    optionD: "St. Paul's Cathedral",
+    correctOption: "c"
   },
   {
     id: 13,
     type: 'match-pair',
     question: "Match the Pair",
     columnAItems: [
-      "GROUP1"
+      "1. Karakoram range [Pir Panjal]",
+      "2. Rouff",
+      "3. Mohiniyattam",
+      "4. Eastern Ghats"
 ],
     columnBItems: [
-      "1. Arris",
-      "2. Jamb",
-      "3. Casement",
-      "4. Shaft"
+      "Kerala",
+      "Jammu and Kashmir",
+      "J&K",
+      "West Bengal, Andhra Pradesh, Chhattisgarh"
 ],
-    image: "A) The vertical sides of a window frame. |\nB) The sharp edge of a brick. |\nC) The vertical, cylindrical part of the column. |\nD) A window attached to its frame by hinges. |",
-    optionA: "",
-    optionB: "1-D 2-A 3-B 4-C",
-    optionC: "1-C 2-B 3-D 4-A",
-    optionD: "1-C 2-A 3-D 4-B",
-    correctOption: "1-b 2-a 3-d 4-c"
+    optionA: "1-A 2-B 3-C 4-D",
+    optionB: "1-C 2-B 3-D 4-A",
+    optionC: "1-C 2-A 3-B 4-D",
+    optionD: "1-C 2-B 3-A 4-D",
+    correctOption: "d"
   },
   {
     id: 14,
-    question: "The Meenakshi Amman Temple in Madurai is famous for its elaborately carved:",
-    optionA: "",
-    optionB: "Shikharas",
-    optionC: "Gopurams (entrance towers)",
-    optionD: "Jagatis",
-    correctOption: "amalasaras"
+    question: "GRIHA stands for?",
+    optionA: "Green Rating for Integrated Housing Agency",
+    optionB: "Green Resources India Housing Authority",
+    optionC: "General Rating Index for Housing Area",
+    optionD: "Green Rating for Integrated Habitat Assessment",
+    correctOption: "d"
   },
   {
     id: 15,
-    question: "Read the Instruction",
-    optionA: "https://drive.google.com/file/d/1Vt-ovaYpVa-xLUUyQAr-nldYd3wBoBj7/view?usp=drive_link,",
-    optionB: "d",
-    optionC: "a",
-    optionD: "c",
+    question: "Which Pritzker laureate is known for designing the Sydney Opera House?",
+    optionA: "Glenn Murcutt",
+    optionB: "Jørn Utzon",
+    optionC: "Renzo Piano",
+    optionD: "Norman Foster",
     correctOption: "b"
   },
   {
     id: 16,
-    question: "find the missing ?",
-    optionA: "https://drive.google.com/file/d/1lNJ88k1gEFEA6pO2Z5_2X9VkqvVns-It/view?usp=drive_link",
-    optionB: "b",
-    optionC: "a",
-    optionD: "d",
-    correctOption: "c"
+    question: "Which style of Indian temple architecture is characterized by a curvilinear shikhara (tower)?",
+    optionA: "Dravida",
+    optionB: "Nagara",
+    optionC: "Vesara",
+    optionD: "Chaitya",
+    correctOption: "b"
   },
   {
     id: 17,
-    question: "Who is an architect of Phaeno Science Centre",
-    optionA: "",
-    optionB: "Richard Rogers",
-    optionC: "Charles Correa",
-    optionD: "James Hoban",
-    correctOption: "zaha hadid"
+    question: "Which material is widely used in acoustically treated auditoriums?",
+    optionA: "Brick",
+    optionB: "Concrete",
+    optionC: "Wood",
+    optionD: "Acoustic Panels",
+    correctOption: "d"
   },
   {
     id: 18,
-    question: "find mirror on given axis",
-    optionA: "https://drive.google.com/file/d/1c15bpBDyKIuuSUNXODH3XtsuwLna5YYW/view?usp=drive_link",
-    optionB: "b",
-    optionC: "c",
-    optionD: "d",
-    correctOption: "a"
+    question: "Find next in series",
+    image: "https://drive.google.com/thumbnail?id=1Y5exz6zcGRhPlV-YqVQNS7FHotqyt2h9&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "d",
+    optionD: "b",
+    correctOption: "d"
   },
   {
     id: 19,
-    question: "Which roofing system consists of arch-like units spanning in two directions, eliminating internal columns?",
-    optionA: "",
-    optionB: "Folded plate roof",
-    optionC: "Barrel vault",
-    optionD: "Shell structure",
-    correctOption: "groin vault"
+    question: "find front view of figure",
+    image: "https://drive.google.com/thumbnail?id=1PyNmBsFEUrijbDLR_dLx1FpLeJjx6Y3M&sz=w1000",
+    optionA: "d",
+    optionB: "a",
+    optionC: "c",
+    optionD: "b",
+    correctOption: "d"
   },
   {
     id: 20,
-    type: 'match-pair',
-    question: "Match the Pair",
-    columnAItems: [
-      "GROUP1"
-],
-    columnBItems: [
-      "1. Oculus",
-      "2. Pediment",
-      "3. Pilaster",
-      "4. Portico"
-],
-    image: "A) Circular opening, especially at apex of dome or in wall |\nB) Shallow rectangular column projecting slightly from wall, often ornamental |\nC) Covered porch supported by columns, leading to building entrance |\nD) Triangular gable end above entablature, often filled with sculpture |",
-    optionA: "",
-    optionB: "1-D 2-A 3-C 4-B",
-    optionC: "1-C 2-D 3-B 4-A",
-    optionD: "1-B 2-D 3-A 4-C",
-    correctOption: "1-a 2-d 3-b 4-c"
+    question: "find the missing ?",
+    image: "https://drive.google.com/thumbnail?id=1mHkZqnTJ_T1nnJmieCqyKLvTLIOrEmDC&sz=w1000",
+    optionA: "b",
+    optionB: "c",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "d"
   },
   {
     id: 21,
-    question: "What is a \"threshold\" in architectural space?",
-    optionA: "",
-    optionB: "The entrance door only",
-    optionC: "The transitional zone between two spaces",
-    optionD: "The roof overhang",
-    correctOption: "the foundation edge"
+    question: "What is a \"tint\" in color theory?",
+    optionA: "A color mixed with black",
+    optionB: "A color mixed with gray",
+    optionC: "A color mixed with white",
+    optionD: "A color mixed with its complement",
+    correctOption: "c"
   },
   {
     id: 22,
-    question: "Which term describes the perceived difference between two colours placed next to each other?",
-    optionA: "",
-    optionB: "Harmony",
-    optionC: "Contrast",
-    optionD: "Saturation",
-    correctOption: "value"
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Clerestory",
+      "2. Colonnade",
+      "3. Column",
+      "4. Cornice"
+],
+    columnBItems: [
+      "Classical buildings, interior crown molding",
+      "Temples, porticos, interior spaces",
+      "St. Peter's Square, classical facades",
+      "Naves of churches, modern sustainable design"
+],
+    optionA: "1-A 2-B 3-D 4-C",
+    optionB: "1-D 2-C 3-A 4-B",
+    optionC: "1-D 2-C 3-A 4-B",
+    optionD: "1-D 2-C 3-B 4-A",
+    correctOption: "d"
   },
   {
     id: 23,
-    question: "The principle 'form follows function' is most associated with which movement?",
-    optionA: "",
-    optionB: "Art Nouveau",
-    optionC: "Gothic Revival",
-    optionD: "Modernism",
-    correctOption: "rococo"
-  },
-  {
-    id: 24,
-    question: "find surface count",
-    optionA: "https://drive.google.com/file/d/1UXhzdy5ZN7a5NUA67bQ28IRyaH1QL0sb/view?usp=drive_link",
-    optionB: "22",
-    optionC: "23",
-    optionD: "20",
-    correctOption: "21"
-  },
-  {
-    id: 25,
-    question: "find the odd one",
-    optionA: "https://drive.google.com/file/d/1iDyL1_NLw12nJGeELeH7wUm6mSfmZR3F/view?usp=drive_link",
-    optionB: "b",
-    optionC: "d",
-    optionD: "a",
-    correctOption: "c"
-  },
-  {
-    id: 26,
-    question: "Read the Instruction",
-    optionA: "https://drive.google.com/file/d/1YXi9QMp2fcH8PNXhEzBXLNL-VglUw_FN/view?usp=drive_link,",
-    optionB: "b",
-    optionC: "d",
-    optionD: "a",
-    correctOption: "c"
-  },
-  {
-    id: 27,
-    question: "find missing ?",
-    optionA: "https://drive.google.com/file/d/1ee9tpAWzM26oV7EObbjSHxkiEQhUuWxt/view?usp=drive_link",
+    question: "complete the pattern",
+    image: "https://drive.google.com/thumbnail?id=1pthMUJ0efKJDPEdArSFGKaiQbnuUv8-G&sz=w1000",
+    optionA: "d",
     optionB: "a",
     optionC: "b",
     optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 24,
+    question: "find mirror on given axis",
+    image: "https://drive.google.com/thumbnail?id=1bpTas1_2G-7KB7sqD2YtAabh7rZ23UD7&sz=w1000",
+    optionA: "d",
+    optionB: "c",
+    optionC: "a",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 25,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Adaptive/Resilient Design (c. 2010–present)",
+      "2. Digital Craft/Robotic Fabrication (c. 2010–present)",
+      "3. Egyptian Pyramids",
+      "4. Parthenon, Athens"
+],
+    columnBItems: [
+      "Emerging approach using robotics, AI, digital tools for construction",
+      "Doric temple to Athena, Acropolis, 447–432 BCE, Ictinus & Callicrates",
+      "Approach designing for climate change, disasters, social equity",
+      "Monumental tombs for pharaohs, Giza plateau c. 2580–2560 BCE"
+],
+    optionA: "1-A 2-C 3-D 4-B",
+    optionB: "1-B 2-D 3-C 4-A",
+    optionC: "1-A 2-B 3-D 4-C",
+    optionD: "1-C 2-A 3-D 4-B",
+    correctOption: "d"
+  },
+  {
+    id: 26,
+    question: "Read the instruction coding",
+    image: "https://drive.google.com/thumbnail?id=1jwj8LaBqLU6iOKG_gq8AaNNN9lC6Y8RH&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "b",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 27,
+    type: 'statement',
+    question: "Statement 1: The Taj Mahal is a Mughal architectural masterpiece.\nStatement 2: It features a symmetrical layout and extensive use of marble.",
+    optionA: "Statement 1 is True, Statement 2 is False",
+    optionB: "Statement 1 is False, Statement 2 is True",
+    optionC: "Both Statement 1 and Statement 2 is False",
+    optionD: "Both Statement 1 and Statement 2 are True.",
     correctOption: "d"
   },
   {
     id: 28,
-    question: "Identify the Correct  Architectural Terms used",
-    optionA: "https://drive.google.com/file/d/1yb2ZXJJ_rjb2EcFgedBwPYCrDrCOmLtk/view?usp=drive_link,",
-    optionB: "Jack Arch",
-    optionC: "Cupola",
-    optionD: "Belvedere",
-    correctOption: "rubble brick"
+    question: "A colour scheme that uses two colours directly opposite each other on the colour wheel is called:",
+    optionA: "Analogous",
+    optionB: "Triadic",
+    optionC: "Complementary",
+    optionD: "Split-complementary",
+    correctOption: "c"
   },
   {
     id: 29,
-    question: "Which flooring type is best for reducing noise in an office?",
-    optionA: "",
-    optionB: "Marble Flooring",
-    optionC: "Vinyl Flooring",
-    optionD: "Concrete Flooring",
-    correctOption: "carpet flooring"
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Postmodernism (c. 1960–1990)",
+      "2. High-Tech (c. 1970–1990)",
+      "3. Deconstructivism (c. 1980–present)",
+      "4. Critical Regionalism (c. 1980–present)"
+],
+    columnBItems: [
+      "Style celebrating structure, services, industrial aesthetics as expression",
+      "Approach mediating global modernism with local context, climate, culture",
+      "Style fragmenting, distorting architectural elements; influenced by philosophy",
+      "Reaction against Modernism; reintroducing history, ornament, wit"
+],
+    optionA: "1-C 2-B 3-A 4-D",
+    optionB: "1-D 2-A 3-B 4-C",
+    optionC: "1-A 2-D 3-C 4-B",
+    optionD: "1-D 2-A 3-C 4-B",
+    correctOption: "d"
   },
   {
     id: 30,
-    question: "find the correct paper fold",
-    optionA: "https://drive.google.com/file/d/1pHWFxFIRJ-gPeqCibtyw5deAWnL0scWV/view?usp=drive_link",
-    optionB: "c",
-    optionC: "b",
-    optionD: "d",
+    question: "Meaning of a Roof?",
+    optionA: "The top covering of a structure",
+    optionB: "A force acting on a structure",
+    optionC: "A vertical structural member carrying loads",
+    optionD: "The arrangement of bricks to ensure strength and aesthetics",
     correctOption: "a"
   },
   {
     id: 31,
-    question: "Primary Function of Doors?",
-    optionA: "",
-    optionB: "To allow controlled entry and exit within spaces",
-    optionC: "To span openings while distributing loads efficiently",
-    optionD: "To provide structural support for roofs",
-    correctOption: "to provide ventilation, natural light, and external views"
+    question: "Read the Instruction",
+    image: "https://drive.google.com/thumbnail?id=1x1pI4cmhWNc2eHdsoqHSczoXLOwYNNCl&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "b",
+    optionD: "d",
+    correctOption: "d"
   },
   {
     id: 32,
-    question: "Find next in series",
-    optionA: "https://drive.google.com/file/d/1YLCwfvSWQ1wt75ms6Y-9iLvxswhLmVUQ/view?usp=drive_link",
-    optionB: "a",
-    optionC: "d",
-    optionD: "b",
-    correctOption: "c"
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. PMSYM",
+      "2. NGM",
+      "3. UNESCO",
+      "4. RIGS"
+],
+    columnBItems: [
+      "Real-Time Gross Settlement",
+      "United Nations Educational, Scientific and Cultural Organization",
+      "Namami Gange",
+      "Pradhan Mantri Shram Yogi Mandhan Yojana"
+],
+    optionA: "1-D 2-A 3-C 4-B",
+    optionB: "1-B 2-C 3-A 4-D",
+    optionC: "1-D 2-A 3-C 4-B",
+    optionD: "1-D 2-C 3-B 4-A",
+    correctOption: "d"
   },
   {
     id: 33,
-    question: "Read the instruction",
-    optionA: "https://drive.google.com/file/d/1Zk0LIMZqbgevaWNDXUHiBv4sehdegheI/view?usp=drive_link",
+    question: "Satpura National Park is located at ?",
+    optionA: "Ladakh",
+    optionB: "Karnataka",
+    optionC: "Kerala",
+    optionD: "Madhya Pradesh",
+    correctOption: "d"
+  },
+  {
+    id: 34,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Byzantine",
+      "2. Gothic",
+      "3. Renaissance",
+      "4. Neoclassical"
+],
+    columnBItems: [
+      "- Domes and barrel vaults",
+      "- Mosaics with religious themes",
+      "- Ribbed vaults",
+      "- Grand columns and pediments"
+],
+    optionA: "1-A 2-B 3-C 4-D",
+    optionB: "1-C 2-B 3-A 4-D",
+    optionC: "1-D 2-B 3-C 4-A",
+    optionD: "1-B 2-C 3-A 4-D",
+    correctOption: "d"
+  },
+  {
+    id: 35,
+    question: "India currently has how many UNESCO World Heritage Sites (as of 2024)?",
+    optionA: "30",
+    optionB: "38",
+    optionC: "42",
+    optionD: "45",
+    correctOption: "c"
+  },
+  {
+    id: 36,
+    question: "Read the Instruction",
+    image: "https://drive.google.com/thumbnail?id=1o85CFQXgV-tniEPZY28bEyibGfqZ9IaI&sz=w1000",
+    optionA: "c",
+    optionB: "a",
+    optionC: "b",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 37,
+    question: "Which architectural style emerged in the 1970s partly as a critique of Modernism's rejection of history?",
+    optionA: "Expressionism",
+    optionB: "Constructivism",
+    optionC: "Postmodernism",
+    optionD: "Metabolism",
+    correctOption: "c"
+  },
+  {
+    id: 38,
+    question: "Identify the Structure of following Building",
+    image: "https://drive.google.com/thumbnail?id=1crex3mzzBBVdUkYwWEVLpujeZT-Y_Vgz&sz=w1000",
+    optionA: "Tube Structure",
+    optionB: "Flying Butrees",
+    optionC: "Coffer slab",
+    optionD: "Geodesic Dome",
+    correctOption: "a"
+  },
+  {
+    id: 39,
+    question: "Identify the famous Monument",
+    image: "https://drive.google.com/thumbnail?id=1RX7KsIzztNx4FEeggcHwPAPZpjVqKZJ2&sz=w1000",
+    optionA: "Bombay Gothic",
+    optionB: "Victoria Gothic",
+    optionC: "Art Nouveau Ensemble",
+    optionD: "Victorian Gothic and Art Deco Ensembles",
+    correctOption: "d"
+  },
+  {
+    id: 40,
+    question: "Which term describes the three-dimensional bulk and volume of a building as perceived from the exterior?",
+    optionA: "Facade",
+    optionB: "Scale",
+    optionC: "Massing",
+    optionD: "Rhythm",
+    correctOption: "c"
+  },
+  {
+    id: 41,
+    question: "Identify the famous Monument",
+    image: "https://drive.google.com/thumbnail?id=11BVjYMYYSzV8M-RHma1ZBeo8OaiCCq5_&sz=w1000",
+    optionA: "Howrah Junction",
+    optionB: "Mughal Sarai Junction",
+    optionC: "Vijayawada Junction",
+    optionD: "Kharagpur Junction",
+    correctOption: "d"
+  },
+  {
+    id: 42,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Khilafat Movement",
+      "2. Muslim League",
+      "3. Gaddar Movement",
+      "4. Independence Day"
+],
+    columnBItems: [
+      "1920",
+      "1914 - 1917",
+      "1937",
+      "1906"
+],
+    optionA: "1-A 2-C 3-B 4-D",
+    optionB: "1-D 2-A 3-C 4-B",
+    optionC: "1-C 2-D 3-B 4-A",
+    optionD: "1-A 2-D 3-B 4-C",
+    correctOption: "d"
+  },
+  {
+    id: 43,
+    question: "Identify the Archtecture Style of following Building",
+    image: "https://drive.google.com/thumbnail?id=12h_nJwbpS6uWJS49aunW-Qk1Idms7koF&sz=w1000",
+    optionA: "Egiptian style",
+    optionB: "Renisance Style",
+    optionC: "Neo Futuristic style",
+    optionD: "Borroco Style",
+    correctOption: "d"
+  },
+  {
+    id: 44,
+    question: "Read the Instruction",
+    image: "https://drive.google.com/thumbnail?id=17JST9rHG0kX5-u8nP7fhkli0Wnl8GHMo&sz=w1000",
+    optionA: "d",
     optionB: "b",
     optionC: "a",
     optionD: "c",
     correctOption: "d"
   },
   {
-    id: 34,
-    question: "Jaipur City was inscribed as a UNESCO World Heritage Site in?",
-    optionA: "",
-    optionB: "2017",
-    optionC: "2018",
-    optionD: "2019",
-    correctOption: "2020"
-  },
-  {
-    id: 35,
-    question: "find the missing ? Number",
-    optionA: "https://drive.google.com/file/d/1qxvM8rYoqrPI-pQDQiguvMstDzm3Cp1B/view?usp=drive_link",
-    optionB: "c",
-    optionC: "d",
-    optionD: "b",
-    correctOption: "a"
-  },
-  {
-    id: 36,
-    question: "Anupama Kundoo's experimental approach to sustainability is best known for:",
-    optionA: "",
-    optionB: "Using imported prefabricated steel systems for rapid construction",
-    optionC: "Innovative use of ferrocement, terracotta vaults, and locally sourced low-energy materials",
-    optionD: "Parametric computational design generating complex shell structures",
-    correctOption: "solar panel integration into postmodern glass tower facades"
-  },
-  {
-    id: 37,
-    question: "Identify the Archtecture Style of following Building",
-    optionA: "https://drive.google.com/file/d/1ehakOIF6bftprERJihlLPXJh9UiyvNOX/view?usp=drive_link,",
-    optionB: "Neo Classical style",
-    optionC: "Nagara Style",
-    optionD: "Greek style",
-    correctOption: "gothic style"
-  },
-  {
-    id: 38,
-    type: 'match-pair',
-    question: "Match the Pair",
-    columnAItems: [
-      "GROUP1"
-],
-    columnBItems: [
-      "1. Hoysala",
-      "2. Dravidian",
-      "3. Nagara",
-      "4. Indo-Saracenic"
-],
-    image: "A) Vimana (Sanctum Towers) |\nB) Mandapas (Halls) |\nC) Chhatris |\nD) Intricate Stone Carvings |",
-    optionA: "",
-    optionB: "1-B 2-D 3-A 4-C",
-    optionC: "1-B 2-C 3-A 4-D",
-    optionD: "1-A 2-C 3-B 4-D",
-    correctOption: "1-d 2-a 3-b 4-c"
-  },
-  {
-    id: 39,
-    question: "Identify the famous Monument",
-    optionA: "https://drive.google.com/file/d/1hRfGvha-0C3dUsT8qMJzV6QhOFpwUu6v/view?usp=drive_link,",
-    optionB: "Summer Palace",
-    optionC: "Potala Palace",
-    optionD: "Imperial Palace",
-    correctOption: "forbidden citry"
-  },
-  {
-    id: 40,
-    type: 'match-pair',
-    question: "Match the Pair",
-    columnAItems: [
-      "GROUP1"
-],
-    columnBItems: [
-      "1. Greek",
-      "2. Roman",
-      "3. Byzantine",
-      "4. Gothic"
-],
-    image: "A) - Chartres Cathedral |\nB) - Temple of Hephaestus |\nC) - Basilica of San Vitale |\nD) - Pantheon |",
-    optionA: "",
-    optionB: "1-A 2-D 3-B 4-C",
-    optionC: "1-B 2-A 3-D 4-C",
-    optionD: "1-D 2-C 3-A 4-B",
-    correctOption: "1-b 2-d 3-c 4-a"
-  },
-  {
-    id: 41,
-    question: "What happens to a colour when white is added to it?",
-    optionA: "",
-    optionB: "It becomes a shade",
-    optionC: "It becomes a tone",
-    optionD: "It becomes a tint",
-    correctOption: "it becomes desaturated"
-  },
-  {
-    id: 42,
-    question: "Which cathedral held the record for the world's tallest structure from 1880 to 1884?",
-    optionA: "",
-    optionB: "Notre-Dame Paris",
-    optionC: "Duomo di Milano",
-    optionD: "Chartres Cathedral",
-    correctOption: "cologne cathedral"
-  },
-  {
-    id: 43,
-    question: "The central wedge-shaped stone at the top of an arch that locks all other stones in place is called:",
-    optionA: "",
-    optionB: "Voussoir",
-    optionC: "Springer",
-    optionD: "Keystone",
-    correctOption: "impost"
-  },
-  {
-    id: 44,
-    question: "Which Japanese architect, known for minimalist concrete architecture, received the Pritzker Prize in 1995?",
-    optionA: "",
-    optionB: "Kenzō Tange",
-    optionC: "Arata Isozaki",
-    optionD: "Tadao Ando",
-    correctOption: "toyo ito"
-  },
-  {
     id: 45,
-    question: "find top view of figure",
-    optionA: "https://drive.google.com/file/d/1Mw5V8pyXQLL05MXPXLAJt4AJaMIwrKhx/view?usp=drive_link",
-    optionB: "a",
-    optionC: "c",
-    optionD: "b",
-    correctOption: "d"
+    question: "Meaning of a Substructure?",
+    optionA: "The lower part of a building that supports the superstructure",
+    optionB: "An opening in a wall for light and ventilation",
+    optionC: "A framework supporting roofs or bridges",
+    optionD: "The top covering of a structure",
+    correctOption: "a"
   },
   {
     id: 46,
     question: "find visible surface count",
-    optionA: "https://drive.google.com/file/d/1Vw5dPYI7ckwC6ef_I-wWuAOZ6Z-52t2Z/view?usp=drive_link",
-    optionB: "17",
-    optionC: "18",
-    optionD: "15",
-    correctOption: "16"
+    image: "https://drive.google.com/thumbnail?id=1WJpHrKnhurIyVoRWKF89Ki2Ss2qFtZSk&sz=w1000",
+    optionA: "14",
+    optionB: "15",
+    optionC: "12",
+    optionD: "13",
+    correctOption: "d"
   },
   {
     id: 47,
-    type: 'match-pair',
-    question: "Match the Pair",
-    columnAItems: [
-      "GROUP1"
-],
-    columnBItems: [
-      "1. Koleru",
-      "2. Pangong",
-      "3. Chilka",
-      "4. Koyna"
-],
-    image: "A) Odisha |\nB) Andhra pradesh |\nC) Maharashtra |\nD) Leh & Ladhakh |",
-    optionA: "",
-    optionB: "1-D 2-B 3-A 4-C",
-    optionC: "1-B 2-D 3-C 4-A",
-    optionD: "1-A 2-B 3-D 4-C",
-    correctOption: "1-b 2-d 3-a 4-c"
+    question: "Outstanding Universal Value' (OUV) for UNESCO WHS means the site must:",
+    optionA: "Be the largest of its type in the world",
+    optionB: "Transcend national boundaries and be of common importance for present and future generations",
+    optionC: "Be visited by over one million tourists annually",
+    optionD: "Be owned and managed by a national government",
+    correctOption: "b"
   },
   {
     id: 48,
-    question: "find front view of figure",
-    optionA: "https://drive.google.com/file/d/1Si8FHiY48WGGv0O5C__jktn2fQ4Zp4BP/view?usp=drive_link",
-    optionB: "d",
-    optionC: "c",
-    optionD: "b",
-    correctOption: "a"
+    question: "find the odd one",
+    image: "https://drive.google.com/thumbnail?id=1iYdjXKtN2ZQE_Hl3iunwyrqEw1iqWf8n&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "b",
+    optionD: "d",
+    correctOption: "d"
   },
   {
     id: 49,
-    type: 'statement',
-    question: "Statement 1: The Bauhaus school promoted functionalism and simplicity in design.\nStatement 2: Walter Gropius founded the Bauhaus school.",
-    optionA: "",
-    optionB: "Statement 1 is True, Statement 2 is False",
-    optionC: "Both Statement 1 and Statement 2 is False",
-    optionD: "Statement 1 is False, Statement 2 is True",
-    correctOption: "both statement 1 and statement 2 are true."
+    question: "find the missing ? Number",
+    image: "https://drive.google.com/thumbnail?id=1r1IVruHSmyfouQhrV2dkiMOG-waKvCHu&sz=w1000",
+    optionA: "c",
+    optionB: "b",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "d"
   },
   {
     id: 50,
-    type: 'match-pair',
-    question: "Match the Pair",
-    columnAItems: [
-      "GROUP1"
-],
-    columnBItems: [
-      "1. Panna National Park",
-      "2. Tadoba National Park",
-      "3. Manas National Park",
-      "4. Madhumilai National park"
-],
-    image: "A) Madhya Pradesh |\nB) Maharashtra |\nC) Assam |\nD) Tamil nadu |",
-    optionA: "",
-    optionB: "1-D 2-C 3-A 4-B",
-    optionC: "1-C 2-B 3-A 4-D",
-    optionD: "1-C 2-A 3-B 4-D",
-    correctOption: "1-a 2-b 3-c 4-d"
+    question: "find top view of figure",
+    image: "https://drive.google.com/thumbnail?id=1Oc41M-7_PE0bFeq526cMILsSrNewc0LO&sz=w1000",
+    optionA: "a",
+    optionB: "d",
+    optionC: "c",
+    optionD: "b",
+    correctOption: "d"
   },
   //2m
-  {
+   {
     id: 1,
-    type: 'match-pair',
-    question: "Match the Pair",
-    columnAItems: [
-      "GROUP1"
-],
-    columnBItems: [
-      "1. Siddi Bashir",
-      "2. Shershah Suri Tomb",
-      "3. Diwan-e-Aam",
-      "4. Matrimandir"
-],
-    image: "A) Sasaram, Bihar |\nB) Fatehpur Sikri |\nC) Ahmedabad |\nD) Auroville |",
-    optionA: "",
-    optionB: "1-B 2-D 3-A 4-C",
-    optionC: "1-A 2-D 3-B 4-C",
-    optionD: "1-C 2-A 3-D 4-B",
-    correctOption: "1-c 2-a 3-b 4-d"
-  },
-  {
-    id: 2,
-    question: "Tropical Humid State is ?",
-    optionA: "",
-    optionB: "Mumbai",
-    optionC: "Rajasthan",
-    optionD: "Leh Ladakh",
-    correctOption: "lakshadweep / andaman & nicobar"
-  },
-  {
-    id: 3,
-    question: "complete the pattern",
-    optionA: "https://drive.google.com/file/d/1qBsp-t8GH42RE7dXeSSr9L7ApzTecI3A/view?usp=drive_link",
-    optionB: "c",
-    optionC: "a",
-    optionD: "d",
-    correctOption: "b"
-  },
-  {
-    id: 4,
-    question: "Identify the Archtecture Style of following Building",
-    optionA: "https://drive.google.com/file/d/1Q0PZ80mU1XB0CRqwAqkNY0ML6K-30XYB/view?usp=drive_link,",
-    optionB: "Jain style",
-    optionC: "Visara Style",
-    optionD: "Chaluckya Style",
-    correctOption: "indo islamic style"
-  },
-  {
-    id: 5,
-    question: "INDENTIFY THE FAMOUS TEMPLE",
-    optionA: "https://drive.google.com/file/d/1dCRFeZcHfijnkMDoyT9Il1FZBHKSqDIy/view?usp=drive_link,",
-    optionB: "Lotus Temple",
-    optionC: "ISKCON Temple Delhi",
-    optionD: "Akshardham Temple Delhi",
-    correctOption: "chattarpur temple"
-  },
-  {
-    id: 6,
-    type: 'statement',
-    question: "Statement 1: Cement is the binding agent in concrete.\nStatement 2: Reinforced concrete uses steel bars to improve tensile strength.",
-    optionA: "",
-    optionB: "Statement 1 is True, Statement 2 is False",
-    optionC: "Statement 1 is False, Statement 2 is True",
-    optionD: "Both Statement 1 and Statement 2 is False",
-    correctOption: "both statement 1 and statement 2 are true."
-  },
-  {
-    id: 7,
-    question: "The Lingaraja Temple in Bhubaneswar belongs to which regional style of Nagara architecture?",
-    optionA: "",
-    optionB: "Solanki",
-    optionC: "Chandela",
-    optionD: "Kalinga (Odisha)",
-    correctOption: "gurjara-pratihara"
-  },
-  {
-    id: 8,
-    question: "find mirror on given axis",
-    optionA: "https://drive.google.com/file/d/1d9Qho0n3TXM0daAD5y931shLoML3-5II/view?usp=drive_link",
-    optionB: "b",
-    optionC: "a",
-    optionD: "d",
-    correctOption: "c"
-  },
-  {
-    id: 9,
-    question: "Read the instruction",
-    optionA: "https://drive.google.com/file/d/1ZyV_wTzUt8K5AyUtEdPSAGXsGXuXcq2v/view?usp=drive_link",
-    optionB: "a",
-    optionC: "b",
-    optionD: "d",
-    correctOption: "c"
-  },
-  {
-    id: 10,
-    question: "Read the Instruction",
-    optionA: "https://drive.google.com/file/d/1oHFjVLYFWnSc6vrouyz-lyRerfv8mFYt/view?usp=drive_link,",
-    optionB: "c",
-    optionC: "d",
-    optionD: "a",
-    correctOption: "b"
-  },
-  {
-    id: 11,
-    question: "The projecting course of brick/stone at the ground floor level above plinth is called:",
-    optionA: "",
-    optionB: "Cornice",
-    optionC: "Coping",
-    optionD: "String course",
-    correctOption: "plinth course"
-  },
-  {
-    id: 12,
-    question: "Who is an architect of 30 St Mary Axe (Gherkin)",
-    optionA: "",
-    optionB: "Le Corbusier",
-    optionC: "Robert Venturi",
-    optionD: "Pierre Jeanneret",
-    correctOption: "norman foster"
-  },
-  {
-    id: 13,
-    question: "find the missing ? Number",
-    optionA: "https://drive.google.com/file/d/1rocbOZ3tfSmeeCWAXxh9KNY0CNRq-LmL/view?usp=drive_link",
-    optionB: "d",
-    optionC: "c",
-    optionD: "b",
-    correctOption: "a"
-  },
-  {
-    id: 14,
-    type: 'statement',
-    question: "Statement 1: The Burj Khalifa is the tallest building in the world.\nStatement 2: Its design is inspired by the Hymenocallis flower.",
-    optionA: "",
-    optionB: "Statement 1 is False, Statement 2 is True",
-    optionC: "Statement 1 is True, Statement 2 is False",
-    optionD: "Both Statement 1 and Statement 2 is False",
-    correctOption: "both statement 1 and statement 2 are true."
-  },
-  {
-    id: 15,
-    question: "Identify the Correct  Architectural Terms used",
-    optionA: "https://drive.google.com/file/d/1wTgCd27R7jPI1dC7lsOOR1zQA8zWCHZU/view?usp=drive_link,",
-    optionB: "Attic Window",
-    optionC: "Chimney Stacks and Bundles",
-    optionD: "Panel",
-    correctOption: "joinery"
-  },
-  {
-    id: 16,
-    type: 'match-pair',
-    question: "Match the Pair",
-    columnAItems: [
-      "GROUP1"
-],
-    columnBItems: [
-      "1. Jama Masjid",
-      "2. Khajuraho Temple",
-      "3. Kirti Stambh",
-      "4. Nalanda University"
-],
-    image: "A) Bihar |\nB) New Delhi |\nC) Chittorgarh |\nD) Orchha |",
-    optionA: "",
-    optionB: "1-D 2-B 3-C 4-A",
-    optionC: "1-D 2-C 3-B 4-A",
-    optionD: "1-A 2-D 3-C 4-B",
-    correctOption: "1-b 2-d 3-c 4-a"
-  },
-  {
-    id: 17,
-    question: "A garden area is 500 sq.m. What is its scaled area on a scale of 1:50?",
-    optionA: "",
-    optionB: "0.1 sq.m",
-    optionC: "0.2 sq.m",
-    optionD: "0.01 sq.m",
-    correctOption: "10 sq.m"
-  },
-  {
-    id: 18,
-    type: 'match-pair',
-    question: "Match the Pair",
-    columnAItems: [
-      "GROUP1"
-],
-    columnBItems: [
-      "1. Victoria Jubilee Museum (Bapu Museum)",
-      "2. Salar Jung Museum",
-      "3. National Maritime Museum",
-      "4. Birla Industrial and Technological Museum"
-],
-    image: "A) Kolkata |\nB) Hyderabad |\nC) Mumbai |\nD) Vijayawada |",
-    optionA: "",
-    optionB: "1-C 2-D 3-A 4-B",
-    optionC: "1-A 2-C 3-B 4-D",
-    optionD: "1-D 2-C 3-A 4-B",
-    correctOption: "1-d 2-b 3-c 4-a"
-  },
-  {
-    id: 19,
-    question: "Group of Monuments at Mahabalipuram was built during which dynasty?",
-    optionA: "",
-    optionB: "Chola",
-    optionC: "Pallava",
-    optionD: "Pandya",
-    correctOption: "chalukya"
-  },
-  {
-    id: 20,
-    question: "find the odd one number",
-    optionA: "https://drive.google.com/file/d/1neyVK24UD3_6FrzL6IvOEvek9n5ec5Gf/view?usp=drive_link",
-    optionB: "b",
-    optionC: "c",
-    optionD: "a",
-    correctOption: "d"
-  },
-  {
-    id: 21,
-    question: "Raj Rewal is known for designing which iconic project?",
-    optionA: "",
-    optionB: "Vidhan Bhavan, Bhopal",
-    optionC: "Asian Games Village, Delhi",
-    optionD: "IIM Ahmedabad",
-    correctOption: "national crafts museum"
-  },
-  {
-    id: 22,
-    question: "find the missing ?",
-    optionA: "https://drive.google.com/file/d/1lO_daaUxDtHgx_mG5DXzqhGVRA91L2dy/view?usp=drive_link",
-    optionB: "d",
-    optionC: "a",
-    optionD: "b",
-    correctOption: "c"
-  },
-  {
-    id: 23,
-    question: "Identify the famous Monument",
-    optionA: "https://drive.google.com/file/d/1QieAFMMsMIWVMM0otWurx7fsnfGb5jVV/view?usp=drive_link,",
-    optionB: "Bibi Ka Maqbara",
-    optionC: "Taj Mahal",
-    optionD: "Safdarjung Tomb",
-    correctOption: "humayun's tomb"
-  },
-  {
-    id: 24,
-    question: "The concept of Charbagh garden is based on:",
-    optionA: "",
-    optionB: "Persian design",
-    optionC: "Indian Vastu",
-    optionD: "Greek planning",
-    correctOption: "gothic style"
-  },
-  {
-    id: 25,
-    question: "A Film by Hiroshi Teshigahara Famous Documentry is Based on ?",
-    optionA: "",
-    optionB: "Norman Foster",
-    optionC: "Steen Eiler Rasmussen",
-    optionD: "Rem Koolhaas",
-    correctOption: "antonio gaudí"
-  },
-  {
-    id: 26,
-    question: "find surface count",
-    optionA: "https://drive.google.com/file/d/1U3m_YL_ZC5lmpMjcC8nw3UwoVgbxbOnx/view?usp=drive_link",
-    optionB: "21",
-    optionC: "22",
-    optionD: "19",
-    correctOption: "20"
-  },
-  {
-    id: 27,
-    type: 'match-pair',
-    question: "Match the Pair",
-    columnAItems: [
-      "GROUP1"
-],
-    columnBItems: [
-      "1. Erro Sarnien",
-      "2. FL Wright",
-      "3. Zaha Hadid",
-      "4. Ludwig Mies van der Rohe"
-],
-    image: "A) TWA Terminal |\nB) Barcelona Pavilion |\nC) Falling Waters - USA |\nD) Vilnius Guggenheim Hermitage Museum |",
-    optionA: "",
-    optionB: "1-D 2-A 3-C 4-B",
-    optionC: "1-B 2-C 3-D 4-A",
-    optionD: "1-C 2-D 3-A 4-B",
-    correctOption: "1-a 2-c 3-d 4-b"
-  },
-  {
-    id: 28,
-    question: "Vitrified tiles are preferred over ceramic tiles in heavy traffic areas because:",
-    optionA: "",
-    optionB: "They are cheaper and easier to install",
-    optionC: "They are denser, less porous, and more resistant to staining and wear",
-    optionD: "They are available in larger sizes only",
-    correctOption: "they are made from natural stone rather than clay"
-  },
-  {
-    id: 29,
-    question: "Which foundation type is most suitable for expansive or swelling soils?",
-    optionA: "",
-    optionB: "Isolated footing",
-    optionC: "Strip footing",
-    optionD: "Raft/Mat foundation",
-    correctOption: "pile foundation"
-  },
-  {
-    id: 30,
-    question: "find front view of figure",
-    optionA: "https://drive.google.com/file/d/1Pps18fW2QUM3p-RJi9Xgjy3OJ46-KQq-/view?usp=drive_link",
-    optionB: "b",
-    optionC: "a",
-    optionD: "d",
-    correctOption: "c"
-  },
-  {
-    id: 31,
-    question: "Read the Instruction",
-    optionA: "https://drive.google.com/file/d/1jkuhXLGM7fxt8V8kY6yq_1C1_O66SpEg/view?usp=drive_link,",
-    optionB: "18",
-    optionC: "17",
-    optionD: "16",
-    correctOption: "15"
-  },
-  {
-    id: 32,
-    question: "Which of the following is Biggest Dome (New Architecture) in the World?",
-    optionA: "",
-    optionB: "O2 Arena",
-    optionC: "Wembley Stadium",
-    optionD: "Madison Square Garden",
-    correctOption: "astrodome"
-  },
-  {
-    id: 33,
-    question: "What is \"daylighting\" in building design?",
-    optionA: "",
-    optionB: "Using artificial lights during day",
-    optionC: "Designing spaces to maximize natural light",
-    optionD: "Installing solar panels",
-    correctOption: "painting walls in light colors"
-  },
-  {
-    id: 34,
-    question: "Read the Instruction",
-    optionA: "https://drive.google.com/file/d/1oi0evffMgCMe-FzAyT7gIrIZmLKVCE0c/view?usp=drive_link",
-    optionB: "a",
-    optionC: "c",
-    optionD: "b",
-    correctOption: "d"
-  },
-  {
-    id: 35,
-    question: "find the odd one",
-    optionA: "https://drive.google.com/file/d/1iYdjXKtN2ZQE_Hl3iunwyrqEw1iqWf8n/view?usp=drive_link",
-    optionB: "a",
-    optionC: "c",
-    optionD: "b",
-    correctOption: "d"
-  },
-  {
-    id: 36,
-    question: "Which architect is known for the \"Naoshima\" museum complex in Japan?",
-    optionA: "",
-    optionB: "Tadao Ando",
-    optionC: "Kengo Kuma",
-    optionD: "Toyo Ito",
-    correctOption: "shigeru ban"
-  },
-  {
-    id: 37,
-    question: "find visible surface count",
-    optionA: "https://drive.google.com/file/d/1VwTZ86moJuyEf7YEToBRDOZNwO-uJqbX/view?usp=drive_link",
-    optionB: "15",
-    optionC: "16",
-    optionD: "13",
-    correctOption: "14"
-  },
-  {
-    id: 38,
-    question: "In the CMYK color model, what does the \"K\" stand for?",
-    optionA: "",
-    optionB: "Key (Black)",
-    optionC: "Kelvin",
-    optionD: "Khaki",
-    correctOption: "krypton"
-  },
-  {
-    id: 39,
-    question: "Which material is used for damp proofing?",
-    optionA: "",
-    optionB: "Bitumen",
-    optionC: "Sand",
-    optionD: "Gravel",
-    correctOption: "lime"
-  },
-  {
-    id: 40,
-    type: 'match-pair',
-    question: "Match the Pair",
-    columnAItems: [
-      "GROUP1"
-],
-    columnBItems: [
-      "1. Minimalism (c. 1990–present)",
-      "2. Eco-Architecture/Sustainable Design (c. 1990–present)",
-      "3. Parametricism (c. 2000–present)",
-      "4. Neo-Futurism (c. 2000–present)"
-],
-    image: "A) Style reducing form, material, detail to essential elements |\nB) Style using algorithms to generate complex, adaptive forms |\nC) Style envisioning dynamic, technological, sustainable urban futures |\nD) Approach prioritizing environmental performance, resource efficiency |",
-    optionA: "",
-    optionB: "1-C 2-B 3-A 4-D",
-    optionC: "1-D 2-B 3-A 4-C",
-    optionD: "1-C 2-B 3-D 4-A",
-    correctOption: "1-a 2-d 3-b 4-c"
-  },
-  {
-    id: 41,
-    question: "Read the Instruction",
-    optionA: "https://drive.google.com/file/d/1U4Raw60b_--JBGSU_-37abzL9sqUDXnf/view?usp=drive_link,",
-    optionB: "b",
-    optionC: "c",
-    optionD: "a",
-    correctOption: "d"
-  },
-  {
-    id: 42,
-    question: "Read the Instruction",
-    optionA: "https://drive.google.com/file/d/1mbcCjgwi2nCHZv6vjwNrHKK9W-erGgTz/view?usp=drive_link,",
-    optionB: "c",
-    optionC: "b",
-    optionD: "a",
-    correctOption: "d"
-  },
-  {
-    id: 43,
-    question: "The dome of the Taj Mahal is of which structural type?",
-    optionA: "",
-    optionB: "Single dome",
-    optionC: "Double dome",
-    optionD: "Triple dome",
-    correctOption: "solid stone dome"
-  },
-  {
-    id: 44,
-    question: "Read the Instruction",
-    optionA: "https://drive.google.com/file/d/1gjNi8Mybgv9wt8EJaTMu7aWArju_i1c1/view?usp=drive_link,",
-    optionB: "b",
-    optionC: "d",
-    optionD: "c",
-    correctOption: "a"
-  },
-  {
-    id: 45,
-    question: "A monochromatic color scheme uses:",
-    optionA: "",
-    optionB: "Three colors equidistant on the color wheel",
-    optionC: "Colors adjacent on the color wheel",
-    optionD: "Variations in value and saturation of a single hue",
-    correctOption: "two colors opposite on the color wheel"
-  },
-  {
-    id: 46,
-    question: "find top view of figure",
-    optionA: "https://drive.google.com/file/d/1MwbMeq3R0DKVBO3azZSt_CU6fDc-3fTB/view?usp=drive_link",
-    optionB: "d",
-    optionC: "a",
-    optionD: "b",
-    correctOption: "c"
-  },
-  {
-    id: 47,
-    type: 'match-pair',
-    question: "Match the Pair",
-    columnAItems: [
-      "GROUP1"
-],
-    columnBItems: [
-      "1. Visakhapatnam Port (Deepest in India)",
-      "2. Ennore Port",
-      "3. Kandla Port",
-      "4. Chennai Port"
-],
-    image: "A) Tamil Nadu |\nB) Gujarat |\nC) Chennai, Tamil Nadu |\nD) Andhra Pradesh |",
-    optionA: "",
-    optionB: "1-C 2-A 3-D 4-B",
-    optionC: "1-B 2-A 3-D 4-C",
-    optionD: "1-C 2-B 3-A 4-D",
-    correctOption: "1-d 2-a 3-b 4-c"
-  },
-  {
-    id: 48,
-    question: "Which waterproofing system for flat roofs involves a continuously welded thermoplastic sheet membrane?",
-    optionA: "",
-    optionB: "Bituminous felt",
-    optionC: "PVC or TPO single-ply membrane",
-    optionD: "Liquid applied coating",
-    correctOption: "bentonite clay panels"
-  },
-  {
-    id: 49,
-    type: 'match-pair',
-    question: "Match the Pair",
-    columnAItems: [
-      "GROUP1"
-],
-    columnBItems: [
-      "1. PMGSY",
-      "2. PMJDY",
-      "3. PMVVY",
-      "4. PMMVY"
-],
-    image: "A) Pradhan Mantri Matru Vandana Yojana |\nB) Pradhan Mantri Vaya Vandan Yojana |\nC) Pradhan Mantri Gram Sadak Yojana |\nD) Pradhan Mantri Jan Dhan Yojana |",
-    optionA: "",
-    optionB: "1-C 2-B 3-D 4-A",
-    optionC: "1-B 2-A 3-C 4-D",
-    optionD: "1-B 2-C 3-A 4-D",
-    correctOption: "1-c 2-d 3-b 4-a"
-  },
-  {
-    id: 50,
-    question: "find missing ?",
-    optionA: "https://drive.google.com/file/d/1ey9D6F9xtN3vj-Y4kp0PP9NjDShOy7n1/view?usp=drive_link",
-    optionB: "d",
-    optionC: "a",
-    optionD: "b",
-    correctOption: "c"
-  },
-  //3m
-  {
-    id: 1,
-    question: "Who is an architect of Hidden Tower",
-    optionA: "",
-    optionB: "Le Corbusier",
-    optionC: "Lauri Baker",
-    optionD: "Herber Baker",
-    correctOption: "daniel libeskind"
-  },
-  {
-    id: 2,
-    question: "find top view of figure",
-    optionA: "https://drive.google.com/file/d/1MeCSHrbHY5MlZHQL8_EDSfoHz-XOgvcG/view?usp=drive_link",
-    optionB: "a",
-    optionC: "d",
-    optionD: "b",
-    correctOption: "c"
-  },
-  {
-    id: 3,
-    question: "Read the Instruction",
-    optionA: "https://drive.google.com/file/d/1b0iWboo9XU7sNTyQDUcFZg6vm73PCrJO/view?usp=drive_link,",
-    optionB: "a",
-    optionC: "b",
-    optionD: "c",
-    correctOption: "d"
-  },
-  {
-    id: 4,
-    question: "The repeated use of architectural elements such as windows, columns, or arches at regular intervals to create visual movement is called:",
-    optionA: "",
-    optionB: "Symmetry",
-    optionC: "Proportion",
-    optionD: "Rhythm",
-    correctOption: "balance"
-  },
-  {
-    id: 5,
-    question: "INDENTIFY THE FAMOUS TEMPLE",
-    optionA: "https://drive.google.com/file/d/1F0NL8ASmrIX-Xz3vQ-IN_UhN22Wiginf/view?usp=drive_link,",
-    optionB: "Ekambareswarar Temple",
-    optionC: "Jambukeswarar Temple",
-    optionD: "Nataraja Temple Chidambaram",
-    correctOption: "arunachaleswarar temple"
-  },
-  {
-    id: 6,
-    question: "Which property describes a material's ability to be drawn into thin wires without breaking?",
-    optionA: "",
-    optionB: "Brittleness",
-    optionC: "Ductility",
-    optionD: "Hardness",
-    correctOption: "porosity"
-  },
-  {
-    id: 7,
-    question: "The 2012 Pritzker Prize went to Wang Shu, making him the first laureate from:",
-    optionA: "",
-    optionB: "Japan",
-    optionC: "South Korea",
-    optionD: "China",
-    correctOption: "india"
-  },
-  {
-    id: 8,
-    question: "Read the Instruction",
-    optionA: "https://drive.google.com/file/d/17WD-fHFEexe_auWuBnNuSgSVSsTaAuIf/view?usp=drive_link,",
-    optionB: "c",
-    optionC: "a",
-    optionD: "d",
-    correctOption: "b"
-  },
-  {
-    id: 9,
-    question: "SBA",
-    optionA: "",
-    optionB: "Strategic Budget Allocation",
-    optionC: "Small Business Authority",
-    optionD: "Sustainable Business Alliance",
-    correctOption: "swachh bharat abhiyan"
-  },
-  {
-    id: 10,
-    type: 'match-pair',
-    question: "Match the Pair",
-    columnAItems: [
-      "GROUP1"
-],
-    columnBItems: [
-      "1. UNPF",
-      "2. APY",
-      "3. PMGKY",
-      "4. WWF"
-],
-    image: "A) Garib Kalyan Yojana |\nB) United Nations Population Fund |\nC) World Wildlife Fund |\nD) Atal Pension Yojana |",
-    optionA: "",
-    optionB: "1-A 2-C 3-D 4-B",
-    optionC: "1-A 2-B 3-D 4-C",
-    optionD: "1-B 2-D 3-C 4-A",
-    correctOption: "1-b 2-d 3-a 4-c"
-  },
-  {
-    id: 11,
-    question: "Varanasi Is Famously Known For ?",
-    optionA: "",
-    optionB: "City of Peace",
-    optionC: "Queen of the Mountains",
-    optionD: "City of Diamonds",
-    correctOption: "city of temples, city of ghats"
-  },
-  {
-    id: 12,
-    type: 'match-pair',
-    question: "Match the Pair",
-    columnAItems: [
-      "GROUP1"
-],
-    columnBItems: [
-      "1. Nagara",
-      "2. Vesara",
-      "3. Hoysala",
-      "4. Colonial"
-],
-    image: "A) - Gateway of India |\nB) - Hoysaleswara Temple |\nC) - Sun Temple |\nD) - Durga Temple |",
-    optionA: "",
-    optionB: "1-B 2-C 3-D 4-A",
-    optionC: "1-A 2-D 3-B 4-C",
-    optionD: "1-A 2-D 3-C 4-B",
-    correctOption: "1-c 2-d 3-b 4-a"
-  },
-  {
-    id: 13,
-    question: "In subtractive colour mixing used in painting, mixing all primary colours together produces:",
-    optionA: "",
-    optionB: "White",
-    optionC: "A neutral grey",
-    optionD: "Black or dark brown",
-    correctOption: "bright purple"
-  },
-  {
-    id: 14,
-    type: 'match-pair',
-    question: "Match the Pair",
-    columnAItems: [
-      "GROUP1"
-],
-    columnBItems: [
-      "1. Beaux-Arts",
-      "2. Dravidian",
-      "3. Nagara",
-      "4. Vesara"
-],
-    image: "A) - Gopurams (gateway towers) |\nB) - Classical Greek and Roman elements |\nC) - Combination of shikhara and vimana |\nD) - Garbhagriha (sanctum) |",
-    optionA: "",
-    optionB: "1-B 2-C 3-D 4-A",
-    optionC: "1-C 2-A 3-D 4-B",
-    optionD: "1-A 2-D 3-C 4-B",
-    correctOption: "1-b 2-a 3-d 4-c"
-  },
-  {
-    id: 15,
-    type: 'statement',
-    question: "S1: Dravida temple vimanas increase in size as they rise upward. S2: Dravida vimanas have a stepped pyramidal profile.",
-    optionA: "",
-    optionB: "Both true",
-    optionC: "Both false",
-    optionD: "S1 true, S2 false",
-    correctOption: "s1 false, s2 true"
-  },
-  {
-    id: 16,
-    type: 'match-pair',
-    question: "Match the Pair",
-    columnAItems: [
-      "GROUP1"
-],
-    columnBItems: [
-      "1. Anant Raje",
-      "2. Hafeez Contractor",
-      "3. Le Corbusier",
-      "4. Eero Saarinen"
-],
-    image: "A) TWA Terminal |\nB) DIFF Centre - New Delhi |\nC) Indian Statistical Institute - New Delhi |\nD) Club House - Chandigarh |",
-    optionA: "",
-    optionB: "1-C 2-B 3-A 4-D",
-    optionC: "1-A 2-B 3-C 4-D",
-    optionD: "1-A 2-C 3-B 4-D",
-    correctOption: "1-c 2-b 3-d 4-a"
-  },
-  {
-    id: 17,
-    question: "Identify the Correct  Architectural Terms used",
-    optionA: "https://drive.google.com/file/d/12Gw6No1AjkMIwb4JVxoYXm4T_TBa7ekK/view?usp=drive_link,",
-    optionB: "ouble-hung Sash Windows",
-    optionC: "Decorative Motif",
-    optionD: "Surround",
-    correctOption: "balustrade"
-  },
-  {
-    id: 18,
-    question: "16. Concrete is very strong in resisting which type of force?",
-    optionA: "",
-    optionB: "Tension",
-    optionC: "Torsion",
-    optionD: "Shear",
-    correctOption: "compression"
-  },
-  {
-    id: 19,
-    question: "Peter Zumthor won the Pritzker Prize in 2009. His working style is best described as:",
-    optionA: "",
-    optionB: "Parametric computational design",
-    optionC: "Sensory minimalist architecture rooted in materials, atmosphere, and place",
-    optionD: "High-tech exposed structural expressionism",
-    correctOption: "postmodern historicism with ornamental references"
-  },
-  {
-    id: 20,
-    question: "complete the pattern",
-    optionA: "https://drive.google.com/file/d/1q3BT7OwM839C91yRK6MtzBhaagrUikZJ/view?usp=drive_link",
-    optionB: "b",
-    optionC: "a",
-    optionD: "d",
-    correctOption: "c"
-  },
-  {
-    id: 21,
-    type: 'match-pair',
-    question: "Match the Pair",
-    columnAItems: [
-      "GROUP1"
-],
-    columnBItems: [
-      "1. IM Pei",
-      "2. Kenzo Tange",
-      "3. Frank O Gehry",
-      "4. Le Corbusier"
-],
-    image: "A) Museum of Islamic Art |\nB) Hiroshima Peace Memorial |\nC) Sanskar Kendra - Ahmedabad |\nD) 8 Spruce Street - New York |",
-    optionA: "",
-    optionB: "1-B 2-D 3-A 4-C",
-    optionC: "1-A 2-C 3-B 4-D",
-    optionD: "1-C 2-A 3-D 4-B",
-    correctOption: "1-a 2-b 3-d 4-c"
-  },
-  {
-    id: 22,
-    question: "The water-cement ratio in concrete mix primarily affects:",
-    optionA: "",
-    optionB: "The colour of the finished concrete surface",
-    optionC: "The workability and strength of the concrete",
-    optionD: "The size of the aggregate used",
-    correctOption: "the setting time of lime mortar"
-  },
-  {
-    id: 23,
-    question: "Which architectural style emerged in the 1970s partly as a critique of Modernism's rejection of history?",
-    optionA: "",
-    optionB: "Expressionism",
-    optionC: "Constructivism",
-    optionD: "Postmodernism",
-    correctOption: "metabolism"
-  },
-  {
-    id: 24,
-    question: "1 gallon =? liters",
-    optionA: "",
-    optionB: "Wed Jan 03 1900 18:50:24 GMT+0521 (India Standard Time)",
-    optionC: "Mon Jan 01 1900 18:50:24 GMT+0521 (India Standard Time)",
-    optionD: "Thu Jan 04 1900 18:50:24 GMT+0521 (India Standard Time)",
-    correctOption: "tue jan 02 1900 18:50:24 gmt+0521 (india standard time)"
-  },
-  {
-    id: 25,
-    question: "find the correct paper fold",
-    optionA: "https://drive.google.com/file/d/1pT6jxuwOHv168OzUpgZtsmroYFZ77t3u/view?usp=drive_link",
-    optionB: "c",
-    optionC: "a",
-    optionD: "b",
-    correctOption: "d"
-  },
-  {
-    id: 26,
-    question: "find surface count",
-    optionA: "https://drive.google.com/file/d/1UGc9kofbS-hWm3HXsg9y3UszcusoLx32/view?usp=drive_link",
-    optionB: "18",
-    optionC: "19",
-    optionD: "16",
-    correctOption: "17"
-  },
-  {
-    id: 27,
-    question: "The monumental gateway tower at the entrance of a South Indian Dravida style temple complex is called:",
-    optionA: "",
-    optionB: "Shikhara",
-    optionC: "Vimana",
-    optionD: "Gopuram",
-    correctOption: "amalaka"
-  },
-  {
-    id: 28,
-    question: "Read the Instruction",
-    optionA: "https://drive.google.com/file/d/1FI3MxGxe6AXlx1hsKHyy461k-v9cSroM/view?usp=drive_link,",
-    optionB: "c",
-    optionC: "d",
-    optionD: "a",
-    correctOption: "b"
-  },
-  {
-    id: 29,
-    question: "Which Indian site was inscribed as a UNESCO WHS for its exemplary step-well water management architecture?",
-    optionA: "",
-    optionB: "Hampi",
-    optionC: "Champaner-Pavagadh",
-    optionD: "Rani ki Vav, Patan",
-    correctOption: "mahabalipuram"
-  },
-  {
-    id: 30,
-    question: "An open unroofed space enclosed by walls or buildings on some or all sides within a building complex is called:",
-    optionA: "",
-    optionB: "Atrium",
-    optionC: "Courtyard",
-    optionD: "Loggia",
-    correctOption: "foyer"
-  },
-  {
-    id: 31,
-    question: "find front view of figure",
-    optionA: "https://drive.google.com/file/d/1Qg-dWwLqDLQ5DoWVBlyNPztTlx_R4kxR/view?usp=drive_link",
-    optionB: "c",
-    optionC: "a",
-    optionD: "b",
-    correctOption: "d"
-  },
-  {
-    id: 32,
-    type: 'match-pair',
-    question: "Match the Pair",
-    columnAItems: [
-      "GROUP1"
-],
-    columnBItems: [
-      "1. Keystone",
-      "2. Lintel",
-      "3. Mullion",
-      "4. Nave"
-],
-    image: "A) Doorways, window heads in masonry |\nB) Cathedral windows, curtain walls |\nC) Arches, decorative emblematic use |\nD) Basilicas, cathedrals, pilgrimage churches |",
-    optionA: "",
-    optionB: "1-D 2-C 3-B 4-A",
-    optionC: "1-A 2-C 3-B 4-D",
-    optionD: "1-D 2-C 3-A 4-B",
-    correctOption: "1-c 2-a 3-b 4-d"
-  },
-  {
-    id: 33,
-    question: "Read the instruction coding",
-    optionA: "https://drive.google.com/file/d/1kKUdNW9wMoi6njHQS2DDmL2IrOPBM2tt/view?usp=drive_link",
-    optionB: "a",
-    optionC: "c",
-    optionD: "b",
-    correctOption: "d"
-  },
-  {
-    id: 34,
-    question: "Read the Instruction",
-    optionA: "https://drive.google.com/file/d/1mpyYJGtnejan7NqK7P4cfdWEpSHTfAHm/view?usp=drive_link,",
-    optionB: "c",
-    optionC: "d",
-    optionD: "b",
-    correctOption: "a"
-  },
-  {
-    id: 35,
-    type: 'statement',
-    question: "S1: Bricks are burnt in a kiln to improve strength and durability. S2: First-class bricks have water absorption more than 20%.",
-    optionA: "",
-    optionB: "Both true",
-    optionC: "Both false",
-    optionD: "S1 true, S2 false",
-    correctOption: "s1 false, s2 true"
-  },
-  {
-    id: 36,
-    question: "find the missing ? Number",
-    optionA: "https://drive.google.com/file/d/1r1IVruHSmyfouQhrV2dkiMOG-waKvCHu/view?usp=drive_link",
-    optionB: "c",
-    optionC: "b",
-    optionD: "d",
-    correctOption: "a"
-  },
-  {
-    id: 37,
-    question: "Identify the Archtecture Style of following Building",
-    optionA: "https://drive.google.com/file/d/1s_nOgfdhDskcc1DNkYZ1DLi0Fu-E-K3n/view?usp=drive_link,",
-    optionB: "Gothic Style",
-    optionC: "Art Nevau style",
-    optionD: "Art Deco style",
-    correctOption: "byzentine style"
-  },
-  {
-    id: 38,
-    question: "find the odd one",
-    optionA: "https://drive.google.com/file/d/1hbqnERqFp_we5mvgax7Spwkg3FBABOnH/view?usp=drive_link",
-    optionB: "a",
-    optionC: "b",
-    optionD: "d",
-    correctOption: "c"
-  },
-  {
-    id: 39,
-    question: "Identify the famous Monument",
-    optionA: "https://drive.google.com/file/d/1W4-Wibodozef2vmYsEZ7y_A4clTYEOUo/view?usp=drive_link,",
-    optionB: "Gehry House",
-    optionC: "Villa Mairea",
-    optionD: "Villa Savoye",
-    correctOption: "dacing house"
-  },
-  {
-    id: 40,
-    question: "find visible surface count",
-    optionA: "https://drive.google.com/file/d/1W0TtdS3epGVmqN8Z4AvQHPgz88KXRCIO/view?usp=drive_link",
-    optionB: "16",
-    optionC: "17",
-    optionD: "14",
-    correctOption: "15"
-  },
-  {
-    id: 41,
-    question: "The Statue of Unity depicts which Indian leader?",
-    optionA: "",
-    optionB: "Mahatma Gandhi",
-    optionC: "Sardar Vallabhbhai Patel",
-    optionD: "Jawaharlal Nehru",
-    correctOption: "b.r. ambedkar"
-  },
-  {
-    id: 42,
-    question: "The Charminar in Hyderabad was built in 1591 by which ruler?",
-    optionA: "",
-    optionB: "Aurangzeb",
-    optionC: "Muhammad Quli Qutb Shah",
-    optionD: "Mahmud Gawan",
-    correctOption: "ibrahim adil shah"
-  },
-  {
-    id: 43,
-    question: "find mirror on given axis",
-    optionA: "https://drive.google.com/file/d/1byomxTBADGuDqjO6SHi0vybh2oPpSzEz/view?usp=drive_link",
-    optionB: "c",
-    optionC: "b",
-    optionD: "a",
-    correctOption: "d"
-  },
-  {
-    id: 44,
-    question: "The Qutb Minar in Delhi was begun by which sultan?",
-    optionA: "",
-    optionB: "Iltutmish",
-    optionC: "Alauddin Khilji",
-    optionD: "Qutb-ud-din Aibak",
-    correctOption: "balban"
-  },
-  {
-    id: 45,
-    question: "find missing ?",
-    optionA: "https://drive.google.com/file/d/1elXqGUMBnJqtSEANL8ogVBLa-7Feod6s/view?usp=drive_link",
-    optionB: "a",
-    optionC: "c",
-    optionD: "d",
-    correctOption: "b"
-  },
-  {
-    id: 46,
-    type: 'match-pair',
-    question: "Match the Pair",
-    columnAItems: [
-      "GROUP1"
-],
-    columnBItems: [
-      "1. Spandrel",
-      "2. Tracery",
-      "3. Transept",
-      "4. Truss"
-],
-    image: "A) Facade panels, bridge design |\nB) Cathedral windows, screens, panels |\nC) Barns, churches, industrial buildings |\nD) Cathedral plans, basilica layouts |",
-    optionA: "",
-    optionB: "1-D 2-C 3-B 4-A",
-    optionC: "1-A 2-C 3-D 4-B",
-    optionD: "1-B 2-A 3-C 4-D",
-    correctOption: "1-a 2-b 3-d 4-c"
-  },
-  {
-    id: 47,
-    question: "Find next in series",
-    optionA: "https://drive.google.com/file/d/1Y5exz6zcGRhPlV-YqVQNS7FHotqyt2h9/view?usp=drive_link",
-    optionB: "a",
-    optionC: "c",
-    optionD: "d",
-    correctOption: "b"
-  },
-  {
-    id: 48,
     question: "Read the instruction bR",
-    optionA: "https://drive.google.com/file/d/1gmelDL9xJ1FOKYmyq4WBR1UDBtUZPVSp/view?usp=drive_link",
-    optionB: "a",
+    image: "https://drive.google.com/thumbnail?id=1h3096Ao_f2VBEku3zI75Pp6aS5jmY0Z4&sz=w1000",
+    optionA: "a",
+    optionB: "d",
     optionC: "b",
-    optionD: "d",
-    correctOption: "c"
-  },
-  {
-    id: 49,
-    question: "Structure used in Gothic churches:",
-    optionA: "",
-    optionB: "Buttress",
-    optionC: "Podium",
-    optionD: "Sill",
-    correctOption: "plinth"
-  },
-  {
-    id: 50,
-    question: "Which of the Following Architect Design the Given Building",
-    optionA: "https://drive.google.com/file/d/1VL0EQ63CF50BnYmjMZWI_sSgOYUpapON/view?usp=drive_link,",
-    optionB: "Raj Rewal",
-    optionC: "Achyut Kanvinde",
-    optionD: "Charles Correa",
-    correctOption: "hafeez contractor"
-  },
-  //4m
-  {
-    id: 1,
-    question: "Read the Instruction",
-    optionA: "https://drive.google.com/file/d/1oNzQq0g3o42NumDGyVWzJPvd5vyCZQXP/view?usp=drive_link",
-    optionB: "a",
-    optionC: "c",
-    optionD: "b",
+    optionD: "c",
     correctOption: "d"
   },
   {
     id: 2,
-    question: "The scale of a map is 1:1500. If a road measures 10 cm on the map, how far is it in real life?",
-    optionA: "",
-    optionB: "150 meters",
-    optionC: "15 km",
-    optionD: "15000 mm",
-    correctOption: "1.5 km"
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Los Angeles",
+      "2. Beijing",
+      "3. Geneva",
+      "4. \"Swaraj hamara janmsiddh adhikar aur main use pake rahenge\""
+],
+    columnBItems: [
+      "Peace Capital",
+      "Forbidden City",
+      "City of Angels",
+      "Lokmanya Tilak"
+],
+    optionA: "1-D 2-B 3-C 4-A",
+    optionB: "1-B 2-C 3-D 4-A",
+    optionC: "1-D 2-A 3-B 4-C",
+    optionD: "1-C 2-B 3-A 4-D",
+    correctOption: "d"
   },
   {
     id: 3,
-    question: "The process of removing excess moisture from freshly cut timber to improve its strength and durability is called:",
-    optionA: "",
-    optionB: "Tempering",
-    optionC: "Curing",
-    optionD: "Seasoning",
-    correctOption: "calcination"
+    question: "find the odd one",
+    image: "https://drive.google.com/thumbnail?id=1hBODVffRdANd8MOhOQJTYGTZ_tCd2z4k&sz=w1000",
+    optionA: "d",
+    optionB: "c",
+    optionC: "a",
+    optionD: "b",
+    correctOption: "d"
   },
   {
     id: 4,
-    question: "Read the Instruction",
-    optionA: "https://drive.google.com/file/d/1Iop2wmocb5saJDe9Ex0UazoVqQjbgAW2/view?usp=drive_link,",
-    optionB: "c",
-    optionC: "a",
+    question: "find the odd one number",
+    image: "https://drive.google.com/thumbnail?id=1n5q_bKwtHBHHobDPJcReyp49sRKU9Vex&sz=w1000",
+    optionA: "a",
+    optionB: "d",
+    optionC: "c",
     optionD: "b",
     correctOption: "d"
   },
   {
     id: 5,
-    question: "Identify the Correct  Architectural Terms used",
-    optionA: "https://drive.google.com/file/d/1LDmHkTOAdYD1vDUn0rEa5PjmDgjAYxDK/view?usp=drive_link,",
-    optionB: "Balcony",
-    optionC: "Patio",
-    optionD: "Saltbox Roof",
-    correctOption: "exposed rafters"
-  },
-  {
-    id: 6,
     type: 'match-pair',
     question: "Match the Pair",
     columnAItems: [
-      "GROUP1"
-],
-    columnBItems: [
-      "1. Concrete Block",
-      "2. Stone (Natural)",
-      "3. Timber/Wood",
-      "4. Structural Steel"
-],
-    image: "A) Hollow/solid precast cement-aggregate unit |\nB) Quarried rock: granite, marble, limestone, sandstone |\nC) Natural organic material from trees |\nD) Iron-carbon alloy sections (I-beam, channel, angle) |",
-    optionA: "",
-    optionB: "1-C 2-D 3-B 4-A",
-    optionC: "1-D 2-C 3-A 4-B",
-    optionD: "1-D 2-B 3-A 4-C",
-    correctOption: "1-a 2-b 3-c 4-d"
-  },
-  {
-    id: 7,
-    type: 'match-pair',
-    question: "Match the Pair",
-    columnAItems: [
-      "GROUP1"
-],
-    columnBItems: [
-      "1. Art Nouveau",
-      "2. Postmodern",
-      "3. Deconstructivism",
-      "4. Contemporary"
-],
-    image: "A) - Irony and ornamentation |\nB) - Integration with nature |\nC) - Unconventional building forms |\nD) - Asymmetrical facades |",
-    optionA: "",
-    optionB: "1-B 2-C 3-A 4-D",
-    optionC: "1-A 2-C 3-B 4-D",
-    optionD: "1-C 2-A 3-D 4-B",
-    correctOption: "1-d 2-a 3-c 4-b"
-  },
-  {
-    id: 8,
-    question: "Alvar Aalto's architectural approach that incorporated human warmth into modernism is known as:",
-    optionA: "",
-    optionB: "Brutalism",
-    optionC: "Organic Modernism",
-    optionD: "Humanistic Modernism",
-    correctOption: "rational constructivism"
-  },
-  {
-    id: 9,
-    question: "find top view of figure",
-    optionA: "https://drive.google.com/file/d/1M7kufe5BUqITl1-5tUOwxAVc5nfUtZn6/view?usp=drive_link",
-    optionB: "b",
-    optionC: "a",
-    optionD: "d",
-    correctOption: "c"
-  },
-  {
-    id: 10,
-    question: "Kaziranga National Park is famous for which animal?",
-    optionA: "",
-    optionB: "Bengal Tiger",
-    optionC: "One-horned Rhinoceros",
-    optionD: "Snow Leopard",
-    correctOption: "indian elephant"
-  },
-  {
-    id: 11,
-    question: "INDENTIFY THE FAMOUS TEMPLE",
-    optionA: "https://drive.google.com/file/d/16PkExGSq5gwtlrwivEvS9xICgQrqHNJM/view?usp=drive_link,",
-    optionB: "Sringeri Sharada Temple",
-    optionC: "Kukke Subramanya Temple",
-    optionD: "Udupi Sri Krishna Temple",
-    correctOption: "chamundeshwari temple"
-  },
-  {
-    id: 12,
-    question: "Pointing in brickwork construction refers to:",
-    optionA: "",
-    optionB: "Applying plaster on the wall surface",
-    optionC: "Finishing mortar joints of brickwork to improve appearance and prevent water entry",
-    optionD: "Providing a waterproof layer at plinth level",
-    correctOption: "filling gaps between window frames and walls"
-  },
-  {
-    id: 13,
-    question: "A distinctive feature of a Gurudwara is the presence of which flag indicating a Sikh place of worship?",
-    optionA: "",
-    optionB: "Trishul",
-    optionC: "Nishan Sahib (Sikh triangular flag on flagpole)",
-    optionD: "Dhwaja stambha",
-    correctOption: "church steeple"
-  },
-  {
-    id: 14,
-    question: "UNESCO criteria (i) to (vi) apply to which type of site?",
-    optionA: "",
-    optionB: "Natural sites",
-    optionC: "Cultural sites",
-    optionD: "Mixed sites",
-    correctOption: "industrial heritage"
-  },
-  {
-    id: 15,
-    question: "Which material is used for damp proofing?",
-    optionA: "",
-    optionB: "Bitumen",
-    optionC: "Sand",
-    optionD: "Gravel",
-    correctOption: "lime"
-  },
-  {
-    id: 16,
-    question: "find surface count",
-    optionA: "https://drive.google.com/file/d/1UdgzWFuqXCA_1m8Dh8Bl7f7Z1fLhiNFZ/view?usp=drive_link",
-    optionB: "18",
-    optionC: "19",
-    optionD: "16",
-    correctOption: "17"
-  },
-  {
-    id: 17,
-    type: 'match-pair',
-    question: "Match the Pair",
-    columnAItems: [
-      "GROUP1"
-],
-    columnBItems: [
-      "1. Cement",
-      "2. Sand",
-      "3. Gravel",
-      "4. Aluminum"
-],
-    image: "A) Fine aggregate used in mortar, plaster, and concrete. |\nB) Coarse aggregate used in concrete production. |\nC) Lightweight corrosion-resistant metal used for frames and panels. |\nD) Binding material used to prepare mortar and concrete. |",
-    optionA: "",
-    optionB: "1-B 2-D 3-C 4-A",
-    optionC: "1-C 2-D 3-B 4-A",
-    optionD: "1-A 2-D 3-C 4-B",
-    correctOption: "1-d 2-a 3-b 4-c"
-  },
-  {
-    id: 18,
-    question: "Which of the following best defines \"saturation\" in colour theory?",
-    optionA: "",
-    optionB: "The lightness or darkness of a colour",
-    optionC: "The purity or intensity of a colour free from grey",
-    optionD: "The specific hue family on the colour wheel",
-    correctOption: "the temperature of a colour as warm or cool"
-  },
-  {
-    id: 19,
-    question: "The pillared congregational hall in a Hindu temple used for worship, music, and dance is called:",
-    optionA: "",
-    optionB: "Garbhagriha",
-    optionC: "Antarala",
-    optionD: "Gopuram",
-    correctOption: "mandapa"
-  },
-  {
-    id: 20,
-    question: "Read the Instruction",
-    optionA: "https://drive.google.com/file/d/18bzaXZU6u7sJySo6RTzjIgIW0lYFyfhf/view?usp=drive_link,",
-    optionB: "c",
-    optionC: "a",
-    optionD: "d",
-    correctOption: "b"
-  },
-  {
-    id: 21,
-    question: "What is \"proportion\" in design?",
-    optionA: "",
-    optionB: "The relationship of parts to each other and the whole",
-    optionC: "The cost estimation method",
-    optionD: "The type of materials used",
-    correctOption: "the construction timeline"
-  },
-  {
-    id: 22,
-    type: 'statement',
-    question: "S1: The Antarala is a vestibule or transitional space between the Garbhagriha and the Mandapa in a Hindu temple. S2: The Antarala serves as a spatial buffer between the sacred inner sanctum and the public gathering hall of the temple.",
-    optionA: "",
-    optionB: "Both true, S2 explains S1",
-    optionC: "Both true, S2 does not explain S1",
-    optionD: "S1 true, S2 false",
-    correctOption: "s1 false, s2 true"
-  },
-  {
-    id: 23,
-    question: "Read the Instruction",
-    optionA: "https://drive.google.com/file/d/19eB9L3PNt_PXjkzMm0V15-cjbHyjOL5A/view?usp=drive_link,",
-    optionB: "a",
-    optionC: "b",
-    optionD: "c",
-    correctOption: "d"
-  },
-  {
-    id: 24,
-    type: 'statement',
-    question: "Statement 1: The color temperature can influence the perception of space in a room.\nStatement 2: Warm colors tend to make spaces feel smaller, while cool colors make them feel larger.",
-    optionA: "",
-    optionB: "Statement 1 is True, Statement 2 is False",
-    optionC: "Statement 1 is False, Statement 2 is True",
-    optionD: "Both Statement 1 and Statement 2 is False",
-    correctOption: "both statement 1 and statement 2 are true."
-  },
-  {
-    id: 25,
-    question: "find mirror on given axis",
-    optionA: "https://drive.google.com/file/d/1dP8HamLgqcsLqZaHkhrhvVaDK0HrLqjU/view?usp=drive_link",
-    optionB: "b",
-    optionC: "d",
-    optionD: "a",
-    correctOption: "c"
-  },
-  {
-    id: 26,
-    question: "Dakshineswar Kali Temple is located at ?",
-    optionA: "",
-    optionB: "West Bengal",
-    optionC: "Delhi",
-    optionD: "Agra",
-    correctOption: "kolkata"
-  },
-  {
-    id: 27,
-    question: "Read the Instruction",
-    optionA: "https://drive.google.com/file/d/1lE7txwfeCE_hN21g_JkU8nGZCPffStrw/view?usp=drive_link,",
-    optionB: "b",
-    optionC: "d",
-    optionD: "c",
-    correctOption: "a"
-  },
-  {
-    id: 28,
-    question: "Who is an architect of Chhatrapati Shivaji Maharaj Terminus - Mumbai",
-    optionA: "",
-    optionB: "Ludwig Mies van der Rohe",
-    optionC: "Achyut Kanvinde",
-    optionD: "Hafeez Contractor",
-    correctOption: "e.w. stevens"
-  },
-  {
-    id: 29,
-    type: 'match-pair',
-    question: "Match the Pair",
-    columnAItems: [
-      "GROUP1"
-],
-    columnBItems: [
-      "1. Khichdi",
-      "2. Communist China",
-      "3. Fall of USSR",
-      "4. Poush Sankranti"
-],
-    image: "A) 1949 |\nB) UP / Uttarakhand |\nC) West Bengal |\nD) 1991 |",
-    optionA: "",
-    optionB: "1-B 2-C 3-D 4-A",
-    optionC: "1-A 2-C 3-B 4-D",
-    optionD: "1-A 2-C 3-D 4-B",
-    correctOption: "1-b 2-a 3-d 4-c"
-  },
-  {
-    id: 30,
-    question: "Romanesque architecture is characterized by which key feature?",
-    optionA: "",
-    optionB: "Pointed arches and ribbed vaults",
-    optionC: "Flying buttresses",
-    optionD: "Exposed concrete forms",
-    correctOption: "semicircular arches with thick walls"
-  },
-  {
-    id: 31,
-    question: "Identify the famous indian/Forign Historic Monument/Building",
-    optionA: "https://drive.google.com/file/d/1dAve8d79GajsNcS_vfriRl1YF-jqOvEz/view?usp=drive_link,",
-    optionB: "Bimbetka Caves",
-    optionC: "Limestone Caves",
-    optionD: "Singanpur Cave",
-    correctOption: "bhimbetka rock shelters"
-  },
-  {
-    id: 32,
-    question: "Find next in series",
-    optionA: "https://drive.google.com/file/d/1YcCvH5iU6iPwkaV2MmcJ9DRnInDiBQVt/view?usp=drive_link",
-    optionB: "b",
-    optionC: "a",
-    optionD: "d",
-    correctOption: "c"
-  },
-  {
-    id: 33,
-    question: "find the odd one number",
-    optionA: "https://drive.google.com/file/d/1n2l2m9PA7rCfgCuMipW0k8rK1kjBxFGZ/view?usp=drive_link",
-    optionB: "a",
-    optionC: "c",
-    optionD: "d",
-    correctOption: "b"
-  },
-  {
-    id: 34,
-    question: "find front view of figure",
-    optionA: "https://drive.google.com/file/d/1QnNUrTsXQwNhVD2aTaAvnU66vBHoYOhU/view?usp=drive_link",
-    optionB: "d",
-    optionC: "c",
-    optionD: "b",
-    correctOption: "a"
-  },
-  {
-    id: 35,
-    question: "complete the pattern",
-    optionA: "https://drive.google.com/file/d/1qX9RMnTkMwM1UbDmkWS0BYXnNe5fhsHP/view?usp=drive_link",
-    optionB: "a",
-    optionC: "c",
-    optionD: "b",
-    correctOption: "d"
-  },
-  {
-    id: 36,
-    question: "find missing ?",
-    optionA: "https://drive.google.com/file/d/1dpyMjlpxWEAynaGX_yIS4a6LELeg4U5U/view?usp=drive_link",
-    optionB: "b",
-    optionC: "d",
-    optionD: "a",
-    correctOption: "c"
-  },
-  {
-    id: 37,
-    type: 'match-pair',
-    question: "Match the Pair",
-    columnAItems: [
-      "GROUP1"
-],
-    columnBItems: [
-      "1. Marble",
-      "2. Granite",
-      "3. Sand",
-      "4. Aggregate (Coarse)"
-],
-    image: "A) Crushed stone/gravel 4.75mm+ |\nB) Tempered metamorphic limestone (calcium carbonate) |\nC) Igneous rock with quartz, feldspar, mica |\nD) Fine aggregate from rock/weathering |",
-    optionA: "",
-    optionB: "1-C 2-D 3-A 4-B",
-    optionC: "1-D 2-B 3-C 4-A",
-    optionD: "1-C 2-A 3-B 4-D",
-    correctOption: "1-b 2-c 3-d 4-a"
-  },
-  {
-    id: 38,
-    type: 'match-pair',
-    question: "Match the Pair",
-    columnAItems: [
-      "GROUP1"
-],
-    columnBItems: [
-      "1. Swing Door",
-      "2. Rubble Masonry",
-      "3. Louvered Door",
-      "4. Flush Door"
-],
-    image: "A) Smooth, plain surface without panels. |\nB) Has angled slats for ventilation. |\nC) Hinged and swings open or shut. |\nD) Stones laid without regular shapes. |",
-    optionA: "",
-    optionB: "1-B 2-C 3-D 4-A",
-    optionC: "1-C 2-A 3-B 4-D",
-    optionD: "1-A 2-B 3-D 4-C",
-    correctOption: "1-c 2-d 3-b 4-a"
-  },
-  {
-    id: 39,
-    question: "Read the instruction",
-    optionA: "https://drive.google.com/file/d/1ZX5PzhEJ39B03etkJsmMd5HoPYVsArM2/view?usp=drive_link",
-    optionB: "a",
-    optionC: "b",
-    optionD: "d",
-    correctOption: "c"
-  },
-  {
-    id: 40,
-    question: "Colors directly opposite each other on the color wheel are called:",
-    optionA: "",
-    optionB: "Analogous",
-    optionC: "Triadic",
-    optionD: "Complementary",
-    correctOption: "split-complementary"
-  },
-  {
-    id: 41,
-    question: "Buland Darwaza is located at:",
-    optionA: "",
-    optionB: "Delhi",
-    optionC: "Agra",
-    optionD: "Fatehpur Sikri",
-    correctOption: "jaipur"
-  },
-  {
-    id: 42,
-    question: "What is the minimum recommended width for a residential staircase?",
-    optionA: "",
-    optionB: "750 mm",
-    optionC: "900 mm",
-    optionD: "1200 mm",
-    correctOption: "1500 mm"
-  },
-  {
-    id: 43,
-    question: "Read the Instruction",
-    optionA: "https://drive.google.com/file/d/1G2SgYmXAf0wOnurYerHwG1zVsEsSYN67/view?usp=drive_link,",
-    optionB: "b",
-    optionC: "a",
-    optionD: "d",
-    correctOption: "c"
-  },
-  {
-    id: 44,
-    question: "find visible surface count",
-    optionA: "https://drive.google.com/file/d/1W6dblxIK43I1Lc2hODTIJZulEmN4g3_r/view?usp=drive_link",
-    optionB: "17",
-    optionC: "18",
-    optionD: "15",
-    correctOption: "16"
-  },
-  {
-    id: 45,
-    question: "Which architect is known for the Louvre Pyramid in Paris?",
-    optionA: "",
-    optionB: "I.M. Pei",
-    optionC: "Renzo Piano",
-    optionD: "Jean Nouvel",
-    correctOption: "dominique perrault"
-  },
-  {
-    id: 46,
-    question: "In the RYB color model, which are the three primary colors?",
-    optionA: "",
-    optionB: "Red, Green, Blue",
-    optionC: "Red, Yellow, Blue",
-    optionD: "Cyan, Magenta, Yellow",
-    correctOption: "orange, violet, green"
-  },
-  {
-    id: 47,
-    question: "find the correct paper fold",
-    optionA: "https://drive.google.com/file/d/1pWKEqSiQ-Up9UIL9Axywp9dKigeDHdpL/view?usp=drive_link",
-    optionB: "b",
-    optionC: "a",
-    optionD: "d",
-    correctOption: "c"
-  },
-  {
-    id: 48,
-    question: "find the odd one",
-    optionA: "https://drive.google.com/file/d/1igoMienoa7my2cBT96rLa-6dyz8FInDR/view?usp=drive_link",
-    optionB: "d",
-    optionC: "a",
-    optionD: "b",
-    correctOption: "c"
-  },
-  {
-    id: 49,
-    question: "The Dravidian style is characterized by a pyramidal tower called:",
-    optionA: "",
-    optionB: "Shikhara",
-    optionC: "Vimana",
-    optionD: "Rekha",
-    correctOption: "latina"
-  },
-  {
-    id: 50,
-    type: 'match-pair',
-    question: "Match the Pair",
-    columnAItems: [
-      "GROUP1"
-],
-    columnBItems: [
-      "1. Daniel Libeskind",
-      "2. Richard Rogers",
-      "3. Satish Grover",
-      "4. Raj Revel"
-],
-    image: "A) Hidden Tower |\nB) World Bank Regional Mission - New Delhi |\nC) Talkatera Swimming Pool - New Delhi |\nD) Lloyds Building |",
-    optionA: "",
-    optionB: "1-C 2-A 3-B 4-D",
-    optionC: "1-A 2-B 3-C 4-D",
-    optionD: "1-C 2-B 3-A 4-D",
-    correctOption: "1-a 2-d 3-c 4-b"
-  },
-  //5m
-  {
-    id: 1,
-    question: "Louvre Pyramid is Located at Which of the following City/Country ?",
-    optionA: "",
-    optionB: "Brazile",
-    optionC: "London",
-    optionD: "Russia",
-    correctOption: "paris"
-  },
-  {
-    id: 2,
-    question: "The Munsell Colour System organizes colours using three attributes. Which of the following is NOT one of them?",
-    optionA: "",
-    optionB: "Hue",
-    optionC: "Value",
-    optionD: "Chroma",
-    correctOption: "temperature"
-  },
-  {
-    id: 3,
-    type: 'match-pair',
-    question: "Match the Pair",
-    columnAItems: [
-      "GROUP1"
-],
-    columnBItems: [
       "1. Drain",
       "2. Gutter",
       "3. Downpipe",
       "4. Handrail"
 ],
-    image: "A) Support rail provided along staircases or ramps. |\nB) Channel along roof edges to collect rainwater. |\nC) Channel or pipe that carries wastewater away from a building. |\nD) Pipe that carries rainwater from gutters to the drainage system. |",
-    optionA: "",
-    optionB: "1-C 2-D 3-A 4-B",
-    optionC: "1-D 2-B 3-C 4-A",
-    optionD: "1-A 2-D 3-B 4-C",
-    correctOption: "1-c 2-b 3-d 4-a"
-  },
-  {
-    id: 4,
-    question: "Which material has the highest strength-to-weight ratio among the following?",
-    optionA: "",
-    optionB: "Concrete",
-    optionC: "Brick",
-    optionD: "High-strength steel",
-    correctOption: "timber"
-  },
-  {
-    id: 5,
-    type: 'match-pair',
-    question: "Match the Pair",
-    columnAItems: [
-      "GROUP1"
-],
     columnBItems: [
-      "1. St. Florence Cathedral",
-      "2. Berlin Wall",
-      "3. Brandenburg Gate",
-      "4. Wembley Stadium"
+      "Support rail provided along staircases or ramps.",
+      "Channel along roof edges to collect rainwater.",
+      "Channel or pipe that carries wastewater away from a building.",
+      "Pipe that carries rainwater from gutters to the drainage system."
 ],
-    image: "A) Berlin |\nB) London |\nC) Italy |\nD) Berlin |",
-    optionA: "",
-    optionB: "1-D 2-C 3-A 4-B",
-    optionC: "1-D 2-C 3-B 4-A",
-    optionD: "1-D 2-A 3-B 4-C",
-    correctOption: "1-c 2-d 3-a 4-b"
+    optionA: "1-C 2-D 3-A 4-B",
+    optionB: "1-D 2-B 3-C 4-A",
+    optionC: "1-A 2-D 3-B 4-C",
+    optionD: "1-C 2-B 3-D 4-A",
+    correctOption: "d"
   },
   {
     id: 6,
-    type: 'match-pair',
-    question: "Match the Pair",
-    columnAItems: [
-      "GROUP1"
-],
-    columnBItems: [
-      "1. Yakshagana",
-      "2. Jhumar",
-      "3. Kalbelia",
-      "4. Manipuri"
-],
-    image: "A) Haryana |\nB) Manipur |\nC) Karnataka |\nD) Rajasthan |",
-    optionA: "",
-    optionB: "1-A 2-C 3-B 4-D",
-    optionC: "1-C 2-B 3-A 4-D",
-    optionD: "1-B 2-D 3-A 4-C",
-    correctOption: "1-c 2-a 3-d 4-b"
+    question: "find visible surface count",
+    image: "https://drive.google.com/thumbnail?id=1W8pdOfKoCMcaBjid2DuD2htuzgerEBi4&sz=w1000",
+    optionA: "14",
+    optionB: "15",
+    optionC: "12",
+    optionD: "13",
+    correctOption: "d"
   },
   {
     id: 7,
-    question: "Read the Instruction",
-    optionA: "https://drive.google.com/file/d/1CJvYXvKX3b_vBUMeibD6yUCjY_5IuhaE/view?usp=drive_link,",
-    optionB: "a",
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Chimney",
+      "2. Cloister",
+      "3. Coffer",
+      "4. Corbel"
+],
+    columnBItems: [
+      "Pantheon dome, Renaissance interiors",
+      "Monasteries, colleges, museums",
+      "Residential roofs, industrial buildings",
+      "Cornice support, arches, medieval walls"
+],
+    optionA: "1-B 2-C 3-A 4-D",
+    optionB: "1-A 2-B 3-C 4-D",
+    optionC: "1-D 2-A 3-B 4-C",
+    optionD: "1-C 2-B 3-A 4-D",
+    correctOption: "d"
+  },
+  {
+    id: 8,
+    question: "The scale of a map is 1:2000. If a road is 8 cm long on the map, what is the actual length?",
+    optionA: "160 meters",
+    optionB: "16 km",
+    optionC: "16 m",
+    optionD: "1.6 km",
+    correctOption: "a"
+  },
+  {
+    id: 9,
+    question: "Coastal State is ?",
+    optionA: "Lakshadweep / Andaman & Nicobar",
+    optionB: "Uttarakhand",
+    optionC: "Rajasthan",
+    optionD: "Mumbai",
+    correctOption: "d"
+  },
+  {
+    id: 10,
+    question: "Identify the Structure of following Building",
+    image: "https://drive.google.com/thumbnail?id=17Ir5GZbWvgQa873Doidp4s9LoqWivX3C&sz=w1000",
+    optionA: "Shell Structure",
+    optionB: "Coffer slab",
+    optionC: "caternery structure",
+    optionD: "Post and lintel Structure",
+    correctOption: "a"
+  },
+  {
+    id: 11,
+    question: "The Indo-Saracenic architectural style is a fusion of which traditions?",
+    optionA: "Mughal and Dravidian",
+    optionB: "Islamic and Victorian Gothic/Renaissance",
+    optionC: "Rajput and Islamic",
+    optionD: "Pallava and Islamic",
+    correctOption: "b"
+  },
+  {
+    id: 12,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Sattriya",
+      "2. Jaintia, Lusai",
+      "3. Kachhi Ghodi",
+      "4. Shigmo"
+],
+    columnBItems: [
+      "Rajasthan",
+      "Assam",
+      "Meghalay",
+      "Goa"
+],
+    optionA: "1-C 2-D 3-B 4-A",
+    optionB: "1-A 2-B 3-D 4-C",
+    optionC: "1-D 2-B 3-C 4-A",
+    optionD: "1-B 2-C 3-A 4-D",
+    correctOption: "d"
+  },
+  {
+    id: 13,
+    question: "The dome of the Taj Mahal is of which structural type?",
+    optionA: "Single dome",
+    optionB: "Double dome",
+    optionC: "Triple dome",
+    optionD: "Solid stone dome",
+    correctOption: "b"
+  },
+  {
+    id: 14,
+    question: "INDENTIFY THE FAMOUS CHURCH",
+    image: "https://drive.google.com/thumbnail?id=1lUxHhtRr3fwPtSHp9gHrgQy_KmgUz4Xo&sz=w1000",
+    optionA: "Assumption Cathedral",
+    optionB: "Cathedral of Christ the Saviour",
+    optionC: "St. Basil's Cathedral",
+    optionD: "Kazan Cathedral",
+    correctOption: "c"
+  },
+  {
+    id: 15,
+    question: "complete the pattern",
+    image: "https://drive.google.com/thumbnail?id=1psn12ozSlJjMHBtJghIDz4oYudDdthxr&sz=w1000",
+    optionA: "a",
+    optionB: "d",
     optionC: "b",
     optionD: "c",
     correctOption: "d"
   },
   {
-    id: 8,
-    question: "What is the standard size of a modular brick in India (in mm)?",
-    optionA: "",
-    optionB: "190 x 90 x 90",
-    optionC: "230 x 110 x 75",
-    optionD: "200 x 100 x 100",
-    correctOption: "250 x 125 x 75"
-  },
-  {
-    id: 9,
-    question: "The circumambulatory path around sanctum is called:",
-    optionA: "",
-    optionB: "Pradakshina Patha",
-    optionC: "Jagati",
-    optionD: "Sabha",
-    correctOption: "torana"
-  },
-  {
-    id: 10,
-    question: "find the missing ?",
-    optionA: "https://drive.google.com/file/d/1mAWZNQEX_pZaBtcVGq96Adp9_8ZmMtye/view?usp=drive_link",
-    optionB: "c",
-    optionC: "a",
-    optionD: "d",
-    correctOption: "b"
-  },
-  {
-    id: 11,
-    question: "find missing ?",
-    optionA: "https://drive.google.com/file/d/1eAMdtNFw7GfF1HwfFZOqA8mgW0dwBOCS/view?usp=drive_link",
-    optionB: "d",
-    optionC: "c",
-    optionD: "b",
-    correctOption: "a"
-  },
-  {
-    id: 12,
-    question: "Zaha Hadid won the Pritzker Prize in 2004, making her:",
-    optionA: "",
-    optionB: "The first parametric architect to win",
-    optionC: "The first woman to win the Pritzker Prize",
-    optionD: "The youngest architect to win the Pritzker Prize",
-    correctOption: "the first non-western architect to win"
-  },
-  {
-    id: 13,
-    question: "INDENTIFY THE FAMOUS TEMPLE",
-    optionA: "https://drive.google.com/file/d/1FXDM9M01iSQ12q8S6gi0aJxAAI9sWn7f/view?usp=drive_link,",
-    optionB: "Vaishno Devi Temple",
-    optionC: "Amarnath Cave Temple",
-    optionD: "Shankracharya Temple",
-    correctOption: "mata kheer bhawani temple"
-  },
-  {
-    id: 14,
-    question: "Which Pritzker laureate is known for designing the Sydney Opera House?",
-    optionA: "",
-    optionB: "Glenn Murcutt",
-    optionC: "Jørn Utzon",
-    optionD: "Renzo Piano",
-    correctOption: "norman foster"
-  },
-  {
-    id: 15,
-    question: "Read the instruction bR",
-    optionA: "https://drive.google.com/file/d/1fujmY6IWN_XSYwsSQdeQRLXFMc249Ooz/view?usp=drive_link",
-    optionB: "b",
-    optionC: "a",
-    optionD: "d",
-    correctOption: "c"
-  },
-  {
     id: 16,
-    question: "Read the instruction",
-    optionA: "https://drive.google.com/file/d/1ZTn31rI8wSh6d-AZemhXN9xUQy8hMF3T/view?usp=drive_link",
+    question: "find top view of figure",
+    image: "https://drive.google.com/thumbnail?id=1PI6ywHLQo3apgqntmPgsZjYgqnozYKXc&sz=w1000",
+    optionA: "a",
     optionB: "c",
-    optionC: "a",
+    optionC: "b",
     optionD: "d",
-    correctOption: "b"
+    correctOption: "d"
   },
   {
     id: 17,
-    question: "Which of the following is NOT a component of concrete?",
-    optionA: "",
-    optionB: "Cement",
-    optionC: "Water",
-    optionD: "Aggregate",
-    correctOption: "clay"
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Periyar",
+      "2. Landfall",
+      "3. Indian Wildlife Sanctuary",
+      "4. Govind"
+],
+    columnBItems: [
+      "Gujarat",
+      "Andaman Islands",
+      "Kerala",
+      "Uttarakhand"
+],
+    optionA: "1-C 2-D 3-B 4-A",
+    optionB: "1-A 2-C 3-D 4-B",
+    optionC: "1-B 2-A 3-C 4-D",
+    optionD: "1-C 2-B 3-A 4-D",
+    correctOption: "d"
   },
   {
     id: 18,
-    question: "find front view of figure",
-    optionA: "https://drive.google.com/file/d/1R-wlGxl-nCLETGDapaAnlC8xqae36EY_/view?usp=drive_link",
-    optionB: "a",
-    optionC: "c",
-    optionD: "b",
+    question: "find the missing ?",
+    image: "https://drive.google.com/thumbnail?id=1la2cGOxJJN09LW-ma3ckaUm8y0HJ5ZWH&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "b",
+    optionD: "d",
     correctOption: "d"
   },
   {
     id: 19,
-    question: "Which Pritzker Prize winners designed the Beijing National Stadium (Bird's Nest)?",
-    optionA: "",
-    optionB: "Herzog & de Meuron",
-    optionC: "Zaha Hadid",
-    optionD: "Norman Foster",
-    correctOption: "rem koolhaas"
+    question: "find the correct paper fold",
+    image: "https://drive.google.com/thumbnail?id=1pTK4gkdPqM0LzHo3owzLxxGjK7VWRGTT&sz=w1000",
+    optionA: "b",
+    optionB: "a",
+    optionC: "d",
+    optionD: "c",
+    correctOption: "d"
   },
   {
     id: 20,
-    question: "The 'Sukanasa' in Nagara temple architecture refers to:",
-    optionA: "",
-    optionB: "The ribbed disc below the Kalasha",
-    optionC: "A projection on the shikhara in front of the main tower",
-    optionD: "The hall used for ritual dance",
-    correctOption: "the decorative frieze of auspicious figures"
+    question: "find front view of figure",
+    image: "https://drive.google.com/thumbnail?id=1ToIFTBS7wb9sqL382qEedwXpGwtO8ItY&sz=w1000",
+    optionA: "c",
+    optionB: "b",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "d"
   },
   {
     id: 21,
-    question: "Identify the famous Monument",
-    optionA: "https://drive.google.com/file/d/1yPX8hONOjKpFxA-gBfhBXGmpRYcDn3uo/view?usp=drive_link,",
-    optionB: "K2",
-    optionC: "Kangchenjunga",
-    optionD: "Lhotse",
-    correctOption: "mount everest"
+    question: "Which of the following is a secondary color in the RYB model?",
+    optionA: "Red",
+    optionB: "Green",
+    optionC: "Yellow",
+    optionD: "Orange",
+    correctOption: "d"
   },
   {
     id: 22,
-    question: "Which architectural style is best described by fragmented, non-linear, and unpredictable forms?",
-    optionA: "",
-    optionB: "Minimalism",
-    optionC: "Deconstructivism",
-    optionD: "Postmodernism",
-    correctOption: "art deco"
+    question: "Villa Savoye (1929) was designed by which architect?",
+    optionA: "Walter Gropius",
+    optionB: "Le Corbusier",
+    optionC: "Alvar Aalto",
+    optionD: "Mies van der Rohe",
+    correctOption: "b"
   },
   {
     id: 23,
-    question: "Brutalism (c. 1950–1970) emphasized which material?",
-    optionA: "",
-    optionB: "Timber and brick",
-    optionC: "Stainless steel",
-    optionD: "Raw concrete",
-    correctOption: "polished marble"
+    question: "Identify the Correct  Architectural Terms used",
+    image: "https://drive.google.com/thumbnail?id=187NZvBPS0R1TXd83bob0intb-rPzXqAg&sz=w1000",
+    optionA: "Projection",
+    optionB: "Pilaster",
+    optionC: "Round-arched Window",
+    optionD: "Pavilion",
+    correctOption: "d"
   },
   {
     id: 24,
-    question: "find top view of figure",
-    optionA: "https://drive.google.com/file/d/1OsK4xL_zyj5d0sZt468VK0jotxlsmpE2/view?usp=drive_link",
-    optionB: "d",
-    optionC: "a",
-    optionD: "b",
-    correctOption: "c"
+    question: "find mirror on given axis",
+    image: "https://drive.google.com/thumbnail?id=1dNOyf9rLLHV3_e_Bq6cameBiYmavssvj&sz=w1000",
+    optionA: "c",
+    optionB: "a",
+    optionC: "b",
+    optionD: "d",
+    correctOption: "d"
   },
   {
     id: 25,
-    question: "The substructure of a building refers to:",
-    optionA: "",
-    optionB: "The entire above-ground portion of the building",
-    optionC: "The portion of the building below the ground level including foundation and basement",
-    optionD: "Only the roof and terrace elements",
-    correctOption: "the finishing elements like flooring and plastering"
+    question: "Read the Instruction",
+    image: "https://drive.google.com/thumbnail?id=1gQSll8ZsN9f-bDofoD6CDbz9n3mJr25t&sz=w1000",
+    optionA: "c",
+    optionB: "d",
+    optionC: "b",
+    optionD: "a",
+    correctOption: "d"
   },
   {
     id: 26,
-    type: 'match-pair',
-    question: "Match the Pair",
-    columnAItems: [
-      "GROUP1"
-],
-    columnBItems: [
-      "1. Eiffel Tower, Paris",
-      "2. Fallingwater, Pennsylvania",
-      "3. Villa Savoye, Poissy",
-      "4. Seagram Building, NYC"
-],
-    image: "A) Organic house, 1935, Frank Lloyd Wright |\nB) Exposition tower, 1889, Gustave Eiffel |\nC) International Style skyscraper, 1958, Mies van der Rohe + Philip Johnson |\nD) Modernist icon, 1929, Le Corbusier |",
-    optionA: "",
-    optionB: "1-C 2-A 3-B 4-D",
-    optionC: "1-A 2-C 3-B 4-D",
-    optionD: "1-B 2-D 3-C 4-A",
-    correctOption: "1-b 2-a 3-d 4-c"
+    question: "Gurudwara Hemkund Sahib is surrounded by how many snow-capped Himalayan peaks?",
+    optionA: "5",
+    optionB: "7",
+    optionC: "6",
+    optionD: "9",
+    correctOption: "b"
   },
   {
     id: 27,
-    question: "Read the instruction coding",
-    optionA: "https://drive.google.com/file/d/1iwnG17bGdGVZ1GGwnrBu8r-OtwzSZ9sN/view?usp=drive_link",
-    optionB: "d",
-    optionC: "a",
-    optionD: "c",
+    question: "An arched structure forming a ceiling or roof constructed in masonry or concrete is called:",
+    optionA: "Dome",
+    optionB: "Vault",
+    optionC: "Truss",
+    optionD: "Shell",
     correctOption: "b"
   },
   {
     id: 28,
-    question: "find mirror on given axis",
-    optionA: "https://drive.google.com/file/d/1_bd7Uyb0cd1K1yArnO2ioFLRLHOPBG1l/view?usp=drive_link",
-    optionB: "c",
-    optionC: "d",
-    optionD: "b",
-    correctOption: "a"
+    question: "In the RYB color model, which are the three primary colors?",
+    optionA: "Red, Green, Blue",
+    optionB: "Red, Yellow, Blue",
+    optionC: "Cyan, Magenta, Yellow",
+    optionD: "Orange, Violet, Green",
+    correctOption: "b"
   },
   {
     id: 29,
     type: 'match-pair',
     question: "Match the Pair",
     columnAItems: [
-      "GROUP1"
+      "1. Bhubaneswar",
+      "2. Mysore",
+      "3. Punjab",
+      "4. Asansol"
 ],
     columnBItems: [
-      "1. Cornice",
-      "2. Eaves",
-      "3. Gutter",
-      "4. Downpipe"
+      "Temple City of India",
+      "Land of Black Diamond",
+      "Sandalwood City",
+      "Land of Five Rivers"
 ],
-    image: "A) Drains roof runoff to downpipes |\nB) Sheds water, finishes elevation, classical detail |\nC) Completes roof drainage system, prevents erosion |\nD) Sheds rainwater away from walls, provides shade |",
-    optionA: "",
-    optionB: "1-D 2-B 3-C 4-A",
-    optionC: "1-D 2-C 3-B 4-A",
-    optionD: "1-A 2-C 3-B 4-D",
-    correctOption: "1-b 2-d 3-a 4-c"
-  },
-  {
-    id: 30,
-    question: "Read the Instruction",
-    optionA: "https://drive.google.com/file/d/15tn8tc5_r5Al-Z6zH6FhEHaWzkzXQjhp/view?usp=drive_link,",
-    optionB: "b",
-    optionC: "a",
-    optionD: "d",
-    correctOption: "c"
-  },
-  {
-    id: 31,
-    question: "Which temple in India is recognized as the largest functioning Hindu temple complex in the world?",
-    optionA: "",
-    optionB: "Srirangam Ranganathaswamy Temple",
-    optionC: "Meenakshi Amman Temple Madurai",
-    optionD: "Tirupati Venkateswara Temple",
-    correctOption: "akshardham delhi"
-  },
-  {
-    id: 32,
-    question: "Read the Instruction",
-    optionA: "https://drive.google.com/file/d/1BK6EixarRkDcGwJE_T8aPpG8iyptjDYO/view?usp=drive_link,",
-    optionB: "d",
-    optionC: "b",
-    optionD: "c",
-    correctOption: "a"
-  },
-  {
-    id: 33,
-    type: 'statement',
-    question: "S1: A sill is provided at bottom of window. S2: A sill prevents rainwater entry.",
-    optionA: "",
-    optionB: "Both correct",
-    optionC: "S1 correct",
-    optionD: "S2 correct",
-    correctOption: "both incorrect"
-  },
-  {
-    id: 34,
-    question: "Find next in series",
-    optionA: "https://drive.google.com/file/d/1X6Z_k0Y-GzJZaFdMdRH-IzoxNX8fqAZl/view?usp=drive_link",
-    optionB: "c",
-    optionC: "a",
-    optionD: "b",
+    optionA: "1-D 2-B 3-C 4-A",
+    optionB: "1-B 2-A 3-D 4-C",
+    optionC: "1-D 2-B 3-C 4-A",
+    optionD: "1-A 2-C 3-D 4-B",
     correctOption: "d"
   },
   {
-    id: 35,
-    question: "find surface count",
-    optionA: "https://drive.google.com/file/d/1Ui-XYedqTF5Pl90AiVOafS9x25e5upp5/view?usp=drive_link",
-    optionB: "21",
-    optionC: "22",
-    optionD: "19",
-    correctOption: "20"
+    id: 30,
+    question: "Identify the famous Monument",
+    image: "https://drive.google.com/thumbnail?id=1nz5h7tlSYeyy7XlCQwBKr6TIlnWVgr-l&sz=w1000",
+    optionA: "Ajanta Caves",
+    optionB: "Bhimbetka Caves",
+    optionC: "Elephanta Caves",
+    optionD: "Ellora Caves",
+    correctOption: "d"
   },
   {
-    id: 36,
-    question: "Which type of lime is best for water-resistant construction?",
-    optionA: "",
-    optionB: "Fat Lime",
-    optionC: "Quick Lime",
-    optionD: "Slaked Lime",
-    correctOption: "hydraulic lime"
+    id: 31,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Louis Sullivan",
+      "2. Le Corbusier",
+      "3. Hafeez Contractor",
+      "4. Christopher Wren"
+],
+    columnBItems: [
+      "Chicago Stock Exchange Building",
+      "Colline Notre Dame du Haut - Ronchamp",
+      "Monuments to the Great Fire of London",
+      "Rajnish Osho Ashram - Pune"
+],
+    optionA: "1-B 2-C 3-D 4-A",
+    optionB: "1-D 2-B 3-C 4-A",
+    optionC: "1-D 2-A 3-B 4-C",
+    optionD: "1-A 2-B 3-D 4-C",
+    correctOption: "d"
   },
   {
-    id: 37,
-    question: "Which of the Following Architect Design the Given Building",
-    optionA: "https://drive.google.com/file/d/1V-2Lq5MkyRAHPaWDFc6eqIHWvLWz0Cxb/view?usp=drive_link,",
-    optionB: "Raj Rewal",
-    optionC: "Fariborz Sahba",
-    optionD: "Louis Kahn",
-    correctOption: "le corbosier"
-  },
-  {
-    id: 38,
-    question: "The Baroque architectural style originated in the 17th century in which country?",
-    optionA: "",
-    optionB: "France",
-    optionC: "England",
-    optionD: "Spain",
-    correctOption: "italy"
-  },
-  {
-    id: 39,
-    question: "Read the Instruction",
-    optionA: "https://drive.google.com/file/d/1UfH9HdksFCRnR6bCJc7rSEqYD9PJhIyb/view?usp=drive_link,",
-    optionB: "b",
+    id: 32,
+    question: "find the missing ? Number",
+    image: "https://drive.google.com/thumbnail?id=1r6cX9qGPMXk96cQIL8igWQsF03AZO_Aj&sz=w1000",
+    optionA: "b",
+    optionB: "d",
     optionC: "c",
     optionD: "a",
     correctOption: "d"
   },
   {
+    id: 33,
+    question: "Colors directly opposite each other on the color wheel are called:",
+    optionA: "Analogous",
+    optionB: "Triadic",
+    optionC: "Complementary",
+    optionD: "Split-complementary",
+    correctOption: "c"
+  },
+  {
+    id: 34,
+    question: "Read the Instruction",
+    image: "https://drive.google.com/thumbnail?id=1oJ45qUbQXvBonkrGYzoZAzj2gMQCYQ0H&sz=w1000",
+    optionA: "a",
+    optionB: "d",
+    optionC: "c",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 35,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=1ZuWBS-paumQ-0Tx5rr_f-RaLCnzlJ2Jg&sz=w1000",
+    optionA: "c",
+    optionB: "a",
+    optionC: "d",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 36,
+    type: 'statement',
+    question: "Statement 1: Limestone is a sedimentary rock often used in construction.\nStatement 2: Slate is a type of metamorphic rock used for roofing.",
+    optionA: "Statement 1 is True, Statement 2 is False",
+    optionB: "Both Statement 1 and Statement 2 is False",
+    optionC: "Statement 1 is False, Statement 2 is True",
+    optionD: "Both Statement 1 and Statement 2 are True.",
+    correctOption: "d"
+  },
+  {
+    id: 37,
+    question: "find missing ?",
+    image: "https://drive.google.com/thumbnail?id=1eAMdtNFw7GfF1HwfFZOqA8mgW0dwBOCS&sz=w1000",
+    optionA: "d",
+    optionB: "c",
+    optionC: "b",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 38,
+    question: "Value' in color theory describes:",
+    optionA: "The intensity of a color",
+    optionB: "The lightness or darkness of a color",
+    optionC: "The temperature of a color",
+    optionD: "The hue family of a color",
+    correctOption: "b"
+  },
+  {
+    id: 39,
+    question: "find surface count",
+    image: "https://drive.google.com/thumbnail?id=1VLGcCKonDgYiK3idqNBbHffr0MrgHYM6&sz=w1000",
+    optionA: "23",
+    optionB: "24",
+    optionC: "21",
+    optionD: "22",
+    correctOption: "d"
+  },
+  {
     id: 40,
+    question: "Read the Instruction",
+    image: "https://drive.google.com/thumbnail?id=1tFqFsSpS5XSYcqfB6RjvVQtytqv0SYSO&sz=w1000",
+    optionA: "b",
+    optionB: "a",
+    optionC: "c",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 41,
+    question: "Who is an architect of Dudhsagar Dairy - Anand, Gujarat",
+    optionA: "Edwinn Lutyens",
+    optionB: "CP Kukreja",
+    optionC: "Pierre Jeanneret",
+    optionD: "Achyut Kanvinde",
+    correctOption: "d"
+  },
+  {
+    id: 42,
+    question: "The chemical process by which cement hardens and gains strength after mixing with water is called:",
+    optionA: "Carbonation",
+    optionB: "Calcination",
+    optionC: "Hydration",
+    optionD: "Oxidation",
+    correctOption: "c"
+  },
+  {
+    id: 43,
+    question: "The purpose of applying primer before painting a wall is to:",
+    optionA: "Add the final decorative colour to the surface",
+    optionB: "Improve adhesion of paint and ensure a uniform finish on the surface",
+    optionC: "Waterproof the wall against heavy rain",
+    optionD: "Fill all structural cracks in the wall before finishing",
+    correctOption: "b"
+  },
+  {
+    id: 44,
+    question: "What is \"simultaneous contrast\" in color theory?",
+    optionA: "Colors appearing different based on surrounding colors",
+    optionB: "Colors that clash when placed together",
+    optionC: "Colors that fade over time",
+    optionD: "Colors that mix to form gray",
+    correctOption: "a"
+  },
+  {
+    id: 45,
+    question: "In seismic design, 'ductility' of a structure refers to its ability to:",
+    optionA: "Remain rigid under earthquake forces",
+    optionB: "Undergo significant deformation without sudden collapse",
+    optionC: "Amplify earthquake vibrations",
+    optionD: "Reflect seismic energy away",
+    correctOption: "b"
+  },
+  {
+    id: 46,
+    question: "Read the instruction coding",
+    image: "https://drive.google.com/thumbnail?id=1kKUdNW9wMoi6njHQS2DDmL2IrOPBM2tt&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "b",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 47,
+    question: "Who is an architect of Glass House",
+    optionA: "CP Kukreja",
+    optionB: "Frank O Gehry",
+    optionC: "Raj Revel",
+    optionD: "Philip Johnson",
+    correctOption: "d"
+  },
+  {
+    id: 48,
+    question: "Brutalism takes its name from the French term 'béton brut', meaning:",
+    optionA: "Rough stone",
+    optionB: "Raw concrete",
+    optionC: "Exposed steel",
+    optionD: "Unfinished brick",
+    correctOption: "b"
+  },
+  {
+    id: 49,
+    type: 'statement',
+    question: "S1: A clerestory is a high window. S2: Clerestory improves daylighting.",
+    optionA: "Both correct",
+    optionB: "S1 correct",
+    optionC: "S2 correct",
+    optionD: "Both incorrect",
+    correctOption: "a"
+  },
+  {
+    id: 50,
+    question: "Which type of paint finish is highly reflective?",
+    optionA: "Matte",
+    optionB: "Satin",
+    optionC: "Distemper",
+    optionD: "Glossy",
+    correctOption: "d"
+  },
+  //3m
+  {
+    id: 1,
     question: "Identify the Correct  Architectural Terms used",
-    optionA: "https://drive.google.com/file/d/1bpH1C-Z-pycxDSpVskg2JgRrZhlTem0g/view?usp=drive_link,",
-    optionB: "Fluting",
-    optionC: "Gingerbreading",
-    optionD: "Double Doors",
-    correctOption: "colonial kitchen"
+    image: "https://drive.google.com/thumbnail?id=1Twd50JYNDXDuzA9Hs4ndb8pkuqdfG03J&sz=w1000",
+    optionA: "Lattice-work",
+    optionB: "Masonry",
+    optionC: "Jettied Story",
+    optionD: "Gallerie",
+    correctOption: "d"
+  },
+  {
+    id: 2,
+    question: "Which construction method involves building floors from the top down after erecting the central core?",
+    optionA: "Top-down construction",
+    optionB: "Bottom-up construction",
+    optionC: "Tilt-up construction",
+    optionD: "Lift-slab construction",
+    correctOption: "a"
+  },
+  {
+    id: 3,
+    question: "Which material was predominantly used in Akbar's construction at Fatehpur Sikri?",
+    optionA: "White marble",
+    optionB: "Granite",
+    optionC: "Red sandstone",
+    optionD: "Yellow limestone",
+    correctOption: "c"
+  },
+  {
+    id: 4,
+    question: "52. Which material is excellent for absorbing sound, often used in acoustic panels?",
+    optionA: "Polished Granite",
+    optionB: "Glass Sheet",
+    optionC: "Sheet Metal",
+    optionD: "Mineral Wool / Fiberglass / Acoustic Foam",
+    correctOption: "d"
+  },
+  {
+    id: 5,
+    question: "What is the capital of the Chola dynasty?",
+    optionA: "Kanchipuram",
+    optionB: "Patliputra",
+    optionC: "Mahabalipuram",
+    optionD: "Tanjore",
+    correctOption: "d"
+  },
+  {
+    id: 6,
+    question: "What happens to a colour when white is added to it?",
+    optionA: "It becomes a shade",
+    optionB: "It becomes a tone",
+    optionC: "It becomes a tint",
+    optionD: "It becomes desaturated",
+    correctOption: "c"
+  },
+  {
+    id: 7,
+    question: "find surface count",
+    image: "https://drive.google.com/thumbnail?id=1UtxSgFLEXFzOtgbo5t8iNi0D4rS8fRs_&sz=w1000",
+    optionA: "15",
+    optionB: "16",
+    optionC: "13",
+    optionD: "14",
+    correctOption: "d"
+  },
+  {
+    id: 8,
+    type: 'statement',
+    question: "Statement 1: In the Southern Hemisphere, south-facing windows get the most daylight.\nStatement 2: East-facing windows are preferred for even lighting.",
+    optionA: "B. Both S1 and S2 are false",
+    optionB: "A. Both S1 and S2 are true",
+    optionC: "D. S1 is false, S2 is true",
+    optionD: "C. S1 is true, S2 is false",
+    correctOption: "d"
+  },
+  {
+    id: 9,
+    question: "Identify the famous Monument",
+    image: "https://drive.google.com/thumbnail?id=1NWdy2Wpxt9PWdyJhTXNR98oiDnX2i_WG&sz=w1000",
+    optionA: "Michelangelo's Pieta",
+    optionB: "Last Supper",
+    optionC: "Raphael's Stanze",
+    optionD: "The Sistine Cahpel",
+    correctOption: "d"
+  },
+  {
+    id: 10,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Pendentive",
+      "2. Squinch",
+      "3. Muqarnas",
+      "4. Jali"
+],
+    columnBItems: [
+      "A curved triangular surface that forms the transition between a square or polygonal base and a circular dome above.",
+      "A form of three-dimensional decorative stalactite-like vaulting used in Islamic architecture to transition between surfaces.",
+      "An arch or series of arches built across the internal corner of a square room to support a circular or octagonal dome above.",
+      "A perforated stone or marble screen with geometric or floral patterns used in Indian and Islamic architecture to filter light and air."
+],
+    optionA: "1-C 2-B 3-A 4-D",
+    optionB: "1-C 2-B 3-A 4-D",
+    optionC: "1-B 2-A 3-C 4-D",
+    optionD: "1-A 2-C 3-B 4-D",
+    correctOption: "d"
+  },
+  {
+    id: 11,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Door Terms",
+      "2. Column Terms",
+      "3. Greek & Roman Column Terms",
+      "4. Arch Terms"
+],
+    columnBItems: [
+      "Voussoir",
+      "Fluting",
+      "Base",
+      "Panel"
+],
+    optionA: "1-B 2-A 3-C 4-D",
+    optionB: "1-C 2-A 3-B 4-D",
+    optionC: "1-A 2-B 3-D 4-C",
+    optionD: "1-D 2-C 3-B 4-A",
+    correctOption: "d"
+  },
+  {
+    id: 12,
+    question: "Which of the Following Architect Design the Given Building",
+    image: "https://drive.google.com/thumbnail?id=19Y_FwWYucU0iGc4hEtirfTOWe5RmqLWQ&sz=w1000",
+    optionA: "Hafeez Contractor",
+    optionB: "Anant Raje",
+    optionC: "B V Doshi",
+    optionD: "Charles Correa",
+    correctOption: "d"
+  },
+  {
+    id: 13,
+    question: "Identify the Archtecture Style of following Building",
+    image: "https://drive.google.com/thumbnail?id=1cpoWWCSoTXoq7rOFq0z0d9fazdSMESBP&sz=w1000",
+    optionA: "Neo Futuristic style",
+    optionB: "Egiptian style",
+    optionC: "prihistoric style",
+    optionD: "Gothic Style",
+    correctOption: "d"
+  },
+  {
+    id: 14,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Arch",
+      "2. Vault",
+      "3. Dome",
+      "4. Keystone"
+],
+    columnBItems: [
+      "An arched structure forming a ceiling or roof over a space built in masonry or concrete in forms like barrel or groin vault.",
+      "A curved structural element spanning an opening that transfers loads downward and outward to its supports on either side.",
+      "A hemispherical roof structure covering a circular or polygonal space distributing loads outward to its supporting base.",
+      "The central wedge-shaped stone placed at the crown of an arch that locks all other voussoirs in place."
+],
+    optionA: "1-C 2-D 3-A 4-B",
+    optionB: "1-A 2-B 3-D 4-C",
+    optionC: "1-A 2-D 3-C 4-B",
+    optionD: "1-B 2-A 3-C 4-D",
+    correctOption: "d"
+  },
+  {
+    id: 15,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Column Terms",
+      "2. Window Terms",
+      "3. Greek & Roman Column Terms",
+      "4. Brick Terms"
+],
+    columnBItems: [
+      "Casement",
+      "Fluting",
+      "Plinth",
+      "Stretcher"
+],
+    optionA: "1-C 2-D 3-B 4-A",
+    optionB: "1-A 2-B 3-C 4-D",
+    optionC: "1-A 2-D 3-B 4-C",
+    optionD: "1-B 2-A 3-C 4-D",
+    correctOption: "d"
+  },
+  {
+    id: 16,
+    question: "Formwork in construction refers to:",
+    optionA: "The permanent steel framework of a building",
+    optionB: "A temporary mould into which concrete is poured to achieve the desired shape",
+    optionC: "The scaffolding used to support workers during finishing work",
+    optionD: "The mortar used to fill joints between bricks",
+    correctOption: "b"
+  },
+  {
+    id: 17,
+    question: "The Lingaraja Temple in Bhubaneswar belongs to which regional style of Nagara architecture?",
+    optionA: "Solanki",
+    optionB: "Chandela",
+    optionC: "Kalinga (Odisha)",
+    optionD: "Gurjara-Pratihara",
+    correctOption: "c"
+  },
+  {
+    id: 18,
+    question: "The UNESCO World Heritage Convention was adopted in which year?",
+    optionA: "1945",
+    optionB: "1965",
+    optionC: "1972",
+    optionD: "1980",
+    correctOption: "c"
+  },
+  {
+    id: 19,
+    question: "Which part of stair is horizontal?",
+    optionA: "Riser",
+    optionB: "Tread",
+    optionC: "Flight",
+    optionD: "Beam",
+    correctOption: "b"
+  },
+  {
+    id: 20,
+    question: "The colour wheel was first developed scientifically by:",
+    optionA: "Leonardo da Vinci",
+    optionB: "Johannes Itten",
+    optionC: "Sir Isaac Newton",
+    optionD: "Albert Munsell",
+    correctOption: "c"
+  },
+  {
+    id: 21,
+    question: "find top view of figure",
+    image: "https://drive.google.com/thumbnail?id=1NKhQYMXDOqMDSX0CHOpDKgKKFH6MV50l&sz=w1000",
+    optionA: "c",
+    optionB: "a",
+    optionC: "d",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 22,
+    question: "find the odd one",
+    image: "https://drive.google.com/thumbnail?id=1igoMienoa7my2cBT96rLa-6dyz8FInDR&sz=w1000",
+    optionA: "d",
+    optionB: "a",
+    optionC: "b",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 23,
+    type: 'statement',
+    question: "S1: Ashok Lall advocates for low-energy, sustainable architecture in India. S2: He has worked extensively on heritage conservation projects.",
+    optionA: "Both true",
+    optionB: "Both false",
+    optionC: "S1 true, S2 false",
+    optionD: "S1 false, S2 true",
+    correctOption: "a"
+  },
+  {
+    id: 24,
+    question: "What does \"AAC\" stand for in building blocks?",
+    optionA: "Auto-Aerated Concrete",
+    optionB: "Autoclaved Aerated Concrete",
+    optionC: "Advanced Aggregate Cement",
+    optionD: "Artificial Air Cured",
+    correctOption: "b"
+  },
+  {
+    id: 25,
+    type: 'statement',
+    question: "S1: A dome is a hemispherical roof structure that covers a circular or polygonal space and distributes loads to its base. S2: The Pantheon in Rome and the Taj Mahal in Agra are both famous examples of dome structures in architecture.",
+    optionA: "Both true, S2 explains S1",
+    optionB: "Both true, S2 does not explain S1",
+    optionC: "S1 true, S2 false",
+    optionD: "S1 false, S2 true",
+    correctOption: "b"
+  },
+  {
+    id: 26,
+    question: "WTO",
+    optionA: "World Trade Organization",
+    optionB: "World Tourism Office",
+    optionC: "Worldwide Transport Oversight",
+    optionD: "World Treaty Operations",
+    correctOption: "a"
+  },
+  {
+    id: 27,
+    question: "find front view of figure",
+    image: "https://drive.google.com/thumbnail?id=1T7BVXbu09bK9EuP2s8w7KRC8MkA94VdN&sz=w1000",
+    optionA: "b",
+    optionB: "a",
+    optionC: "d",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 28,
+    question: "Which joint allows for thermal expansion and contraction in large structures?",
+    optionA: "Construction joint",
+    optionB: "Expansion joint",
+    optionC: "Cold joint",
+    optionD: "Control joint",
+    correctOption: "b"
+  },
+  {
+    id: 29,
+    question: "Weathering course on a window sill is sloped outward primarily to:",
+    optionA: "Improve the aesthetic appearance of the window",
+    optionB: "Drain rainwater away from the wall surface",
+    optionC: "Support the weight of the window frame",
+    optionD: "Prevent heat loss through the window",
+    correctOption: "b"
+  },
+  {
+    id: 30,
+    question: "Identify the Garden Style of following Building",
+    image: "https://drive.google.com/thumbnail?id=1jD6CZ5VGbd7rqAiOrbl0aceW0MbD73-r&sz=w1000",
+    optionA: "Mughal Garden",
+    optionB: "Ross Garden",
+    optionC: "Woodland Garden",
+    optionD: "Roof Garden",
+    correctOption: "a"
+  },
+  {
+    id: 31,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Vishnupad Temple",
+      "2. Kalighat Pat",
+      "3. Cheriyal Scrolls",
+      "4. Thangka"
+],
+    columnBItems: [
+      "Telangana",
+      "Gaya",
+      "West Bengal (WB)",
+      "Tibet"
+],
+    optionA: "1-C 2-D 3-B 4-A",
+    optionB: "1-A 2-C 3-B 4-D",
+    optionC: "1-D 2-C 3-B 4-A",
+    optionD: "1-B 2-C 3-A 4-D",
+    correctOption: "d"
+  },
+  {
+    id: 32,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Hoysala",
+      "2. Colonial",
+      "3. Mughal",
+      "4. Indus Valley"
+],
+    columnBItems: [
+      "- Grand columns and symmetrical facades",
+      "- Detailed stone carvings",
+      "- Minarets and symmetrical layouts",
+      "- Advanced drainage and water management"
+],
+    optionA: "1-B 2-C 3-A 4-D",
+    optionB: "1-C 2-B 3-D 4-A",
+    optionC: "1-A 2-C 3-D 4-B",
+    optionD: "1-B 2-A 3-C 4-D",
+    correctOption: "d"
+  },
+  {
+    id: 33,
+    question: "Vernacular architecture is best defined as:",
+    optionA: "Architecture designed by internationally trained architects using imported materials",
+    optionB: "Buildings constructed using local materials, traditions, and techniques suited to the local climate and culture",
+    optionC: "Modern architecture that rejects all historical references",
+    optionD: "Architecture that follows strict classical Greek and Roman principles",
+    correctOption: "b"
+  },
+  {
+    id: 34,
+    question: "Primary Function of Non-Load Bearing Components?",
+    optionA: "To divide spaces and enhance aesthetics without supporting loads",
+    optionB: "To vertically transport people and goods in a building",
+    optionC: "To distribute the weight to the ground and prevent settlement",
+    optionD: "Provides access to high areas, ensures worker safety, and supports materials/tools",
+    correctOption: "a"
+  },
+  {
+    id: 35,
+    question: "The decorative honeycomb-like three-dimensional ornamentation in Islamic architecture is called:",
+    optionA: "Arabesque",
+    optionB: "Muqarnas",
+    optionC: "Pietra dura",
+    optionD: "Jali",
+    correctOption: "b"
+  },
+  {
+    id: 36,
+    question: "Identify the famous Monument",
+    image: "https://drive.google.com/thumbnail?id=1DVF0Y2f11RkUTfXEM_V5ehSMJv8XwzbH&sz=w1000",
+    optionA: "Pattadakal Ruins",
+    optionB: "Badami Caves",
+    optionC: "Aihole Ruins",
+    optionD: "Hampi Ruins",
+    correctOption: "d"
+  },
+  {
+    id: 37,
+    question: "Who is an architect of Hearst Tower - New York",
+    optionA: "John Utzon",
+    optionB: "Raj Revel",
+    optionC: "Richard Rogers",
+    optionD: "Norman Foster",
+    correctOption: "d"
+  },
+  {
+    id: 38,
+    type: 'statement',
+    question: "Statement 1: A green roof is covered with vegetation.\nStatement 2: Green roofs reduce urban heat island effects.",
+    optionA: "Statement 1 is True, Statement 2 is False",
+    optionB: "Statement 1 is False, Statement 2 is True",
+    optionC: "Both Statement 1 and Statement 2 is False",
+    optionD: "Both Statement 1 and Statement 2 are True.",
+    correctOption: "d"
+  },
+  {
+    id: 39,
+    question: "Find next in series",
+    image: "https://drive.google.com/thumbnail?id=1XBs06EREwREvoXaSrvr8LYWAN6iwFxTW&sz=w1000",
+    optionA: "c",
+    optionB: "b",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 40,
+    question: "Read the Instruction",
+    image: "https://drive.google.com/thumbnail?id=1WvHlXFvq9hZBTG_iupsMeFvYl2lSefy5&sz=w1000",
+    optionA: "d",
+    optionB: "b",
+    optionC: "a",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 41,
+    type: 'statement',
+    question: "Statement 1: Frank Lloyd Wright designed Fallingwater.\nStatement 2: Fallingwater integrates with its natural surroundings.",
+    optionA: "Statement 1 is True, Statement 2 is False",
+    optionB: "Statement 1 is False, Statement 2 is True",
+    optionC: "Both Statement 1 and Statement 2 is False",
+    optionD: "Both Statement 1 and Statement 2 are True.",
+    correctOption: "d"
+  },
+  {
+    id: 42,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Richard Rogers",
+      "2. IM Pei",
+      "3. Raj Revel",
+      "4. Renzo Piano"
+],
+    columnBItems: [
+      "Pompidou",
+      "Parliament Library Building - New Delhi",
+      "Charles de Gaulle Airport",
+      "Luce Memorial Chapel"
+],
+    optionA: "1-D 2-B 3-C 4-A",
+    optionB: "1-C 2-B 3-D 4-A",
+    optionC: "1-D 2-C 3-A 4-B",
+    optionD: "1-C 2-D 3-B 4-A",
+    correctOption: "d"
+  },
+  {
+    id: 43,
+    question: "Who is an architect of Guangzhou Da Ju Yuan",
+    optionA: "CP Kukreja",
+    optionB: "Norman Foster",
+    optionC: "Le Corbusier",
+    optionD: "Zaha Hadid",
+    correctOption: "d"
+  },
+  {
+    id: 44,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=1Zk0LIMZqbgevaWNDXUHiBv4sehdegheI&sz=w1000",
+    optionA: "b",
+    optionB: "a",
+    optionC: "c",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 45,
+    question: "Identify the Structure of following Building",
+    image: "https://drive.google.com/thumbnail?id=1h_5cC7DzQiq8qRqcR1g7AeEqv4ZdpZJ1&sz=w1000",
+    optionA: "Pneumatic structure",
+    optionB: "Frame structure",
+    optionC: "Tube Structure",
+    optionD: "Shell Structure",
+    correctOption: "a"
+  },
+  {
+    id: 46,
+    question: "Read the instruction bR",
+    image: "https://drive.google.com/thumbnail?id=1fkCwAeI9oTdevq5xJqp4mSLNqRS-2Xq7&sz=w1000",
+    optionA: "b",
+    optionB: "a",
+    optionC: "d",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 47,
+    question: "find the missing ? Number",
+    image: "https://drive.google.com/thumbnail?id=1rBrCd7MPWX8Ep9UDqXoJCrL62zHVR1PU&sz=w1000",
+    optionA: "c",
+    optionB: "b",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 48,
+    question: "Read the Instruction",
+    image: "https://drive.google.com/thumbnail?id=1b3EeqDS0lieTJ1xv4GzLTeeP-KWh5nVD&sz=w1000",
+    optionA: "c",
+    optionB: "b",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 49,
+    question: "INDENTIFY THE FAMOUS TEMPLE",
+    image: "https://drive.google.com/thumbnail?id=1vqT01a1dmxC-T8W7e04yOyg6k1JxvfLw&sz=w1000",
+    optionA: "Ekambareswarar Temple",
+    optionB: "Kamakshi Amman Temple",
+    optionC: "Varadharaja Perumal Temple",
+    optionD: "Kailasanathar Temple",
+    correctOption: "d"
+  },
+  {
+    id: 50,
+    question: "In which construction method do walls carry structural loads directly to the foundation?",
+    optionA: "Post-and-beam",
+    optionB: "Load-bearing wall construction",
+    optionC: "Curtain wall system",
+    optionD: "Space frame",
+    correctOption: "b"
+  },
+  //4m
+  {
+    id: 1,
+    question: "The term \"chroma\" in colour theory is most closely related to:",
+    optionA: "Value",
+    optionB: "Hue",
+    optionC: "Saturation",
+    optionD: "Temperature",
+    correctOption: "c"
+  },
+  {
+    id: 2,
+    question: "Who is an architect of UNICEF Headquarters - New Delhi",
+    optionA: "Raj Revel",
+    optionB: "Lauri Baker",
+    optionC: "Anant Raje",
+    optionD: "Joseph Allen Stein",
+    correctOption: "d"
+  },
+  {
+    id: 3,
+    question: "47. Which of the following is the Smallest State (Population) in India?",
+    optionA: "Mizoram",
+    optionB: "Arunachal Pradesh",
+    optionC: "Nagaland",
+    optionD: "Sikkim",
+    correctOption: "d"
+  },
+  {
+    id: 4,
+    question: "An open unroofed space enclosed by walls or buildings on some or all sides within a building complex is called:",
+    optionA: "Atrium",
+    optionB: "Courtyard",
+    optionC: "Loggia",
+    optionD: "Foyer",
+    correctOption: "b"
+  },
+  {
+    id: 5,
+    question: "Who commissioned the construction of the Dilwara Temples?",
+    optionA: "Akbar",
+    optionB: "Raja Raja Chola",
+    optionC: "Dev sen",
+    optionD: "Vimal Shah",
+    correctOption: "d"
+  },
+  {
+    id: 6,
+    question: "Identify the Structure of following Building",
+    image: "https://drive.google.com/thumbnail?id=1jGmLgKpwKzzU5Xqd57VTkHHuW9VC4iCu&sz=w1000",
+    optionA: "Shell Structure",
+    optionB: "Frame structure",
+    optionC: "Suspenstion Cable Structure",
+    optionD: "Tent Structure.",
+    correctOption: "a"
+  },
+  {
+    id: 7,
+    question: "Read the Instruction",
+    image: "https://drive.google.com/thumbnail?id=1otZ8C5MeDLT7nCVkgPbqL-jDMI4kGmSQ&sz=w1000",
+    optionA: "b",
+    optionB: "d",
+    optionC: "c",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 8,
+    question: "Read the instruction bR",
+    image: "https://drive.google.com/thumbnail?id=1fwM-5AlKNzhl67NGI3Q8xBL2Ez-hVSmt&sz=w1000",
+    optionA: "c",
+    optionB: "b",
+    optionC: "a",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 9,
+    question: "A window installed in a roof or ceiling to introduce natural daylight into the space below is called:",
+    optionA: "Clerestory",
+    optionB: "Louvre",
+    optionC: "Skylight",
+    optionD: "Bay window",
+    correctOption: "c"
+  },
+  {
+    id: 10,
+    question: "find top view of figure",
+    image: "https://drive.google.com/thumbnail?id=1OrgK7rlaxuLGXS4xuMfcCaDQx9XZOGI4&sz=w1000",
+    optionA: "d",
+    optionB: "b",
+    optionC: "a",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 11,
+    question: "complete the pattern",
+    image: "https://drive.google.com/thumbnail?id=1qYM_Ya4eMcwJCPBiUCn2oxrE0g29dBCG&sz=w1000",
+    optionA: "c",
+    optionB: "a",
+    optionC: "b",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 12,
+    question: "Which construction method involves casting concrete members in a factory before transporting to site?",
+    optionA: "In-situ concrete",
+    optionB: "Precast concrete",
+    optionC: "Post-tensioned concrete",
+    optionD: "Ferrocement",
+    correctOption: "b"
+  },
+  {
+    id: 13,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. LOC (Line of Control)",
+      "2. LAC (Line of Actual Control)",
+      "3. Sunauli Border",
+      "4. Gujarat"
+],
+    columnBItems: [
+      "Indo-Nepal",
+      "Pakistan - At J&K, 3233 km",
+      "Gujarati",
+      "China - 3488 km"
+],
+    optionA: "1-C 2-A 3-B 4-D",
+    optionB: "1-A 2-B 3-D 4-C",
+    optionC: "1-D 2-C 3-A 4-B",
+    optionD: "1-B 2-D 3-A 4-C",
+    correctOption: "d"
+  },
+  {
+    id: 14,
+    question: "Who is an architect of Ismaili Centre - Toronto, Canada",
+    optionA: "BV Doshi",
+    optionB: "Shivnath Prasad",
+    optionC: "Anant Raje",
+    optionD: "Charles Correa",
+    correctOption: "d"
+  },
+  {
+    id: 15,
+    question: "The term workability in concrete refers to:",
+    optionA: "The compressive strength of hardened concrete",
+    optionB: "The ease with which concrete can be mixed, placed, compacted, and finished",
+    optionC: "The ratio of cement to aggregate in the concrete mix",
+    optionD: "The durability of concrete against chemical attack",
+    correctOption: "b"
+  },
+  {
+    id: 16,
+    type: 'statement',
+    question: "S1: Concrete is strong in compression but weak in tension. S2: Steel reinforcement is added to concrete to improve tensile strength.",
+    optionA: "Both true",
+    optionB: "Both false",
+    optionC: "S1 true, S2 false",
+    optionD: "S1 false, S2 true",
+    correctOption: "a"
+  },
+  {
+    id: 17,
+    question: "A plot has an area of 1 hectare. How much will it be on a scale of 1:100?",
+    optionA: "100 sq.m",
+    optionB: "1 sq.m",
+    optionC: "0.01 sq.m",
+    optionD: "10 sq.m",
+    correctOption: "b"
+  },
+  {
+    id: 18,
+    question: "find mirror on given axis",
+    image: "https://drive.google.com/thumbnail?id=1dP8HamLgqcsLqZaHkhrhvVaDK0HrLqjU&sz=w1000",
+    optionA: "b",
+    optionB: "d",
+    optionC: "a",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 19,
+    question: "find front view of figure",
+    image: "https://drive.google.com/thumbnail?id=1QnNUrTsXQwNhVD2aTaAvnU66vBHoYOhU&sz=w1000",
+    optionA: "d",
+    optionB: "c",
+    optionC: "b",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 20,
+    question: "Who is an architect of NMDC Building - New Delhi and Kolkata",
+    optionA: "Edwinn Lutyens",
+    optionB: "BV Doshi",
+    optionC: "Hafeez Contractor",
+    optionD: "Kuldip Yadav",
+    correctOption: "d"
+  },
+  {
+    id: 21,
+    question: "Meaning of a Sill?",
+    optionA: "The bottom part of a window or door opening",
+    optionB: "A temporary structure used during construction",
+    optionC: "The technique of joining wooden parts",
+    optionD: "A force acting on a structure",
+    correctOption: "a"
+  },
+  {
+    id: 22,
+    question: "Which type of paint is best for exterior surfaces?",
+    optionA: "Enamel Paint",
+    optionB: "Acrylic Paint",
+    optionC: "Distemper",
+    optionD: "Emulsion Paint",
+    correctOption: "d"
+  },
+  {
+    id: 23,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Roman",
+      "2. Byzantine",
+      "3. Gothic",
+      "4. Renaissance"
+],
+    columnBItems: [
+      "- Colosseum",
+      "- Florence Cathedral (Duomo)",
+      "- Notre Dame Cathedral",
+      "- Hagia Sophia"
+],
+    optionA: "1-C 2-A 3-D 4-B",
+    optionB: "1-B 2-A 3-C 4-D",
+    optionC: "1-A 2-D 3-B 4-C",
+    optionD: "1-A 2-D 3-C 4-B",
+    correctOption: "d"
+  },
+  {
+    id: 24,
+    type: 'statement',
+    question: "S1: Sundarbans forms part of the world's largest mangrove forest.\n S2: Sundarbans is shared between India and Bangladesh as a transboundary site.",
+    optionA: "Both Correct",
+    optionB: "Both Incorrect",
+    optionC: "Only S1 Correct",
+    optionD: "Only S2 Correct",
+    correctOption: "a"
+  },
+  {
+    id: 25,
+    question: "Which color model is used primarily for digital screens and web design?",
+    optionA: "CMYK",
+    optionB: "RYB",
+    optionC: "RGB",
+    optionD: "HSL",
+    correctOption: "c"
+  },
+  {
+    id: 26,
+    question: "INDENTIFY THE FAMOUS TEMPLE",
+    image: "https://drive.google.com/thumbnail?id=1C5OwyglVFTy7yLUQyQI2l49xG_wFxA8b&sz=w1000",
+    optionA: "Vitthala Temple",
+    optionB: "Hazara Rama Temple",
+    optionC: "Virupaksha Temple",
+    optionD: "Pattabhirama Temple",
+    correctOption: "c"
+  },
+  {
+    id: 27,
+    question: "UNESCO World Heritage Sites are classified into which three categories?",
+    optionA: "Ancient, Medieval, Modern",
+    optionB: "Cultural, Natural, Mixed",
+    optionC: "National, Regional, Global",
+    optionD: "Built, Landscape, Industrial",
+    correctOption: "b"
+  },
+  {
+    id: 28,
+    question: "Curing' in concrete construction refers to:",
+    optionA: "Removing formwork after hardening",
+    optionB: "Maintaining moisture and temperature to allow hydration",
+    optionC: "Adding admixtures to accelerate strength",
+    optionD: "Mixing concrete with admixtures",
+    correctOption: "b"
+  },
+  {
+    id: 29,
+    question: "Read the instruction coding",
+    image: "https://drive.google.com/thumbnail?id=1kCnJ8X5oaZxg60dX29hvCOZbxKcK2FQg&sz=w1000",
+    optionA: "d",
+    optionB: "c",
+    optionC: "b",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 30,
+    question: "find the missing ? Number",
+    image: "https://drive.google.com/thumbnail?id=1sFyPbqQjnoEZwGkeFx1Q3oMtJXp95awW&sz=w1000",
+    optionA: "a",
+    optionB: "d",
+    optionC: "c",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 31,
+    question: "Identify the famous Monument",
+    image: "https://drive.google.com/thumbnail?id=17j4HxeWHQhlgo_PjKWsv7xusx32OdqXB&sz=w1000",
+    optionA: "Chrysler Building",
+    optionB: "Flatiron Building",
+    optionC: "Willis Tower",
+    optionD: "Empire State Building",
+    correctOption: "d"
+  },
+  {
+    id: 32,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Astrology is Known As ?",
+      "2. Pedology is Known As ?",
+      "3. Botany is Known As ?",
+      "4. Hydrology is Known As ?"
+],
+    columnBItems: [
+      "Study of stars",
+      "Study of soil",
+      "Study of plants",
+      "Study of water"
+],
+    optionA: "1-D 2-C 3-B 4-A",
+    optionB: "1-A 2-C 3-B 4-D",
+    optionC: "1-C 2-A 3-B 4-D",
+    optionD: "1-A 2-B 3-C 4-D",
+    correctOption: "d"
+  },
+  {
+    id: 33,
+    question: "The Kailasa Temple at Ellora was carved out of a single rock during the reign of which dynasty?",
+    optionA: "Chalukya",
+    optionB: "Rashtrakuta",
+    optionC: "Pallava",
+    optionD: "Vijayanagara",
+    correctOption: "b"
+  },
+  {
+    id: 34,
+    question: "Read the Instruction",
+    image: "https://drive.google.com/thumbnail?id=1KpHTAPRAM1k80Z16Kap3RNqutbsjbATu&sz=w1000",
+    optionA: "a",
+    optionB: "d",
+    optionC: "b",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 35,
+    question: "find the odd one",
+    image: "https://drive.google.com/thumbnail?id=1i4Zu96UzSN7rbEgDOjSe4ZA7D5MvFnMe&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "d",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 36,
+    question: "The Konark Sun Temple is designed in the form of:",
+    optionA: "A seven-storey pyramid",
+    optionB: "A chariot with 24 wheels pulled by 7 horses",
+    optionC: "A lotus flower with 12 petals",
+    optionD: "A boat sailing on the sea",
+    correctOption: "b"
+  },
+  {
+    id: 37,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Riser",
+      "2. Stretcher",
+      "3. Web",
+      "4. Nosing"
+],
+    columnBItems: [
+      "The internal braces in a truss.",
+      "A brick laid with its long side exposed.",
+      "The vertical part between treads.",
+      "The front edge of a stair tread."
+],
+    optionA: "1-D 2-A 3-C 4-B",
+    optionB: "1-D 2-B 3-A 4-C",
+    optionC: "1-D 2-A 3-B 4-C",
+    optionD: "1-C 2-B 3-A 4-D",
+    correctOption: "d"
+  },
+  {
+    id: 38,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. BBBP",
+      "2. PMVVY",
+      "3. PMFBY",
+      "4. UNFCCC"
+],
+    columnBItems: [
+      "Pradhan Mantri Fasal Bima Yojana",
+      "Beti Bachao Beti Padhao",
+      "Pradhan Mantri Vaya Vandana Yojana",
+      "United Nations Framework Convention on Climate Change"
+],
+    optionA: "1-B 2-C 3-D 4-A",
+    optionB: "1-D 2-B 3-C 4-A",
+    optionC: "1-A 2-B 3-C 4-D",
+    optionD: "1-B 2-C 3-A 4-D",
+    correctOption: "d"
+  },
+  {
+    id: 39,
+    question: "Which of the following is a natural stone formed from metamorphic transformation of limestone?",
+    optionA: "Granite",
+    optionB: "Sandstone",
+    optionC: "Marble",
+    optionD: "Slate",
+    correctOption: "c"
+  },
+  {
+    id: 40,
+    question: "What is quicklime chemically known as?",
+    optionA: "Calcium Chloride",
+    optionB: "Calcium Carbonate",
+    optionC: "Calcium Hydroxide",
+    optionD: "Calcium Oxide",
+    correctOption: "d"
   },
   {
     id: 41,
     type: 'match-pair',
     question: "Match the Pair",
     columnAItems: [
-      "GROUP1"
+      "1. Aravali mountain range",
+      "2. Purvanchal [lesser Himalaya], eastern mountain range [Ghats]",
+      "3. Ghumar",
+      "4. Kuchipudi"
 ],
     columnBItems: [
-      "1. Moti Masjid",
-      "2. Salim Chishti Tomb",
-      "3. Quwwat ul Islam",
-      "4. Diwan-e-Khas"
+      "Andhra Pradesh",
+      "Uttarprades, sikkim , West bangal",
+      "Gujarat, Rajasthan",
+      "Rajasthan"
 ],
-    image: "A) Delhi |\nB) Fatehpur Sikri |\nC) Delhi |\nD) Fatehpur Sikri |",
-    optionA: "",
-    optionB: "1-B 2-A 3-D 4-C",
-    optionC: "1-D 2-C 3-A 4-B",
-    optionD: "1-C 2-A 3-B 4-D",
-    correctOption: "1-a 2-d 3-c 4-b"
+    optionA: "1-A 2-C 3-B 4-D",
+    optionB: "1-A 2-D 3-B 4-C",
+    optionC: "1-B 2-D 3-A 4-C",
+    optionD: "1-C 2-B 3-D 4-A",
+    correctOption: "d"
   },
   {
     id: 42,
-    question: "Read the Instruction",
-    optionA: "https://drive.google.com/file/d/1oPdpw6Q_y5ejorcA_51Tdx3QzATJA-ht/view?usp=drive_link",
-    optionB: "b",
+    question: "The Parthenon was built between:",
+    optionA: "447–432 BCE",
+    optionB: "380–360 BCE",
+    optionC: "500–480 BCE",
+    optionD: "530–510 BCE",
+    correctOption: "a"
+  },
+  {
+    id: 43,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Chobe National Park (Kathari)",
+      "2. Red Square",
+      "3. Temple of Abu Simbel",
+      "4. The Pentagon"
+],
+    columnBItems: [
+      "Moscow",
+      "Egypt",
+      "USA",
+      "Botswana"
+],
+    optionA: "1-A 2-D 3-B 4-C",
+    optionB: "1-A 2-D 3-B 4-C",
+    optionC: "1-B 2-C 3-A 4-D",
+    optionD: "1-D 2-A 3-B 4-C",
+    correctOption: "d"
+  },
+  {
+    id: 44,
+    question: "Identify the Archtecture Style of following Building",
+    image: "https://drive.google.com/thumbnail?id=1BgfpA5HOIaGGbwKTmqaUMNluTnxxOVzA&sz=w1000",
+    optionA: "Nagara Style",
+    optionB: "Indo Islamic Style",
+    optionC: "Visara Style",
+    optionD: "Chaluckya Style",
+    correctOption: "d"
+  },
+  {
+    id: 45,
+    question: "Identify the Structure of following Building",
+    image: "https://drive.google.com/thumbnail?id=17GMjpGG50vc7kXOWypUSf3WlRw25Miue&sz=w1000",
+    optionA: "Tensile Structure",
+    optionB: "Suspenstion Cable Structure",
+    optionC: "caternery structure",
+    optionD: "Shell Structure",
+    correctOption: "a"
+  },
+  {
+    id: 46,
+    question: "Which Indian architect is known for the Parliament Library (Sansad Bhavan) extension?",
+    optionA: "Raj Rewal",
+    optionB: "Anant Raje",
+    optionC: "Romi Khosla",
+    optionD: "Satish Gujral",
+    correctOption: "a"
+  },
+  {
+    id: 47,
+    question: "The pulpit from which the Friday sermon is delivered in a mosque is called:",
+    optionA: "Mihrab",
+    optionB: "Minbar",
+    optionC: "Qibla",
+    optionD: "Dikka",
+    correctOption: "b"
+  },
+  {
+    id: 48,
+    question: "find the correct paper fold",
+    image: "https://drive.google.com/thumbnail?id=1peLpWJDICjFpe6nPl4ftRtqelilTMBcE&sz=w1000",
+    optionA: "c",
+    optionB: "d",
     optionC: "a",
-    optionD: "c",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 49,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=1ZMSze42iIupYwzW4h8hfB42n-J148Mfp&sz=w1000",
+    optionA: "c",
+    optionB: "d",
+    optionC: "a",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 50,
+    question: "Find next in series",
+    image: "https://drive.google.com/thumbnail?id=1XC5qHadkMpWaLmt2S1xxAFQ-OnufCeno&sz=w1000",
+    optionA: "a",
+    optionB: "b",
+    optionC: "c",
+    optionD: "d",
+    correctOption: "d"
+  },
+  //5m
+   {
+    id: 1,
+    question: "Which of the following is NOT a property of color?",
+    optionA: "Hue",
+    optionB: "Saturation",
+    optionC: "Texture",
+    optionD: "Value",
+    correctOption: "c"
+  },
+  {
+    id: 2,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Quoin",
+      "2. Balustrade",
+      "3. Parapet",
+      "4. Eave"
+],
+    columnBItems: [
+      "A railing system of a handrail supported by short decorative balusters used on staircases balconies and terraces.",
+      "The lower overhanging edge of a sloped roof projecting beyond the wall below to throw rainwater away from the building.",
+      "A low protective wall along the edge of a roof balcony bridge or terrace to prevent falls and conceal rooftop services.",
+      "The dressed stones or bricks at the external corner of a building often larger or more decorative than the surrounding wall."
+],
+    optionA: "1-B 2-A 3-D 4-C",
+    optionB: "1-C 2-B 3-D 4-A",
+    optionC: "1-C 2-B 3-D 4-A",
+    optionD: "1-D 2-A 3-C 4-B",
+    correctOption: "d"
+  },
+  {
+    id: 3,
+    type: 'statement',
+    question: "Statement 1: A pilaster is a decorative column that projects from a wall.\nStatement 2: A buttress is a projecting support built against a wall to reinforce it.",
+    optionA: "Statement 1 is True, Statement 2 is False",
+    optionB: "Statement 1 is False, Statement 2 is True",
+    optionC: "Both Statement 1 and Statement 2 is False",
+    optionD: "Both Statement 1 and Statement 2 are True.",
+    correctOption: "d"
+  },
+  {
+    id: 4,
+    question: "17. Gypsum is chemically known as?",
+    optionA: "Calcium Carbonate (CaCO3)",
+    optionB: "Silicon Dioxide (SiO2)",
+    optionC: "Calcium Oxide (CaO)",
+    optionD: "Hydrated Calcium Sulfate (CaSO4·2H2O)",
+    correctOption: "d"
+  },
+  {
+    id: 5,
+    question: "find front view of figure",
+    image: "https://drive.google.com/thumbnail?id=1R-wlGxl-nCLETGDapaAnlC8xqae36EY_&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "b",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 6,
+    type: 'statement',
+    question: "Statement 1: A prefabricated building is assembled from pre-made components.\nStatement 2: Prefabrication improves quality control and efficiency.",
+    optionA: "Statement 1 is True, Statement 2 is False",
+    optionB: "Statement 1 is False, Statement 2 is True",
+    optionC: "Both Statement 1 and Statement 2 is False",
+    optionD: "Both Statement 1 and Statement 2 are True.",
+    correctOption: "d"
+  },
+  {
+    id: 7,
+    question: "The Baroque architectural style originated in the 17th century in which country?",
+    optionA: "France",
+    optionB: "England",
+    optionC: "Spain",
+    optionD: "Italy",
+    correctOption: "d"
+  },
+  {
+    id: 8,
+    question: "Four Books on Architecture is written By ?",
+    optionA: "Norman Foster",
+    optionB: "Jan Gehl",
+    optionC: "Kate Ascher",
+    optionD: "Andrea Palladio",
+    correctOption: "d"
+  },
+  {
+    id: 9,
+    question: "Read the Instruction",
+    image: "https://drive.google.com/thumbnail?id=1My4gS6LRgyZMD_1o6Ma4TRp8HWxWaCjj&sz=w1000",
+    optionA: "a",
+    optionB: "b",
+    optionC: "c",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 10,
+    question: "Which architectural style is characterized by pointed arches, ribbed vaults, and flying buttresses?",
+    optionA: "Romanesque",
+    optionB: "Gothic",
+    optionC: "Baroque",
+    optionD: "Byzantine",
+    correctOption: "b"
+  },
+  {
+    id: 11,
+    question: "Find next in series",
+    image: "https://drive.google.com/thumbnail?id=1XE4oA7jFK_fVUA0ghucsMay13v9VeVoT&sz=w1000",
+    optionA: "c",
+    optionB: "b",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 12,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Acanthus",
+      "2. Ambulatory",
+      "3. Apse",
+      "4. Ashlar"
+],
+    columnBItems: [
+      "Pilgrimage churches, cathedrals",
+      "Church sanctuaries, basilicas",
+      "Palaces, institutional buildings",
+      "Classical column capitals, friezes"
+],
+    optionA: "1-B 2-A 3-D 4-C",
+    optionB: "1-A 2-D 3-B 4-C",
+    optionC: "1-D 2-B 3-C 4-A",
+    optionD: "1-D 2-A 3-B 4-C",
+    correctOption: "d"
+  },
+  {
+    id: 13,
+    question: "INDENTIFY THE FAMOUS TEMPLE",
+    image: "https://drive.google.com/thumbnail?id=1NtCphZfKfp8PIDMYKIop7k-zMhLWbENo&sz=w1000",
+    optionA: "Chintpurni Temple",
+    optionB: "Naina Devi Temple",
+    optionC: "Jwalamukhi Temple",
+    optionD: "Chamunda Devi Temple",
+    correctOption: "c"
+  },
+  {
+    id: 14,
+    question: "Meaning of a Trusses?",
+    optionA: "A framework supporting roofs or bridges",
+    optionB: "Structural elements like walls, beams, and columns that support loads",
+    optionC: "A set of steps for vertical movement",
+    optionD: "A lift for transporting people or goods between floors",
+    correctOption: "a"
+  },
+  {
+    id: 15,
+    question: "Which roofing material is made from fired clay and is one of the oldest traditional roofing materials in India?",
+    optionA: "Asbestos sheet",
+    optionB: "Mangalore tiles",
+    optionC: "GI sheet",
+    optionD: "Polycarbonate sheet",
+    correctOption: "b"
+  },
+  {
+    id: 16,
+    question: "find the correct paper fold",
+    image: "https://drive.google.com/thumbnail?id=1pTVBPnAxQfZ-sOM8BRfgLYbTtKKK2Ah2&sz=w1000",
+    optionA: "d",
+    optionB: "b",
+    optionC: "c",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 17,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Renaissance",
+      "2. Neoclassical",
+      "3. Baroque",
+      "4. Rococo"
+],
+    columnBItems: [
+      "- Hôtel de Soubise",
+      "- Palazzo Medici Riccardi",
+      "- Schönbrunn Palace",
+      "- Pantheon (Paris)"
+],
+    optionA: "1-D 2-C 3-B 4-A",
+    optionB: "1-A 2-B 3-C 4-D",
+    optionC: "1-C 2-D 3-B 4-A",
+    optionD: "1-B 2-D 3-C 4-A",
+    correctOption: "d"
+  },
+  {
+    id: 18,
+    question: "The 'Vastu Purusha Mandala' is a conceptual diagram that governs the planning of:",
+    optionA: "Islamic mosques",
+    optionB: "Buddhist monasteries",
+    optionC: "Hindu temples and settlements",
+    optionD: "Mughal gardens",
+    correctOption: "c"
+  },
+  {
+    id: 19,
+    question: "find visible surface count",
+    image: "https://drive.google.com/thumbnail?id=1W7KY_EOLNDXQ02GOPxlQeEAeKXmSSMse&sz=w1000",
+    optionA: "16",
+    optionB: "17",
+    optionC: "14",
+    optionD: "15",
+    correctOption: "d"
+  },
+  {
+    id: 20,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Thomas Edison",
+      "2. Michael Faraday",
+      "3. Wright Brothers",
+      "4. J.J. Thomson"
+],
+    columnBItems: [
+      "Discovered Electrons",
+      "Aeroplane",
+      "the Light Bulb and Motion Pictures",
+      "Electromagnetic Induction"
+],
+    optionA: "1-B 2-D 3-C 4-A",
+    optionB: "1-C 2-D 3-A 4-B",
+    optionC: "1-C 2-D 3-A 4-B",
+    optionD: "1-C 2-D 3-B 4-A",
+    correctOption: "d"
+  },
+  {
+    id: 21,
+    question: "A chajja or sunshade is provided above windows and doors primarily to:",
+    optionA: "Increase the structural rigidity of the opening",
+    optionB: "Protect the opening from direct sun and rain",
+    optionC: "Support the lintel above the opening",
+    optionD: "Prevent moisture from rising through the wall",
+    correctOption: "b"
+  },
+  {
+    id: 22,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Renaissance Architecture",
+      "2. Modern Architecture",
+      "3. Art Deco Architecture",
+      "4. Brutalist Architecture"
+],
+    columnBItems: [
+      "Symmetry, proportion, and classical orders.",
+      "Massive concrete forms and rough surfaces.",
+      "Bold geometric shapes and decorative motifs.",
+      "Minimal ornamentation and functional design."
+],
+    optionA: "1-A 2-B 3-C 4-D",
+    optionB: "1-C 2-B 3-D 4-A",
+    optionC: "1-D 2-B 3-C 4-A",
+    optionD: "1-A 2-D 3-C 4-B",
+    correctOption: "d"
+  },
+  {
+    id: 23,
+    question: "BV Doshi, the first Indian architect to receive the Pritzker Prize, was awarded it in which year?",
+    optionA: "2014",
+    optionB: "2016",
+    optionC: "2018",
+    optionD: "2020",
+    correctOption: "c"
+  },
+  {
+    id: 24,
+    question: "A city block of 500 m × 300 m is shown on a map at a scale of 1:2500. What is the size on the map?",
+    optionA: "0.2 m × 0.12 m",
+    optionB: "5 cm × 3 cm",
+    optionC: "50 cm × 30 cm",
+    optionD: "20 cm × 12 cm",
+    correctOption: "d"
+  },
+  {
+    id: 25,
+    question: "In the CMYK color model, what does the \"K\" stand for?",
+    optionA: "Key (Black)",
+    optionB: "Kelvin",
+    optionC: "Khaki",
+    optionD: "Krypton",
+    correctOption: "a"
+  },
+  {
+    id: 26,
+    question: "The Brihadeeswarar Temple at Thanjavur was built during which dynasty?",
+    optionA: "Pallava",
+    optionB: "Rashtrakuta",
+    optionC: "Chola",
+    optionD: "Vijayanagara",
+    correctOption: "c"
+  },
+  {
+    id: 27,
+    question: "Identify the famous Monument",
+    image: "https://drive.google.com/thumbnail?id=1jtVBUNor4aWF3DqVuiJRJOI73_4LC-BZ&sz=w1000",
+    optionA: "Kentuck Knob",
+    optionB: "Villa Savoye",
+    optionC: "Fallingwater",
+    optionD: "Fallingwater House",
+    correctOption: "d"
+  },
+  {
+    id: 28,
+    question: "Ghoom Monastery near Darjeeling is famous for its statue of:",
+    optionA: "Shakyamuni Buddha",
+    optionB: "Maitreya (Future) Buddha",
+    optionC: "Guru Rinpoche",
+    optionD: "Avalokiteshvara",
+    correctOption: "b"
+  },
+  {
+    id: 29,
+    question: "A distinctive feature of a Gurudwara is the presence of which flag indicating a Sikh place of worship?",
+    optionA: "Trishul",
+    optionB: "Nishan Sahib (Sikh triangular flag on flagpole)",
+    optionC: "Dhwaja stambha",
+    optionD: "Church steeple",
+    correctOption: "b"
+  },
+  {
+    id: 30,
+    question: "Coping is provided on top of a wall mainly to:",
+    optionA: "Strengthen the wall against wind loads",
+    optionB: "Protect the top of the wall from rainwater entry",
+    optionC: "Support the lintel above openings",
+    optionD: "Provide a decorative finish at plinth level",
+    correctOption: "b"
+  },
+  {
+    id: 31,
+    type: 'statement',
+    question: "S1: A raft foundation spreads the load over the entire building area. S2: Raft foundations are unsuitable for expansive soils.",
+    optionA: "Both true",
+    optionB: "Both false",
+    optionC: "S1 true, S2 false",
+    optionD: "S1 false, S2 true",
+    correctOption: "c"
+  },
+  {
+    id: 32,
+    question: "The circumambulatory passage around the garbhagriha is known as:",
+    optionA: "Antarala",
+    optionB: "Mandapa",
+    optionC: "Pradakshina patha",
+    optionD: "Ardhamandapa",
+    correctOption: "c"
+  },
+  {
+    id: 33,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Dravidian",
+      "2. Nagara",
+      "3. Vesara",
+      "4. Hoysala"
+],
+    columnBItems: [
+      "- Star-shaped platforms",
+      "- Hybrid of Nagara and Dravidian styles",
+      "- Curvilinear shikhara",
+      "- Pyramid-shaped vimana"
+],
+    optionA: "1-B 2-D 3-C 4-A",
+    optionB: "1-D 2-A 3-C 4-B",
+    optionC: "1-B 2-D 3-A 4-C",
+    optionD: "1-D 2-C 3-B 4-A",
+    correctOption: "d"
+  },
+  {
+    id: 34,
+    question: "Identify the Archtecture Style of following Building",
+    image: "https://drive.google.com/thumbnail?id=1WJTv3_y1gNQmBIGSiNFfaHTxUX7jwhaN&sz=w1000",
+    optionA: "Greek style",
+    optionB: "Indo Islamic Style",
+    optionC: "prihistoric style",
+    optionD: "Egiptian style",
+    correctOption: "d"
+  },
+  {
+    id: 35,
+    question: "The Jagannath Temple at Puri is an example of which sub-style of Nagara architecture?",
+    optionA: "Solanki",
+    optionB: "Kalinga",
+    optionC: "Chandela",
+    optionD: "Gupta",
+    correctOption: "b"
+  },
+  {
+    id: 36,
+    question: "find top view of figure",
+    image: "https://drive.google.com/thumbnail?id=1MqzcXT5xzSfKL48OPk-WVdt78LXN9mcB&sz=w1000",
+    optionA: "c",
+    optionB: "a",
+    optionC: "d",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 37,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Myanmar Independence",
+      "2. French Revolution",
+      "3. Vietnam War",
+      "4. bangladesh Freedom"
+],
+    columnBItems: [
+      "1955 - 1975",
+      "1971",
+      "1948",
+      "1789"
+],
+    optionA: "1-D 2-B 3-C 4-A",
+    optionB: "1-B 2-A 3-C 4-D",
+    optionC: "1-D 2-B 3-A 4-C",
+    optionD: "1-C 2-D 3-A 4-B",
+    correctOption: "d"
+  },
+  {
+    id: 38,
+    question: "Identify the Garden Style of following Building",
+    image: "https://drive.google.com/thumbnail?id=1oS9Bv8o9gMV1DVZhpT4uFfsjzQEjyOTU&sz=w1000",
+    optionA: "Japanese Garden",
+    optionB: "Italian Garden",
+    optionC: "Woodland Garden",
+    optionD: "Wild Garden",
+    correctOption: "a"
+  },
+  {
+    id: 39,
+    question: "Nagara architecture features which distinctive element?",
+    optionA: "Gopuram (pyramidal gateway towers)",
+    optionB: "Bulbous domes and chatris",
+    optionC: "Flying buttresses",
+    optionD: "Curvilinear shikhara",
+    correctOption: "d"
+  },
+  {
+    id: 40,
+    question: "Identify the Correct  Architectural Terms used",
+    image: "https://drive.google.com/thumbnail?id=19IUYL-4PLa3ot15Pjc6Lr-M30CFwk6MY&sz=w1000",
+    optionA: "Exposed Rafters",
+    optionB: "Mansard Roof",
+    optionC: "Spire",
+    optionD: "Archway",
+    correctOption: "d"
+  },
+  {
+    id: 41,
+    question: "Identify the famous Monument",
+    image: "https://drive.google.com/thumbnail?id=15D2_0eVuNMPXwnRBa0gaH505snoSrlIb&sz=w1000",
+    optionA: "Ranthambore Fort",
+    optionB: "Kumbhalgarh Fort",
+    optionC: "Mehrangarh Fort",
+    optionD: "Gagron Fort",
+    correctOption: "d"
+  },
+  {
+    id: 42,
+    question: "Who is an architect of Villa Jeanneret",
+    optionA: "Raj Revel",
+    optionB: "John Utzon",
+    optionC: "Edwinn Lutyens",
+    optionD: "Le Corbusier",
     correctOption: "d"
   },
   {
     id: 43,
-    question: "Who is an architect of Bank of China",
-    optionA: "",
-    optionB: "Kuldip Yadav",
-    optionC: "Le Corbusier",
-    optionD: "CP Kukreja",
-    correctOption: "im pei"
+    question: "UNESCO",
+    optionA: "United Nations Educational, Scientific and Cultural Organization",
+    optionB: "Universal Network for Energy, Science and Carbon Output",
+    optionC: "United Nations Enforcement, Security and Customs Office",
+    optionD: "United Nations Economic, Social and Civic Operations",
+    correctOption: "a"
   },
   {
     id: 44,
-    question: "find visible surface count",
-    optionA: "https://drive.google.com/file/d/1VpSs87bnfYOB79LXyhYZzoctjdYK45WS/view?usp=drive_link",
-    optionB: "15",
-    optionC: "16",
-    optionD: "13",
-    correctOption: "14"
+    question: "The Munsell Colour System organizes colours using three attributes. Which of the following is NOT one of them?",
+    optionA: "Hue",
+    optionB: "Value",
+    optionC: "Chroma",
+    optionD: "Temperature",
+    correctOption: "d"
   },
   {
     id: 45,
-    question: "SAARC",
-    optionA: "",
-    optionB: "South Asian Association for Regional Cooperation",
-    optionC: "South African Authority for Rural Communities",
-    optionD: "Strategic Alliance for Arms Reduction and Control",
-    correctOption: "sustainable agriculture and resource conservation"
+    question: "Read the Instruction",
+    image: "https://drive.google.com/thumbnail?id=1Tt1XcC2ZT0COnbHEr7u3ukMVsmNgIHuk&sz=w1000",
+    optionA: "c",
+    optionB: "b",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "d"
   },
   {
     id: 46,
-    question: "A lake measures 1,500,000 sq.m. On a scale of 1:5000, how much will its area be?",
-    optionA: "",
-    optionB: "0.06 sq.m",
-    optionC: "6 sq.m",
-    optionD: "300 sq.m",
-    correctOption: "3 sq.m"
+    question: "Chandigarh is capital of which of the following Union teritory ?",
+    optionA: "Andhra Pradesh",
+    optionB: "Haryana",
+    optionC: "Mizoram",
+    optionD: "Chandigarh",
+    correctOption: "d"
   },
   {
     id: 47,
-    type: 'statement',
-    question: "Statement 1: Philip Johnson designed the Glass House in Connecticut.\nStatement 2: He co-designed the Seagram Building with Mies van der Rohe.",
-    optionA: "",
-    optionB: "Statement 1 is True, Statement 2 is False",
-    optionC: "Both Statement 1 and Statement 2 is False",
-    optionD: "Statement 1 is False, Statement 2 is True",
-    correctOption: "both statement 1 and statement 2 are true."
+    question: "Pimpri is famous for which of the following Industry ?",
+    optionA: "Copper",
+    optionB: "Hosiery, Cycles, Sewing Machines",
+    optionC: "Aircraft, Telephones, Motors, Electric Toys",
+    optionD: "Penicillin",
+    correctOption: "d"
   },
   {
     id: 48,
-    question: "find the odd one number",
-    optionA: "https://drive.google.com/file/d/1nTWRAYnoS1QNOoRGfS6hnVywJtGqMoO3/view?usp=drive_link",
-    optionB: "a",
-    optionC: "c",
-    optionD: "d",
-    correctOption: "b"
+    question: "What does \"hue\" refer to in color terminology?",
+    optionA: "The lightness or darkness of a color",
+    optionB: "The purity or intensity of a color",
+    optionC: "The name of the color (e.g., red, blue)",
+    optionD: "The amount of gray in a color",
+    correctOption: "c"
   },
   {
     id: 49,
-    question: "Who is an architect of Secretariat Building",
-    optionA: "",
-    optionB: "Raj Revel",
-    optionC: "KT Ravindran",
-    optionD: "Joseph Allen Stein",
-    correctOption: "herber baker"
+    question: "Identify the Correct  Architectural Terms used",
+    image: "https://drive.google.com/thumbnail?id=1ATOZkGXANqZVv12LAiJuzgGCsooDLHrU&sz=w1000",
+    optionA: "Gingerbreading",
+    optionB: "Stained Glass",
+    optionC: "Pillar",
+    optionD: "Panel",
+    correctOption: "d"
   },
   {
     id: 50,
-    type: 'match-pair',
-    question: "Match the Pair",
-    columnAItems: [
-      "GROUP1"
-],
-    columnBItems: [
-      "1. Black Pagoda",
-      "2. Padmanabhaswamy Temple",
-      "3. Hindola Palace",
-      "4. Bara Imambara"
-],
-    image: "A) Lucknow |\nB) Konark |\nC) Mandu |\nD) Trivandrum |",
-    optionA: "",
-    optionB: "1-B 2-C 3-A 4-D",
-    optionC: "1-C 2-D 3-B 4-A",
-    optionD: "1-A 2-B 3-D 4-C",
-    correctOption: "1-b 2-d 3-c 4-a"
+    type: 'statement',
+    question: "Statement 1: Shade is created by adding black to a hue.\nStatement 2: Shades are darker versions of the original color.",
+    optionA: "Statement 1 is True, Statement 2 is False",
+    optionB: "Statement 1 is False, Statement 2 is True",
+    optionC: "Both Statement 1 and Statement 2 is False",
+    optionD: "Both Statement 1 and Statement 2 are True.",
+    correctOption: "d"
   },
-
   
   
   
