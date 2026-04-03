@@ -19561,7 +19561,7 @@ image: "https://drive.google.com/thumbnail?id=1V5C-agMFHEOecIu6XsJONOF8kXRbFEQf&
     question: "Match the Pair",
     columnAItems: [
       "1. Nagasaki Nuclear Attack",
-      "2. Magh Bihu",
+      "2. 1st world war",
       "3. UNESCO Formation",
       "4. Amerigo Vespucci's Exploration"
 ],
@@ -19569,7 +19569,7 @@ image: "https://drive.google.com/thumbnail?id=1V5C-agMFHEOecIu6XsJONOF8kXRbFEQf&
       "16th November 1945",
       "1501",
       "9th August 1945",
-      "Assam / North East"
+      "1914-1919"
 ],
     optionA: "1-D 2-C 3-B 4-A",
     optionB: "1-A 2-C 3-D 4-B",
@@ -19585,10 +19585,10 @@ image: "https://drive.google.com/thumbnail?id=1V5C-agMFHEOecIu6XsJONOF8kXRbFEQf&
       "1. 2nd World War",
       "2. Treaty of Versailles",
       "3. Russian Revolution",
-      "4. United Nations Formation"
+      "4. World trade organisation"
 ],
     columnBItems: [
-      "24th August 1945",
+      "1991",
       "1939 - 1945",
       "1919",
       "1917"
