@@ -22409,7 +22409,7 @@ image: "https://drive.google.com/thumbnail?id=1V5C-agMFHEOecIu6XsJONOF8kXRbFEQf&
     optionD: "Both Statement 1 and Statement 2 are True.",
     correctOption: "d"
   },
-  
+  //
   
   
 ];
