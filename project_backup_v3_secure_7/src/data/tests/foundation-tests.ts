@@ -942,7 +942,7 @@ export const foundationTests: Test[] = [
     name: 'Foundation: Mock 18 Moderate (April 2026)',
     description: 'Solve the expected paper of this year',
     duration: DEFAULT_TEST_DURATION,
-    questions: foundationlatestQuestions.slice(1772, 1822),
+    //questions: foundationlatestQuestions.slice(1772, 1822),
     category: 'latest',
     course: 'foundation',
     sections: [
@@ -959,7 +959,7 @@ export const foundationTests: Test[] = [
     name: 'Foundation: Mock 19 Maderate (April 2026)',
     description: 'Solve the expected paper of this year',
     duration: DEFAULT_TEST_DURATION,
-    questions: foundationlatestQuestions.slice(1822, 1872),
+    //questions: foundationlatestQuestions.slice(1822, 1872),
     category: 'latest',
     course: 'foundation',
     sections: [
@@ -976,7 +976,7 @@ export const foundationTests: Test[] = [
     name: 'Foundation: Mock 20 Moderate (April 2026)',
     description: 'Solve the expected paper of this year',
     duration: DEFAULT_TEST_DURATION,
-   questions: foundationlatestQuestions.slice(1872, 1922),
+   //questions: foundationlatestQuestions.slice(1872, 1922),
     category: 'latest',
     course: 'foundation',
     sections: [
@@ -993,7 +993,7 @@ export const foundationTests: Test[] = [
     name: 'Foundation: Mock 21 Modderate (April 2026)',
     description: 'Solve the expected paper of this year',
     duration: DEFAULT_TEST_DURATION,
-   questions: foundationlatestQuestions.slice(1922, 1972),
+   //questions: foundationlatestQuestions.slice(1922, 1972),
     category: 'latest',
     course: 'foundation',
     sections: [
@@ -1010,7 +1010,7 @@ export const foundationTests: Test[] = [
     name: 'Foundation: Mock 22 Modderate (April 2026)',
     description: 'Solve the expected paper of this year',
     duration: DEFAULT_TEST_DURATION,
-    questions: foundationlatestQuestions.slice(1972, 2022),
+    //questions: foundationlatestQuestions.slice(1972, 2022),
     category: 'latest',
     course: 'foundation',
     sections: [
