@@ -19666,7 +19666,7 @@ image: "https://drive.google.com/thumbnail?id=1V5C-agMFHEOecIu6XsJONOF8kXRbFEQf&
     optionB: "Shell Structure",
     optionC: "Dome Structure",
     optionD: "Tube Structure",
-    correctOption: "a"
+    correctOption: "d"
   },
   {
     id: 10,
@@ -19842,7 +19842,7 @@ image: "https://drive.google.com/thumbnail?id=1V5C-agMFHEOecIu6XsJONOF8kXRbFEQf&
     optionB: "d",
     optionC: "a",
     optionD: "c",
-    correctOption: "d"
+    correctOption: "b"
   },
   {
     id: 26,
@@ -20100,7 +20100,7 @@ image: "https://drive.google.com/thumbnail?id=1V5C-agMFHEOecIu6XsJONOF8kXRbFEQf&
     optionB: "c",
     optionC: "b",
     optionD: "a",
-    correctOption: "d"
+    correctOption: "b"
   },
   {
     id: 49,
