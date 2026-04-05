@@ -22397,6 +22397,810 @@ image: "https://drive.google.com/thumbnail?id=1V5C-agMFHEOecIu6XsJONOF8kXRbFEQf&
     correctOption: "d"
   },
   //
+
+     {
+    id: 101,
+    question: "PVC is most commonly used in building construction for:",
+    optionA: "Structural columns and beams",
+    optionB: "Plumbing pipes, drainage lines, and electrical conduits",
+    optionC: "Flooring and wall cladding in wet areas",
+    optionD: "Roofing sheets in industrial buildings",
+    correctOption: "b"
+  },
+  {
+    id: 102,
+    question: "Indian Museum (Largest Museum in India) is located at ?",
+    optionA: "Mumbai",
+    optionB: "Bangalore",
+    optionC: "New Delhi",
+    optionD: "Kolkata",
+    correctOption: "d"
+  },
+  {
+    id: 103,
+    question: "53. Sound absorbing materials work by converting sound energy primarily into?",
+    optionA: "Light Energy",
+    optionB: "Electrical Energy",
+    optionC: "Potential Energy",
+    optionD: "Heat Energy (through friction/viscosity)",
+    correctOption: "d"
+  },
+  {
+    id: 104,
+    question: "S1: The water-cement ratio in concrete directly affects its strength and durability.\nS2: A higher water-cement ratio generally produces stronger and more durable concrete.",
+    optionA: "Both Correct",
+    optionB: "Both Incorrect",
+    optionC: "Only S1 Correct",
+    optionD: "Only S2 Correct",
+    correctOption: "c"
+  },
+  {
+    id: 105,
+    question: "Aeroplane is Given/Invented By ?",
+    optionA: "Michael Faraday",
+    optionB: "G. Ohm",
+    optionC: "Alexander Fleming",
+    optionD: "Wright Brothers",
+    correctOption: "d"
+  },
+  {
+    id: 106,
+    question: "S1: Value in colour theory refers to the lightness or darkness of a colour. S2: A tint is created by adding white to a pure colour, increasing its value.",
+    optionA: "Both true, S2 explains S1",
+    optionB: "Both true, S2 does not explain S1",
+    optionC: "S1 true, S2 false",
+    optionD: "S1 false, S2 true",
+    correctOption: "b"
+  },
+  {
+    id: 107,
+    question: "Who is an architect of Yale Art Gallery",
+    optionA: "Pierre Jeanneret",
+    optionB: "Eugene",
+    optionC: "Frank O Gehry",
+    optionD: "Louis Kahn",
+    correctOption: "d"
+  },
+  {
+    id: 108,
+    question: "find top view of figure",
+    image: "https://drive.google.com/thumbnail?id=1PAIEHCWIgRbgIXglRBp8CIrokWWmHiDH&sz=w1000",
+    optionA: "c",
+    optionB: "a",
+    optionC: "d",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 109,
+    question: "Hindi Divas will be Observed on which of the following day in this year  ?",
+    optionA: "Tue Apr 14 2026 00:00:00 GMT+0530 (India Standard Time)",
+    optionB: "Wed Oct 14 2026 00:00:00 GMT+0530 (India Standard Time)",
+    optionC: "Tue Apr 14 2026 00:00:00 GMT+0530 (India Standard Time)",
+    optionD: "Mon Sep 14 2026 00:00:00 GMT+0530 (India Standard Time)",
+    correctOption: "d"
+  },
+  {
+    id: 110,
+    question: "Myanmar Is Famously Known For ?",
+    optionA: "Grey City",
+    optionB: "Sin City",
+    optionC: "Imperial City, Atomic City",
+    optionD: "Land of Golden Pagodas",
+    correctOption: "d"
+  },
+  {
+    id: 111,
+    question: "find surface count",
+    image: "https://drive.google.com/thumbnail?id=1VR14evoTI6mT14C-Z7RRl-s1zXYlHrrF&sz=w1000",
+    optionA: "25",
+    optionB: "26",
+    optionC: "23",
+    optionD: "24",
+    correctOption: "d"
+  },
+  {
+    id: 112,
+    question: "What is RCC?",
+    optionA: "Reinforced Carbon Concrete",
+    optionB: "Resilient Concrete Component",
+    optionC: "Rapid Curing Concrete",
+    optionD: "Reinforced Cement Concrete",
+    correctOption: "d"
+  },
+  {
+    id: 113,
+    question: "58. Thermal insulation materials primarily slow heat transfer by?",
+    optionA: "Reflecting all heat radiation",
+    optionB: "Conducting heat very efficiently",
+    optionC: "Absorbing and storing heat",
+    optionD: "Trapping air within their structure",
+    correctOption: "d"
+  },
+  {
+    id: 114,
+    question: "Bhilai is famous for which of the following Industry ?",
+    optionA: "Film Industry, Cotton",
+    optionB: "Railway Locomotive Engines",
+    optionC: "Fertilizer",
+    optionD: "Steel",
+    correctOption: "d"
+  },
+  {
+    id: 115,
+    question: "What is a \"mullion\"?",
+    optionA: "A vertical bar separating panes of glass in a window",
+    optionB: "A type of roof truss",
+    optionC: "A foundation element",
+    optionD: "A door handle",
+    correctOption: "a"
+  },
+  {
+    id: 116,
+    question: "Primary Function of Load Bearing Components?",
+    optionA: "To transfer loads safely to the ground and support the superstructure",
+    optionB: "To span openings while distributing loads efficiently",
+    optionC: "Provides support, enclosures, privacy, protection, and insulation",
+    optionD: "To support and transfer structural loads to the foundation",
+    correctOption: "a"
+  },
+  {
+    id: 117,
+    question: "find missing ?",
+    image: "https://drive.google.com/thumbnail?id=1fE85dSsZbjqX9JGGwl9udvnlU76Hf68r&sz=w1000",
+    optionA: "c",
+    optionB: "b",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 118,
+    question: "The term \"saturation\" in color refers to:",
+    optionA: "The brightness of a color",
+    optionB: "The intensity or purity of a color",
+    optionC: "The temperature of a color",
+    optionD: "The position on the color wheel",
+    correctOption: "b"
+  },
+  {
+    id: 119,
+    question: "S1: Mahabalipuram Monuments were developed under the Pallava rulers.\n S2: Mahabalipuram includes rock-cut and structural temples.",
+    optionA: "Both Correct",
+    optionB: "Both Incorrect",
+    optionC: "Only S1 Correct",
+    optionD: "Only S2 Correct",
+    correctOption: "a"
+  },
+  {
+    id: 120,
+    question: "Which Indian architect is known for the Belgian Embassy in New Delhi?",
+    optionA: "Satish Gujral",
+    optionB: "Achyut Kanvinde",
+    optionC: "Habib Rahman",
+    optionD: "Romi Khosla",
+    correctOption: "a"
+  },
+  {
+    id: 121,
+    question: "Suez Canal is located at ?",
+    optionA: "Alaska-Siberia: Pacific and Arctic Ocean",
+    optionB: "Great Andaman and Little Andaman",
+    optionC: "Maldives and Lakshadweep",
+    optionD: "Egypt: Mediterranean and Red Sea",
+    correctOption: "d"
+  },
+  {
+    id: 122,
+    question: "find mirror on given axis",
+    image: "https://drive.google.com/thumbnail?id=1bgfcchOqNTNo7-pV84ggmoCLRDI1hF4V&sz=w1000",
+    optionA: "d",
+    optionB: "c",
+    optionC: "b",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 123,
+    question: "Historic Event year of Communist China was at?",
+    optionA: "1952",
+    optionB: "1951",
+    optionC: "1950",
+    optionD: "1949",
+    correctOption: "d"
+  },
+  {
+    id: 124,
+    question: "find visible surface count",
+    image: "https://drive.google.com/thumbnail?id=1Vhe69QclZ-0NOJrfgPpvyNFzrDFHE3Nr&sz=w1000",
+    optionA: "15",
+    optionB: "16",
+    optionC: "13",
+    optionD: "14",
+    correctOption: "d"
+  },
+  {
+    id: 125,
+    question: "S1: \"Scale 1:100\" means 1 unit on drawing equals 100 units in reality. S2: Larger scale drawings (like 1:50) show less detail than smaller scales (like 1:500).",
+    optionA: "Both true",
+    optionB: "Both false",
+    optionC: "S1 true, S2 false",
+    optionD: "S1 false, S2 true",
+    correctOption: "c"
+  },
+  {
+    id: 126,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Door Terms",
+      "2. Column Terms",
+      "3. Greek & Roman Column Terms",
+      "4. Arch Terms"
+],
+    columnBItems: [
+      "Voussoir",
+      "Fluting",
+      "Base",
+      "Panel"
+],
+    optionA: "1-B 2-A 3-C 4-D",
+    optionB: "1-C 2-A 3-B 4-D",
+    optionC: "1-A 2-B 3-D 4-C",
+    optionD: "1-D 2-C 3-B 4-A",
+    correctOption: "d"
+  },
+  {
+    id: 127,
+    question: "find mirror on given axis",
+    image: "https://drive.google.com/thumbnail?id=1cIE9xhjIVvdFV0O2lTKe2djtwrezOQgM&sz=w1000",
+    optionA: "b",
+    optionB: "a",
+    optionC: "c",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 128,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Itmad-ud-Daula",
+      "2. Ibadat Khana",
+      "3. Qutub Shahi Tomb",
+      "4. Gol Gumbaz"
+],
+    columnBItems: [
+      "Fatehpur Sikri",
+      "Agra",
+      "Hyderabad",
+      "Bijapur, Karnataka"
+],
+    optionA: "1-B 2-C 3-D 4-A",
+    optionB: "1-C 2-B 3-A 4-D",
+    optionC: "1-B 2-C 3-A 4-D",
+    optionD: "1-B 2-A 3-C 4-D",
+    correctOption: "d"
+  },
+  {
+    id: 129,
+    question: "Who is an architect of Ahmedabad Ni Gufa - Ahmedabad",
+    optionA: "Hafeez Contractor",
+    optionB: "Lauri Baker",
+    optionC: "CP Kukreja",
+    optionD: "BV Doshi",
+    correctOption: "d"
+  },
+  {
+    id: 130,
+    question: "The wedge-shaped blocks that make up the body of an arch are called:",
+    optionA: "Keystones",
+    optionB: "Springers",
+    optionC: "Voussoirs",
+    optionD: "Imposts",
+    correctOption: "c"
+  },
+  {
+    id: 131,
+    question: "Anemology is Known As ?",
+    optionA: "Study of climate",
+    optionB: "Study of humans",
+    optionC: "Study of diseases",
+    optionD: "Study of wind",
+    correctOption: "d"
+  },
+  {
+    id: 132,
+    question: "The term \"human scale\" in architecture refers to:",
+    optionA: "Designing buildings as tall as possible to impress the viewer",
+    optionB: "Designing spaces and elements that feel comfortable and relatable in relation to the size of a person",
+    optionC: "Using only natural materials sourced from the local environment",
+    optionD: "Maintaining equal proportions between all elements of a building",
+    correctOption: "b"
+  },
+  {
+    id: 133,
+    question: "Kanchenjunga National Park is located at ?",
+    optionA: "Madhya Pradesh",
+    optionB: "Bihar",
+    optionC: "Maharashtra",
+    optionD: "Sikkim",
+    correctOption: "d"
+  },
+  {
+    id: 134,
+    question: "Statement 1: A conservatory is a glass-enclosed room for growing plants.\nStatement 2: An atrium is an open central courtyard or space in a building.",
+    optionA: "Statement 1 is True, Statement 2 is False",
+    optionB: "Statement 1 is False, Statement 2 is True",
+    optionC: "Both Statement 1 and Statement 2 is False",
+    optionD: "Both Statement 1 and Statement 2 are True.",
+    correctOption: "d"
+  },
+  {
+    id: 135,
+    question: "Siddi Bashir Famous Mosque/Tomb Is located at ?",
+    optionA: "Delhi",
+    optionB: "Agra, Uttar Pradesh",
+    optionC: "Hyderabad",
+    optionD: "Ahmedabad",
+    correctOption: "d"
+  },
+  {
+    id: 136,
+    question: "Read the instruction bR",
+    image: "https://drive.google.com/thumbnail?id=1gxv03idZ4kWNpDDetFNVy-K8c0gx4kvp&sz=w1000",
+    optionA: "d",
+    optionB: "a",
+    optionC: "c",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 137,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Baroque",
+      "2. Rococo",
+      "3. Art Nouveau",
+      "4. Art Deco"
+],
+    columnBItems: [
+      "- Pastel colors and gold accents",
+      "- Luxurious materials (chrome, gold, marble)",
+      "- Nature-inspired motifs (flowers, vines)",
+      "- Ornate decorations and sculptures"
+],
+    optionA: "1-A 2-B 3-D 4-C",
+    optionB: "1-B 2-D 3-A 4-C",
+    optionC: "1-C 2-A 3-D 4-B",
+    optionD: "1-D 2-A 3-C 4-B",
+    correctOption: "d"
+  },
+  {
+    id: 138,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Gandhi Sadan",
+      "2. Laxminarayan Temple",
+      "3. Sidi Sayyad Mosque",
+      "4. Nagina Lake"
+],
+    columnBItems: [
+      "New Delhi",
+      "Ahmedabad",
+      "Vellore",
+      "Srinagar"
+],
+    optionA: "1-C 2-A 3-B 4-D",
+    optionB: "1-C 2-D 3-A 4-B",
+    optionC: "1-A 2-B 3-C 4-D",
+    optionD: "1-A 2-C 3-B 4-D",
+    correctOption: "d"
+  },
+  {
+    id: 139,
+    question: "Find next in series",
+    image: "https://drive.google.com/thumbnail?id=1YTvicHstQi6nQyLnoTJV4Pu0_lrx2W7u&sz=w1000",
+    optionA: "c",
+    optionB: "b",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 140,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Wall",
+      "2. Column",
+      "3. Beam",
+      "4. Slab"
+],
+    columnBItems: [
+      "Vertical construction used to enclose, divide, or support spaces in a building.",
+      "Flat horizontal structural element forming floors or roofs, usually made of reinforced concrete.",
+      "Vertical structural member designed to transfer compressive loads from beams or slabs to the foundation.",
+      "Horizontal structural member that supports loads and transfers them to columns or walls."
+],
+    optionA: "1-C 2-A 3-B 4-D",
+    optionB: "1-D 2-C 3-B 4-A",
+    optionC: "1-D 2-C 3-A 4-B",
+    optionD: "1-A 2-C 3-D 4-B",
+    correctOption: "d"
+  },
+  {
+    id: 141,
+    question: "Bhubaneswar-Cuttack Is Famously Known For ?",
+    optionA: "Steel City of India",
+    optionB: "City of Temples, Athens of the East",
+    optionC: "Royal City",
+    optionD: "Twin City",
+    correctOption: "d"
+  },
+  {
+    id: 142,
+    question: "find front view of figure",
+    image: "https://drive.google.com/thumbnail?id=1SBC_HrAU7wHAoijRnD2fpf6yyv3nxVNH&sz=w1000",
+    optionA: "d",
+    optionB: "c",
+    optionC: "a",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 143,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=1ZTn31rI8wSh6d-AZemhXN9xUQy8hMF3T&sz=w1000",
+    optionA: "c",
+    optionB: "a",
+    optionC: "d",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 144,
+    question: "Primary Function of Roof?",
+    optionA: "To protect the structure from weather conditions and external elements",
+    optionB: "To transfer loads safely to the ground",
+    optionC: "To provide ventilation, natural light, and external views",
+    optionD: "To exert force on a structure, affecting its stability and strength",
+    correctOption: "a"
+  },
+  {
+    id: 145,
+    question: "An intermediate floor level inserted between the main floors of a building is called:",
+    optionA: "Penthouse",
+    optionB: "Mezzanine",
+    optionC: "Loft",
+    optionD: "Attic",
+    correctOption: "b"
+  },
+  {
+    id: 146,
+    question: "find the missing ?",
+    image: "https://drive.google.com/thumbnail?id=1mq4yaLAUxk2ux6psxG8QSKdIZ-Xz9X93&sz=w1000",
+    optionA: "d",
+    optionB: "a",
+    optionC: "c",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 147,
+    question: "Which of the following best defines \"achromatic\" colors?",
+    optionA: "Colors with high saturation",
+    optionB: "Colors without hue (black, white,)",
+    optionC: "Colors that glow in the dark",
+    optionD: "Colors that change with temperature",
+    correctOption: "b"
+  },
+  {
+    id: 148,
+    question: "Meaning of a Substructure?",
+    optionA: "The lower part of a building that supports the superstructure",
+    optionB: "An opening in a wall for light and ventilation",
+    optionC: "A framework supporting roofs or bridges",
+    optionD: "The top covering of a structure",
+    correctOption: "a"
+  },
+  {
+    id: 149,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Buildings, too, are children of earth and sun",
+      "2. An idea is a solution by imagination",
+      "3. LO:TEK: Design by Radical Indigenism",
+      "4. Towards a New Architecture"
+],
+    columnBItems: [
+      "Frank Lloyd Wright",
+      "Julia Watson",
+      "Frank Lloyd Wright",
+      "Le Corbusier"
+],
+    optionA: "1-A 2-B 3-C 4-D",
+    optionB: "1-D 2-C 3-B 4-A",
+    optionC: "1-B 2-C 3-A 4-D",
+    optionD: "1-C 2-A 3-B 4-D",
+    correctOption: "d"
+  },
+  {
+    id: 150,
+    type: 'match-pair',
+    question: "Match the Pair",
+    columnAItems: [
+      "1. Footing",
+      "2. Grade Beam",
+      "3. Shear Wall",
+      "4. Curtain Wall"
+],
+    columnBItems: [
+      "Reinforced concrete beam at grade level",
+      "Vertical element resisting lateral forces (wind/quake)",
+      "Enlarged base of foundation spreading load",
+      "Non-structural outer covering attached to frame"
+],
+    optionA: "1-C 2-B 3-A 4-D",
+    optionB: "1-D 2-B 3-A 4-C",
+    optionC: "1-D 2-C 3-A 4-B",
+    optionD: "1-C 2-A 3-B 4-D",
+    correctOption: "d"
+  },
+  {
+    id: 201,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=1lWsvnouJFhjRUWZiMS5tv0Lnzsz-er6D&sz=w1000",
+    optionA: "c",
+    optionB: "b",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 202,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=1Gi8ioMt_8mFZwyQEsmjV8kUmiVvHDizp&sz=w1000",
+    optionA: "d",
+    optionB: "a",
+    optionC: "b",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 203,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=14ecG1iptbTJoOf-55X2oe3xx5_yaB_RE&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "b",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 204,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=1jwKW48X2omJqpLc5UI3vtudkfedyOyOk&sz=w1000",
+    optionA: "c",
+    optionB: "b",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 205,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=1xI8TRMvpg7r7QhyEEFnwoF526t-fJku-&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "d",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 206,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=1Un4CXkFbyhSwHjh6yP_4F79eRqi0jGzf&sz=w1000",
+    optionA: "a",
+    optionB: "d",
+    optionC: "b",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 207,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=1AZlTheMZRM0M4yqIOIt26Rlp4f8qpiuc&sz=w1000",
+    optionA: "c",
+    optionB: "b",
+    optionC: "a",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 208,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=1oU8DdotcJ9K0H1WtNisCx7aOEp-sUBRk&sz=w1000",
+    optionA: "d",
+    optionB: "a",
+    optionC: "b",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 209,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=1S553nwEuCRAWmnyx6TpfYpIL375Vg73L&sz=w1000",
+    optionA: "d",
+    optionB: "a",
+    optionC: "b",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 210,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=1CP8Ai8dGuiC1Qnn8GPqNVZ7fI1Kbv-vE&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "b",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 211,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=1J7kFXapIUlsO2KwFVrT48h9EHmGMlUO7&sz=w1000",
+    optionA: "b",
+    optionB: "d",
+    optionC: "a",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 212,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=1qL9QWKNLRRss3EJTLz1TgXyeaecg1nC7&sz=w1000",
+    optionA: "d",
+    optionB: "a",
+    optionC: "b",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 213,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=1e4weugubZ2wnm-kjU9uJf3mF8-WngFxh&sz=w1000",
+    optionA: "b",
+    optionB: "c",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 214,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=19PBL8wV66azh8K8ADGkTBfIK90SznMXf&sz=w1000",
+    optionA: "c",
+    optionB: "b",
+    optionC: "d",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 215,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=14qxuxG6LKwMeXdTMK7e_UTy_bKYT891p&sz=w1000",
+    optionA: "c",
+    optionB: "d",
+    optionC: "a",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 216,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=1g8L6uwhyuvJENWhU_3VJkAt1yviJv6I5&sz=w1000",
+    optionA: "b",
+    optionB: "d",
+    optionC: "a",
+    optionD: "c",
+    correctOption: "d"
+  },
+  {
+    id: 217,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=1c1jZnR4u28wYEPRec2CfZyJ8btAKRnkM&sz=w1000",
+    optionA: "d",
+    optionB: "c",
+    optionC: "b",
+    optionD: "a",
+    correctOption: "d"
+  },
+  {
+    id: 218,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=1oQQcKNgS7vbIYaIAEkqDkCSAU2ieLM1a&sz=w1000",
+    optionA: "c",
+    optionB: "b",
+    optionC: "a",
+    optionD: "d",
+    correctOption: "d"
+  },
+  {
+    id: 219,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=1WS6I2YGovqNYMSnO3kEC8qv0YYiy0hci&sz=w1000",
+    optionA: "a",
+    optionB: "c",
+    optionC: "d",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 220,
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=1m4oEvBKmeSwzJFyZj5w79vIjvIFZCE4P&sz=w1000",
+    optionA: "a",
+    optionB: "d",
+    optionC: "c",
+    optionD: "b",
+    correctOption: "d"
+  },
+  {
+    id: 301,
+    type: 'numeric',
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=18wqFtDS8BLXkcw420CGGigG6PNbsjaoV&sz=w1000",
+    optionA: "",
+    optionB: "",
+    optionC: "",
+    optionD: "",
+    correctOption: "6"
+  },
+  {
+    id: 302,
+    type: 'numeric',
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=1Z36dtjeqLRvBqfrJ0scUAm6ykE_XJRvO&sz=w1000",
+
+    correctOption: "2"
+  },
+  {
+    id: 303,
+    type: 'numeric',
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=1ydJXMs7Jolfgv6AqFO3SmePw-QXaFLyZ&sz=w1000",
+    correctOption: "4"
+  },
+  {
+    id: 304,
+    type: 'numeric',
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=1_4krGCyRy3KaMDA6FLCjtBZXXvwIqIuI&sz=w1000",
+    correctOption: "30"
+  },
+  {
+    id: 305,
+    type: 'numeric',
+    question: "Read the instruction",
+    image: "https://drive.google.com/thumbnail?id=1lOtsXYVtlhNlLAUXPvI-uEz-syC-H6WJ&sz=w1000",
+    correctOption: "5005"
+  },
+  {
+    id: 401,
+    question: "Draw Proportionate sketch of Given Image with Black and white Rendering Method.",
+    image: "https://drive.google.com/thumbnail?id=1zi_yO6KGHmp8DYJrZKeIaKseqa9JtnpI&sz=w1000",
+    correctOption: "manual_evaluation"
+  },
+  {
+    id: 402,
+    question: "Draw a detailed sketch of a city park on a Sunday morning. Show families having picnics on the grass, elderly people doing yoga, children playing on swings and slides, joggers on a path, a small lake with paddleboats, flower beds in bloom, and birds on tree branches. Use suitable colours.",
+    correctOption: "manual_evaluation"
+  },
   
   
 ];
