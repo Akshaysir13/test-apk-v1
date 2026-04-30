@@ -8,7 +8,7 @@ import { UserAccount } from '../../types';
 
 export const nata2026Students: UserAccount[] = [
   // Example:
-  { email: 'student300@gmail.com', password: 'pass123', role: 'student', approved: true, courses: ['nata_2026'] },
-  { email: 'student1@gmail.com', password: 'pass123', role: 'student', approved: true, courses: ['nata_2026'] },
+  { email: 'nata300@gmail.com', password: 'pass123', role: 'student', approved: true, courses: ['nata_2026'] },
+  { email: 'nata1@gmail.com', password: 'pass123', role: 'student', approved: true, courses: ['nata_2026'] },
 ];
 
