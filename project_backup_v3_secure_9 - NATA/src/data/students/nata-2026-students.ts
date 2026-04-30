@@ -23,5 +23,6 @@ export const nata2026Students: UserAccount[] = [
 { email: 'aryanjojare8@gmail.com', password: 'Aryan0230', role: 'student', approved: true, courses: ['nata_2026'] },
 { email: 'priyadarshnithiru@gmail.com', password: 'priyuthiru', role: 'student', approved: true, courses: ['nata_2026'] },
 { email: 'teezas611@gmail.com', password: 'FIREFREE#1', role: 'student', approved: true, courses: ['nata_2026'] },
+{ email: 'nata13@gmail.com', password: 'pass123', role: 'student', approved: true, courses: ['nata_2026'] },
 ];
 
