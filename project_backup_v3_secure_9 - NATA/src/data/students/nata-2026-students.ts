@@ -24,5 +24,11 @@ export const nata2026Students: UserAccount[] = [
 { email: 'priyadarshnithiru@gmail.com', password: 'priyuthiru', role: 'student', approved: true, courses: ['nata_2026'] },
 { email: 'teezas611@gmail.com', password: 'FIREFREE#1', role: 'student', approved: true, courses: ['nata_2026'] },
 { email: 'nata13@gmail.com', password: 'pass123', role: 'student', approved: true, courses: ['nata_2026'] },
+  { email: 'prernaagrawal919@gmail.com', password: 'student123', role: 'student', approved: true, courses: ['nata_2026'] },
+{ email: 'hrishitdubey368@gmail.com ', password: '1234567890', role: 'student', approved: true, courses: ['nata_2026'] },
+{ email: 'swanandjadhav1314@gmail.com', password: 'Anandjadhavnata1234', role: 'student', approved: true, courses: ['nata_2026'] },
+{ email: 'niranjanmehta105@gmail.com', password: '12345678', role: 'student', approved: true, courses: ['nata_2026'] },
+{ email: 'aashitasood2@gmail.com', password: 'Aashita123', role: 'student', approved: true, courses: ['nata_2026'] },
+{ email: 'hrishitdubey368@gmail.com ', password: '0987654321', role: 'student', approved: true, courses: ['nata_2026'] },
 ];
 
