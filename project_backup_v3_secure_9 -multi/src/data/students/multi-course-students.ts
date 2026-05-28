@@ -19,5 +19,6 @@ export const multiCourseStudents: UserAccount[] = [
     approved: true,
     courses: ['nata_2026'],
   },
+  
 ];
 
