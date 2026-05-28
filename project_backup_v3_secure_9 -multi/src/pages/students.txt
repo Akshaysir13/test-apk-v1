@@ -1,0 +1,390 @@
+
+  // ===== SPA DELHI =====
+  {
+    name: "Mihika",
+    Score: "99.97 | AIR 23",
+    college: "SPA Delhi - B.Arch",
+    course: "Foundation",
+    image: "👩‍🎓",
+    text: "Focused preparation and expert guidance helped me secure SPA Delhi."
+  },
+  {
+    name: "Tanmay",
+    Score: "Selected",
+    college: "SPA Delhi - B.Arch",
+    course: "Foundation",
+    image: "👨‍🎓",
+    text: "Mock tests and mentoring played a key role in my success."
+  },
+  {
+    name: "Suhan",
+    Score: "Selected",
+    college: "SPA Delhi - B.Arch",
+    course: "Foundation",
+    image: "👨‍🎓",
+    text: "The structured course helped me achieve my goal."
+  },
+  {
+    name: "Sasmit",
+    Score: "Selected",
+    college: "SPA Delhi - B.Arch",
+    course: "Foundation",
+    image: "👨‍🎓",
+    text: "Target batch preparation was extremely effective."
+  },
+  {
+    name: "Varshini",
+    Score: "Selected",
+    college: "SPA Delhi - B.Arch",
+    course: "Foundation",
+    image: "👩‍🎓",
+    text: "Consistent practice and guidance ensured my selection."
+  },
+  {
+    name: "Kavya",
+    Score: "Selected",
+    college: "SPA Delhi - B.Arch",
+    course: "Foundation",
+    image: "👩‍🎓",
+    text: "Late start but the right strategy made it possible."
+  },
+  {
+    name: "Sanskriti",
+    Score: "Selected",
+    college: "SPA Delhi - B.Arch",
+    course: "Foundation",
+    image: "👩‍🎓",
+    text: "Smart planning and mocks helped me crack SPA Delhi."
+  },
+  {
+    name: "Jyotsna",
+    Score: "Selected",
+    college: "SPA Delhi - B.Arch",
+    course: "Foundation",
+    image: "👩‍🎓",
+    text: "Lakshya batch kept me focused throughout."
+  },
+  {
+    name: "Tanay",
+    Score: "Selected",
+    college: "SPA Delhi - B.Arch",
+    course: "Foundation",
+    image: "👨‍🎓",
+    text: "Exam-level mock tests boosted my confidence."
+  },
+  {
+    name: "Ayman",
+    Score: "Selected",
+    college: "SPA Delhi - B.Arch",
+    course: "Foundation",
+    image: "👨‍🎓",
+    text: "Target batch helped me stay exam-oriented."
+  },
+
+  // ===== SPA BHOPAL =====
+  {
+    name: "Kritika",
+    Score: "Selected",
+    college: "SPA Bhopal - B.Arch",
+    course: "Foundation",
+    image: "👩‍🎓",
+    text: "Strong fundamentals helped me secure SPA Bhopal."
+  },
+  {
+    name: "Nandini",
+    Score: "Selected",
+    college: "SPA Bhopal - B.Arch",
+    course: "Foundation",
+    image: "👩‍🎓",
+    text: "Well-planned syllabus coverage made the difference."
+  },
+  {
+    name: "Madhushri",
+    Score: "Selected",
+    college: "SPA Bhopal - B.Arch",
+    course: "Foundation",
+    image: "👩‍🎓",
+    text: "Regular tests helped improve my performance."
+  },
+  {
+    name: "Shrebhgya",
+    Score: "Selected",
+    college: "SPA Bhopal - B.Arch",
+    course: "Foundation",
+    image: "👨‍🎓",
+    text: "Target batch strategy worked perfectly."
+  },
+  {
+    name: "Param Deshmukh",
+    Score: "Selected",
+    college: "SPA Bhopal - B.Arch",
+    course: "Foundation",
+    image: "👨‍🎓",
+    text: "December batch preparation paid off."
+  },
+
+  // ===== SPA VIJAYAWADA =====
+  {
+    name: "Laharika",
+    Score: "Selected",
+    college: "SPA Vijayawada - B.Arch",
+    course: "Foundation",
+    image: "👩‍🎓",
+    text: "Clear concepts helped me crack SPA Vijayawada."
+  },
+  {
+    name: "Bismayee",
+    Score: "Selected",
+    college: "SPA Vijayawada - B.Arch",
+    course: "Foundation",
+    image: "👩‍🎓",
+    text: "Target batch guidance was extremely helpful."
+  },
+  {
+    name: "Madiha",
+    Score: "Selected",
+    college: "SPA Vijayawada - B.Arch",
+    course: "Foundation",
+    image: "👩‍🎓",
+    text: "August batch kept my preparation on track."
+  },
+  {
+    name: "Rehana",
+    Score: "Selected",
+    college: "SPA Vijayawada - B.Arch",
+    course: "Foundation",
+    image: "👩‍🎓",
+    text: "October batch helped refine my concepts."
+  },
+
+  // ===== NIT & OTHERS =====
+  {
+    name: "Swaraganga",
+    Score: "Selected",
+    college: "NIT Calicut - B.Arch",
+    course: "Foundation",
+    image: "👩‍🎓",
+    text: "Consistent preparation helped me crack NIT Calicut."
+  },
+  {
+    name: "Akshita",
+    Score: "Selected",
+    college: "MNIT Jaipur - B.Arch",
+    course: "Foundation",
+    image: "👩‍🎓",
+    text: "October batch strategy worked well."
+  },
+  {
+    name: "Ayushi",
+    Score: "Selected",
+    college: "MNIT Jaipur - B.Arch",
+    course: "Foundation",
+    image: "👩‍🎓",
+    text: "Lakshya batch kept me motivated."
+  },
+  {
+    name: "Vikash",
+    Score: "Selected",
+    college: "MNIT Jaipur - B.Arch",
+    course: "Foundation",
+    image: "👨‍🎓",
+    text: "Strong fundamentals ensured my selection."
+  },
+  {
+    name: "Arjun",
+    Score: "Selected",
+    college: "MNIT Jaipur - B.Arch",
+    course: "Foundation",
+    image: "👨‍🎓",
+    text: "Target batch preparation paid off."
+  },
+{
+  name: "Mahim",
+  Score: "Selected",
+  college: "MNIT Bhopal - B.Arch",
+  course: "Foundation",
+  image: "👨‍🎓",
+  text: "July batch preparation helped me secure MNIT Bhopal."
+},
+{
+  name: "Priyanshu",
+  Score: "Selected",
+  college: "MNIT Bhopal - B.Arch",
+  course: "Foundation",
+  image: "👨‍🎓",
+  text: "Consistent practice and guidance led to my selection."
+},
+{
+  name: "Aditya",
+  Score: "Selected",
+  college: "CCA Chandigarh - B.Arch",
+  course: "Foundation",
+  image: "👨‍🎓",
+  text: "Strong fundamentals helped me crack CCA Chandigarh."
+},
+{
+  name: "Chitendra",
+  Score: "Selected",
+  college: "CCA Chandigarh - B.Arch",
+  course: "Foundation",
+  image: "👨‍🎓",
+  text: "October batch preparation was very effective."
+},
+{
+  name: "Mehak",
+  Score: "Selected",
+  college: "CCA Chandigarh - B.Arch",
+  course: "Foundation",
+  image: "👩‍🎓",
+  text: "August batch kept my preparation on track."
+},
+{
+  name: "Raj",
+  Score: "Selected",
+  college: "CCA Chandigarh - B.Arch",
+  course: "Foundation",
+  image: "👨‍🎓",
+  text: "Lakshya batch strategy worked perfectly."
+},
+{
+  name: "Riya",
+  Score: "Selected",
+  college: "NIT Patna - B.Arch",
+  course: "Foundation",
+  image: "👩‍🎓",
+  text: "Proper guidance helped me secure NIT Patna."
+},
+{
+  name: "Sonket",
+  Score: "Selected",
+  college: "NIT Raipur - B.Arch",
+  course: "Foundation",
+  image: "👨‍🎓",
+  text: "Target batch preparation paid off."
+},
+{
+  name: "Jaya",
+  Score: "Selected",
+  college: "NIT Patna - B.Arch",
+  course: "Foundation",
+  image: "👩‍🎓",
+  text: "July batch helped strengthen my concepts."
+},
+{
+  name: "Krish",
+  Score: "Selected",
+  college: "NIT Hamirpur - B.Arch",
+  course: "Foundation",
+  image: "👨‍🎓",
+  text: "Focused preparation ensured my selection."
+},
+{
+  name: "Prabhu",
+  Score: "Selected",
+  college: "B.Arch Selection",
+  course: "Foundation",
+  image: "👨‍🎓",
+  text: "Consistent effort throughout the July batch paid off."
+},
+{
+  name: "Nishant",
+  Score: "Selected",
+  college: "B.Arch Selection",
+  course: "Foundation",
+  image: "👨‍🎓",
+  text: "Strong fundamentals and practice ensured success."
+},
+{
+  name: "Sony",
+  Score: "Selected",
+  college: "JJ School of Architecture - B.Arch",
+  course: "Foundation",
+  image: "👩‍🎓",
+  text: "July–August batch guidance helped me crack JJ."
+},
+{
+  name: "Navsimar",
+  Score: "Selected",
+  college: "CEPT University - B.Arch",
+  course: "Foundation",
+  image: "👩‍🎓",
+  text: "Lakshya batch preparation was highly effective."
+},
+{
+  name: "Omkar",
+  Score: "Selected",
+  college: "JJ School of Architecture - B.Arch",
+  course: "Foundation",
+  image: "👨‍🎓",
+  text: "October batch strategy worked perfectly."
+},
+{
+  name: "Ajay",
+  Score: "Selected",
+  college: "B.Arch Selection",
+  course: "Foundation",
+  image: "👨‍🎓",
+  text: "August batch helped refine my preparation."
+},
+{
+  name: "Sristii",
+  Score: "Selected",
+  college: "B.Arch Selection",
+  course: "Foundation",
+  image: "👩‍🎓",
+  text: "Regular practice and mentoring ensured success."
+},
+{
+  name: "Pranav",
+  Score: "Selected",
+  college: "B.Arch Selection",
+  course: "Foundation",
+  image: "👨‍🎓",
+  text: "August batch preparation paid off."
+},
+{
+  name: "Netra",
+  Score: "Selected",
+  college: "Rachana Sansad - B.Arch",
+  course: "Foundation",
+  image: "👩‍🎓",
+  text: "Target batch guidance helped me secure selection."
+},
+{
+  name: "Gauri",
+  Score: "Selected",
+  college: "Lucknow College of Architecture - B.Arch",
+  course: "Foundation",
+  image: "👩‍🎓",
+  text: "Focused preparation led to my success."
+},
+{
+  name: "Anandita",
+  Score: "Selected",
+  college: "CEPT University - B.Arch",
+  course: "Foundation",
+  image: "👩‍🎓",
+  text: "Target batch kept my preparation goal-oriented."
+},
+{
+  name: "Shivani B",
+  Score: "Selected",
+  college: "JJ School of Architecture - B.Arch",
+  course: "Foundation",
+  image: "👩‍🎓",
+  text: "October foundation batch helped me crack JJ."
+},
+{
+  name: "Sahil P",
+  Score: "Selected",
+  college: "JJ School of Architecture - B.Arch",
+  course: "Foundation",
+  image: "👨‍🎓",
+  text: "July foundation batch ensured strong fundamentals."
+},
+
+
+
+
+
+
