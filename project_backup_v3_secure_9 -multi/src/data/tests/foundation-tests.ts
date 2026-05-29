@@ -99,6 +99,7 @@ export const foundationTests: Test[] = [
   { id: 'foundation-jee-barch-pyq-2025-january-attempt', name: 'Foundation: PYQ 2025 (Jan Attempt)', description: 'Solve Actual PYQ from that Year', duration: DEFAULT_TEST_DURATION, questions: foundationPYQQuestions.slice(1500, 1550), category: 'pyq', course: 'foundation' },
   { id: 'foundation-jee-barch-pyq-2025-april-attempt', name: 'Foundation: PYQ 2025 (Apr Attempt)', description: 'Solve Actual PYQ from that Year', duration: DEFAULT_TEST_DURATION, questions: foundationPYQQuestions.slice(1550, 1600), category: 'pyq', course: 'foundation' },
   { id: 'foundation-jee-barch-pyq-2026-January-attempt', name: 'Foundation: PYQ 2026 (jan Attempt)', description: 'Solve Actual PYQ from that Year', duration: DEFAULT_TEST_DURATION, questions: foundationPYQQuestions.slice(1600, 1650), category: 'pyq', course: 'foundation' },
+  { id: 'foundation-jee-barch-pyq-2026-April-attempt', name: 'Foundation: PYQ 2026 (April Attempt)', description: 'Solve Actual PYQ from that Year', duration: DEFAULT_TEST_DURATION, questions: foundationPYQQuestions.slice(1650, 1700), category: 'pyq', course: 'foundation' },
   //PYQ Tests End
   //Latest Pattern Mock Test
   {
