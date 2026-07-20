@@ -139,7 +139,7 @@ export const foundationTests: Test[] = [
 //{ id: 'foundation-latest-pattern-test-22-April', name: 'Foundation: Mock 22 Easy (April 2026)', description: 'Solve the expected paper of this year', duration: 3000, questions: foundationlatestQuestions.slice(1972, 2022), category: 'latest', course: 'foundation', sections: [{ id: "aptitude", name: "Aptitude", type: "aptitude", questionIndices: Array.from({ length: 50 }, (_, i) => i) }] },
 //{ id: 'foundation-latest-full-mock-April-4 ( 3.30hr )', name: 'Foundation: Full Mock 4 (April 2026)', description: 'Complete B.Arch Pattern: Aptitude + Math + Drawing', duration: 12600, questions: foundationlatestQuestions.slice(2022, 2099), category: 'latest', course: 'foundation', sections: [{ id: "aptitude", name: "Aptitude", type: "aptitude", questionIndices: Array.from({ length: 50 }, (_, i) => i) }, { id: "math-mcq", name: "Mathematics (MCQ)", type: "math", questionIndices: Array.from({ length: 20 }, (_, i) => i + 50) }, { id: "math-numeric", name: "Mathematics (Numeric)", type: "math", questionIndices: Array.from({ length: 5 }, (_, i) => i + 70) }, { id: "drawing", name: "Drawing", type: "drawing", questionIndices: [75, 76] }] },
 
-
+];
 
 
 
