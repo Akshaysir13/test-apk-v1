@@ -6,25 +6,25 @@ import { UserAccount } from '../../types';
 // ==========================================
 export const multiCourseStudents: UserAccount[] = [
   {
-    email: 'student789@gmail.com',
+    email: 'student1@gmail.com',
     password: 'pass123',
     role: 'student',
     approved: true,
-    courses: ['foundation', 'nata_2026'],
+    courses: ['foundation'],
   },
   {
-    email: 'student987@gmail.com',
+    email: 'student2@gmail.com',
     password: 'pass123',
     role: 'student',
     approved: true,
-    courses: ['foundation', 'nata_2026'],
+    courses: ['foundation'],
   },
   {
     email: 'student500@gmail.com',
     password: 'pass123',
     role: 'student',
     approved: true,
-    courses: ['nata_2026'],
+    courses: ['foundation','nata_2026'],
   },
   { email: 'foundation2027_1@gmail.com', password: 'pass123', role: 'student', approved: true, courses: ['foundation'] },
   { email: 'kumaridivya8092@gmail.com', password: 'Divya123', role: 'student', approved: true, courses: ['foundation'] },
