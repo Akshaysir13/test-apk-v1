@@ -386,9 +386,6 @@ export default function Dashboard() {
                   Your Course Fee Paid
                 </h3>
                 <p className="text-2xl font-bold text-green-600">6999/- ( July & Augest )</p>
-                <p className="text-2xl font-bold text-green-600">4999/- ( October )</p>
-                <p className="text-2xl font-bold text-green-600">2999/- ( February )</p>
-
               </div>
 
               <div className="bg-white p-6 rounded-lg shadow">
