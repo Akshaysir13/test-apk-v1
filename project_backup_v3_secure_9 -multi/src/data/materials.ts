@@ -17,11 +17,5 @@ export interface Material {
  * 3. Paste the link in the url field
  */
 export const foundationMaterials: Material[] = [
-  {
-    id: '1',
-    title: 'July Batch Study Notes',
-    description: 'Hand written notes of Foundation Batch',
-    url: 'https://drive.google.com/file/d/17eJgabt9CLjX4q05CBJy5zBGM9ZYCFPJ/view?usp=drive_link',
-    type: 'pdf'
-  },
+  //{id: '1',title: 'July Batch Study Notes',description: 'Hand written notes of Foundation Batch',url: 'https://drive.google.com/file/d/17eJgabt9CLjX4q05CBJy5zBGM9ZYCFPJ/view?usp=drive_link',type: 'pdf'},
 ];
