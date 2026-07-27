@@ -38,7 +38,7 @@ export const multiCourseStudents: UserAccount[] = [
 { email: 'Pranitawagh2009@gmail.com', password: '1123', role: 'student', approved: true, courses: ['foundation'] },
 { email: 'swetass8292@gmail.com', password: 'Sweta@62031', role: 'student', approved: true, courses: ['foundation'] },
 { email: 'dhanviveluri@gmail.com', password: 'dhanviveluri18', role: 'student', approved: true, courses: ['foundation'] },
-{ email: 'eammadianavi@gmail.com ', password: 'Anavi@192009', role: 'student', approved: true, courses: ['foundation'] },
+{ email: 'eammadianavi@gmail.com', password: 'Anavi@192009', role: 'student', approved: true, courses: ['foundation'] },
 { email: 'mdkaifr469@gmail.com', password: 'Kaif@1230', role: 'student', approved: true, courses: ['foundation'] },
 { email: 'mdkaifraja003@gmail.com', password: 'Kaif@1230', role: 'student', approved: true, courses: ['foundation'] },
 { email: 'mdkaifraja003@gmail.com', password: 'Kaif@1230', role: 'student', approved: true, courses: ['foundation'] },
