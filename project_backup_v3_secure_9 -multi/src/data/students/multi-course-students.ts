@@ -96,5 +96,183 @@ export const multiCourseStudents: UserAccount[] = [
     approved: true,
     courses: ['foundation'],
   },
+  { email: 'nidhimamta17@gmail.com', password: '1234abcd@', role: 'student', approved: true, courses: ['foundation'] },
+{ email: 'nidhimamta17@gmail.com', password: '1234abcd@', role: 'student', approved: true, courses: ['foundation'] },
+{ email: 'srinayanithammishetty@gmail.com', password: 'Nayani2412', role: 'student', approved: true, courses: ['foundation'] },
+  {
+    "email": "student6@gmail.com",
+    "password": "pass123",
+    "role": "student",
+    "approved": true,
+    "courses": ["foundation"]
+  },
+  {
+    "email": "student7@gmail.com",
+    "password": "pass123",
+    "role": "student",
+    "approved": true,
+    "courses": ["foundation"]
+  },
+  {
+    "email": "student8@gmail.com",
+    "password": "pass123",
+    "role": "student",
+    "approved": true,
+    "courses": ["foundation"]
+  },
+  {
+    "email": "student9@gmail.com",
+    "password": "pass123",
+    "role": "student",
+    "approved": true,
+    "courses": ["foundation"]
+  },
+  {
+    "email": "student10@gmail.com",
+    "password": "pass123",
+    "role": "student",
+    "approved": true,
+    "courses": ["foundation"]
+  },
+  {
+    "email": "student11@gmail.com",
+    "password": "pass123",
+    "role": "student",
+    "approved": true,
+    "courses": ["foundation"]
+  },
+  {
+    "email": "student12@gmail.com",
+    "password": "pass123",
+    "role": "student",
+    "approved": true,
+    "courses": ["foundation"]
+  },
+  {
+    "email": "student13@gmail.com",
+    "password": "pass123",
+    "role": "student",
+    "approved": true,
+    "courses": ["foundation"]
+  },
+  {
+    "email": "student14@gmail.com",
+    "password": "pass123",
+    "role": "student",
+    "approved": true,
+    "courses": ["foundation"]
+  },
+  {
+    "email": "student15@gmail.com",
+    "password": "pass123",
+    "role": "student",
+    "approved": true,
+    "courses": ["foundation"]
+  },
+  {
+    "email": "student16@gmail.com",
+    "password": "pass123",
+    "role": "student",
+    "approved": true,
+    "courses": ["foundation"]
+  },
+  {
+    "email": "student17@gmail.com",
+    "password": "pass123",
+    "role": "student",
+    "approved": true,
+    "courses": ["foundation"]
+  },
+  {
+    "email": "student18@gmail.com",
+    "password": "pass123",
+    "role": "student",
+    "approved": true,
+    "courses": ["foundation"]
+  },
+  {
+    "email": "student19@gmail.com",
+    "password": "pass123",
+    "role": "student",
+    "approved": true,
+    "courses": ["foundation"]
+  },
+  {
+    "email": "student20@gmail.com",
+    "password": "pass123",
+    "role": "student",
+    "approved": true,
+    "courses": ["foundation"]
+  },
+  {
+    "email": "student21@gmail.com",
+    "password": "pass123",
+    "role": "student",
+    "approved": true,
+    "courses": ["foundation"]
+  },
+  {
+    "email": "student22@gmail.com",
+    "password": "pass123",
+    "role": "student",
+    "approved": true,
+    "courses": ["foundation"]
+  },
+  {
+    "email": "student23@gmail.com",
+    "password": "pass123",
+    "role": "student",
+    "approved": true,
+    "courses": ["foundation"]
+  },
+  {
+    "email": "student24@gmail.com",
+    "password": "pass123",
+    "role": "student",
+    "approved": true,
+    "courses": ["foundation"]
+  },
+  {
+    "email": "student25@gmail.com",
+    "password": "pass123",
+    "role": "student",
+    "approved": true,
+    "courses": ["foundation"]
+  },
+  {
+    "email": "student26@gmail.com",
+    "password": "pass123",
+    "role": "student",
+    "approved": true,
+    "courses": ["foundation"]
+  },
+  {
+    "email": "student27@gmail.com",
+    "password": "pass123",
+    "role": "student",
+    "approved": true,
+    "courses": ["foundation"]
+  },
+  {
+    "email": "student28@gmail.com",
+    "password": "pass123",
+    "role": "student",
+    "approved": true,
+    "courses": ["foundation"]
+  },
+  {
+    "email": "student29@gmail.com",
+    "password": "pass123",
+    "role": "student",
+    "approved": true,
+    "courses": ["foundation"]
+  },
+  {
+    "email": "student30@gmail.com",
+    "password": "pass123",
+    "role": "student",
+    "approved": true,
+    "courses": ["foundation"]
+  },
 ];
 
