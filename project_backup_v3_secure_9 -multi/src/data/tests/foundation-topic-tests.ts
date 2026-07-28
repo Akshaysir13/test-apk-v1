@@ -6,8 +6,8 @@ import { foundationTopicQuestions } from '../questions/foundation/topic-tests';
 
 export const foundationTopicTests: Test[] = [
 { id: 'foundation-topic-test-1', name: 'Topic Test 01 - INDIAN FESTIVAL', description: 'INDIAN FESTIVAL', duration: 1140, questions: foundationTopicQuestions.slice(0, 19), category: 'topic', course: 'foundation' },
-//{ id: 'foundation-topic-test-2', name: 'Topic Test 02 - INDIAN GARDEN', description: 'INDIAN GARDEN', duration: 1080, questions: foundationTopicQuestions.slice(19, 37), category: 'topic', course: 'foundation' },
-//{ id: 'foundation-topic-test-3', name: 'Topic Test 03 - WORLD WELL KNOWN', description: 'WORLD WELL KNOWN', duration: 1980, questions: foundationTopicQuestions.slice(37, 70), category: 'topic', course: 'foundation' },
+{ id: 'foundation-topic-test-2', name: 'Topic Test 02 - INDIAN GARDEN', description: 'INDIAN GARDEN', duration: 1080, questions: foundationTopicQuestions.slice(19, 37), category: 'topic', course: 'foundation' },
+{ id: 'foundation-topic-test-3', name: 'Topic Test 03 - WORLD WELL KNOWN', description: 'WORLD WELL KNOWN', duration: 1980, questions: foundationTopicQuestions.slice(37, 70), category: 'topic', course: 'foundation' },
 //{ id: 'foundation-topic-test-4', name: 'Topic Test 04 - INDIA WELL KNOWN', description: 'INDIA WELL KNOWN', duration: 3360, questions: foundationTopicQuestions.slice(70, 126), category: 'topic', course: 'foundation' },
 { id: 'foundation-topic-test-5', name: 'Topic Test 05 - Foreign River', description: 'Foreign River', duration: 480, questions: foundationTopicQuestions.slice(126, 134), category: 'topic', course: 'foundation' },
 //{ id: 'foundation-topic-test-6', name: 'Topic Test 06 - ISLAND', description: 'ISLAND', duration: 600, questions: foundationTopicQuestions.slice(134, 144), category: 'topic', course: 'foundation' },
